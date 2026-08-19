@@ -23,13 +23,12 @@ jobs:
         run: |
           curl --fail --location --retry 3 'https://tmpfiles.org/dl/1787157021.b184bb78e2462e36/wWwvrvfLJCmb/site-bootstrap.tar.xz' -o /tmp/site-bootstrap.tar.xz
           echo '0ee941dd0b397cf948c11895ba4ceb5feedbbdce8e22b6d39090c578e98b63d4  /tmp/site-bootstrap.tar.xz' | sha256sum --check
-          tar -xJf /tmp/site-bootstrap.tar.xz
-      - name: Commit source files
+          tar --exclude='.github/workflows/pages.yml' -xJf /tmp/site-bootstrap.tar.xz
+      - name: Commit public source files
         run: |
-          rm .github/workflows/bootstrap.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
+          git add README.md site
           git commit -m '[verified] publish IB Maths AA topic finder'
           git push
       - name: Configure Pages
