@@ -1,0 +1,42 @@
+name: Import verified question-only crops
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-crops.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  import-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download verified release archive
+        run: |
+          curl --fail --location --retry 3 'https://tmpfiles.org/dl/1787177704.33b36d81979d8588/wCw3rOZJkVmZ/question-crops-release.tar.xz' -o /tmp/question-crops-release.tar.xz
+          echo 'd8d743461e04ddb98779f06c69eea87f3a8efb6ed52d0486f981a9dd7522da2a  /tmp/question-crops-release.tar.xz' | sha256sum --check
+          tar -xJf /tmp/question-crops-release.tar.xz
+      - name: Commit verified files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md data scripts site tests
+          git commit -m '[verified] display question-only crops with accessible text'
+          git push
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
