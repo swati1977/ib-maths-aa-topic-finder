@@ -105,7 +105,17 @@ def build(*, clean: bool = True) -> int:
                         else render_pdf_page(document, page_number)
                     )
                     normalized = normalize_page(source, remove_red=paper_name == "p1-a")
-                    question_only = crop_answer_area(normalized)
+                    crop_overrides = question.get("crop_bottom_fractions", {})
+                    crop_fraction = crop_overrides.get(str(page_number))
+                    if crop_fraction is not None:
+                        crop_fraction = float(crop_fraction)
+                        if not 0.2 <= crop_fraction <= 1.0:
+                            raise ValueError(f"Invalid crop fraction for {question['id']} page {page_number}")
+                        question_only = normalized.crop(
+                            (0, 0, normalized.width, round(normalized.height * crop_fraction))
+                        )
+                    else:
+                        question_only = crop_answer_area(normalized)
                     question_only.save(target, "WEBP", quality=88, method=6)
                     generated += 1
         finally:

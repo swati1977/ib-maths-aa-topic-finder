@@ -65,11 +65,12 @@
       "id": "m26-math-aasl-p2-tza-q6",
       "number": 6,
       "pages": [9],
+      "crop_bottom_fractions": {"9": 0.25},
       "marks": 7,
       "summary": "Determine the mean and standard deviation of a normal height distribution from a tail probability and a conditional tail probability.",
       "labels": ["Statistics", "Probability"],
       "solution": "Let H~N(μ,σ²). P(H>171)=0.4 gives Φ((171−μ)/σ)=0.6, so (171−μ)/σ=0.253347. Also P(H>175)=0.35P(H>171)=0.14, hence Φ((175−μ)/σ)=0.86 and (175−μ)/σ=1.08032. Subtracting gives σ=4/(1.08032−0.253347)=4.84 cm, then μ=171−0.253347σ=169.775≈170 cm (3 s.f.).",
-      "accessible_text": "6. [Maximum mark: 7]\n\nA large group of adults have their heights measured. The heights of the adults are normally distributed with mean μ cm and standard deviation σ cm.\n\nThe probability that one of the adults chosen at random has a height greater than 171 cm is 0.4.\n\nIf one of the adults with a height greater than 171 cm is chosen at random, the probability that their height is greater than 175 cm is 0.35.\n\nFind the value of μ and the value of σ. [7]"
+      "accessible_text": "6. [Maximum mark: 7]\n\nA large group of adults have their heights measured. The heights of the adults are normally distributed with mean μ cm and standard deviation σ cm.\n\nThe probability that one of the adults chosen at random has a height greater than 171 cm is 0.4.\n\nIf one of the adults with a height greater than 171 cm is chosen at random, the probability that their height is greater than 175 cm is 0.35.\n\nFind the value of μ and the value of σ."
     },
     {
       "id": "m26-math-aasl-p2-tza-q7",

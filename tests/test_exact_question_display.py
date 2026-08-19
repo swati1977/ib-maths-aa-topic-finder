@@ -82,6 +82,14 @@ def test_answer_only_continuation_pages_are_not_displayed():
     assert by_id["m26-math-aasl-p1-c-q1"]["displayPages"] == [2]
 
 
+def test_p2a_q6_uses_reviewed_crop_and_exact_mark_text():
+    source = json.loads((ROOT / "data/p2-a.json").read_text(encoding="utf-8"))
+    q = next(item for item in source["questions"] if item["number"] == 6)
+    assert q["crop_bottom_fractions"] == {"9": 0.25}
+    assert q["accessible_text"].endswith("Find the value of μ and the value of σ.")
+    assert not q["accessible_text"].endswith("[7]")
+
+
 def test_quadratics_example_maps_to_paper_1_zone_a_page_3_with_three_solution_parts():
     q = next(item for item in DATA["questions"] if item["id"] == "m26-math-aasl-p1-tza-q2")
     assert q["pages"] == [3]
