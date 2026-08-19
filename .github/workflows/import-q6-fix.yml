@@ -1,0 +1,39 @@
+name: Import verified Q6 crop fix
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-q6-fix.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  import-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download verified fix
+        run: |
+          curl --fail --location --retry 3 'https://tmpfiles.org/dl/1787178334.7446c7611eaee22b/wuwprxZk8nX8/q6-crop-fix.tar.xz' -o /tmp/q6-crop-fix.tar.xz
+          echo '7e00adcd43fb436615711df5ca3dddc71741f26d7a8d5badd6db632df412e6ac  /tmp/q6-crop-fix.tar.xz' | sha256sum --check
+          tar -xJf /tmp/q6-crop-fix.tar.xz
+      - name: Commit verified files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data scripts site tests
+          git commit -m '[verified] tighten Paper 2 Zone A question 6 crop'
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
