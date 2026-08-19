@@ -9,21 +9,22 @@ A static prototype for browsing Mathematics: Analysis and Approaches SL past-pap
 - indexes 35 visible questions from four May 2026 AA SL papers (Papers 1 and 2, Zones A and C)
 - supports multiple topic labels per question
 - filters by topic, paper, zone and text search
-- opens the original source PDF at each mapped question page where the source host provides a valid browser-readable PDF
-- filters red handwritten working from the embedded question view while preserving the black printed question
-- clearly marks Paper 2 Zone A as unavailable for inline preview because the source PDF is malformed
+- displays permission-approved question-only page images directly in each result card
+- stacks every mapped continuation page for multi-page questions
+- removes red handwritten working from Paper 1 Zone A while preserving the black printed question
 - reveals concise independent worked solutions, formatted by question part
 - links every item back to its source paper
 
 ## Important content note
 
-This repository intentionally excludes the source PDFs and question-page images. The index contains short original summaries, classifications and independently prepared solutions. It is not affiliated with or endorsed by the International Baccalaureate Organization, and the solutions are not official IB markschemes.
+The user confirmed permission to host question-only page crops for this project. The repository still excludes full source PDFs, answer-space recovery artifacts and extraction/OCR dumps. It contains the approved question-page images, original summaries, classifications and independently prepared solutions. It is not affiliated with or endorsed by the International Baccalaureate Organization, and the solutions are not official IB markschemes.
 
 The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed. Nothing was guessed or reconstructed.
 
 ## Build the data
 
 ```bash
+uv run --with pymupdf --with pillow --with numpy python scripts/build_question_crops.py
 python3 scripts/build_data.py
 ```
 

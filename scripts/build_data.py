@@ -43,17 +43,32 @@ def main() -> None:
                 raise ValueError(f"{qid}: at least one topic label is required")
             if not raw["solution"].strip():
                 raise ValueError(f"{qid}: solution is empty")
+            accessible_text = raw.get("accessible_text", "").strip()
+            if len(accessible_text) < 80:
+                raise ValueError(f"{qid}: accessible_text is missing or too short")
             marks = int(raw["marks"])
             pages = raw["pages"] if isinstance(raw["pages"], list) else [raw["pages"]]
+            pages = [int(page) for page in pages]
+            display_pages_raw = raw.get("display_pages", pages)
+            display_pages = [int(page) for page in display_pages_raw]
+            if not display_pages or not set(display_pages).issubset(pages):
+                raise ValueError(f"{qid}: display_pages must be a non-empty subset of pages")
+            question_images = [f"questions/{qid}-page-{page}.webp" for page in display_pages]
+            missing_images = [image for image in question_images if not (ROOT / "site" / image).is_file()]
+            if missing_images:
+                raise ValueError(f"{qid}: missing generated question images {missing_images}")
             questions.append({
                 "id": qid,
                 "number": int(raw["number"]),
                 "paper": int(paper["paper"]),
                 "zone": str(paper["zone"]),
                 "year": int(paper["year"]),
-                "pages": [int(page) for page in pages],
+                "pages": pages,
+                "displayPages": display_pages,
+                "questionImages": question_images,
                 "marks": marks,
                 "summary": raw["summary"].strip(),
+                "accessibleText": accessible_text,
                 "labels": labels,
                 "solution": raw["solution"].strip(),
                 "sourceUrl": paper["source_url"],

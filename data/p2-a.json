@@ -18,7 +18,8 @@
       "marks": 5,
       "summary": "Evaluate an exponential cooling model for a cup of tea and identify its limiting room temperature.",
       "labels": ["Exponentials - Logarithms"],
-      "solution": "T(t)=18+72e^{-t/20}. (a) T(0)=18+72=90°C. (b) T(15)=18+72e^{-0.75}=52.0°C (3 s.f.). (c) As t→∞, e^{-t/20}→0, so the room temperature is 18°C."
+      "solution": "T(t)=18+72e^{-t/20}. (a) T(0)=18+72=90°C. (b) T(15)=18+72e^{-0.75}=52.0°C (3 s.f.). (c) As t→∞, e^{-t/20}→0, so the room temperature is 18°C.",
+      "accessible_text": "1. [Maximum mark: 5]\n\nJane makes a cup of tea and forgets to drink it so that it cools towards the temperature of the room.\n\nThe temperature T °C of the cup of tea after t minutes is given by T(t) = 18 + 72e^(−(1/20)t).\n\n(a) Find the initial temperature of the tea. [2]\n\n(b) Find the temperature of the tea after 15 minutes. [2]\n\n(c) Write down the temperature of the room. [1]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q2",
@@ -27,7 +28,8 @@
       "marks": 7,
       "summary": "Read a cumulative-frequency curve for 52 student heights, recover grouped frequencies, and estimate the mean.",
       "labels": ["Statistics", "Graphs"],
-      "solution": "(a) The median is read at cumulative frequency 26, giving approximately 170 cm (about 170.4 cm from the scanned curve). (b)(i) The curve gives cumulative frequencies 25 at 170 cm and 42 at 175 cm, so p=42−25=17 and q=52−42=10. (ii) Using class midpoints 157.5, 162.5, 167.5, 172.5, 177.5, the estimated mean is [3(157.5)+8(162.5)+14(167.5)+17(172.5)+10(177.5)]/52=169.7115…, hence 169.7 cm (4 s.f.)."
+      "solution": "(a) The median is read at cumulative frequency 26, giving approximately 170 cm (about 170.4 cm from the scanned curve). (b)(i) The curve gives cumulative frequencies 25 at 170 cm and 42 at 175 cm, so p=42−25=17 and q=52−42=10. (ii) Using class midpoints 157.5, 162.5, 167.5, 172.5, 177.5, the estimated mean is [3(157.5)+8(162.5)+14(167.5)+17(172.5)+10(177.5)]/52=169.7115…, hence 169.7 cm (4 s.f.).",
+      "accessible_text": "2. [Maximum mark: 7]\n\nA group of 52 students have their heights measured in cm. The cumulative frequency graph for the heights of the students is shown in the following diagram.\n\n[Diagram: A cumulative frequency graph with Height / cm on the horizontal axis from 150 to 180 and Cumulative frequency on the vertical axis from 0 to 55. A smooth increasing curve begins at cumulative frequency 0 near 155 cm and reaches cumulative frequency 52 at 180 cm.]\n\n(a) Use the graph to find an estimate of the median height. [2]\n\nThe heights of the students are shown in the following frequency table where p, q ∈ ℕ.\n\n[Table: Height (h cm) | Frequency; 155 ≤ h < 160 | 3; 160 ≤ h < 165 | 8; 165 ≤ h < 170 | 14; 170 ≤ h < 175 | p; 175 ≤ h < 180 | q.]\n\n(b) (i) Find the value of p and the value of q.\n\n(ii) Use the frequency table to find an estimate of the mean height, giving your answer to four significant figures. [5]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q3",
@@ -36,7 +38,8 @@
       "marks": 4,
       "summary": "Find where a function decreases from its quadratic first derivative.",
       "labels": ["Differentiation", "Quadratics"],
-      "solution": "f decreases when f′(x)=x²−x−1<0. The zeros are x=(1±√5)/2; since the quadratic opens upward, (1−√5)/2 < x < (1+√5)/2."
+      "solution": "f decreases when f′(x)=x²−x−1<0. The zeros are x=(1±√5)/2; since the quadratic opens upward, (1−√5)/2 < x < (1+√5)/2.",
+      "accessible_text": "3. [Maximum mark: 4]\n\nConsider a function f which has a first derivative given by f′(x) = x² − x − 1, where x ∈ ℝ.\n\nFind the range of values of x for which f is decreasing. [4]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q4",
@@ -45,7 +48,8 @@
       "marks": 6,
       "summary": "Model the height of a point on a Ferris wheel using cosine and an equivalent phase-shifted sine form.",
       "labels": ["Trigonometry", "Graphs"],
-      "solution": "(a) The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. (b) Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1."
+      "solution": "(a) The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. (b) Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1.",
+      "accessible_text": "4. [Maximum mark: 6]\n\nA Ferris wheel with radius 20 metres rotates at a constant speed. The centre of the wheel is 23 metres above the ground, as shown in the following diagram. P is a point on the wheel. The wheel starts moving with P at the lowest point and completes one revolution in 4 minutes.\n\n[Diagram not to scale: A Ferris wheel of radius 20 m has its centre 23 m above the ground. Point P is shown on the lower-left part of the wheel, and an arrow shows the direction of rotation.]\n\nThe height, h metres, of P above the ground after t minutes is given by\n\nh = a − b cos(ct)°, where a, b, c ∈ ℤ⁺.\n\n(a) Find the value of a, the value of b and the value of c. [4]\n\nThe height can also be given as h(t) = a − b sin(c(t + d))°, where d ∈ ℤ⁺.\n\n(b) Find the smallest positive value of d. [2]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q5",
@@ -54,7 +58,8 @@
       "marks": 7,
       "summary": "Locate the turning points of an odd trigonometric-polynomial function and find the area between its graph and a chord through the origin.",
       "labels": ["Differentiation", "Integration", "Graphs", "Trigonometry"],
-      "solution": "(a) g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). (b) The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.)."
+      "solution": "(a) g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). (b) The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.).",
+      "accessible_text": "5. [Maximum mark: 7]\n\nConsider the function g defined as g(x) = x³ − 3x + 2 sin x, where x ∈ ℝ.\n\nThe graph of g has a local maximum at point A and a local minimum at point B. The line (AB) passes through the origin O at (0, 0).\n\nThe region R is enclosed by the graph of g and the line segment [OB], as shown on the following diagram.\n\n[Diagram: Coordinate axes with the curve y = g(x), crossing the origin O. The curve has a local maximum A for −1 < x < 0 and a local minimum B for 0 < x < 1. A straight line through A, O and B is shown. Region R is the area between the curve and line segment OB.]\n\n(a) Find the coordinates of point A and the coordinates of point B. [2]\n\n(b) Find the area of R. [5]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q6",
@@ -63,7 +68,8 @@
       "marks": 7,
       "summary": "Determine the mean and standard deviation of a normal height distribution from a tail probability and a conditional tail probability.",
       "labels": ["Statistics", "Probability"],
-      "solution": "Let H~N(μ,σ²). P(H>171)=0.4 gives Φ((171−μ)/σ)=0.6, so (171−μ)/σ=0.253347. Also P(H>175)=0.35P(H>171)=0.14, hence Φ((175−μ)/σ)=0.86 and (175−μ)/σ=1.08032. Subtracting gives σ=4/(1.08032−0.253347)=4.84 cm, then μ=171−0.253347σ=169.775≈170 cm (3 s.f.)."
+      "solution": "Let H~N(μ,σ²). P(H>171)=0.4 gives Φ((171−μ)/σ)=0.6, so (171−μ)/σ=0.253347. Also P(H>175)=0.35P(H>171)=0.14, hence Φ((175−μ)/σ)=0.86 and (175−μ)/σ=1.08032. Subtracting gives σ=4/(1.08032−0.253347)=4.84 cm, then μ=171−0.253347σ=169.775≈170 cm (3 s.f.).",
+      "accessible_text": "6. [Maximum mark: 7]\n\nA large group of adults have their heights measured. The heights of the adults are normally distributed with mean μ cm and standard deviation σ cm.\n\nThe probability that one of the adults chosen at random has a height greater than 171 cm is 0.4.\n\nIf one of the adults with a height greater than 171 cm is chosen at random, the probability that their height is greater than 175 cm is 0.35.\n\nFind the value of μ and the value of σ. [7]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q7",
@@ -72,7 +78,8 @@
       "marks": 16,
       "summary": "Use 3D coordinates to analyse a sphere with a given diameter, then solve a triangle and test whether a point lies inside the sphere.",
       "labels": ["Vectors - Lines - Planes", "Trigonometry"],
-      "solution": "(a) The midpoint of A(−3,6,4) and B(−1,2,−2) is C=(−2,4,1). (b) |AB|=√(2²+(−4)²+(−6)²)=2√14, so the radius is √14. (c) V=(4/3)π(√14)³=56π√14/3≈219 m³. (d)(i) In triangle ABP, cos∠BAP=[(2√14)²+5²−4²]/[2(2√14)(5)]=13/(20√14), so ∠BAP=0.518 rad (29.7°). (ii) Area=½(2√14)(5)sin(0.518)=9.27 m². (e)(i) By the median formula, CP=½√[2(5²)+2(4²)−(2√14)²]=√26/2≈2.55. (ii) Since CP≈2.55<√14≈3.74, P is inside the sphere."
+      "solution": "(a) The midpoint of A(−3,6,4) and B(−1,2,−2) is C=(−2,4,1). (b) |AB|=√(2²+(−4)²+(−6)²)=2√14, so the radius is √14. (c) V=(4/3)π(√14)³=56π√14/3≈219 m³. (d)(i) In triangle ABP, cos∠BAP=[(2√14)²+5²−4²]/[2(2√14)(5)]=13/(20√14), so ∠BAP=0.518 rad (29.7°). (ii) Area=½(2√14)(5)sin(0.518)=9.27 m². (e)(i) By the median formula, CP=½√[2(5²)+2(4²)−(2√14)²]=√26/2≈2.55. (ii) Since CP≈2.55<√14≈3.74, P is inside the sphere.",
+      "accessible_text": "7. [Maximum mark: 16]\n\nThe points A(−3, 6, 4) and B(−1, 2, −2) lie on the surface of a sphere with centre C such that the line segment [AB] is a diameter.\n\n(a) Find the coordinates of C. [2]\n\n(b) Show that the radius of the sphere is √14. [2]\n\n(c) Find the volume of the sphere. [2]\n\nConsider a point P where AP = 5 and BP = 4, as shown on the following diagram.\n\n[Diagram not to scale: Triangle BAP has BP = 4 and AP = 5. Point C lies on base BA, with BC = √14 and CA = √14.]\n\n(d) Find\n\n(i) the angle BAP;\n\n(ii) the area of triangle BAP. [7]\n\n(e) (i) Find CP.\n\n(ii) Hence, show that P lies inside the sphere. [3]"
     },
     {
       "id": "m26-math-aasl-p2-tza-q8",
@@ -81,7 +88,8 @@
       "marks": 13,
       "summary": "Compare quarterly compound-interest growth with annual boat depreciation to determine affordability.",
       "labels": ["Exponentials - Logarithms", "Sequences - Series"],
-      "solution": "The quarterly multiplier is 1+0.048/4=1.012. (a) From 1 Jan 2026 to 1 Jan 2031 there are 20 quarters, so the balance is 15000(1.012)^20=$19041.52≈$19042. (b) 15000(1.012)^n>28000 requires n>ln(28000/15000)/ln(1.012)=52.324, so the first qualifying payment is quarter 53, during 2039. (c) 26222=28000(1−r/100), giving r=6.35%. (d) After t years, compare 15000(1.012)^{4t} with 28000(0.9365)^t. Equality gives t=ln(28000/15000)/ln[(1.012)^4/0.9365]=5.51 years after 1 January 2026. The first quarterly account credit after this crossing is at t=5.75 years, still during 2031; therefore she buys during 2031."
+      "solution": "The quarterly multiplier is 1+0.048/4=1.012. (a) From 1 Jan 2026 to 1 Jan 2031 there are 20 quarters, so the balance is 15000(1.012)^20=$19041.52≈$19042. (b) 15000(1.012)^n>28000 requires n>ln(28000/15000)/ln(1.012)=52.324, so the first qualifying payment is quarter 53, during 2039. (c) 26222=28000(1−r/100), giving r=6.35%. (d) After t years, compare 15000(1.012)^{4t} with 28000(0.9365)^t. Equality gives t=ln(28000/15000)/ln[(1.012)^4/0.9365]=5.51 years after 1 January 2026. The first quarterly account credit after this crossing is at t=5.75 years, still during 2031; therefore she buys during 2031.",
+      "accessible_text": "8. [Maximum mark: 13]\n\nAt the start of 2026, Lavinia receives a gift of $15 000. She wants to buy a boat which costs $28 000 so she decides to invest her money.\n\nOn 1 January 2026 Lavinia invests her money in a bank account which pays interest at a nominal annual rate of 4.8%, compounded quarterly. The interest is paid into her account on the last day of each quarter. She makes no further deposits to, or withdrawals from, the account.\n\n(a) Find the amount of money Lavinia will have in her bank account on 1 January 2031. Give your answer correct to the nearest dollar. [3]\n\n(b) Show that Lavinia will first have more than $28 000 in her bank account during the year 2039. [3]\n\nThe cost of the boat at the start of 2026 was $28 000, and it depreciates at a constant annual rate of r%. After one year the cost of the boat is $26 222.\n\n(c) Find the value of r. [2]\n\nDue to this depreciation, Lavinia will be able to buy the boat before 2039. She will buy the boat as soon as she has enough money in her bank account to pay for it.\n\n(d) Determine the year during which Lavinia will buy the boat. [5]"
     }
   ]
 }

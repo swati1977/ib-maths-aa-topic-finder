@@ -57,8 +57,15 @@
       "pages": [
         2
       ],
+      "displayPages": [
+        2
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q1-page-2.webp"
+      ],
       "marks": 6,
       "summary": "Differentiate a linear-plus-sine function and determine its tangent at x = π.",
+      "accessibleText": "1. [Maximum mark: 6]\n\nConsider the function f(x) = 2x + sin x, x ∈ ℝ.\n\n(a) Find f′(x). [2]\n\n(b) Hence, find the equation of the tangent to the graph of f at the point where x = π. [4]",
       "labels": [
         "Differentiation",
         "Trigonometry"
@@ -78,8 +85,15 @@
       "pages": [
         3
       ],
+      "displayPages": [
+        3
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q2-page-3.webp"
+      ],
       "marks": 5,
       "summary": "Use the symmetry of a factored quadratic to find an unknown root, its vertex, and its range.",
+      "accessibleText": "2. [Maximum mark: 5]\n\nConsider the function f(x) = 3(x − 2)(x − q), where x ∈ ℝ and q is a real constant.\n\nThe axis of symmetry of the graph of f has equation x = 4.\n\n(a) Show that q = 6. [2]\n\n(b) Find the coordinates of the vertex of the graph of f. [2]\n\n(c) Hence, write down the range of f. [1]",
       "labels": [
         "Quadratics",
         "Graphs"
@@ -99,8 +113,15 @@
       "pages": [
         4
       ],
+      "displayPages": [
+        4
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q3-page-4.webp"
+      ],
       "marks": 5,
       "summary": "Integrate a given velocity and use the initial position to obtain displacement.",
+      "accessibleText": "3. [Maximum mark: 5]\n\nA particle P is travelling along a straight line, with displacement measured relative to a point O on the line. The velocity, v m s⁻¹, of the particle at time t seconds is given by\n\nv = 1/(t + 1) + e⁻ᵗ, where t ≥ 0.\n\n(a) Find ∫(1/(t + 1) + e⁻ᵗ) dt. [2]\n\nInitially the particle is at O.\n\n(b) Find an expression for the displacement, s metres, in terms of t. [3]",
       "labels": [
         "Integration",
         "Exponentials - Logarithms",
@@ -121,8 +142,15 @@
       "pages": [
         5
       ],
+      "displayPages": [
+        5
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q4-page-5.webp"
+      ],
       "marks": 6,
       "summary": "Recover the positive common ratio and an earlier term of a geometric sequence from two later terms.",
+      "accessibleText": "4. [Maximum mark: 6]\n\nConsider a geometric sequence, uₙ, with common ratio r, where each term in the sequence is positive.\n\nIt is given that u₆ = 1.6 × 10⁵ and u₈ = 6.4 × 10⁵.\n\n(a) Find the value of r. [3]\n\n(b) Find the value of u₁, giving your answer in the form a × 10ᵏ, where 1 ≤ a < 10 and k ∈ ℤ. [3]",
       "labels": [
         "Sequences - Series"
       ],
@@ -141,8 +169,15 @@
       "pages": [
         6
       ],
+      "displayPages": [
+        6
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q5-page-6.webp"
+      ],
       "marks": 7,
       "summary": "Rewrite a base-25 logarithm using base 5, then solve a logarithmic equation involving a cube root.",
+      "accessibleText": "5. [Maximum mark: 7]\n\n(a) Show that log₂₅(81x²) = log₅9 + log₅x for x > 0. [4]\n\n(b) Hence, solve the equation log₅∛x = log₂₅(81x²) − log₅4, where x > 0. [3]",
       "labels": [
         "Exponentials - Logarithms"
       ],
@@ -161,8 +196,15 @@
       "pages": [
         7
       ],
+      "displayPages": [
+        7
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q6-page-7.webp"
+      ],
       "marks": 9,
       "summary": "Combine probabilities from a Venn diagram and impose independence to determine a parameter.",
+      "accessibleText": "6. [Maximum mark: 9]\n\nConsider two events, A and B.\n\nIt is given that P(A ∩ B′) = (5 + x)/24, P(A ∩ B) = (7 − x)/12 and P(A′ ∩ B) = 1/6, where 0 ≤ x ≤ 7.\n\n(a) Show that P(A) = (19 − x)/24. [3]\n\nIt is given that A and B are independent.\n\n(b) Find the possible values of x. [6]",
       "labels": [
         "Probability",
         "Quadratics"
@@ -183,8 +225,15 @@
         8,
         9
       ],
+      "displayPages": [
+        8
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q7-page-8.webp"
+      ],
       "marks": 12,
       "summary": "Analyze a rational-function graph, including asymptotes, intercepts, a vertical translation, and the resulting range.",
+      "accessibleText": "7. [Maximum mark: 12]\n\nConsider the function f(x) = (2x − 3)/(3 − x), x ∈ ℝ, x ≠ 3.\n\nThe graph of f and its asymptotes are shown in the following diagram.\n\n[Diagram: Coordinate axes labelled x and y with origin O. The graph y = f(x) has two hyperbola-like branches separated by a dashed vertical asymptote to the right of the y-axis. A dashed horizontal asymptote lies below the x-axis. The left branch crosses both coordinate axes, approaches the horizontal asymptote from above as x decreases, and rises without bound as it approaches the vertical asymptote from the left. The right branch lies below the horizontal asymptote, falls without bound near the vertical asymptote, and approaches the horizontal asymptote from below as x increases.]\n\n(a) Find the equation of\n    (i) the vertical asymptote;\n    (ii) the horizontal asymptote. [3]\n\n(b) Find the coordinates of the points where the graph of f intersects the coordinate axes. [4]\n\nConsider the function g(x) = x + 4, x ∈ ℝ.\n\n(c) (i) Describe the transformation that transforms the graph of y = f(x) to the graph of y = (g ∘ f)(x).\n    (ii) Hence, find the range of g ∘ f. [5]",
       "labels": [
         "Graphs",
         "Functions - Roots"
@@ -206,8 +255,15 @@
         11,
         12
       ],
+      "displayPages": [
+        10
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q8-page-10.webp"
+      ],
       "marks": 15,
       "summary": "Determine coefficients and stationary-point behavior of a cubic from an inflection point and horizontal tangents.",
+      "accessibleText": "8. [Maximum mark: 15]\n\nConsider the function f(x) = ax³ + bx² + cx + d, where x ∈ ℝ and where a, b, c and d are real constants.\n\nThe graph of f has a point of inflexion at (−2, −2c + d + 24).\n\n(a) Show that a = 3/2 and b = 9. [6]\n\nIt is given that the tangents to the graph of f at x = −3 and x = k are horizontal.\n\n(b) (i) Show that c = 27/2.\n    (ii) Find the value of k.\n    (iii) State whether f has a local maximum or a local minimum at x = k, justifying your answer. [7]\n\nThe graph of f intersects the y-axis at the point P.\n\n(c) Show that the tangent to the graph of f at x = −3 passes through P. [2]",
       "labels": [
         "Differentiation",
         "Graphs",
@@ -229,8 +285,15 @@
         13,
         14
       ],
+      "displayPages": [
+        13
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-tza-q9-page-13.webp"
+      ],
       "marks": 15,
       "summary": "Determine constants in a trigonometric force model and use differentiation to minimize the required force.",
+      "accessibleText": "9. [Maximum mark: 15]\n\nEleanor uses the handle on a heavy suitcase to pull it so that it moves horizontally along the floor.\n\nThe handle makes an angle of θ radians with the horizontal, as shown in the following diagram.\n\n[Diagram not to scale: A rectangular suitcase rests on a horizontal floor. Its handle extends upwards and to the right, making an angle θ with a dashed horizontal line at the handle attachment point. A horizontal arrow points right from the suitcase.]\n\nThe magnitude, F Newtons, of the minimum force that Eleanor needs to apply to make the suitcase move horizontally when the handle makes an angle of θ radians is given by\n\nF(θ) = A/(cos θ + μ sin θ), where 0 ≤ θ < π/2 and μ ∈ ℝ.\n\nWhen the handle is horizontal, F = 300.\n\n(a) Show that A = 300. [2]\n\nIn the case when θ = π/6, F = 100√3.\n\n(b) Show that μ = √3. [4]\n\nEleanor wishes to minimize the magnitude of the force she needs to apply to make the suitcase move horizontally. In order to achieve this, she needs to hold the handle at the angle α, where 0 < α < π/2.\n\n(c) (i) Show that dF/dθ = 300(sin θ − √3 cos θ)/(cos θ + √3 sin θ)².\n    (ii) Hence, show that α = π/3 and find the corresponding value of F(α). [9]",
       "labels": [
         "Radian",
         "Trigonometry",
@@ -252,8 +315,15 @@
         2,
         3
       ],
+      "displayPages": [
+        2
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q1-page-2.webp"
+      ],
       "marks": 6,
       "summary": "Use proportional stratified sampling and a box plot of weekly allowances to find a stratum size, quartiles, and an outlier boundary.",
+      "accessibleText": "1. [Maximum mark: 6]\n\nA school has 600 students across four grade levels as shown in the following table.\n\n[Table: Grade 9, 115 students; Grade 10, 178 students; Grade 11, 137 students; Grade 12, 170 students.]\n\nA group of 60 students was surveyed using a stratified sampling technique, such that each grade in the sample was proportional to the population. Each student was asked how much allowance, in Singapore dollars ($), they received per week.\n\n(a) Find the number of Grade 12 students in the sample. [2]\n\nThe results of the survey are summarized in the following box and whisker diagram.\n\n[Box-and-whisker diagram titled ‘Survey of allowances from 60 students’: minimum 28, lower quartile 66, median 80, upper quartile a, and maximum 110.]\n\n(b) State the median. [1]\n\nThe interquartile range is $24.\n\n(c) Write down the value of a. [1]\n\nAn outlier is a value that is less than Q₁ − 1.5 × IQR or greater than Q₃ + 1.5 × IQR.\n\n(d) Determine the smallest possible allowance, from the sample, that is not an outlier. [2]",
       "labels": [
         "Statistics"
       ],
@@ -272,8 +342,15 @@
       "pages": [
         4
       ],
+      "displayPages": [
+        4
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q2-page-4.webp"
+      ],
       "marks": 7,
       "summary": "Find a triangle side and area from two sides and the cosine of their included acute angle.",
+      "accessibleText": "2. [Maximum mark: 7]\n\nThe following diagram shows triangle ABC. It is known that AB = 5 cm, BC = 6 cm, and cos ∠ABC = 1/5 where ∠ABC is acute.\n\n[Diagram not to scale: triangle ABC with B at the top, A at the lower left and C at the lower right; side AB is labelled 5 and side BC is labelled 6.]\n\n(a) Find AC. [3]\n\n(b) (i) Show that sin ∠ABC = 2√6/5.\n\n(ii) Hence, find the area of triangle ABC. [4]",
       "labels": [
         "Trigonometry"
       ],
@@ -292,8 +369,15 @@
       "pages": [
         5
       ],
+      "displayPages": [
+        5
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q3-page-5.webp"
+      ],
       "marks": 6,
       "summary": "Compare two coefficients in the expansion of (1+mx)⁸ and determine the positive parameter m.",
+      "accessibleText": "3. [Maximum mark: 6]\n\nConsider the expansion of (1 + mx)⁸, where m ∈ ℝ and m > 0.\n\nThe coefficient of x³ is eight times the coefficient of x².\n\n(a) Show that ⁸C₃ = 56. [1]\n\n(b) Find the value of m. [5]",
       "labels": [
         "Binomial Theorem",
         "Permutation - Combination"
@@ -313,8 +397,15 @@
       "pages": [
         6
       ],
+      "displayPages": [
+        6
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q4-page-6.webp"
+      ],
       "marks": 6,
       "summary": "Use logarithm laws and integer restrictions to solve two simultaneous logarithmic equations.",
+      "accessibleText": "4. [Maximum mark: 6]\n\nIn this question, p and r are positive integers greater than 1.\n\n(a) Given that log₃ p = 3 + log₃ r, show that p = 27r. [2]\n\n(b) Hence, find the value of r and the value of p that satisfy these simultaneous equations:\n\nlog₃ p = 3 + log₃ r\nlogᵣ p = 4. [4]",
       "labels": [
         "Exponentials - Logarithms"
       ],
@@ -333,8 +424,15 @@
       "pages": [
         7
       ],
+      "displayPages": [
+        7
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q5-page-7.webp"
+      ],
       "marks": 5,
       "summary": "Differentiate x⁴−sin(4x), then recognize a reverse-chain-rule antiderivative involving its seventh power.",
+      "accessibleText": "5. [Maximum mark: 5]\n\nLet y = x⁴ − sin 4x.\n\n(a) Find dy/dx. [2]\n\n(b) Hence, or otherwise, find ∫(x⁴ − sin 4x)⁷(x³ − cos 4x) dx. [3]",
       "labels": [
         "Differentiation",
         "Integration",
@@ -355,8 +453,15 @@
       "pages": [
         8
       ],
+      "displayPages": [
+        8
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q6-page-8.webp"
+      ],
       "marks": 6,
       "summary": "Invert a rational function and use a scaled composition identity to determine a second function.",
+      "accessibleText": "6. [Maximum mark: 6]\n\nThe function f is defined by f(x) = 4 − 7/(3x + 2), where x ∈ ℝ, x ≠ −2/3.\n\n(a) Find an expression for f⁻¹(x). [3]\n\nThe function g is defined such that (f ∘ g)(x/3) = x.\n\n(b) Using your answer to part (a) or otherwise, find an expression for g(x). [3]",
       "labels": [
         "Functions - Roots"
       ],
@@ -375,8 +480,15 @@
       "pages": [
         9
       ],
+      "displayPages": [
+        9
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q7-page-9.webp"
+      ],
       "marks": 14,
       "summary": "Analyze a downward-opening quadratic in factored and vertex forms, find a secant-line parameter, and classify roots as a level varies.",
+      "accessibleText": "7. [Maximum mark: 14]\n\nConsider the quadratic function f(x) = −(x + 2)(x − 4), for x ∈ ℝ. The following diagram shows part of the graph of f.\n\n[Coordinate diagram with horizontal x-axis and vertical y-axis: the graph is a downward-opening parabola whose vertex is above and to the right of the y-axis, with one x-intercept to the left of the y-axis and one to the right.]\n\n(a) (i) Find the x-coordinate of each of the x-intercepts.\n\n(ii) Find the coordinates of the vertex. [5]\n\nThe function f can also be written in the form f(x) = −(x − h)² + k, where h, k ∈ ℝ.\n\n(b) Write down the value of\n\n(i) h;\n\n(ii) k. [2]\n\nThe line y = mx + 4, where m ∈ ℝ, intersects the graph of f at x = −2 and x = 2.\n\n(c) Determine the value of m. [3]\n\nConsider the equation −x² + 2x + 8 − p = 0, where p ∈ ℝ.\n\n(d) By considering the graph of f, or otherwise, find the range of possible values of p such that this equation has\n\n(i) two distinct real roots;\n\n(ii) two distinct positive real roots. [4]",
       "labels": [
         "Quadratics",
         "Graphs",
@@ -397,8 +509,15 @@
       "pages": [
         10
       ],
+      "displayPages": [
+        10
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q8-page-10.webp"
+      ],
       "marks": 16,
       "summary": "Solve and sketch the intersections of sin(2x) and 1−cos(2x), then integrate the area between two nonzero intersections.",
+      "accessibleText": "8. [Maximum mark: 16]\n\nThe functions f and g are defined for 0 ≤ x ≤ π by\n\nf(x) = sin 2x\ng(x) = 1 − cos 2x.\n\n(a) Solve the equation f(x) = g(x) for 0 ≤ x ≤ π. [6]\n\n(b) Sketch the graphs of y = f(x) and y = g(x) on the same set of axes, clearly labelling the points of intersection with their coordinates. [4]\n\nThe graphs of f and g intersect at x = a and x = b, where 0 < a < b.\n\n(c) Find the area of the region enclosed by the graphs of f and g for a ≤ x ≤ b. [6]",
       "labels": [
         "Trigonometry",
         "Graphs",
@@ -419,8 +538,15 @@
       "pages": [
         11
       ],
+      "displayPages": [
+        11
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p1-c-q9-page-11.webp"
+      ],
       "marks": 14,
       "summary": "Differentiate an exponential quotient to study monotonicity, find a normal, and prove the curve has no inflection point.",
+      "accessibleText": "9. [Maximum mark: 14]\n\nConsider the function h(x) = (e²ˣ + x)/x, for x > 0.\n\n(a) Show that h′(x) = e²ˣ(2x − 1)/x². [4]\n\n(b) Find the values of x for which h is an increasing function. [2]\n\n(c) Find the equation of the normal to the curve y = h(x) at the point (1, e² + 1). [4]\n\nThe second derivative of h is given by h″(x) = 2e²ˣ(2x² − 2x + 1)/x³.\n\n(d) Show that the graph of h does not have a point of inflexion. [4]",
       "labels": [
         "Differentiation",
         "Exponentials - Logarithms",
@@ -441,8 +567,15 @@
       "pages": [
         3
       ],
+      "displayPages": [
+        3
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q1-page-3.webp"
+      ],
       "marks": 5,
       "summary": "Evaluate an exponential cooling model for a cup of tea and identify its limiting room temperature.",
+      "accessibleText": "1. [Maximum mark: 5]\n\nJane makes a cup of tea and forgets to drink it so that it cools towards the temperature of the room.\n\nThe temperature T °C of the cup of tea after t minutes is given by T(t) = 18 + 72e^(−(1/20)t).\n\n(a) Find the initial temperature of the tea. [2]\n\n(b) Find the temperature of the tea after 15 minutes. [2]\n\n(c) Write down the temperature of the room. [1]",
       "labels": [
         "Exponentials - Logarithms"
       ],
@@ -462,8 +595,17 @@
         4,
         5
       ],
+      "displayPages": [
+        4,
+        5
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q2-page-4.webp",
+        "questions/m26-math-aasl-p2-tza-q2-page-5.webp"
+      ],
       "marks": 7,
       "summary": "Read a cumulative-frequency curve for 52 student heights, recover grouped frequencies, and estimate the mean.",
+      "accessibleText": "2. [Maximum mark: 7]\n\nA group of 52 students have their heights measured in cm. The cumulative frequency graph for the heights of the students is shown in the following diagram.\n\n[Diagram: A cumulative frequency graph with Height / cm on the horizontal axis from 150 to 180 and Cumulative frequency on the vertical axis from 0 to 55. A smooth increasing curve begins at cumulative frequency 0 near 155 cm and reaches cumulative frequency 52 at 180 cm.]\n\n(a) Use the graph to find an estimate of the median height. [2]\n\nThe heights of the students are shown in the following frequency table where p, q ∈ ℕ.\n\n[Table: Height (h cm) | Frequency; 155 ≤ h < 160 | 3; 160 ≤ h < 165 | 8; 165 ≤ h < 170 | 14; 170 ≤ h < 175 | p; 175 ≤ h < 180 | q.]\n\n(b) (i) Find the value of p and the value of q.\n\n(ii) Use the frequency table to find an estimate of the mean height, giving your answer to four significant figures. [5]",
       "labels": [
         "Statistics",
         "Graphs"
@@ -483,8 +625,15 @@
       "pages": [
         6
       ],
+      "displayPages": [
+        6
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q3-page-6.webp"
+      ],
       "marks": 4,
       "summary": "Find where a function decreases from its quadratic first derivative.",
+      "accessibleText": "3. [Maximum mark: 4]\n\nConsider a function f which has a first derivative given by f′(x) = x² − x − 1, where x ∈ ℝ.\n\nFind the range of values of x for which f is decreasing. [4]",
       "labels": [
         "Differentiation",
         "Quadratics"
@@ -504,8 +653,15 @@
       "pages": [
         7
       ],
+      "displayPages": [
+        7
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q4-page-7.webp"
+      ],
       "marks": 6,
       "summary": "Model the height of a point on a Ferris wheel using cosine and an equivalent phase-shifted sine form.",
+      "accessibleText": "4. [Maximum mark: 6]\n\nA Ferris wheel with radius 20 metres rotates at a constant speed. The centre of the wheel is 23 metres above the ground, as shown in the following diagram. P is a point on the wheel. The wheel starts moving with P at the lowest point and completes one revolution in 4 minutes.\n\n[Diagram not to scale: A Ferris wheel of radius 20 m has its centre 23 m above the ground. Point P is shown on the lower-left part of the wheel, and an arrow shows the direction of rotation.]\n\nThe height, h metres, of P above the ground after t minutes is given by\n\nh = a − b cos(ct)°, where a, b, c ∈ ℤ⁺.\n\n(a) Find the value of a, the value of b and the value of c. [4]\n\nThe height can also be given as h(t) = a − b sin(c(t + d))°, where d ∈ ℤ⁺.\n\n(b) Find the smallest positive value of d. [2]",
       "labels": [
         "Trigonometry",
         "Graphs"
@@ -525,8 +681,15 @@
       "pages": [
         8
       ],
+      "displayPages": [
+        8
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q5-page-8.webp"
+      ],
       "marks": 7,
       "summary": "Locate the turning points of an odd trigonometric-polynomial function and find the area between its graph and a chord through the origin.",
+      "accessibleText": "5. [Maximum mark: 7]\n\nConsider the function g defined as g(x) = x³ − 3x + 2 sin x, where x ∈ ℝ.\n\nThe graph of g has a local maximum at point A and a local minimum at point B. The line (AB) passes through the origin O at (0, 0).\n\nThe region R is enclosed by the graph of g and the line segment [OB], as shown on the following diagram.\n\n[Diagram: Coordinate axes with the curve y = g(x), crossing the origin O. The curve has a local maximum A for −1 < x < 0 and a local minimum B for 0 < x < 1. A straight line through A, O and B is shown. Region R is the area between the curve and line segment OB.]\n\n(a) Find the coordinates of point A and the coordinates of point B. [2]\n\n(b) Find the area of R. [5]",
       "labels": [
         "Differentiation",
         "Integration",
@@ -548,8 +711,15 @@
       "pages": [
         9
       ],
+      "displayPages": [
+        9
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q6-page-9.webp"
+      ],
       "marks": 7,
       "summary": "Determine the mean and standard deviation of a normal height distribution from a tail probability and a conditional tail probability.",
+      "accessibleText": "6. [Maximum mark: 7]\n\nA large group of adults have their heights measured. The heights of the adults are normally distributed with mean μ cm and standard deviation σ cm.\n\nThe probability that one of the adults chosen at random has a height greater than 171 cm is 0.4.\n\nIf one of the adults with a height greater than 171 cm is chosen at random, the probability that their height is greater than 175 cm is 0.35.\n\nFind the value of μ and the value of σ. [7]",
       "labels": [
         "Statistics",
         "Probability"
@@ -569,8 +739,15 @@
       "pages": [
         10
       ],
+      "displayPages": [
+        10
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q7-page-10.webp"
+      ],
       "marks": 16,
       "summary": "Use 3D coordinates to analyse a sphere with a given diameter, then solve a triangle and test whether a point lies inside the sphere.",
+      "accessibleText": "7. [Maximum mark: 16]\n\nThe points A(−3, 6, 4) and B(−1, 2, −2) lie on the surface of a sphere with centre C such that the line segment [AB] is a diameter.\n\n(a) Find the coordinates of C. [2]\n\n(b) Show that the radius of the sphere is √14. [2]\n\n(c) Find the volume of the sphere. [2]\n\nConsider a point P where AP = 5 and BP = 4, as shown on the following diagram.\n\n[Diagram not to scale: Triangle BAP has BP = 4 and AP = 5. Point C lies on base BA, with BC = √14 and CA = √14.]\n\n(d) Find\n\n(i) the angle BAP;\n\n(ii) the area of triangle BAP. [7]\n\n(e) (i) Find CP.\n\n(ii) Hence, show that P lies inside the sphere. [3]",
       "labels": [
         "Vectors - Lines - Planes",
         "Trigonometry"
@@ -590,8 +767,15 @@
       "pages": [
         11
       ],
+      "displayPages": [
+        11
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tza-q8-page-11.webp"
+      ],
       "marks": 13,
       "summary": "Compare quarterly compound-interest growth with annual boat depreciation to determine affordability.",
+      "accessibleText": "8. [Maximum mark: 13]\n\nAt the start of 2026, Lavinia receives a gift of $15 000. She wants to buy a boat which costs $28 000 so she decides to invest her money.\n\nOn 1 January 2026 Lavinia invests her money in a bank account which pays interest at a nominal annual rate of 4.8%, compounded quarterly. The interest is paid into her account on the last day of each quarter. She makes no further deposits to, or withdrawals from, the account.\n\n(a) Find the amount of money Lavinia will have in her bank account on 1 January 2031. Give your answer correct to the nearest dollar. [3]\n\n(b) Show that Lavinia will first have more than $28 000 in her bank account during the year 2039. [3]\n\nThe cost of the boat at the start of 2026 was $28 000, and it depreciates at a constant annual rate of r%. After one year the cost of the boat is $26 222.\n\n(c) Find the value of r. [2]\n\nDue to this depreciation, Lavinia will be able to buy the boat before 2039. She will buy the boat as soon as she has enough money in her bank account to pay for it.\n\n(d) Determine the year during which Lavinia will buy the boat. [5]",
       "labels": [
         "Exponentials - Logarithms",
         "Sequences - Series"
@@ -611,8 +795,15 @@
       "pages": [
         3
       ],
+      "displayPages": [
+        3
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q1-page-3.webp"
+      ],
       "marks": 5,
       "summary": "Fit a linear regression model relating students’ leg lengths to 400-metre race times and use it for prediction.",
+      "accessibleText": "1. [Maximum mark: 5]\n\nEight students run a 400-metre race. Their race time, T, and the length, L, of their legs are shown in the table.\n\n[Table: Leg length (L cm): 85, 82, 78, 91, 76, 84, 80, 88. Corresponding race time (T seconds): 65.2, 67.3, 70.0, 60.8, 72.5, 66.1, 68.9, 62.4.]\n\nThe equation of the regression line of T on L for this data can be written in the form T = aL + b.\n\n(a) Find the value of a and the value of b. [2]\n\n(b) Write down the value of the Pearson’s product-moment correlation coefficient, r. [1]\n\n(c) Use the equation of the regression line of T on L to predict the time of a student with a leg length of 79 cm. [2]",
       "labels": [
         "Statistics"
       ],
@@ -632,8 +823,15 @@
         4,
         5
       ],
+      "displayPages": [
+        4
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q2-page-4.webp"
+      ],
       "marks": 6,
       "summary": "Use two angles of elevation from ship positions 70 m apart to find the horizontal distance to and height of a cliff.",
+      "accessibleText": "2. [Maximum mark: 6]\n\nA ship is sailing directly towards a vertical cliff of height h metres.\n\n[Diagram not to scale: A, B and C lie in that order on a horizontal line, with AB = 70 metres and BC = x metres. C is at the base of a vertical cliff of height h, with a right angle between BC and the cliff. Dashed lines from A and B to the top of the cliff make angles of elevation 15° at A and 40° at B, respectively.]\n\nWhen the ship is at point A, the angle of elevation to the top of the cliff is 15°. After sailing a further 70 metres towards the cliff, the ship reaches point B, and the angle of elevation to the top of the cliff is 40°.\n\nPoint C is at the base of the cliff, and BC = x metres.\n\n(a) Find an expression in terms of h and x for\n\n(i) tan 40°;\n\n(ii) tan 15°. [2]\n\n(b) Hence, find the value of x. [2]\n\n(c) Find the value of h. [2]",
       "labels": [
         "Trigonometry"
       ],
@@ -652,8 +850,15 @@
       "pages": [
         6
       ],
+      "displayPages": [
+        6
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q3-page-6.webp"
+      ],
       "marks": 5,
       "summary": "Determine parameters and times in an exponential balloon-volume decay model.",
+      "accessibleText": "3. [Maximum mark: 5]\n\nThe volume of air inside a balloon, V, measured in cubic metres, after t minutes is given by\n\nV = 5 + 20e⁻ᵏᵗ, where t ≥ 0 and k is a positive constant.\n\n(a) Write down the initial volume of air inside the balloon. [1]\n\nAfter 4 minutes, the volume of air inside the balloon is half the initial volume.\n\n(b) Find the value of k. [2]\n\n(c) Find the time at which the volume of air inside the balloon is 8 cubic metres. [2]",
       "labels": [
         "Exponentials - Logarithms"
       ],
@@ -672,8 +877,15 @@
       "pages": [
         7
       ],
+      "displayPages": [
+        7
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q4-page-7.webp"
+      ],
       "marks": 6,
       "summary": "Complete and normalize a six-value geometric probability distribution, then calculate its expectation.",
+      "accessibleText": "4. [Maximum mark: 6]\n\nThe following table shows the probability distribution of a discrete random variable X, for 1 ≤ X ≤ 6, such that\n\nP(X = 1) = k and P(X = r + 1) = ½P(X = r),\n\nwhere r ∈ ℤ⁺, 1 ≤ r ≤ 5 and k ∈ ℝ.\n\n[Probability table: x: 1, 2, 3, 4, 5, 6. Corresponding P(X = x): k, a, 8/63, k/8, b, 1/63.]\n\n(a) Write down an expression in terms of k for\n\n(i) a;\n\n(ii) b. [2]\n\n(b) Find the value of k. [2]\n\n(c) Hence, find the value of E(X). [2]",
       "labels": [
         "Probability",
         "Sequences - Series"
@@ -693,8 +905,15 @@
       "pages": [
         8
       ],
+      "displayPages": [
+        8
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q5-page-8.webp"
+      ],
       "marks": 7,
       "summary": "Use sector area and perimeter conditions for two concentric circles to determine a common acute angle and the inner radius.",
+      "accessibleText": "5. [Maximum mark: 7]\n\nTwo circles have a common centre, O. Points A and B lie on the circumference of the larger circle, which has radius OA = R. Points C and D lie on [OB] and [OA] respectively, and they also lie on the circumference of the smaller circle. The smaller circle has radius OC = r and the acute angle DÔC = AÔB = θ radians.\n\nThis is shown in the following diagram.\n\n[Diagram not to scale: Two concentric circles with centre O. Radii OA and OB bound an acute sector of angle θ in the larger circle; D lies on OA and C lies on OB where those radii cross the smaller circle. OA = R and OC = r.]\n\nThe area of the sector OAB is 50 cm² and its perimeter is 40 cm. The area of the sector ODC is 18 cm².\n\n(a) Find the value of θ. [5]\n\n(b) Hence, find the value of r. [2]",
       "labels": [
         "Radian",
         "Quadratics"
@@ -714,8 +933,15 @@
       "pages": [
         9
       ],
+      "displayPages": [
+        9
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q6-page-9.webp"
+      ],
       "marks": 7,
       "summary": "Integrate a velocity function to find maximum displacement and solve a derivative inequality for negative acceleration.",
+      "accessibleText": "6. [Maximum mark: 7]\n\nA particle moves along a straight line with an initial displacement at O. Its velocity, v m s⁻¹, at time t seconds is given by\n\nv(t) = (3t² − 10t + 4)e⁻⁰·⁵ᵗ − 4 cos t, where 0 ≤ t ≤ 6.\n\n(a) Find the maximum displacement of the particle. [4]\n\n(b) Determine the intervals of time when the acceleration of the particle is negative. [3]",
       "labels": [
         "Kinematics",
         "Integration",
@@ -738,8 +964,15 @@
       "pages": [
         10
       ],
+      "displayPages": [
+        10
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q7-page-10.webp"
+      ],
       "marks": 15,
       "summary": "Find sphere dimensions from a 3D diameter, then optimize the surface area of a fixed-volume cuboid.",
+      "accessibleText": "7. [Maximum mark: 15]\n\nAll lengths in this question are in metres.\n\nA sphere has diameter [RS], where R(5, −3, 2) and S(−3, 3, −4).\n\n[Diagram: A sphere with endpoints R(5, −3, 2) and S(−3, 3, −4) of a diameter marked on its surface.]\n\n(a) Determine\n\n(i) the coordinates of the centre of the sphere;\n\n(ii) the radius of the sphere. [4]\n\n(b) Find the volume of the sphere. [2]\n\nA cuboid has a rectangular base of length x, width x² and height y. The cuboid has a volume of 1000 cubic metres and surface area A.\n\n(c) (i) Write down an equation for the volume of the cuboid in terms of x and y.\n\n(ii) Show that A = 2(x³ + 1000/x + 1000/x²). [4]\n\nThe surface area has a minimum value when x = k.\n\n(d) (i) Find the minimum value of A.\n\n(ii) Find the value of d²A/dx² when x = k.\n\n(iii) Use your answer to part (d)(ii) to justify that A is a minimum when x = k. [5]",
       "labels": [
         "Vectors - Lines - Planes",
         "Differentiation"
@@ -759,8 +992,15 @@
       "pages": [
         11
       ],
+      "displayPages": [
+        11
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q8-page-11.webp"
+      ],
       "marks": 14,
       "summary": "Infer a normal waiting-time model from two tail percentages and solve binomial and conditional attendance probabilities.",
+      "accessibleText": "8. [Maximum mark: 14]\n\nThe waiting time, T minutes, of patients at a clinic can be modelled by a normal distribution with mean μ and standard deviation σ. The waiting times of all patients are independent of each other.\n\n3.8% of the patients have a waiting time of less than 20 minutes, while 7.3% of the patients have a waiting time of more than 30 minutes.\n\n(a) (i) Find the value of μ and the value of σ.\n\n(ii) Hence, find the probability that a patient chosen at random has a waiting time of between 15 and 22 minutes. [7]\n\nThe doctor at the clinic only sees patients with an appointment.\n\nRecords show that 82.6% of patients attend their appointment.\n\nThe probability of a patient attending their appointment is independent of any other patient.\n\n(b) On a particular day, 20 patients each made an appointment to see the doctor.\n\n(i) Find the probability that at least 13 of these patients attended their appointment.\n\n(ii) Given that at least 13 of these patients attended their appointment, find the probability that more than 2 patients did not attend their appointment. [7]",
       "labels": [
         "Statistics",
         "Probability"
@@ -780,8 +1020,15 @@
       "pages": [
         12
       ],
+      "displayPages": [
+        12
+      ],
+      "questionImages": [
+        "questions/m26-math-aasl-p2-tzc-q9-page-12.webp"
+      ],
       "marks": 15,
       "summary": "Relate geometric sequences and their sums to a logarithmically transformed arithmetic sequence.",
+      "accessibleText": "9. [Maximum mark: 15]\n\nThe geometric sequence a₁, a₂, a₃, … has common ratio r. The sum to infinity, A∞, of this sequence is 5.\n\n(a) Find an expression for a₁ in terms of r. [1]\n\nA second geometric sequence a₁², a₂², a₃², … has common ratio q.\n\n(b) Show that q = r². [2]\n\nThe sum to infinity, B∞, of this second sequence is 16.\n\n(c) (i) Show that 41r² − 50r + 9 = 0.\n\n(ii) Find the value of r.\n\n(iii) Hence, find the value of a₁. [5]\n\nA third sequence has its nth term given by cₙ = logₖ(aₙ) + k, where k ∈ ℤ⁺, k > 1.\n\n(d) Show that this third sequence is arithmetic. [4]\n\nLet C₂₀ denote the sum of the first 20 terms of the third sequence.\n\n(e) Find the maximum value of k such that C₂₀ < 0. [3]",
       "labels": [
         "Sequences - Series",
         "Exponentials - Logarithms",

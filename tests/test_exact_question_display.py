@@ -11,13 +11,23 @@ DATA = json.loads((ROOT / "site/data/questions.json").read_text(encoding="utf-8"
 def test_question_card_has_authoritative_source_viewer():
     assert 'question-button' in INDEX
     assert 'class="source-viewer"' in INDEX
-    assert 'class="question-frame"' in INDEX
+    assert 'class="question-image-list"' in INDEX
     assert "View exact question" in INDEX
 
 
-def test_source_viewer_removes_red_handwritten_working():
-    assert 'id="remove-red-ink"' in INDEX
-    assert "filter: url(#remove-red-ink)" in (ROOT / "site/styles.css").read_text(encoding="utf-8")
+def test_question_viewer_uses_hosted_question_images_not_pdf_iframes():
+    assert "renderQuestionImages" in APP
+    assert 'document.createElement("img")' in APP
+    assert 'className = "question-image"' in APP
+    assert "iframe" not in INDEX.lower()
+    assert "question-page-frame" not in APP
+
+
+def test_every_question_has_accessible_exact_text_alternative():
+    assert 'class="accessible-transcript"' in INDEX
+    assert 'card.querySelector(".accessible-question-text").textContent = q.accessibleText' in APP
+    for q in DATA["questions"]:
+        assert len(q["accessibleText"].strip()) >= 80, q["id"]
 
 
 def test_summary_is_explicitly_labelled_not_presented_as_question_text():
@@ -27,10 +37,15 @@ def test_summary_is_explicitly_labelled_not_presented_as_question_text():
     assert 'card.querySelector("h3").textContent = q.summary' not in APP
 
 
-def test_embedded_pdf_starts_on_mapped_question_page():
-    assert "buildQuestionPdfUrl" in APP
-    assert 'frame.src = buildQuestionPdfUrl(q)' in APP
-    assert "#page=${q.pages[0]}" in APP
+def test_every_question_has_one_hosted_image_per_display_page():
+    for q in DATA["questions"]:
+        assert q["displayPages"]
+        assert set(q["displayPages"]).issubset(q["pages"])
+        assert len(q["questionImages"]) == len(q["displayPages"])
+        for image in q["questionImages"]:
+            path = ROOT / "site" / image
+            assert path.is_file(), path
+            assert path.stat().st_size > 1000, path
 
 
 def test_solution_renderer_preserves_labelled_subparts_without_splitting_function_notation():
@@ -55,8 +70,16 @@ def test_malformed_paper_uses_explicit_source_fallback_instead_of_blank_pdf_view
     others = [q for q in DATA["questions"] if not (q["paper"] == 2 and q["zone"] == "A")]
     assert p2a and all(q["viewerAvailable"] is False for q in p2a)
     assert all(q["viewerAvailable"] is True for q in others)
-    assert "if (!q.viewerAvailable)" in APP
-    assert "Source preview unavailable" in APP
+    assert all(q["questionImages"] for q in p2a)
+    assert "if (!q.questionImages?.length)" in APP
+
+
+def test_answer_only_continuation_pages_are_not_displayed():
+    by_id = {q["id"]: q for q in DATA["questions"]}
+    assert by_id["m26-math-aasl-p1-tza-q7"]["displayPages"] == [8]
+    assert by_id["m26-math-aasl-p1-tza-q8"]["displayPages"] == [10]
+    assert by_id["m26-math-aasl-p1-tza-q9"]["displayPages"] == [13]
+    assert by_id["m26-math-aasl-p1-c-q1"]["displayPages"] == [2]
 
 
 def test_quadratics_example_maps_to_paper_1_zone_a_page_3_with_three_solution_parts():

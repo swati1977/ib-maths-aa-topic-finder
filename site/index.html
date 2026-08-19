@@ -11,20 +11,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <svg class="display-filter" aria-hidden="true" focusable="false">
-    <filter id="remove-red-ink" color-interpolation-filters="sRGB">
-      <feColorMatrix type="matrix" values="
-        1 0 0 0 0
-        1 0 0 0 0
-        1 0 0 0 0
-        0 0 0 1 0" />
-      <feComponentTransfer>
-        <feFuncR type="table" tableValues="0 0 0.2 0.95 1" />
-        <feFuncG type="table" tableValues="0 0 0.2 0.95 1" />
-        <feFuncB type="table" tableValues="0 0 0.2 0.95 1" />
-      </feComponentTransfer>
-    </filter>
-  </svg>
   <a class="skip-link" href="#questions">Skip to questions</a>
   <header class="site-header">
     <a class="brand" href="#" aria-label="Maths AA Topic Finder home">
@@ -48,7 +34,7 @@
 
     <section class="notice" aria-label="Solution notice">
       <span class="notice-icon" aria-hidden="true">i</span>
-      <p><strong>Exact question view.</strong> Open “View exact question” to read the original paper word for word, including every subpart. Topic descriptions are summaries only. Paper 2 Zone A is marked separately because its source PDF is malformed and cannot be embedded. Solutions are independently prepared study guidance, not official IB markschemes. The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed.</p>
+      <p><strong>Exact question view.</strong> Open “View exact question” to see only the page or pages belonging to that question, including every printed subpart and diagram. Topic descriptions are summaries only. Solutions are independently prepared study guidance, not official IB markschemes. The available Paper 2 Zone A source ends at page 11, so its final 15-mark question is not indexed.</p>
     </section>
 
     <section class="workspace">
@@ -132,8 +118,12 @@
           <span>Original question — word for word</span>
           <small class="source-pages"></small>
         </div>
-        <iframe class="question-frame" loading="lazy"></iframe>
-        <p class="source-viewer-note">This is the original source PDF, opened at the mapped question page. Scroll inside the viewer for questions spanning multiple pages.</p>
+        <div class="question-image-list"></div>
+        <details class="accessible-transcript">
+          <summary>Accessible text version</summary>
+          <div class="accessible-question-text"></div>
+        </details>
+        <p class="source-viewer-note">Only the page or pages belonging to this question are shown. Use “Open full paper” for the original source document.</p>
       </div>
       <div class="solution" hidden>
         <div class="solution-heading"><span>Independent worked solution</span><small>Not an official IB markscheme</small></div>

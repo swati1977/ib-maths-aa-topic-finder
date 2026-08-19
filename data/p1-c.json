@@ -14,9 +14,11 @@
       "id": "m26-math-aasl-p1-c-q1",
       "number": 1,
       "pages": [2, 3],
+      "display_pages": [2],
       "marks": 6,
       "summary": "Use proportional stratified sampling and a box plot of weekly allowances to find a stratum size, quartiles, and an outlier boundary.",
       "labels": ["Statistics"],
+      "accessible_text": "1. [Maximum mark: 6]\n\nA school has 600 students across four grade levels as shown in the following table.\n\n[Table: Grade 9, 115 students; Grade 10, 178 students; Grade 11, 137 students; Grade 12, 170 students.]\n\nA group of 60 students was surveyed using a stratified sampling technique, such that each grade in the sample was proportional to the population. Each student was asked how much allowance, in Singapore dollars ($), they received per week.\n\n(a) Find the number of Grade 12 students in the sample. [2]\n\nThe results of the survey are summarized in the following box and whisker diagram.\n\n[Box-and-whisker diagram titled ‘Survey of allowances from 60 students’: minimum 28, lower quartile 66, median 80, upper quartile a, and maximum 110.]\n\n(b) State the median. [1]\n\nThe interquartile range is $24.\n\n(c) Write down the value of a. [1]\n\nAn outlier is a value that is less than Q₁ − 1.5 × IQR or greater than Q₃ + 1.5 × IQR.\n\n(d) Determine the smallest possible allowance, from the sample, that is not an outlier. [2]",
       "solution": "(a) Grade 12 contributes (170/600)×60 = 17 students. (b) The median line is at $80. (c) Q₁=66 and IQR=24, so Q₃=a=66+24=90. (d) The lower outlier fence is Q₁−1.5(IQR)=66−1.5(24)=30. Values below 30 are outliers, so the smallest possible non-outlier allowance is $30."
     },
     {
@@ -26,6 +28,7 @@
       "marks": 7,
       "summary": "Find a triangle side and area from two sides and the cosine of their included acute angle.",
       "labels": ["Trigonometry"],
+      "accessible_text": "2. [Maximum mark: 7]\n\nThe following diagram shows triangle ABC. It is known that AB = 5 cm, BC = 6 cm, and cos ∠ABC = 1/5 where ∠ABC is acute.\n\n[Diagram not to scale: triangle ABC with B at the top, A at the lower left and C at the lower right; side AB is labelled 5 and side BC is labelled 6.]\n\n(a) Find AC. [3]\n\n(b) (i) Show that sin ∠ABC = 2√6/5.\n\n(ii) Hence, find the area of triangle ABC. [4]",
       "solution": "(a) By the cosine rule, AC²=5²+6²−2(5)(6)(1/5)=49, hence AC=7 cm. (b)(i) Since angle B is acute, sin B=√(1−cos²B)=√(1−1/25)=2√6/5. (ii) Area = (1/2)(5)(6)sin B = 6√6 cm²."
     },
     {
@@ -35,6 +38,7 @@
       "marks": 6,
       "summary": "Compare two coefficients in the expansion of (1+mx)⁸ and determine the positive parameter m.",
       "labels": ["Binomial Theorem", "Permutation - Combination"],
+      "accessible_text": "3. [Maximum mark: 6]\n\nConsider the expansion of (1 + mx)⁸, where m ∈ ℝ and m > 0.\n\nThe coefficient of x³ is eight times the coefficient of x².\n\n(a) Show that ⁸C₃ = 56. [1]\n\n(b) Find the value of m. [5]",
       "solution": "(a) ⁸C₃=8!/(3!5!)=(8·7·6)/(3·2·1)=56. (b) The x³ and x² coefficients are 56m³ and ⁸C₂m²=28m². Thus 56m³=8(28m²). Since m>0, divide by 56m² to obtain m=4."
     },
     {
@@ -44,6 +48,7 @@
       "marks": 6,
       "summary": "Use logarithm laws and integer restrictions to solve two simultaneous logarithmic equations.",
       "labels": ["Exponentials - Logarithms"],
+      "accessible_text": "4. [Maximum mark: 6]\n\nIn this question, p and r are positive integers greater than 1.\n\n(a) Given that log₃ p = 3 + log₃ r, show that p = 27r. [2]\n\n(b) Hence, find the value of r and the value of p that satisfy these simultaneous equations:\n\nlog₃ p = 3 + log₃ r\nlogᵣ p = 4. [4]",
       "solution": "(a) log₃p=3+log₃r=log₃27+log₃r=log₃(27r), so p=27r. (b) logᵣp=4 gives p=r⁴. Hence r⁴=27r, and because r>1, r³=27, so r=3 and p=81."
     },
     {
@@ -53,6 +58,7 @@
       "marks": 5,
       "summary": "Differentiate x⁴−sin(4x), then recognize a reverse-chain-rule antiderivative involving its seventh power.",
       "labels": ["Differentiation", "Integration", "Trigonometry"],
+      "accessible_text": "5. [Maximum mark: 5]\n\nLet y = x⁴ − sin 4x.\n\n(a) Find dy/dx. [2]\n\n(b) Hence, or otherwise, find ∫(x⁴ − sin 4x)⁷(x³ − cos 4x) dx. [3]",
       "solution": "(a) dy/dx=4x³−4cos(4x)=4(x³−cos(4x)). (b) Let u=x⁴−sin(4x), so du=4(x³−cos(4x))dx. Therefore ∫(x⁴−sin(4x))⁷(x³−cos(4x))dx=(1/4)∫u⁷du=u⁸/32+C=(x⁴−sin(4x))⁸/32+C."
     },
     {
@@ -62,6 +68,7 @@
       "marks": 6,
       "summary": "Invert a rational function and use a scaled composition identity to determine a second function.",
       "labels": ["Functions - Roots"],
+      "accessible_text": "6. [Maximum mark: 6]\n\nThe function f is defined by f(x) = 4 − 7/(3x + 2), where x ∈ ℝ, x ≠ −2/3.\n\n(a) Find an expression for f⁻¹(x). [3]\n\nThe function g is defined such that (f ∘ g)(x/3) = x.\n\n(b) Using your answer to part (a) or otherwise, find an expression for g(x). [3]",
       "solution": "(a) Set y=4−7/(3x+2). Then 3x+2=7/(4−y), giving x=(2y−1)/(12−3y). Thus f⁻¹(x)=(2x−1)/(12−3x), x≠4. (b) Put t=x/3 in f(g(x/3))=x; equivalently f(g(t))=3t. Hence g(t)=f⁻¹(3t)=(6t−1)/(12−9t), so g(x)=(6x−1)/(12−9x), x≠4/3."
     },
     {
@@ -71,6 +78,7 @@
       "marks": 14,
       "summary": "Analyze a downward-opening quadratic in factored and vertex forms, find a secant-line parameter, and classify roots as a level varies.",
       "labels": ["Quadratics", "Graphs", "Functions - Roots"],
+      "accessible_text": "7. [Maximum mark: 14]\n\nConsider the quadratic function f(x) = −(x + 2)(x − 4), for x ∈ ℝ. The following diagram shows part of the graph of f.\n\n[Coordinate diagram with horizontal x-axis and vertical y-axis: the graph is a downward-opening parabola whose vertex is above and to the right of the y-axis, with one x-intercept to the left of the y-axis and one to the right.]\n\n(a) (i) Find the x-coordinate of each of the x-intercepts.\n\n(ii) Find the coordinates of the vertex. [5]\n\nThe function f can also be written in the form f(x) = −(x − h)² + k, where h, k ∈ ℝ.\n\n(b) Write down the value of\n\n(i) h;\n\n(ii) k. [2]\n\nThe line y = mx + 4, where m ∈ ℝ, intersects the graph of f at x = −2 and x = 2.\n\n(c) Determine the value of m. [3]\n\nConsider the equation −x² + 2x + 8 − p = 0, where p ∈ ℝ.\n\n(d) By considering the graph of f, or otherwise, find the range of possible values of p such that this equation has\n\n(i) two distinct real roots;\n\n(ii) two distinct positive real roots. [4]",
       "solution": "Write f(x)=−(x+2)(x−4)=−x²+2x+8=−(x−1)²+9. (a)(i) The x-intercepts have x=−2 and x=4. (a)(ii) The vertex is (1,9). (b)(i) Therefore h=1. (b)(ii) Therefore k=9. (c) At x=−2, f(−2)=0, so −2m+4=0 and m=2 (also consistent at x=2). (d)(i) The equation is f(x)=p; a horizontal line y=p meets the parabola twice exactly when p<9. (d)(ii) Both intersections are positive when the level lies above f(0)=8 but below the maximum, hence 8<p<9."
     },
     {
@@ -80,6 +88,7 @@
       "marks": 16,
       "summary": "Solve and sketch the intersections of sin(2x) and 1−cos(2x), then integrate the area between two nonzero intersections.",
       "labels": ["Trigonometry", "Graphs", "Integration"],
+      "accessible_text": "8. [Maximum mark: 16]\n\nThe functions f and g are defined for 0 ≤ x ≤ π by\n\nf(x) = sin 2x\ng(x) = 1 − cos 2x.\n\n(a) Solve the equation f(x) = g(x) for 0 ≤ x ≤ π. [6]\n\n(b) Sketch the graphs of y = f(x) and y = g(x) on the same set of axes, clearly labelling the points of intersection with their coordinates. [4]\n\nThe graphs of f and g intersect at x = a and x = b, where 0 < a < b.\n\n(c) Find the area of the region enclosed by the graphs of f and g for a ≤ x ≤ b. [6]",
       "solution": "(a) sin(2x)=1−cos(2x) becomes 2sin x cos x=2sin²x, so 2sin x(cos x−sin x)=0. On 0≤x≤π, x=0, π/4, π. (b) Intersections are (0,0), (π/4,1), and (π,0). For the sketch, f has zeros at 0, π/2, π, maximum (π/4,1), and minimum (3π/4,−1); g has zeros at 0 and π and maximum (π/2,2). (c) The positive intersections are a=π/4 and b=π, and g≥f between them. Area = ∫[π/4 to π](1−cos(2x)−sin(2x))dx = [x−(1/2)sin(2x)+(1/2)cos(2x)] from π/4 to π = 3π/4+1."
     },
     {
@@ -89,6 +98,7 @@
       "marks": 14,
       "summary": "Differentiate an exponential quotient to study monotonicity, find a normal, and prove the curve has no inflection point.",
       "labels": ["Differentiation", "Exponentials - Logarithms", "Graphs"],
+      "accessible_text": "9. [Maximum mark: 14]\n\nConsider the function h(x) = (e²ˣ + x)/x, for x > 0.\n\n(a) Show that h′(x) = e²ˣ(2x − 1)/x². [4]\n\n(b) Find the values of x for which h is an increasing function. [2]\n\n(c) Find the equation of the normal to the curve y = h(x) at the point (1, e² + 1). [4]\n\nThe second derivative of h is given by h″(x) = 2e²ˣ(2x² − 2x + 1)/x³.\n\n(d) Show that the graph of h does not have a point of inflexion. [4]",
       "solution": "For x>0, h(x)=(e^(2x)+x)/x. (a) The quotient rule gives h′(x)=[x(2e^(2x)+1)−(e^(2x)+x)]/x²=e^(2x)(2x−1)/x². (b) Since e^(2x)/x²>0, h′(x)>0 exactly when x>1/2. (c) h′(1)=e², so the normal slope is −e^(−2). Its equation is y−(e²+1)=−e^(−2)(x−1). (d) The supplied h″ has sign determined by 2x²−2x+1=2(x−1/2)²+1/2>0. All other factors in h″ are positive for x>0, so h″(x)>0 throughout the domain and concavity never changes; therefore there is no point of inflection."
     }
   ]

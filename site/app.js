@@ -82,8 +82,26 @@ function renderActiveFilters() {
   });
 }
 
-function buildQuestionPdfUrl(q) {
+function buildPaperUrl(q) {
   return `${q.pdfUrl}#page=${q.pages[0]}&view=FitH&toolbar=1&navpanes=0`;
+}
+
+function renderQuestionImages(host, q) {
+  host.replaceChildren();
+  q.questionImages.forEach((src, index) => {
+    const figure = document.createElement("figure");
+    const caption = document.createElement("figcaption");
+    const image = document.createElement("img");
+    figure.className = "question-image-page";
+    caption.textContent = `Question ${q.number} · source page ${q.displayPages[index]}`;
+    image.className = "question-image";
+    image.src = src;
+    image.alt = `Original Paper ${q.paper} Zone ${q.zone}, question ${q.number}, source page ${q.displayPages[index]}`;
+    image.loading = "lazy";
+    image.decoding = "async";
+    figure.append(caption, image);
+    host.append(figure);
+  });
 }
 
 function renderSolutionParts(host, text) {
@@ -138,25 +156,35 @@ function renderQuestion(q) {
     labels.append(span);
   });
   const paperLink = card.querySelector(".paper-link");
-  paperLink.href = buildQuestionPdfUrl(q);
+  paperLink.href = buildPaperUrl(q);
   paperLink.setAttribute("aria-label", `Open Paper ${q.paper} Zone ${q.zone}, question ${q.number}`);
 
   const sourceViewer = card.querySelector(".source-viewer");
   const questionButton = card.querySelector(".question-button");
-  const frame = card.querySelector(".question-frame");
-  frame.title = `Original Paper ${q.paper} Zone ${q.zone}, question ${q.number}`;
-  card.querySelector(".source-pages").textContent = `Mapped page${q.pages.length > 1 ? "s" : ""} ${q.pages.join("–")}`;
+  const imageList = card.querySelector(".question-image-list");
+  const viewerId = `question-view-${q.id}`;
+  sourceViewer.id = viewerId;
+  sourceViewer.setAttribute("role", "region");
+  sourceViewer.setAttribute("aria-label", `Original Paper ${q.paper} Zone ${q.zone}, question ${q.number}`);
+  questionButton.setAttribute("aria-controls", viewerId);
+  const mappedPages = q.pages.join("–");
+  const shownPages = q.displayPages.join("–");
+  card.querySelector(".accessible-question-text").textContent = q.accessibleText;
+  card.querySelector(".source-pages").textContent = mappedPages === shownPages
+    ? `Source page${q.displayPages.length > 1 ? "s" : ""} ${shownPages}`
+    : `Showing printed page${q.displayPages.length > 1 ? "s" : ""} ${shownPages} · source span ${mappedPages}`;
   if (!q.viewerAvailable) {
-    questionButton.textContent = "Source preview unavailable";
-    questionButton.disabled = true;
-    questionButton.title = "The source host's Paper 2 Zone A PDF is malformed and reports zero pages.";
-    sourceViewer.remove();
     paperLink.href = q.sourceUrl;
     paperLink.textContent = "Open source record ↗";
+  }
+  if (!q.questionImages?.length) {
+    questionButton.textContent = "Question preview unavailable";
+    questionButton.disabled = true;
+    sourceViewer.remove();
   } else {
     questionButton.addEventListener("click", () => {
       const opening = sourceViewer.hidden;
-      if (opening && !frame.src) frame.src = buildQuestionPdfUrl(q);
+      if (opening && !imageList.childElementCount) renderQuestionImages(imageList, q);
       sourceViewer.hidden = !opening;
       questionButton.textContent = opening ? "Hide exact question" : "View exact question";
       questionButton.setAttribute("aria-expanded", String(opening));
@@ -165,6 +193,9 @@ function renderQuestion(q) {
 
   const solution = card.querySelector(".solution");
   const solutionButton = card.querySelector(".solution-button");
+  const solutionId = `solution-${q.id}`;
+  solution.id = solutionId;
+  solutionButton.setAttribute("aria-controls", solutionId);
   renderSolutionParts(card.querySelector(".solution-content"), q.solution);
   solutionButton.addEventListener("click", () => {
     const opening = solution.hidden;

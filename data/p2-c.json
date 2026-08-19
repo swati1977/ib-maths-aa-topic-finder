@@ -17,16 +17,19 @@
       "marks": 5,
       "summary": "Fit a linear regression model relating students’ leg lengths to 400-metre race times and use it for prediction.",
       "labels": ["Statistics"],
-      "solution": "Entering the eight (L,T) pairs gives the regression of T on L as T=−0.767416L+130.346. Thus (a) a=−0.767 and b=130 (3 s.f.). (b) Pearson’s r=−0.996 (3 s.f.). (c) At L=79, T=−0.767416(79)+130.346=69.7 seconds (3 s.f.)."
+      "solution": "Entering the eight (L,T) pairs gives the regression of T on L as T=−0.767416L+130.346. Thus (a) a=−0.767 and b=130 (3 s.f.). (b) Pearson’s r=−0.996 (3 s.f.). (c) At L=79, T=−0.767416(79)+130.346=69.7 seconds (3 s.f.).",
+      "accessible_text": "1. [Maximum mark: 5]\n\nEight students run a 400-metre race. Their race time, T, and the length, L, of their legs are shown in the table.\n\n[Table: Leg length (L cm): 85, 82, 78, 91, 76, 84, 80, 88. Corresponding race time (T seconds): 65.2, 67.3, 70.0, 60.8, 72.5, 66.1, 68.9, 62.4.]\n\nThe equation of the regression line of T on L for this data can be written in the form T = aL + b.\n\n(a) Find the value of a and the value of b. [2]\n\n(b) Write down the value of the Pearson’s product-moment correlation coefficient, r. [1]\n\n(c) Use the equation of the regression line of T on L to predict the time of a student with a leg length of 79 cm. [2]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q2",
       "number": 2,
       "pages": [4, 5],
+      "display_pages": [4],
       "marks": 6,
       "summary": "Use two angles of elevation from ship positions 70 m apart to find the horizontal distance to and height of a cliff.",
       "labels": ["Trigonometry"],
-      "solution": "(a)(i) From B, tan40°=h/x. (a)(ii) From A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.)."
+      "solution": "(a)(i) From B, tan40°=h/x. (a)(ii) From A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.).",
+      "accessible_text": "2. [Maximum mark: 6]\n\nA ship is sailing directly towards a vertical cliff of height h metres.\n\n[Diagram not to scale: A, B and C lie in that order on a horizontal line, with AB = 70 metres and BC = x metres. C is at the base of a vertical cliff of height h, with a right angle between BC and the cliff. Dashed lines from A and B to the top of the cliff make angles of elevation 15° at A and 40° at B, respectively.]\n\nWhen the ship is at point A, the angle of elevation to the top of the cliff is 15°. After sailing a further 70 metres towards the cliff, the ship reaches point B, and the angle of elevation to the top of the cliff is 40°.\n\nPoint C is at the base of the cliff, and BC = x metres.\n\n(a) Find an expression in terms of h and x for\n\n(i) tan 40°;\n\n(ii) tan 15°. [2]\n\n(b) Hence, find the value of x. [2]\n\n(c) Find the value of h. [2]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q3",
@@ -35,7 +38,8 @@
       "marks": 5,
       "summary": "Determine parameters and times in an exponential balloon-volume decay model.",
       "labels": ["Exponentials - Logarithms"],
-      "solution": "V=5+20e^{-kt}. (a) V(0)=25 m³. (b) Half the initial volume is 12.5, so 5+20e^{-4k}=12.5; e^{-4k}=0.375 and k=−ln(0.375)/4=0.245. (c) For V=8, e^{-kt}=3/20, so t=−ln(3/20)/k=7.74 minutes."
+      "solution": "V=5+20e^{-kt}. (a) V(0)=25 m³. (b) Half the initial volume is 12.5, so 5+20e^{-4k}=12.5; e^{-4k}=0.375 and k=−ln(0.375)/4=0.245. (c) For V=8, e^{-kt}=3/20, so t=−ln(3/20)/k=7.74 minutes.",
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe volume of air inside a balloon, V, measured in cubic metres, after t minutes is given by\n\nV = 5 + 20e⁻ᵏᵗ, where t ≥ 0 and k is a positive constant.\n\n(a) Write down the initial volume of air inside the balloon. [1]\n\nAfter 4 minutes, the volume of air inside the balloon is half the initial volume.\n\n(b) Find the value of k. [2]\n\n(c) Find the time at which the volume of air inside the balloon is 8 cubic metres. [2]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q4",
@@ -44,7 +48,8 @@
       "marks": 6,
       "summary": "Complete and normalize a six-value geometric probability distribution, then calculate its expectation.",
       "labels": ["Probability", "Sequences - Series"],
-      "solution": "Successive probabilities halve. (a)(i) a=k/2. (a)(ii) b=k/16. (b) Since P(X=3)=k/4=8/63, k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90."
+      "solution": "Successive probabilities halve. (a)(i) a=k/2. (a)(ii) b=k/16. (b) Since P(X=3)=k/4=8/63, k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90.",
+      "accessible_text": "4. [Maximum mark: 6]\n\nThe following table shows the probability distribution of a discrete random variable X, for 1 ≤ X ≤ 6, such that\n\nP(X = 1) = k and P(X = r + 1) = ½P(X = r),\n\nwhere r ∈ ℤ⁺, 1 ≤ r ≤ 5 and k ∈ ℝ.\n\n[Probability table: x: 1, 2, 3, 4, 5, 6. Corresponding P(X = x): k, a, 8/63, k/8, b, 1/63.]\n\n(a) Write down an expression in terms of k for\n\n(i) a;\n\n(ii) b. [2]\n\n(b) Find the value of k. [2]\n\n(c) Hence, find the value of E(X). [2]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q5",
@@ -53,7 +58,8 @@
       "marks": 7,
       "summary": "Use sector area and perimeter conditions for two concentric circles to determine a common acute angle and the inner radius.",
       "labels": ["Radian", "Quadratics"],
-      "solution": "For the outer sector, ½R²θ=50 and 2R+Rθ=40. Hence θ=100/R² and 2R+100/R=40, so R²−20R+50=0. The root R=10−5√2 would give θ=11.7 rad, not acute; therefore R=10+5√2 and (a) θ=100/R²=0.343 rad. For the inner sector, ½r²θ=18, so (b) r=√(36/θ)=10.2 cm (3 s.f.)."
+      "solution": "For the outer sector, ½R²θ=50 and 2R+Rθ=40. Hence θ=100/R² and 2R+100/R=40, so R²−20R+50=0. The root R=10−5√2 would give θ=11.7 rad, not acute; therefore R=10+5√2 and (a) θ=100/R²=0.343 rad. For the inner sector, ½r²θ=18, so (b) r=√(36/θ)=10.2 cm (3 s.f.).",
+      "accessible_text": "5. [Maximum mark: 7]\n\nTwo circles have a common centre, O. Points A and B lie on the circumference of the larger circle, which has radius OA = R. Points C and D lie on [OB] and [OA] respectively, and they also lie on the circumference of the smaller circle. The smaller circle has radius OC = r and the acute angle DÔC = AÔB = θ radians.\n\nThis is shown in the following diagram.\n\n[Diagram not to scale: Two concentric circles with centre O. Radii OA and OB bound an acute sector of angle θ in the larger circle; D lies on OA and C lies on OB where those radii cross the smaller circle. OA = R and OC = r.]\n\nThe area of the sector OAB is 50 cm² and its perimeter is 40 cm. The area of the sector ODC is 18 cm².\n\n(a) Find the value of θ. [5]\n\n(b) Hence, find the value of r. [2]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q6",
@@ -62,7 +68,8 @@
       "marks": 7,
       "summary": "Integrate a velocity function to find maximum displacement and solve a derivative inequality for negative acceleration.",
       "labels": ["Kinematics", "Integration", "Differentiation", "Exponentials - Logarithms", "Trigonometry"],
-      "solution": "With s(0)=0, s(t)=∫_0^t[(3u²−10u+4)e^{-0.5u}−4cos u]du. The interior zeros of v are t=1.96227 and 5.39302. Evaluating s at t=0, these points, and t=6 gives 0, −5.299, 4.80592, and 4.372, so (a) the maximum displacement is 4.81 m. (b) a(t)=v′(t)=e^{-0.5t}(−1.5t²+11t−12)+4sin t. Its zeros in [0,6] are 0.791904 and 3.50201; sign testing gives negative acceleration for 0≤t<0.792 and 3.50<t≤6."
+      "solution": "With s(0)=0, s(t)=∫_0^t[(3u²−10u+4)e^{-0.5u}−4cos u]du. The interior zeros of v are t=1.96227 and 5.39302. Evaluating s at t=0, these points, and t=6 gives 0, −5.299, 4.80592, and 4.372, so (a) the maximum displacement is 4.81 m. (b) a(t)=v′(t)=e^{-0.5t}(−1.5t²+11t−12)+4sin t. Its zeros in [0,6] are 0.791904 and 3.50201; sign testing gives negative acceleration for 0≤t<0.792 and 3.50<t≤6.",
+      "accessible_text": "6. [Maximum mark: 7]\n\nA particle moves along a straight line with an initial displacement at O. Its velocity, v m s⁻¹, at time t seconds is given by\n\nv(t) = (3t² − 10t + 4)e⁻⁰·⁵ᵗ − 4 cos t, where 0 ≤ t ≤ 6.\n\n(a) Find the maximum displacement of the particle. [4]\n\n(b) Determine the intervals of time when the acceleration of the particle is negative. [3]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q7",
@@ -71,7 +78,8 @@
       "marks": 15,
       "summary": "Find sphere dimensions from a 3D diameter, then optimize the surface area of a fixed-volume cuboid.",
       "labels": ["Vectors - Lines - Planes", "Differentiation"],
-      "solution": "(a)(i) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). (a)(ii) Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (c)(ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. (d)(i) A(k)=723.666≈724 m². (d)(ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (d)(iii) This is positive, hence the stationary value is a minimum."
+      "solution": "(a)(i) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). (a)(ii) Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (c)(ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. (d)(i) A(k)=723.666≈724 m². (d)(ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (d)(iii) This is positive, hence the stationary value is a minimum.",
+      "accessible_text": "7. [Maximum mark: 15]\n\nAll lengths in this question are in metres.\n\nA sphere has diameter [RS], where R(5, −3, 2) and S(−3, 3, −4).\n\n[Diagram: A sphere with endpoints R(5, −3, 2) and S(−3, 3, −4) of a diameter marked on its surface.]\n\n(a) Determine\n\n(i) the coordinates of the centre of the sphere;\n\n(ii) the radius of the sphere. [4]\n\n(b) Find the volume of the sphere. [2]\n\nA cuboid has a rectangular base of length x, width x² and height y. The cuboid has a volume of 1000 cubic metres and surface area A.\n\n(c) (i) Write down an equation for the volume of the cuboid in terms of x and y.\n\n(ii) Show that A = 2(x³ + 1000/x + 1000/x²). [4]\n\nThe surface area has a minimum value when x = k.\n\n(d) (i) Find the minimum value of A.\n\n(ii) Find the value of d²A/dx² when x = k.\n\n(iii) Use your answer to part (d)(ii) to justify that A is a minimum when x = k. [5]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q8",
@@ -80,7 +88,8 @@
       "marks": 14,
       "summary": "Infer a normal waiting-time model from two tail percentages and solve binomial and conditional attendance probabilities.",
       "labels": ["Statistics", "Probability"],
-      "solution": "Let T~N(μ,σ²). (a)(i) Φ((20−μ)/σ)=0.038 and Φ((30−μ)/σ)=0.927. Using z=−1.774 and 1.454 gives μ=25.5 min and σ=3.10 min. (ii) P(15<T<22)=Φ((22−μ)/σ)−Φ((15−μ)/σ)=0.129. (b) Let X~Bin(20,0.826) count attendees. (i) P(X≥13)=1−P(X≤12)=0.985. (ii) More than 2 fail means X≤17; conditional on X≥13, the probability is P(13≤X≤17)/P(X≥13)=0.697."
+      "solution": "Let T~N(μ,σ²). (a)(i) Φ((20−μ)/σ)=0.038 and Φ((30−μ)/σ)=0.927. Using z=−1.774 and 1.454 gives μ=25.5 min and σ=3.10 min. (ii) P(15<T<22)=Φ((22−μ)/σ)−Φ((15−μ)/σ)=0.129. (b) Let X~Bin(20,0.826) count attendees. (i) P(X≥13)=1−P(X≤12)=0.985. (ii) More than 2 fail means X≤17; conditional on X≥13, the probability is P(13≤X≤17)/P(X≥13)=0.697.",
+      "accessible_text": "8. [Maximum mark: 14]\n\nThe waiting time, T minutes, of patients at a clinic can be modelled by a normal distribution with mean μ and standard deviation σ. The waiting times of all patients are independent of each other.\n\n3.8% of the patients have a waiting time of less than 20 minutes, while 7.3% of the patients have a waiting time of more than 30 minutes.\n\n(a) (i) Find the value of μ and the value of σ.\n\n(ii) Hence, find the probability that a patient chosen at random has a waiting time of between 15 and 22 minutes. [7]\n\nThe doctor at the clinic only sees patients with an appointment.\n\nRecords show that 82.6% of patients attend their appointment.\n\nThe probability of a patient attending their appointment is independent of any other patient.\n\n(b) On a particular day, 20 patients each made an appointment to see the doctor.\n\n(i) Find the probability that at least 13 of these patients attended their appointment.\n\n(ii) Given that at least 13 of these patients attended their appointment, find the probability that more than 2 patients did not attend their appointment. [7]"
     },
     {
       "id": "m26-math-aasl-p2-tzc-q9",
@@ -89,7 +98,8 @@
       "marks": 15,
       "summary": "Relate geometric sequences and their sums to a logarithmically transformed arithmetic sequence.",
       "labels": ["Sequences - Series", "Exponentials - Logarithms", "Quadratics"],
-      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c)(i) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. (c)(ii) The roots are 1 and 9/41; convergence excludes 1, so r=9/41. (c)(iii) Therefore a₁=5(1−9/41)=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6."
+      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c)(i) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. (c)(ii) The roots are 1 and 9/41; convergence excludes 1, so r=9/41. (c)(iii) Therefore a₁=5(1−9/41)=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6.",
+      "accessible_text": "9. [Maximum mark: 15]\n\nThe geometric sequence a₁, a₂, a₃, … has common ratio r. The sum to infinity, A∞, of this sequence is 5.\n\n(a) Find an expression for a₁ in terms of r. [1]\n\nA second geometric sequence a₁², a₂², a₃², … has common ratio q.\n\n(b) Show that q = r². [2]\n\nThe sum to infinity, B∞, of this second sequence is 16.\n\n(c) (i) Show that 41r² − 50r + 9 = 0.\n\n(ii) Find the value of r.\n\n(iii) Hence, find the value of a₁. [5]\n\nA third sequence has its nth term given by cₙ = logₖ(aₙ) + k, where k ∈ ℤ⁺, k > 1.\n\n(d) Show that this third sequence is arithmetic. [4]\n\nLet C₂₀ denote the sum of the first 20 terms of the third sequence.\n\n(e) Find the maximum value of k such that C₂₀ < 0. [3]"
     }
   ]
 }

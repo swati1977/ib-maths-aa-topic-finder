@@ -15,6 +15,7 @@
       "number": 1,
       "pages": [2],
       "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nConsider the function f(x) = 2x + sin x, x ∈ ℝ.\n\n(a) Find f′(x). [2]\n\n(b) Hence, find the equation of the tangent to the graph of f at the point where x = π. [4]",
       "summary": "Differentiate a linear-plus-sine function and determine its tangent at x = π.",
       "labels": ["Differentiation", "Trigonometry"],
       "solution": "(a) For f(x)=2x+sin x, f′(x)=2+cos x. (b) f(π)=2π and f′(π)=2+cos π=1. The tangent through (π,2π) is y−2π=x−π, so y=x+π."
@@ -24,6 +25,7 @@
       "number": 2,
       "pages": [3],
       "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nConsider the function f(x) = 3(x − 2)(x − q), where x ∈ ℝ and q is a real constant.\n\nThe axis of symmetry of the graph of f has equation x = 4.\n\n(a) Show that q = 6. [2]\n\n(b) Find the coordinates of the vertex of the graph of f. [2]\n\n(c) Hence, write down the range of f. [1]",
       "summary": "Use the symmetry of a factored quadratic to find an unknown root, its vertex, and its range.",
       "labels": ["Quadratics", "Graphs"],
       "solution": "The roots of f(x)=3(x−2)(x−q) are 2 and q. (a) Their midpoint is the symmetry axis, so (2+q)/2=4 and q=6. (b) At x=4, f(4)=3(2)(−2)=−12, hence the vertex is (4,−12). (c) The leading coefficient is positive, so the range is f(x)≥−12."
@@ -33,6 +35,7 @@
       "number": 3,
       "pages": [4],
       "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nA particle P is travelling along a straight line, with displacement measured relative to a point O on the line. The velocity, v m s⁻¹, of the particle at time t seconds is given by\n\nv = 1/(t + 1) + e⁻ᵗ, where t ≥ 0.\n\n(a) Find ∫(1/(t + 1) + e⁻ᵗ) dt. [2]\n\nInitially the particle is at O.\n\n(b) Find an expression for the displacement, s metres, in terms of t. [3]",
       "summary": "Integrate a given velocity and use the initial position to obtain displacement.",
       "labels": ["Integration", "Exponentials - Logarithms", "Kinematics"],
       "solution": "(a) ∫(1/(t+1)+e^(−t))dt=ln|t+1|−e^(−t)+C. (b) Since t≥0, s(t)=ln(t+1)−e^(−t)+C. Initially s(0)=0, so 0=0−1+C and C=1. Thus s(t)=ln(t+1)−e^(−t)+1 metres."
@@ -42,6 +45,7 @@
       "number": 4,
       "pages": [5],
       "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nConsider a geometric sequence, uₙ, with common ratio r, where each term in the sequence is positive.\n\nIt is given that u₆ = 1.6 × 10⁵ and u₈ = 6.4 × 10⁵.\n\n(a) Find the value of r. [3]\n\n(b) Find the value of u₁, giving your answer in the form a × 10ᵏ, where 1 ≤ a < 10 and k ∈ ℤ. [3]",
       "summary": "Recover the positive common ratio and an earlier term of a geometric sequence from two later terms.",
       "labels": ["Sequences - Series"],
       "solution": "Because u8=u6r², r²=(6.4×10^5)/(1.6×10^5)=4. Every term is positive, so r=2. Also u6=u1r^5, hence u1=(1.6×10^5)/2^5=5000=5×10^3, which has the required scientific-notation form."
@@ -51,6 +55,7 @@
       "number": 5,
       "pages": [6],
       "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\n(a) Show that log₂₅(81x²) = log₅9 + log₅x for x > 0. [4]\n\n(b) Hence, solve the equation log₅∛x = log₂₅(81x²) − log₅4, where x > 0. [3]",
       "summary": "Rewrite a base-25 logarithm using base 5, then solve a logarithmic equation involving a cube root.",
       "labels": ["Exponentials - Logarithms"],
       "solution": "(a) For x>0, log_25(81x²)=log_5(81x²)/log_5 25=(log_5 81+2log_5 x)/2=log_5 9+log_5 x. (b) Using this identity, log_5(x^(1/3))=log_5(9x)−log_5 4=log_5(9x/4). Thus x^(1/3)=9x/4. Dividing by x^(1/3)>0 gives x^(2/3)=4/9, so x=(2/3)^3=8/27."
@@ -60,6 +65,7 @@
       "number": 6,
       "pages": [7],
       "marks": 9,
+      "accessible_text": "6. [Maximum mark: 9]\n\nConsider two events, A and B.\n\nIt is given that P(A ∩ B′) = (5 + x)/24, P(A ∩ B) = (7 − x)/12 and P(A′ ∩ B) = 1/6, where 0 ≤ x ≤ 7.\n\n(a) Show that P(A) = (19 − x)/24. [3]\n\nIt is given that A and B are independent.\n\n(b) Find the possible values of x. [6]",
       "summary": "Combine probabilities from a Venn diagram and impose independence to determine a parameter.",
       "labels": ["Probability", "Quadratics"],
       "solution": "(a) P(A)=P(A∩B′)+P(A∩B)=(5+x)/24+(7−x)/12=(5+x+14−2x)/24=(19−x)/24. (b) P(B)=P(A′∩B)+P(A∩B)=1/6+(7−x)/12=(9−x)/12. Independence requires (7−x)/12=[(19−x)/24][(9−x)/12]. Hence 24(7−x)=(19−x)(9−x), which simplifies to x²−4x+3=0. Therefore x=1 or x=3; both satisfy 0≤x≤7."
@@ -68,7 +74,9 @@
       "id": "m26-math-aasl-p1-tza-q7",
       "number": 7,
       "pages": [8, 9],
+      "display_pages": [8],
       "marks": 12,
+      "accessible_text": "7. [Maximum mark: 12]\n\nConsider the function f(x) = (2x − 3)/(3 − x), x ∈ ℝ, x ≠ 3.\n\nThe graph of f and its asymptotes are shown in the following diagram.\n\n[Diagram: Coordinate axes labelled x and y with origin O. The graph y = f(x) has two hyperbola-like branches separated by a dashed vertical asymptote to the right of the y-axis. A dashed horizontal asymptote lies below the x-axis. The left branch crosses both coordinate axes, approaches the horizontal asymptote from above as x decreases, and rises without bound as it approaches the vertical asymptote from the left. The right branch lies below the horizontal asymptote, falls without bound near the vertical asymptote, and approaches the horizontal asymptote from below as x increases.]\n\n(a) Find the equation of\n    (i) the vertical asymptote;\n    (ii) the horizontal asymptote. [3]\n\n(b) Find the coordinates of the points where the graph of f intersects the coordinate axes. [4]\n\nConsider the function g(x) = x + 4, x ∈ ℝ.\n\n(c) (i) Describe the transformation that transforms the graph of y = f(x) to the graph of y = (g ∘ f)(x).\n    (ii) Hence, find the range of g ∘ f. [5]",
       "summary": "Analyze a rational-function graph, including asymptotes, intercepts, a vertical translation, and the resulting range.",
       "labels": ["Graphs", "Functions - Roots"],
       "solution": "For f(x)=(2x−3)/(3−x): (a)(i) The denominator vanishes at x=3, so the vertical asymptote is x=3. (a)(ii) The ratio of leading coefficients is 2/(−1)=−2, so the horizontal asymptote is y=−2. (b) Setting the numerator to zero gives the x-intercept (3/2,0); f(0)=−1 gives the y-intercept (0,−1). (c)(i) Since g(x)=x+4, (g∘f)(x)=f(x)+4, a translation by vector (0,4). (c)(ii) The range of f excludes −2, so the translated range excludes 2: range(g∘f)=ℝ\\{2}."
@@ -77,7 +85,9 @@
       "id": "m26-math-aasl-p1-tza-q8",
       "number": 8,
       "pages": [10, 11, 12],
+      "display_pages": [10],
       "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nConsider the function f(x) = ax³ + bx² + cx + d, where x ∈ ℝ and where a, b, c and d are real constants.\n\nThe graph of f has a point of inflexion at (−2, −2c + d + 24).\n\n(a) Show that a = 3/2 and b = 9. [6]\n\nIt is given that the tangents to the graph of f at x = −3 and x = k are horizontal.\n\n(b) (i) Show that c = 27/2.\n    (ii) Find the value of k.\n    (iii) State whether f has a local maximum or a local minimum at x = k, justifying your answer. [7]\n\nThe graph of f intersects the y-axis at the point P.\n\n(c) Show that the tangent to the graph of f at x = −3 passes through P. [2]",
       "summary": "Determine coefficients and stationary-point behavior of a cubic from an inflection point and horizontal tangents.",
       "labels": ["Differentiation", "Graphs", "Quadratics"],
       "solution": "Let f(x)=ax³+bx²+cx+d. Then f′(x)=3ax²+2bx+c and f″(x)=6ax+2b. (a) The inflection at x=−2 gives −12a+2b=0, so b=6a. Also f(−2)=−2c+d+24 gives −8a+4b=24, or −2a+b=6. Therefore a=3/2 and b=9. (b)(i) Horizontal tangent at x=−3 means f′(−3)=0: (9/2)(9)+18(−3)+c=0, so c=27/2. (ii) Now f′(x)=(9/2)(x²+4x+3)=(9/2)(x+1)(x+3). Besides −3, the stationary point is k=−1. (iii) At −1, f′ changes from negative to positive (equivalently f″(−1)=9>0), so f has a local minimum. (c) P=(0,d). Substituting x=−3 into f gives f(−3)=−81/2+81−81/2+d=d. Since f′(−3)=0, the tangent there is y=d, which passes through P."
@@ -86,7 +96,9 @@
       "id": "m26-math-aasl-p1-tza-q9",
       "number": 9,
       "pages": [13, 14],
+      "display_pages": [13],
       "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nEleanor uses the handle on a heavy suitcase to pull it so that it moves horizontally along the floor.\n\nThe handle makes an angle of θ radians with the horizontal, as shown in the following diagram.\n\n[Diagram not to scale: A rectangular suitcase rests on a horizontal floor. Its handle extends upwards and to the right, making an angle θ with a dashed horizontal line at the handle attachment point. A horizontal arrow points right from the suitcase.]\n\nThe magnitude, F Newtons, of the minimum force that Eleanor needs to apply to make the suitcase move horizontally when the handle makes an angle of θ radians is given by\n\nF(θ) = A/(cos θ + μ sin θ), where 0 ≤ θ < π/2 and μ ∈ ℝ.\n\nWhen the handle is horizontal, F = 300.\n\n(a) Show that A = 300. [2]\n\nIn the case when θ = π/6, F = 100√3.\n\n(b) Show that μ = √3. [4]\n\nEleanor wishes to minimize the magnitude of the force she needs to apply to make the suitcase move horizontally. In order to achieve this, she needs to hold the handle at the angle α, where 0 < α < π/2.\n\n(c) (i) Show that dF/dθ = 300(sin θ − √3 cos θ)/(cos θ + √3 sin θ)².\n    (ii) Hence, show that α = π/3 and find the corresponding value of F(α). [9]",
       "summary": "Determine constants in a trigonometric force model and use differentiation to minimize the required force.",
       "labels": ["Radian", "Trigonometry", "Differentiation"],
       "solution": "The model is F(θ)=A/(cos θ+μ sin θ), for 0≤θ<π/2. (a) F(0)=A=300, hence A=300. (b) Using F(π/6)=100√3 gives 300/(√3/2+μ/2)=100√3. Thus 600/(√3+μ)=100√3, so √3+μ=2√3 and μ=√3. (c)(i) Therefore F(θ)=300(cos θ+√3 sin θ)^(−1), and differentiation gives F′(θ)=300(sin θ−√3 cos θ)/(cos θ+√3 sin θ)². (ii) At an interior minimum F′(α)=0, so tan α=√3. Since 0<α<π/2, α=π/3. The derivative changes from negative to positive there, confirming a minimum. Finally F(π/3)=300/(1/2+√3·√3/2)=300/2=150 N."
