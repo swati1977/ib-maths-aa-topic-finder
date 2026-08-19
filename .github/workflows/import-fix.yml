@@ -1,0 +1,42 @@
+name: Import exact-question display fix
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-fix.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  import-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download verified source archive
+        run: |
+          curl --fail --location --retry 3 'https://tmpfiles.org/dl/1787174241.27f3fa82398e589a/wlwurQKm88jO/exact-question-fix.tar.xz' -o /tmp/exact-question-fix.tar.xz
+          echo '29bfd6dabfd1d25932e898ce98953a8303c5f7ba4e176589d49b30230a5f54ea  /tmp/exact-question-fix.tar.xz' | sha256sum --check
+          tar -xJf /tmp/exact-question-fix.tar.xz
+      - name: Commit verified files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md data scripts site tests
+          git commit -m '[verified] show exact paper questions and structured solutions'
+          git push
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
