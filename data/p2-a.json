@@ -1,0 +1,86 @@
+{
+  "paper": {
+    "id": "m26-math-aasl-p2-tza",
+    "title": "May 2026 Mathematics: analysis and approaches SL Paper 2 Zone A",
+    "paper": 2,
+    "zone": "A",
+    "year": 2026,
+    "source_url": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+    "solution_status": "Independent worked solution — not an official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "m26-math-aasl-p2-tza-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 5,
+      "summary": "Evaluate an exponential cooling model for a cup of tea and identify its limiting room temperature.",
+      "labels": ["Exponentials - Logarithms"],
+      "solution": "T(t)=18+72e^{-t/20}. (a) T(0)=18+72=90°C. (b) T(15)=18+72e^{-0.75}=52.0°C (3 s.f.). (c) As t→∞, e^{-t/20}→0, so the room temperature is 18°C."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q2",
+      "number": 2,
+      "pages": [4, 5],
+      "marks": 7,
+      "summary": "Read a cumulative-frequency curve for 52 student heights, recover grouped frequencies, and estimate the mean.",
+      "labels": ["Statistics", "Graphs"],
+      "solution": "(a) The median is read at cumulative frequency 26, giving approximately 170 cm (about 170.4 cm from the scanned curve). (b)(i) The curve gives cumulative frequencies 25 at 170 cm and 42 at 175 cm, so p=42−25=17 and q=52−42=10. (ii) Using class midpoints 157.5, 162.5, 167.5, 172.5, 177.5, the estimated mean is [3(157.5)+8(162.5)+14(167.5)+17(172.5)+10(177.5)]/52=169.7115…, hence 169.7 cm (4 s.f.)."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q3",
+      "number": 3,
+      "pages": [6],
+      "marks": 4,
+      "summary": "Find where a function decreases from its quadratic first derivative.",
+      "labels": ["Differentiation", "Quadratics"],
+      "solution": "f decreases when f′(x)=x²−x−1<0. The zeros are x=(1±√5)/2; since the quadratic opens upward, (1−√5)/2 < x < (1+√5)/2."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q4",
+      "number": 4,
+      "pages": [7],
+      "marks": 6,
+      "summary": "Model the height of a point on a Ferris wheel using cosine and an equivalent phase-shifted sine form.",
+      "labels": ["Trigonometry", "Graphs"],
+      "solution": "The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q5",
+      "number": 5,
+      "pages": [8],
+      "marks": 7,
+      "summary": "Locate the turning points of an odd trigonometric-polynomial function and find the area between its graph and a chord through the origin.",
+      "labels": ["Differentiation", "Integration", "Graphs", "Trigonometry"],
+      "solution": "g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.)."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q6",
+      "number": 6,
+      "pages": [9],
+      "marks": 7,
+      "summary": "Determine the mean and standard deviation of a normal height distribution from a tail probability and a conditional tail probability.",
+      "labels": ["Statistics", "Probability"],
+      "solution": "Let H~N(μ,σ²). P(H>171)=0.4 gives Φ((171−μ)/σ)=0.6, so (171−μ)/σ=0.253347. Also P(H>175)=0.35P(H>171)=0.14, hence Φ((175−μ)/σ)=0.86 and (175−μ)/σ=1.08032. Subtracting gives σ=4/(1.08032−0.253347)=4.84 cm, then μ=171−0.253347σ=169.775≈170 cm (3 s.f.)."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q7",
+      "number": 7,
+      "pages": [10],
+      "marks": 16,
+      "summary": "Use 3D coordinates to analyse a sphere with a given diameter, then solve a triangle and test whether a point lies inside the sphere.",
+      "labels": ["Vectors - Lines - Planes", "Trigonometry"],
+      "solution": "(a) The midpoint of A(−3,6,4) and B(−1,2,−2) is C=(−2,4,1). (b) |AB|=√(2²+(−4)²+(−6)²)=2√14, so the radius is √14. (c) V=(4/3)π(√14)³=56π√14/3≈219 m³. (d)(i) In triangle ABP, cos∠BAP=[(2√14)²+5²−4²]/[2(2√14)(5)]=13/(20√14), so ∠BAP=0.518 rad (29.7°). (ii) Area=½(2√14)(5)sin(0.518)=9.27 m². (e)(i) By the median formula, CP=½√[2(5²)+2(4²)−(2√14)²]=√26/2≈2.55. (ii) Since CP≈2.55<√14≈3.74, P is inside the sphere."
+    },
+    {
+      "id": "m26-math-aasl-p2-tza-q8",
+      "number": 8,
+      "pages": [11],
+      "marks": 13,
+      "summary": "Compare quarterly compound-interest growth with annual boat depreciation to determine affordability.",
+      "labels": ["Exponentials - Logarithms", "Sequences - Series"],
+      "solution": "The quarterly multiplier is 1+0.048/4=1.012. (a) From 1 Jan 2026 to 1 Jan 2031 there are 20 quarters, so the balance is 15000(1.012)^20=$19041.52≈$19042. (b) 15000(1.012)^n>28000 requires n>ln(28000/15000)/ln(1.012)=52.324, so the first qualifying payment is quarter 53, during 2039. (c) 26222=28000(1−r/100), giving r=6.35%. (d) After t years, compare 15000(1.012)^{4t} with 28000(0.9365)^t. Equality gives t=ln(28000/15000)/ln[(1.012)^4/0.9365]=5.51 years after 1 January 2026. The first quarterly account credit after this crossing is at t=5.75 years, still during 2031; therefore she buys during 2031."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse IB Mathematics AA SL past-paper questions by topic, paper, and zone.">
+  <title>Maths AA Topic Finder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#questions">Skip to questions</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Maths AA Topic Finder home">
+      <span class="brand-mark" aria-hidden="true">∑</span>
+      <span>Maths AA Topic Finder</span>
+    </a>
+    <a class="source-link" href="https://ibdocs.re/past-papers-by-subject/mathematics-analysis-and-approaches" target="_blank" rel="noreferrer">Source papers ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="eyebrow">IB Mathematics · Analysis &amp; Approaches · SL</div>
+      <h1 id="page-title">Past-paper practice,<br><span>sorted by topic.</span></h1>
+      <p>Choose one or more topics, then work through matching questions from the May 2026 Zone A and Zone C papers.</p>
+      <div class="stats" aria-label="Collection statistics">
+        <div><strong id="question-count">—</strong><span>questions</span></div>
+        <div><strong>4</strong><span>papers</span></div>
+        <div><strong>20</strong><span>topic labels</span></div>
+      </div>
+    </section>
+
+    <section class="notice" aria-label="Solution notice">
+      <span class="notice-icon" aria-hidden="true">i</span>
+      <p><strong>Prototype collection.</strong> Solutions are independently prepared study guidance, not official IB markschemes. Paper links open the original source. The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed.</p>
+    </section>
+
+    <section class="workspace">
+      <aside class="filters" aria-labelledby="filters-heading">
+        <div class="filter-title-row">
+          <h2 id="filters-heading">Filters</h2>
+          <button id="clear-filters" class="text-button" type="button">Clear all</button>
+        </div>
+
+        <label class="search-label" for="search">Search questions</label>
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Try “tangent” or “probability”" autocomplete="off">
+        </div>
+
+        <fieldset>
+          <legend>Paper</legend>
+          <label class="check-row"><input type="checkbox" name="paper" value="1"><span>Paper 1</span></label>
+          <label class="check-row"><input type="checkbox" name="paper" value="2"><span>Paper 2</span></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Zone</legend>
+          <label class="check-row"><input type="checkbox" name="zone" value="A"><span>Zone A</span></label>
+          <label class="check-row"><input type="checkbox" name="zone" value="C"><span>Zone C</span></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Topics <span class="legend-note">match any selected</span></legend>
+          <div id="topic-filters" class="topic-filter-list"></div>
+        </fieldset>
+      </aside>
+
+      <section class="results" aria-labelledby="results-heading">
+        <div class="results-heading-row">
+          <div>
+            <div class="eyebrow">Question bank</div>
+            <h2 id="results-heading"><span id="visible-count">—</span> matching questions</h2>
+          </div>
+          <select id="sort" aria-label="Sort questions">
+            <option value="paper">Sort by paper</option>
+            <option value="topic">Sort by topic</option>
+            <option value="marks-desc">Highest marks</option>
+            <option value="marks-asc">Lowest marks</option>
+          </select>
+        </div>
+        <div id="active-filters" class="active-filters" aria-live="polite"></div>
+        <div id="questions" class="question-list" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <div aria-hidden="true">∅</div>
+          <h3>No questions match</h3>
+          <p>Remove a filter or try a broader search.</p>
+          <button class="button secondary" type="button" data-clear>Clear filters</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built as an independent teaching index. Not affiliated with or endorsed by the International Baccalaureate Organization.</p>
+  </footer>
+
+  <template id="question-template">
+    <article class="question-card">
+      <div class="card-topline">
+        <span class="paper-badge"></span>
+        <span class="question-meta"></span>
+        <span class="marks"></span>
+      </div>
+      <h3></h3>
+      <div class="labels"></div>
+      <div class="card-actions">
+        <button class="button solution-button" type="button" aria-expanded="false">Show solution</button>
+        <a class="button secondary paper-link" target="_blank" rel="noreferrer">Open paper ↗</a>
+      </div>
+      <div class="solution" hidden>
+        <div class="solution-heading"><span>Independent worked solution</span><small>Not an official IB markscheme</small></div>
+        <div class="solution-content"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

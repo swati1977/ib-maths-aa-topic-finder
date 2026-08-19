@@ -1,0 +1,12 @@
+# Source documents and extraction artifacts are local-only.
+data/raw/
+data/extracted/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local servers / editors
+.DS_Store
+.vscode/
+.idea/

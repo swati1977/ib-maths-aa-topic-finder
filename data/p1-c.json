@@ -1,0 +1,95 @@
+{
+  "paper": {
+    "id": "m26-math-aasl-p1-c",
+    "title": "May 2026 Mathematics: Analysis and Approaches SL Paper 1 Zone C",
+    "paper": 1,
+    "zone": "C",
+    "year": 2026,
+    "source_url": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+    "solution_status": "Independent worked solution — not an official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "m26-math-aasl-p1-c-q1",
+      "number": 1,
+      "pages": [2, 3],
+      "marks": 6,
+      "summary": "Use proportional stratified sampling and a box plot of weekly allowances to find a stratum size, quartiles, and an outlier boundary.",
+      "labels": ["Statistics"],
+      "solution": "(a) Grade 12 contributes (170/600)×60 = 17 students. (b) The median line is at $80. (c) Q₁=66 and IQR=24, so Q₃=a=66+24=90. (d) The lower outlier fence is Q₁−1.5(IQR)=66−1.5(24)=30. Values below 30 are outliers, so the smallest possible non-outlier allowance is $30."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q2",
+      "number": 2,
+      "pages": [4],
+      "marks": 7,
+      "summary": "Find a triangle side and area from two sides and the cosine of their included acute angle.",
+      "labels": ["Trigonometry"],
+      "solution": "(a) By the cosine rule, AC²=5²+6²−2(5)(6)(1/5)=49, hence AC=7 cm. (b)(i) Since angle B is acute, sin B=√(1−cos²B)=√(1−1/25)=2√6/5. (ii) Area = (1/2)(5)(6)sin B = 6√6 cm²."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q3",
+      "number": 3,
+      "pages": [5],
+      "marks": 6,
+      "summary": "Compare two coefficients in the expansion of (1+mx)⁸ and determine the positive parameter m.",
+      "labels": ["Binomial Theorem", "Permutation - Combination"],
+      "solution": "(a) ⁸C₃=8!/(3!5!)=(8·7·6)/(3·2·1)=56. (b) The x³ and x² coefficients are 56m³ and ⁸C₂m²=28m². Thus 56m³=8(28m²). Since m>0, divide by 56m² to obtain m=4."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q4",
+      "number": 4,
+      "pages": [6],
+      "marks": 6,
+      "summary": "Use logarithm laws and integer restrictions to solve two simultaneous logarithmic equations.",
+      "labels": ["Exponentials - Logarithms"],
+      "solution": "(a) log₃p=3+log₃r=log₃27+log₃r=log₃(27r), so p=27r. (b) logᵣp=4 gives p=r⁴. Hence r⁴=27r, and because r>1, r³=27, so r=3 and p=81."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q5",
+      "number": 5,
+      "pages": [7],
+      "marks": 5,
+      "summary": "Differentiate x⁴−sin(4x), then recognize a reverse-chain-rule antiderivative involving its seventh power.",
+      "labels": ["Differentiation", "Integration", "Trigonometry"],
+      "solution": "(a) dy/dx=4x³−4cos(4x)=4(x³−cos(4x)). (b) Let u=x⁴−sin(4x), so du=4(x³−cos(4x))dx. Therefore ∫(x⁴−sin(4x))⁷(x³−cos(4x))dx=(1/4)∫u⁷du=u⁸/32+C=(x⁴−sin(4x))⁸/32+C."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q6",
+      "number": 6,
+      "pages": [8],
+      "marks": 6,
+      "summary": "Invert a rational function and use a scaled composition identity to determine a second function.",
+      "labels": ["Functions - Roots"],
+      "solution": "(a) Set y=4−7/(3x+2). Then 3x+2=7/(4−y), giving x=(2y−1)/(12−3y). Thus f⁻¹(x)=(2x−1)/(12−3x), x≠4. (b) Put t=x/3 in f(g(x/3))=x; equivalently f(g(t))=3t. Hence g(t)=f⁻¹(3t)=(6t−1)/(12−9t), so g(x)=(6x−1)/(12−9x), x≠4/3."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q7",
+      "number": 7,
+      "pages": [9],
+      "marks": 14,
+      "summary": "Analyze a downward-opening quadratic in factored and vertex forms, find a secant-line parameter, and classify roots as a level varies.",
+      "labels": ["Quadratics", "Graphs", "Functions - Roots"],
+      "solution": "Write f(x)=−(x+2)(x−4)=−x²+2x+8=−(x−1)²+9. (a)(i) The x-intercepts have x=−2 and x=4. (ii) The vertex is (1,9). (b) Therefore h=1 and k=9. (c) At x=−2, f(−2)=0, so −2m+4=0 and m=2 (also consistent at x=2). (d) The equation is f(x)=p. (i) A horizontal line y=p meets the parabola twice exactly when p<9. (ii) Both intersections are positive when the level lies above f(0)=8 but below the maximum, hence 8<p<9."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q8",
+      "number": 8,
+      "pages": [10],
+      "marks": 16,
+      "summary": "Solve and sketch the intersections of sin(2x) and 1−cos(2x), then integrate the area between two nonzero intersections.",
+      "labels": ["Trigonometry", "Graphs", "Integration"],
+      "solution": "(a) sin(2x)=1−cos(2x) becomes 2sin x cos x=2sin²x, so 2sin x(cos x−sin x)=0. On 0≤x≤π, x=0, π/4, π. (b) Intersections are (0,0), (π/4,1), and (π,0). For the sketch, f has zeros at 0, π/2, π, maximum (π/4,1), and minimum (3π/4,−1); g has zeros at 0 and π and maximum (π/2,2). (c) The positive intersections are a=π/4 and b=π, and g≥f between them. Area = ∫[π/4 to π](1−cos(2x)−sin(2x))dx = [x−(1/2)sin(2x)+(1/2)cos(2x)] from π/4 to π = 3π/4+1."
+    },
+    {
+      "id": "m26-math-aasl-p1-c-q9",
+      "number": 9,
+      "pages": [11],
+      "marks": 14,
+      "summary": "Differentiate an exponential quotient to study monotonicity, find a normal, and prove the curve has no inflection point.",
+      "labels": ["Differentiation", "Exponentials - Logarithms", "Graphs"],
+      "solution": "For x>0, h(x)=(e^(2x)+x)/x. (a) The quotient rule gives h′(x)=[x(2e^(2x)+1)−(e^(2x)+x)]/x²=e^(2x)(2x−1)/x². (b) Since e^(2x)/x²>0, h′(x)>0 exactly when x>1/2. (c) h′(1)=e², so the normal slope is −e^(−2). Its equation is y−(e²+1)=−e^(−2)(x−1). (d) The supplied h″ has sign determined by 2x²−2x+1=2(x−1/2)²+1/2>0. All other factors in h″ are positive for x>0, so h″(x)>0 throughout the domain and concavity never changes; therefore there is no point of inflection."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "paper": {
+    "id": "m26-math-aasl-p2-tzc",
+    "title": "May 2026 Mathematics: analysis and approaches SL Paper 2 Zone C",
+    "paper": 2,
+    "zone": "C",
+    "year": 2026,
+    "source_url": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+    "solution_status": "Independent worked solution — not an official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "m26-math-aasl-p2-tzc-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 5,
+      "summary": "Fit a linear regression model relating students’ leg lengths to 400-metre race times and use it for prediction.",
+      "labels": ["Statistics"],
+      "solution": "Entering the eight (L,T) pairs gives the regression of T on L as T=−0.767416L+130.346. Thus (a) a=−0.767 and b=130 (3 s.f.). (b) Pearson’s r=−0.996 (3 s.f.). (c) At L=79, T=−0.767416(79)+130.346=69.7 seconds (3 s.f.)."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q2",
+      "number": 2,
+      "pages": [4, 5],
+      "marks": 6,
+      "summary": "Use two angles of elevation from ship positions 70 m apart to find the horizontal distance to and height of a cliff.",
+      "labels": ["Trigonometry"],
+      "solution": "(a) From B, tan40°=h/x; from A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.)."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q3",
+      "number": 3,
+      "pages": [6],
+      "marks": 5,
+      "summary": "Determine parameters and times in an exponential balloon-volume decay model.",
+      "labels": ["Exponentials - Logarithms"],
+      "solution": "V=5+20e^{-kt}. (a) V(0)=25 m³. (b) Half the initial volume is 12.5, so 5+20e^{-4k}=12.5; e^{-4k}=0.375 and k=−ln(0.375)/4=0.245. (c) For V=8, e^{-kt}=3/20, so t=−ln(3/20)/k=7.74 minutes."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q4",
+      "number": 4,
+      "pages": [7],
+      "marks": 6,
+      "summary": "Complete and normalize a six-value geometric probability distribution, then calculate its expectation.",
+      "labels": ["Probability", "Sequences - Series"],
+      "solution": "Successive probabilities halve. (a) a=k/2 and b=k/16. Since P(X=3)=k/4=8/63, (b) k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q5",
+      "number": 5,
+      "pages": [8],
+      "marks": 7,
+      "summary": "Use sector area and perimeter conditions for two concentric circles to determine a common acute angle and the inner radius.",
+      "labels": ["Radian", "Quadratics"],
+      "solution": "For the outer sector, ½R²θ=50 and 2R+Rθ=40. Hence θ=100/R² and 2R+100/R=40, so R²−20R+50=0. The root R=10−5√2 would give θ=11.7 rad, not acute; therefore R=10+5√2 and (a) θ=100/R²=0.343 rad. For the inner sector, ½r²θ=18, so (b) r=√(36/θ)=10.2 cm (3 s.f.)."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q6",
+      "number": 6,
+      "pages": [9],
+      "marks": 7,
+      "summary": "Integrate a velocity function to find maximum displacement and solve a derivative inequality for negative acceleration.",
+      "labels": ["Kinematics", "Integration", "Differentiation", "Exponentials - Logarithms", "Trigonometry"],
+      "solution": "With s(0)=0, s(t)=∫_0^t[(3u²−10u+4)e^{-0.5u}−4cos u]du. The interior zeros of v are t=1.96227 and 5.39302. Evaluating s at t=0, these points, and t=6 gives 0, −5.299, 4.80592, and 4.372, so (a) the maximum displacement is 4.81 m. (b) a(t)=v′(t)=e^{-0.5t}(−1.5t²+11t−12)+4sin t. Its zeros in [0,6] are 0.791904 and 3.50201; sign testing gives negative acceleration for 0≤t<0.792 and 3.50<t≤6."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q7",
+      "number": 7,
+      "pages": [10],
+      "marks": 15,
+      "summary": "Find sphere dimensions from a 3D diameter, then optimize the surface area of a fixed-volume cuboid.",
+      "labels": ["Vectors - Lines - Planes", "Differentiation"],
+      "solution": "(a) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. Then (i) A(k)=723.666≈724 m². (ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (iii) This is positive, hence the stationary value is a minimum."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q8",
+      "number": 8,
+      "pages": [11],
+      "marks": 14,
+      "summary": "Infer a normal waiting-time model from two tail percentages and solve binomial and conditional attendance probabilities.",
+      "labels": ["Statistics", "Probability"],
+      "solution": "Let T~N(μ,σ²). (a)(i) Φ((20−μ)/σ)=0.038 and Φ((30−μ)/σ)=0.927. Using z=−1.774 and 1.454 gives μ=25.5 min and σ=3.10 min. (ii) P(15<T<22)=Φ((22−μ)/σ)−Φ((15−μ)/σ)=0.129. (b) Let X~Bin(20,0.826) count attendees. (i) P(X≥13)=1−P(X≤12)=0.985. (ii) More than 2 fail means X≤17; conditional on X≥13, the probability is P(13≤X≤17)/P(X≥13)=0.697."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc-q9",
+      "number": 9,
+      "pages": [12],
+      "marks": 15,
+      "summary": "Relate geometric sequences and their sums to a logarithmically transformed arithmetic sequence.",
+      "labels": ["Sequences - Series", "Exponentials - Logarithms", "Quadratics"],
+      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. The roots are 1 and 9/41; convergence excludes 1, so r=9/41 and a₁=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6."
+    }
+  ]
+}
