@@ -71,7 +71,7 @@
       "marks": 14,
       "summary": "Analyze a downward-opening quadratic in factored and vertex forms, find a secant-line parameter, and classify roots as a level varies.",
       "labels": ["Quadratics", "Graphs", "Functions - Roots"],
-      "solution": "Write f(x)=−(x+2)(x−4)=−x²+2x+8=−(x−1)²+9. (a)(i) The x-intercepts have x=−2 and x=4. (ii) The vertex is (1,9). (b) Therefore h=1 and k=9. (c) At x=−2, f(−2)=0, so −2m+4=0 and m=2 (also consistent at x=2). (d) The equation is f(x)=p. (i) A horizontal line y=p meets the parabola twice exactly when p<9. (ii) Both intersections are positive when the level lies above f(0)=8 but below the maximum, hence 8<p<9."
+      "solution": "Write f(x)=−(x+2)(x−4)=−x²+2x+8=−(x−1)²+9. (a)(i) The x-intercepts have x=−2 and x=4. (a)(ii) The vertex is (1,9). (b)(i) Therefore h=1. (b)(ii) Therefore k=9. (c) At x=−2, f(−2)=0, so −2m+4=0 and m=2 (also consistent at x=2). (d)(i) The equation is f(x)=p; a horizontal line y=p meets the parabola twice exactly when p<9. (d)(ii) Both intersections are positive when the level lies above f(0)=8 but below the maximum, hence 8<p<9."
     },
     {
       "id": "m26-math-aasl-p1-c-q8",

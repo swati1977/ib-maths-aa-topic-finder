@@ -31,6 +31,7 @@
       "year": 2026,
       "source_url": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewer_available": false,
       "solution_status": "Independent worked solution — not an official IB markscheme",
       "question_count": 8
     },
@@ -65,6 +66,7 @@
       "solution": "(a) For f(x)=2x+sin x, f′(x)=2+cos x. (b) f(π)=2π and f′(π)=2+cos π=1. The tangent through (π,2π) is y−2π=x−π, so y=x+π.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -85,6 +87,7 @@
       "solution": "The roots of f(x)=3(x−2)(x−q) are 2 and q. (a) Their midpoint is the symmetry axis, so (2+q)/2=4 and q=6. (b) At x=4, f(4)=3(2)(−2)=−12, hence the vertex is (4,−12). (c) The leading coefficient is positive, so the range is f(x)≥−12.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -106,6 +109,7 @@
       "solution": "(a) ∫(1/(t+1)+e^(−t))dt=ln|t+1|−e^(−t)+C. (b) Since t≥0, s(t)=ln(t+1)−e^(−t)+C. Initially s(0)=0, so 0=0−1+C and C=1. Thus s(t)=ln(t+1)−e^(−t)+1 metres.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -125,6 +129,7 @@
       "solution": "Because u8=u6r², r²=(6.4×10^5)/(1.6×10^5)=4. Every term is positive, so r=2. Also u6=u1r^5, hence u1=(1.6×10^5)/2^5=5000=5×10^3, which has the required scientific-notation form.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -144,6 +149,7 @@
       "solution": "(a) For x>0, log_25(81x²)=log_5(81x²)/log_5 25=(log_5 81+2log_5 x)/2=log_5 9+log_5 x. (b) Using this identity, log_5(x^(1/3))=log_5(9x)−log_5 4=log_5(9x/4). Thus x^(1/3)=9x/4. Dividing by x^(1/3)>0 gives x^(2/3)=4/9, so x=(2/3)^3=8/27.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -164,6 +170,7 @@
       "solution": "(a) P(A)=P(A∩B′)+P(A∩B)=(5+x)/24+(7−x)/12=(5+x+14−2x)/24=(19−x)/24. (b) P(B)=P(A′∩B)+P(A∩B)=1/6+(7−x)/12=(9−x)/12. Independence requires (7−x)/12=[(19−x)/24][(9−x)/12]. Hence 24(7−x)=(19−x)(9−x), which simplifies to x²−4x+3=0. Therefore x=1 or x=3; both satisfy 0≤x≤7.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -182,9 +189,10 @@
         "Graphs",
         "Functions - Roots"
       ],
-      "solution": "For f(x)=(2x−3)/(3−x): (a) the denominator vanishes at x=3, so the vertical asymptote is x=3. The ratio of leading coefficients is 2/(−1)=−2, so the horizontal asymptote is y=−2. (b) Setting the numerator to zero gives the x-intercept (3/2,0); f(0)=−1 gives the y-intercept (0,−1). (c) Since g(x)=x+4, (g∘f)(x)=f(x)+4, a translation by vector (0,4). The range of f excludes −2, so the translated range excludes 2: range(g∘f)=ℝ\\{2}.",
+      "solution": "For f(x)=(2x−3)/(3−x): (a)(i) The denominator vanishes at x=3, so the vertical asymptote is x=3. (a)(ii) The ratio of leading coefficients is 2/(−1)=−2, so the horizontal asymptote is y=−2. (b) Setting the numerator to zero gives the x-intercept (3/2,0); f(0)=−1 gives the y-intercept (0,−1). (c)(i) Since g(x)=x+4, (g∘f)(x)=f(x)+4, a translation by vector (0,4). (c)(ii) The range of f excludes −2, so the translated range excludes 2: range(g∘f)=ℝ\\{2}.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -208,6 +216,7 @@
       "solution": "Let f(x)=ax³+bx²+cx+d. Then f′(x)=3ax²+2bx+c and f″(x)=6ax+2b. (a) The inflection at x=−2 gives −12a+2b=0, so b=6a. Also f(−2)=−2c+d+24 gives −8a+4b=24, or −2a+b=6. Therefore a=3/2 and b=9. (b)(i) Horizontal tangent at x=−3 means f′(−3)=0: (9/2)(9)+18(−3)+c=0, so c=27/2. (ii) Now f′(x)=(9/2)(x²+4x+3)=(9/2)(x+1)(x+3). Besides −3, the stationary point is k=−1. (iii) At −1, f′ changes from negative to positive (equivalently f″(−1)=9>0), so f has a local minimum. (c) P=(0,d). Substituting x=−3 into f gives f(−3)=−81/2+81−81/2+d=d. Since f′(−3)=0, the tangent there is y=d, which passes through P.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -230,6 +239,7 @@
       "solution": "The model is F(θ)=A/(cos θ+μ sin θ), for 0≤θ<π/2. (a) F(0)=A=300, hence A=300. (b) Using F(π/6)=100√3 gives 300/(√3/2+μ/2)=100√3. Thus 600/(√3+μ)=100√3, so √3+μ=2√3 and μ=√3. (c)(i) Therefore F(θ)=300(cos θ+√3 sin θ)^(−1), and differentiation gives F′(θ)=300(sin θ−√3 cos θ)/(cos θ+√3 sin θ)². (ii) At an interior minimum F′(α)=0, so tan α=√3. Since 0<α<π/2, α=π/3. The derivative changes from negative to positive there, confirming a minimum. Finally F(π/3)=300/(1/2+√3·√3/2)=300/2=150 N.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -250,6 +260,7 @@
       "solution": "(a) Grade 12 contributes (170/600)×60 = 17 students. (b) The median line is at $80. (c) Q₁=66 and IQR=24, so Q₃=a=66+24=90. (d) The lower outlier fence is Q₁−1.5(IQR)=66−1.5(24)=30. Values below 30 are outliers, so the smallest possible non-outlier allowance is $30.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -269,6 +280,7 @@
       "solution": "(a) By the cosine rule, AC²=5²+6²−2(5)(6)(1/5)=49, hence AC=7 cm. (b)(i) Since angle B is acute, sin B=√(1−cos²B)=√(1−1/25)=2√6/5. (ii) Area = (1/2)(5)(6)sin B = 6√6 cm².",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -289,6 +301,7 @@
       "solution": "(a) ⁸C₃=8!/(3!5!)=(8·7·6)/(3·2·1)=56. (b) The x³ and x² coefficients are 56m³ and ⁸C₂m²=28m². Thus 56m³=8(28m²). Since m>0, divide by 56m² to obtain m=4.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -308,6 +321,7 @@
       "solution": "(a) log₃p=3+log₃r=log₃27+log₃r=log₃(27r), so p=27r. (b) logᵣp=4 gives p=r⁴. Hence r⁴=27r, and because r>1, r³=27, so r=3 and p=81.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -329,6 +343,7 @@
       "solution": "(a) dy/dx=4x³−4cos(4x)=4(x³−cos(4x)). (b) Let u=x⁴−sin(4x), so du=4(x³−cos(4x))dx. Therefore ∫(x⁴−sin(4x))⁷(x³−cos(4x))dx=(1/4)∫u⁷du=u⁸/32+C=(x⁴−sin(4x))⁸/32+C.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -348,6 +363,7 @@
       "solution": "(a) Set y=4−7/(3x+2). Then 3x+2=7/(4−y), giving x=(2y−1)/(12−3y). Thus f⁻¹(x)=(2x−1)/(12−3x), x≠4. (b) Put t=x/3 in f(g(x/3))=x; equivalently f(g(t))=3t. Hence g(t)=f⁻¹(3t)=(6t−1)/(12−9t), so g(x)=(6x−1)/(12−9x), x≠4/3.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -366,9 +382,10 @@
         "Graphs",
         "Functions - Roots"
       ],
-      "solution": "Write f(x)=−(x+2)(x−4)=−x²+2x+8=−(x−1)²+9. (a)(i) The x-intercepts have x=−2 and x=4. (ii) The vertex is (1,9). (b) Therefore h=1 and k=9. (c) At x=−2, f(−2)=0, so −2m+4=0 and m=2 (also consistent at x=2). (d) The equation is f(x)=p. (i) A horizontal line y=p meets the parabola twice exactly when p<9. (ii) Both intersections are positive when the level lies above f(0)=8 but below the maximum, hence 8<p<9.",
+      "solution": "Write f(x)=−(x+2)(x−4)=−x²+2x+8=−(x−1)²+9. (a)(i) The x-intercepts have x=−2 and x=4. (a)(ii) The vertex is (1,9). (b)(i) Therefore h=1. (b)(ii) Therefore k=9. (c) At x=−2, f(−2)=0, so −2m+4=0 and m=2 (also consistent at x=2). (d)(i) The equation is f(x)=p; a horizontal line y=p meets the parabola twice exactly when p<9. (d)(ii) Both intersections are positive when the level lies above f(0)=8 but below the maximum, hence 8<p<9.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -390,6 +407,7 @@
       "solution": "(a) sin(2x)=1−cos(2x) becomes 2sin x cos x=2sin²x, so 2sin x(cos x−sin x)=0. On 0≤x≤π, x=0, π/4, π. (b) Intersections are (0,0), (π/4,1), and (π,0). For the sketch, f has zeros at 0, π/2, π, maximum (π/4,1), and minimum (3π/4,−1); g has zeros at 0 and π and maximum (π/2,2). (c) The positive intersections are a=π/4 and b=π, and g≥f between them. Area = ∫[π/4 to π](1−cos(2x)−sin(2x))dx = [x−(1/2)sin(2x)+(1/2)cos(2x)] from π/4 to π = 3π/4+1.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -411,6 +429,7 @@
       "solution": "For x>0, h(x)=(e^(2x)+x)/x. (a) The quotient rule gives h′(x)=[x(2e^(2x)+1)−(e^(2x)+x)]/x²=e^(2x)(2x−1)/x². (b) Since e^(2x)/x²>0, h′(x)>0 exactly when x>1/2. (c) h′(1)=e², so the normal slope is −e^(−2). Its equation is y−(e²+1)=−e^(−2)(x−1). (d) The supplied h″ has sign determined by 2x²−2x+1=2(x−1/2)²+1/2>0. All other factors in h″ are positive for x>0, so h″(x)>0 throughout the domain and concavity never changes; therefore there is no point of inflection.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -430,6 +449,7 @@
       "solution": "T(t)=18+72e^{-t/20}. (a) T(0)=18+72=90°C. (b) T(15)=18+72e^{-0.75}=52.0°C (3 s.f.). (c) As t→∞, e^{-t/20}→0, so the room temperature is 18°C.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -451,6 +471,7 @@
       "solution": "(a) The median is read at cumulative frequency 26, giving approximately 170 cm (about 170.4 cm from the scanned curve). (b)(i) The curve gives cumulative frequencies 25 at 170 cm and 42 at 175 cm, so p=42−25=17 and q=52−42=10. (ii) Using class midpoints 157.5, 162.5, 167.5, 172.5, 177.5, the estimated mean is [3(157.5)+8(162.5)+14(167.5)+17(172.5)+10(177.5)]/52=169.7115…, hence 169.7 cm (4 s.f.).",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -471,6 +492,7 @@
       "solution": "f decreases when f′(x)=x²−x−1<0. The zeros are x=(1±√5)/2; since the quadratic opens upward, (1−√5)/2 < x < (1+√5)/2.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -488,9 +510,10 @@
         "Trigonometry",
         "Graphs"
       ],
-      "solution": "The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1.",
+      "solution": "(a) The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. (b) Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -510,9 +533,10 @@
         "Graphs",
         "Trigonometry"
       ],
-      "solution": "g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.).",
+      "solution": "(a) g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). (b) The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.).",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -533,6 +557,7 @@
       "solution": "Let H~N(μ,σ²). P(H>171)=0.4 gives Φ((171−μ)/σ)=0.6, so (171−μ)/σ=0.253347. Also P(H>175)=0.35P(H>171)=0.14, hence Φ((175−μ)/σ)=0.86 and (175−μ)/σ=1.08032. Subtracting gives σ=4/(1.08032−0.253347)=4.84 cm, then μ=171−0.253347σ=169.775≈170 cm (3 s.f.).",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -553,6 +578,7 @@
       "solution": "(a) The midpoint of A(−3,6,4) and B(−1,2,−2) is C=(−2,4,1). (b) |AB|=√(2²+(−4)²+(−6)²)=2√14, so the radius is √14. (c) V=(4/3)π(√14)³=56π√14/3≈219 m³. (d)(i) In triangle ABP, cos∠BAP=[(2√14)²+5²−4²]/[2(2√14)(5)]=13/(20√14), so ∠BAP=0.518 rad (29.7°). (ii) Area=½(2√14)(5)sin(0.518)=9.27 m². (e)(i) By the median formula, CP=½√[2(5²)+2(4²)−(2√14)²]=√26/2≈2.55. (ii) Since CP≈2.55<√14≈3.74, P is inside the sphere.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -573,6 +599,7 @@
       "solution": "The quarterly multiplier is 1+0.048/4=1.012. (a) From 1 Jan 2026 to 1 Jan 2031 there are 20 quarters, so the balance is 15000(1.012)^20=$19041.52≈$19042. (b) 15000(1.012)^n>28000 requires n>ln(28000/15000)/ln(1.012)=52.324, so the first qualifying payment is quarter 53, during 2039. (c) 26222=28000(1−r/100), giving r=6.35%. (d) After t years, compare 15000(1.012)^{4t} with 28000(0.9365)^t. Equality gives t=ln(28000/15000)/ln[(1.012)^4/0.9365]=5.51 years after 1 January 2026. The first quarterly account credit after this crossing is at t=5.75 years, still during 2031; therefore she buys during 2031.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "viewerAvailable": false,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -592,6 +619,7 @@
       "solution": "Entering the eight (L,T) pairs gives the regression of T on L as T=−0.767416L+130.346. Thus (a) a=−0.767 and b=130 (3 s.f.). (b) Pearson’s r=−0.996 (3 s.f.). (c) At L=79, T=−0.767416(79)+130.346=69.7 seconds (3 s.f.).",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -609,9 +637,10 @@
       "labels": [
         "Trigonometry"
       ],
-      "solution": "(a) From B, tan40°=h/x; from A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.).",
+      "solution": "(a)(i) From B, tan40°=h/x. (a)(ii) From A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.).",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -631,6 +660,7 @@
       "solution": "V=5+20e^{-kt}. (a) V(0)=25 m³. (b) Half the initial volume is 12.5, so 5+20e^{-4k}=12.5; e^{-4k}=0.375 and k=−ln(0.375)/4=0.245. (c) For V=8, e^{-kt}=3/20, so t=−ln(3/20)/k=7.74 minutes.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -648,9 +678,10 @@
         "Probability",
         "Sequences - Series"
       ],
-      "solution": "Successive probabilities halve. (a) a=k/2 and b=k/16. Since P(X=3)=k/4=8/63, (b) k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90.",
+      "solution": "Successive probabilities halve. (a)(i) a=k/2. (a)(ii) b=k/16. (b) Since P(X=3)=k/4=8/63, k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -671,6 +702,7 @@
       "solution": "For the outer sector, ½R²θ=50 and 2R+Rθ=40. Hence θ=100/R² and 2R+100/R=40, so R²−20R+50=0. The root R=10−5√2 would give θ=11.7 rad, not acute; therefore R=10+5√2 and (a) θ=100/R²=0.343 rad. For the inner sector, ½r²θ=18, so (b) r=√(36/θ)=10.2 cm (3 s.f.).",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -694,6 +726,7 @@
       "solution": "With s(0)=0, s(t)=∫_0^t[(3u²−10u+4)e^{-0.5u}−4cos u]du. The interior zeros of v are t=1.96227 and 5.39302. Evaluating s at t=0, these points, and t=6 gives 0, −5.299, 4.80592, and 4.372, so (a) the maximum displacement is 4.81 m. (b) a(t)=v′(t)=e^{-0.5t}(−1.5t²+11t−12)+4sin t. Its zeros in [0,6] are 0.791904 and 3.50201; sign testing gives negative acceleration for 0≤t<0.792 and 3.50<t≤6.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -711,9 +744,10 @@
         "Vectors - Lines - Planes",
         "Differentiation"
       ],
-      "solution": "(a) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. Then (i) A(k)=723.666≈724 m². (ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (iii) This is positive, hence the stationary value is a minimum.",
+      "solution": "(a)(i) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). (a)(ii) Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (c)(ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. (d)(i) A(k)=723.666≈724 m². (d)(ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (d)(iii) This is positive, hence the stationary value is a minimum.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -734,6 +768,7 @@
       "solution": "Let T~N(μ,σ²). (a)(i) Φ((20−μ)/σ)=0.038 and Φ((30−μ)/σ)=0.927. Using z=−1.774 and 1.454 gives μ=25.5 min and σ=3.10 min. (ii) P(15<T<22)=Φ((22−μ)/σ)−Φ((15−μ)/σ)=0.129. (b) Let X~Bin(20,0.826) count attendees. (i) P(X≥13)=1−P(X≤12)=0.985. (ii) More than 2 fail means X≤17; conditional on X≥13, the probability is P(13≤X≤17)/P(X≥13)=0.697.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     },
     {
@@ -752,9 +787,10 @@
         "Exponentials - Logarithms",
         "Quadratics"
       ],
-      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. The roots are 1 and 9/41; convergence excludes 1, so r=9/41 and a₁=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6.",
+      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c)(i) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. (c)(ii) The roots are 1 and 9/41; convergence excludes 1, so r=9/41. (c)(iii) Therefore a₁=5(1−9/41)=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6.",
       "sourceUrl": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
       "pdfUrl": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "viewerAvailable": true,
       "solutionStatus": "Independent worked solution — not an official IB markscheme"
     }
   ]

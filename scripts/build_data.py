@@ -58,6 +58,7 @@ def main() -> None:
                 "solution": raw["solution"].strip(),
                 "sourceUrl": paper["source_url"],
                 "pdfUrl": paper["pdf_url"],
+                "viewerAvailable": bool(paper.get("viewer_available", True)),
                 "solutionStatus": paper["solution_status"],
             })
             count += 1

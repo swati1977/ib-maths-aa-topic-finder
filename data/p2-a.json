@@ -7,6 +7,7 @@
     "year": 2026,
     "source_url": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+    "viewer_available": false,
     "solution_status": "Independent worked solution — not an official IB markscheme"
   },
   "questions": [
@@ -44,7 +45,7 @@
       "marks": 6,
       "summary": "Model the height of a point on a Ferris wheel using cosine and an equivalent phase-shifted sine form.",
       "labels": ["Trigonometry", "Graphs"],
-      "solution": "The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1."
+      "solution": "(a) The centre is 23 m high and the radius is 20 m, so a=23 and b=20. One revolution takes 4 minutes; in degrees c·4=360, hence c=90. Thus h=23−20cos(90t)°. (b) Since cos(90t)=sin(90t+90)=sin(90(t+1)), the smallest positive phase shift is d=1."
     },
     {
       "id": "m26-math-aasl-p2-tza-q5",
@@ -53,7 +54,7 @@
       "marks": 7,
       "summary": "Locate the turning points of an odd trigonometric-polynomial function and find the area between its graph and a chord through the origin.",
       "labels": ["Differentiation", "Integration", "Graphs", "Trigonometry"],
-      "solution": "g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.)."
+      "solution": "(a) g(x)=x³−3x+2sin x and g′(x)=3x²−3+2cos x. Solving g′(x)=0 gives x=±0.700108. Therefore A=(−0.700108, 0.468565) and B=(0.700108, −0.468565). (b) The line OB has slope −0.468565/0.700108=−0.669274. Hence area(R)=∫_0^0.700108[(−0.669274x)−(x³−3x+2sin x)]dx=0.0407 square units (3 s.f.)."
     },
     {
       "id": "m26-math-aasl-p2-tza-q6",

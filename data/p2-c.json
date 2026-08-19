@@ -26,7 +26,7 @@
       "marks": 6,
       "summary": "Use two angles of elevation from ship positions 70 m apart to find the horizontal distance to and height of a cliff.",
       "labels": ["Trigonometry"],
-      "solution": "(a) From B, tan40°=h/x; from A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.)."
+      "solution": "(a)(i) From B, tan40°=h/x. (a)(ii) From A, tan15°=h/(x+70). (b) Equating h gives x tan40°=(x+70)tan15°, so x=70tan15°/(tan40°−tan15°)=32.8 m (3 s.f.). (c) h=x tan40°=27.6 m (3 s.f.)."
     },
     {
       "id": "m26-math-aasl-p2-tzc-q3",
@@ -44,7 +44,7 @@
       "marks": 6,
       "summary": "Complete and normalize a six-value geometric probability distribution, then calculate its expectation.",
       "labels": ["Probability", "Sequences - Series"],
-      "solution": "Successive probabilities halve. (a) a=k/2 and b=k/16. Since P(X=3)=k/4=8/63, (b) k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90."
+      "solution": "Successive probabilities halve. (a)(i) a=k/2. (a)(ii) b=k/16. (b) Since P(X=3)=k/4=8/63, k=32/63 (also the six probabilities sum to 1). Thus the probabilities for x=1,…,6 are 32,16,8,4,2,1 divided by 63. (c) E(X)=(32+2·16+3·8+4·4+5·2+6·1)/63=120/63=40/21≈1.90."
     },
     {
       "id": "m26-math-aasl-p2-tzc-q5",
@@ -71,7 +71,7 @@
       "marks": 15,
       "summary": "Find sphere dimensions from a 3D diameter, then optimize the surface area of a fixed-volume cuboid.",
       "labels": ["Vectors - Lines - Planes", "Differentiation"],
-      "solution": "(a) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. Then (i) A(k)=723.666≈724 m². (ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (iii) This is positive, hence the stationary value is a minimum."
+      "solution": "(a)(i) The midpoint of R(5,−3,2) and S(−3,3,−4) is (1,0,−1). (a)(ii) Also |RS|=√136=2√34, so the radius is √34 m. (b) V=(4/3)π(√34)³=136π√34/3≈830 m³. (c)(i) The cuboid volume is x·x²·y=x³y=1000, so y=1000/x³. (c)(ii) A=2(x³+xy+x²y)=2(x³+1000/x²+1000/x). (d) A′=6x²−2000/x²−4000/x³. Solving A′=0 for x>0 gives k=4.67105. (d)(i) A(k)=723.666≈724 m². (d)(ii) A″=12x+4000/x³+12000/x⁴, so A″(k)=120.508≈121. (d)(iii) This is positive, hence the stationary value is a minimum."
     },
     {
       "id": "m26-math-aasl-p2-tzc-q8",
@@ -89,7 +89,7 @@
       "marks": 15,
       "summary": "Relate geometric sequences and their sums to a logarithmically transformed arithmetic sequence.",
       "labels": ["Sequences - Series", "Exponentials - Logarithms", "Quadratics"],
-      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. The roots are 1 and 9/41; convergence excludes 1, so r=9/41 and a₁=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6."
+      "solution": "(a) Since a₁/(1−r)=5, a₁=5(1−r). (b) The ratio of aₙ² is a_{n+1}²/aₙ²=r², so q=r². (c)(i) Its sum is a₁²/(1−r²)=16. Substituting a₁=5(1−r) gives 25(1−r)/(1+r)=16, hence 41r²−50r+9=0. (c)(ii) The roots are 1 and 9/41; convergence excludes 1, so r=9/41. (c)(iii) Therefore a₁=5(1−9/41)=160/41. (d) cₙ=log_k(a₁r^{n−1})+k=log_k(a₁)+(n−1)log_k(r)+k, so it is arithmetic with common difference log_k(r). (e) C₂₀=20[log_k(a₁)+k]+190log_k(r). Testing integers k>1 gives C₂₀<0 through k=6 but C₂₀>0 at k=7, so the maximum k is 6."
     }
   ]
 }

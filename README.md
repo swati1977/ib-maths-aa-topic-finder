@@ -2,17 +2,24 @@
 
 A static prototype for browsing Mathematics: Analysis and Approaches SL past-paper questions by topic, paper and examination zone.
 
+**Live site:** https://swati1977.github.io/ib-maths-aa-topic-finder/
+
 ## What it does
 
-- indexes four May 2026 AA SL papers (Papers 1 and 2, Zones A and C)
+- indexes 35 visible questions from four May 2026 AA SL papers (Papers 1 and 2, Zones A and C)
 - supports multiple topic labels per question
 - filters by topic, paper, zone and text search
-- reveals concise independent worked solutions
+- opens the original source PDF at each mapped question page where the source host provides a valid browser-readable PDF
+- filters red handwritten working from the embedded question view while preserving the black printed question
+- clearly marks Paper 2 Zone A as unavailable for inline preview because the source PDF is malformed
+- reveals concise independent worked solutions, formatted by question part
 - links every item back to its source paper
 
 ## Important content note
 
 This repository intentionally excludes the source PDFs and question-page images. The index contains short original summaries, classifications and independently prepared solutions. It is not affiliated with or endorsed by the International Baccalaureate Organization, and the solutions are not official IB markschemes.
+
+The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed. Nothing was guessed or reconstructed.
 
 ## Build the data
 

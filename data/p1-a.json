@@ -71,7 +71,7 @@
       "marks": 12,
       "summary": "Analyze a rational-function graph, including asymptotes, intercepts, a vertical translation, and the resulting range.",
       "labels": ["Graphs", "Functions - Roots"],
-      "solution": "For f(x)=(2x−3)/(3−x): (a) the denominator vanishes at x=3, so the vertical asymptote is x=3. The ratio of leading coefficients is 2/(−1)=−2, so the horizontal asymptote is y=−2. (b) Setting the numerator to zero gives the x-intercept (3/2,0); f(0)=−1 gives the y-intercept (0,−1). (c) Since g(x)=x+4, (g∘f)(x)=f(x)+4, a translation by vector (0,4). The range of f excludes −2, so the translated range excludes 2: range(g∘f)=ℝ\\{2}."
+      "solution": "For f(x)=(2x−3)/(3−x): (a)(i) The denominator vanishes at x=3, so the vertical asymptote is x=3. (a)(ii) The ratio of leading coefficients is 2/(−1)=−2, so the horizontal asymptote is y=−2. (b) Setting the numerator to zero gives the x-intercept (3/2,0); f(0)=−1 gives the y-intercept (0,−1). (c)(i) Since g(x)=x+4, (g∘f)(x)=f(x)+4, a translation by vector (0,4). (c)(ii) The range of f excludes −2, so the translated range excludes 2: range(g∘f)=ℝ\\{2}."
     },
     {
       "id": "m26-math-aasl-p1-tza-q8",

@@ -11,6 +11,20 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <svg class="display-filter" aria-hidden="true" focusable="false">
+    <filter id="remove-red-ink" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        1 0 0 0 0
+        1 0 0 0 0
+        0 0 0 1 0" />
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0 0 0.2 0.95 1" />
+        <feFuncG type="table" tableValues="0 0 0.2 0.95 1" />
+        <feFuncB type="table" tableValues="0 0 0.2 0.95 1" />
+      </feComponentTransfer>
+    </filter>
+  </svg>
   <a class="skip-link" href="#questions">Skip to questions</a>
   <header class="site-header">
     <a class="brand" href="#" aria-label="Maths AA Topic Finder home">
@@ -34,7 +48,7 @@
 
     <section class="notice" aria-label="Solution notice">
       <span class="notice-icon" aria-hidden="true">i</span>
-      <p><strong>Prototype collection.</strong> Solutions are independently prepared study guidance, not official IB markschemes. Paper links open the original source. The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed.</p>
+      <p><strong>Exact question view.</strong> Open “View exact question” to read the original paper word for word, including every subpart. Topic descriptions are summaries only. Paper 2 Zone A is marked separately because its source PDF is malformed and cannot be embedded. Solutions are independently prepared study guidance, not official IB markschemes. The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed.</p>
     </section>
 
     <section class="workspace">
@@ -105,10 +119,21 @@
         <span class="marks"></span>
       </div>
       <h3></h3>
+      <div class="summary-label">Topic summary — not the question wording</div>
+      <p class="question-summary"></p>
       <div class="labels"></div>
       <div class="card-actions">
-        <button class="button solution-button" type="button" aria-expanded="false">Show solution</button>
-        <a class="button secondary paper-link" target="_blank" rel="noreferrer">Open paper ↗</a>
+        <button class="button question-button" type="button" aria-expanded="false">View exact question</button>
+        <button class="button secondary solution-button" type="button" aria-expanded="false">Show solution</button>
+        <a class="button secondary paper-link" target="_blank" rel="noreferrer">Open full paper ↗</a>
+      </div>
+      <div class="source-viewer" hidden>
+        <div class="source-viewer-heading">
+          <span>Original question — word for word</span>
+          <small class="source-pages"></small>
+        </div>
+        <iframe class="question-frame" loading="lazy"></iframe>
+        <p class="source-viewer-note">This is the original source PDF, opened at the mapped question page. Scroll inside the viewer for questions spanning multiple pages.</p>
       </div>
       <div class="solution" hidden>
         <div class="solution-heading"><span>Independent worked solution</span><small>Not an official IB markscheme</small></div>

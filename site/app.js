@@ -82,13 +82,54 @@ function renderActiveFilters() {
   });
 }
 
+function buildQuestionPdfUrl(q) {
+  return `${q.pdfUrl}#page=${q.pages[0]}&view=FitH&toolbar=1&navpanes=0`;
+}
+
+function renderSolutionParts(host, text) {
+  const markerPattern = /(?<!\S)(\([a-h]\)(?:\((?:i{1,3}|iv)\))?|\((?:i{1,3}|iv)\))(?=\s)/gi;
+  const matches = [...text.matchAll(markerPattern)];
+  host.replaceChildren();
+
+  if (!matches.length) {
+    const paragraph = document.createElement("p");
+    paragraph.className = "solution-part";
+    paragraph.textContent = text;
+    host.append(paragraph);
+    return;
+  }
+
+  const preamble = text.slice(0, matches[0].index).trim();
+  if (preamble) {
+    const paragraph = document.createElement("p");
+    paragraph.className = "solution-part";
+    paragraph.textContent = preamble;
+    host.append(paragraph);
+  }
+
+  matches.forEach((match, index) => {
+    const row = document.createElement("div");
+    const label = document.createElement("span");
+    const body = document.createElement("p");
+    const start = match.index + match[0].length;
+    const end = index + 1 < matches.length ? matches[index + 1].index : text.length;
+    row.className = "solution-part";
+    label.className = "solution-part-label";
+    label.textContent = match[0];
+    body.textContent = text.slice(start, end).trim();
+    row.append(label, body);
+    host.append(row);
+  });
+}
+
 function renderQuestion(q) {
   const card = $("#question-template").content.firstElementChild.cloneNode(true);
   card.dataset.questionId = q.id;
   card.querySelector(".paper-badge").textContent = `Paper ${q.paper} · Zone ${q.zone}`;
   card.querySelector(".question-meta").textContent = `Question ${q.number} · ${q.year} · page${q.pages.length > 1 ? "s" : ""} ${q.pages.join("–")}`;
   card.querySelector(".marks").textContent = `${q.marks} mark${q.marks === 1 ? "" : "s"}`;
-  card.querySelector("h3").textContent = q.summary;
+  card.querySelector("h3").textContent = `Question ${q.number}`;
+  card.querySelector(".question-summary").textContent = q.summary;
   const labels = card.querySelector(".labels");
   q.labels.forEach(text => {
     const span = document.createElement("span");
@@ -97,16 +138,39 @@ function renderQuestion(q) {
     labels.append(span);
   });
   const paperLink = card.querySelector(".paper-link");
-  paperLink.href = `${q.pdfUrl}#page=${q.pages[0]}`;
+  paperLink.href = buildQuestionPdfUrl(q);
   paperLink.setAttribute("aria-label", `Open Paper ${q.paper} Zone ${q.zone}, question ${q.number}`);
+
+  const sourceViewer = card.querySelector(".source-viewer");
+  const questionButton = card.querySelector(".question-button");
+  const frame = card.querySelector(".question-frame");
+  frame.title = `Original Paper ${q.paper} Zone ${q.zone}, question ${q.number}`;
+  card.querySelector(".source-pages").textContent = `Mapped page${q.pages.length > 1 ? "s" : ""} ${q.pages.join("–")}`;
+  if (!q.viewerAvailable) {
+    questionButton.textContent = "Source preview unavailable";
+    questionButton.disabled = true;
+    questionButton.title = "The source host's Paper 2 Zone A PDF is malformed and reports zero pages.";
+    sourceViewer.remove();
+    paperLink.href = q.sourceUrl;
+    paperLink.textContent = "Open source record ↗";
+  } else {
+    questionButton.addEventListener("click", () => {
+      const opening = sourceViewer.hidden;
+      if (opening && !frame.src) frame.src = buildQuestionPdfUrl(q);
+      sourceViewer.hidden = !opening;
+      questionButton.textContent = opening ? "Hide exact question" : "View exact question";
+      questionButton.setAttribute("aria-expanded", String(opening));
+    });
+  }
+
   const solution = card.querySelector(".solution");
-  const button = card.querySelector(".solution-button");
-  card.querySelector(".solution-content").textContent = q.solution;
-  button.addEventListener("click", () => {
+  const solutionButton = card.querySelector(".solution-button");
+  renderSolutionParts(card.querySelector(".solution-content"), q.solution);
+  solutionButton.addEventListener("click", () => {
     const opening = solution.hidden;
     solution.hidden = !opening;
-    button.textContent = opening ? "Hide solution" : "Show solution";
-    button.setAttribute("aria-expanded", String(opening));
+    solutionButton.textContent = opening ? "Hide solution" : "Show solution";
+    solutionButton.setAttribute("aria-expanded", String(opening));
   });
   return card;
 }
