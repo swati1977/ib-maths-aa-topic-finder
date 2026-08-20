@@ -1,0 +1,155 @@
+{
+  "paper": {
+    "id": "2023-may-p2-tz2",
+    "title": "May 2023 Mathematics: Analysis and Approaches SL Paper 2 TZ2",
+    "paper": 2,
+    "zone": "2",
+    "year": 2023,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-714e8ca6d3ce8ced",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2023-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nA botanist is conducting an experiment which studies the growth of plants. The heights of the plants are measured on seven different days.\n\nNumber of days (d)   | 2 | 5 | 13 | 24 | 33 | 37 | 42\nAverage height (h cm)| 10| 16| 30 | 59 | 76 | 79 | 82\n\n(a) The regression line of h on d for this data can be written in the form h = ad + b. Find a and b. [2]\n\n(b) Write down the value of Pearson’s product-moment correlation coefficient, r. [1]\n\n(c) Use your regression line to estimate the average height of the plants when the experiment has been running for 20 days. [2]",
+      "summary": "Calculate and use a linear regression and correlation coefficient.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Linear regression gives a=1.93258… and b=7.21662…, so h≈1.93d+7.22. (b) r=0.991087…≈0.991. (c) At d=20, h=45.8683…≈45.9 cm."
+    },
+    {
+      "id": "2023-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows two buildings situated on level ground. From point P on the ground directly between the two buildings, the angle of elevation to the top of each building is θ.\n\n[Diagram not to scale: PA=150 m to the top A of the taller building; PB=90 m to top B of the shorter; AB=154 m. The equal elevation angles at P are θ, and the taller height is h.]\n\n(a) Find the measure of APB̂. [3]\n\n(b) Find the height, h, of the taller building. [3]",
+      "summary": "Use the cosine rule and elevation geometry to find an angle and height.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) By the cosine rule, cos(APB)=(150²+90²−154²)/(2·150·90), so APB=75.2286…°≈75.2°. (b) Since APB=180°−2θ, θ=52.3856…°. Therefore h=150sinθ=118.820…≈119 m."
+    },
+    {
+      "id": "2023-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe amount of a drug, in milligrams (mg), in a patient’s body can be modelled by A(t) = 500e^(−kt), where k is a positive constant and t is the time in hours after the initial dose is given.\n\n(a) Write down the amount of the drug in the patient’s body when t = 0. [1]\n\nAfter three hours, the amount has decreased to 280 mg.\n\n(b) Find k. [2]\n\nThe second dose is given T hours after the initial dose, when the amount is 140 mg.\n\n(c) Find T. [2]",
+      "summary": "Determine parameters and times in an exponential decay model.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) A(0)=500 mg. (b) 280=500e^(−3k), so k=−(1/3)ln(280/500)=0.193272…≈0.193. (c) 140=500e^(−kT), so T=−ln(140/500)/k=6.58636…≈6.59 hours."
+    },
+    {
+      "id": "2023-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 8,
+      "accessible_text": "4. [Maximum mark: 8]\n\nThe weights, W grams, of bags of rice packaged in a factory can be modelled by a normal distribution with mean 204 grams and standard deviation 5 grams.\n\n(a) Find P(W > 210). [2]\n\nAccording to this model, 80% of the bags weigh between w grams and 210 grams.\n\n(b) Find P(W < w). [2]\n\n(c) Find w. [2]\n\n(d) Ten bags are selected at random. Find the probability that exactly one weighs less than w grams. [2]",
+      "summary": "Apply normal and binomial distributions to bag weights.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) P(W>210)=0.115069…≈0.115. (b) P(W<w)=1−0.8−0.115069…=0.084930…≈0.0849. (c) Inverse normal with cumulative probability 0.084930… gives w=197.136…≈197 g. (d) With X~B(10,0.084930…), P(X=1)=10p(1−p)^9=0.382076…≈0.382."
+    },
+    {
+      "id": "2023-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nThe expansion of (x + h)⁸, where h > 0, can be written as x⁸ + ax⁷ + bx⁶ + cx⁵ + dx⁴ + … + h⁸, where a, b, c, d, … ∈ ℝ.\n\n(a) Find an expression, in terms of h, for (i) a; (ii) b; (iii) d. [4]\n\n(b) Given that a, b and d are the first three terms of a geometric sequence, find h. [3]",
+      "summary": "Use the binomial theorem and a geometric-sequence condition.",
+      "labels": [
+        "Binomial Theorem",
+        "Sequences - Series"
+      ],
+      "solution": "(a) From the binomial expansion, a=8h, b=28h² and d=70h⁴. (b) For consecutive geometric terms, b²=ad. Thus (28h²)²=(8h)(70h⁴), giving 784h⁴=560h⁵. Since h>0, h=784/560=1.4."
+    },
+    {
+      "id": "2023-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nA particle moves in a straight line such that its velocity, v m s⁻¹, at time t seconds is given by v(t) = 4e^(−t/3)cos(t/2 − π/4), for 0 ≤ t ≤ 4π.\n\n[Graph: v starts positive, rises slightly to a first maximum, crosses the t-axis, reaches a negative minimum and approaches zero from below by t=4π.]\n\nLet t₁ be the first time when the particle’s acceleration is zero.\n\n(a) Find t₁. [2]\n\nLet t₂ be the second time when the particle is instantaneously at rest.\n\n(b) Find t₂. [2]\n\n(c) Find the distance travelled between t=t₁ and t=t₂. [2]",
+      "summary": "Use numerical differentiation, roots and integration for damped oscillatory motion.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration",
+        "Trigonometry"
+      ],
+      "solution": "(a) Solve v′(t)=0; the first solution is t₁=arctan(5/12)=0.394791…≈0.395 s. (b) v=0 when cos(t/2−π/4)=0. The second such time is t₂=7π/2=10.9956…≈11.0 s. (c) Accounting for the sign change at 3π/2, distance = ∫_(t₁)^(3π/2)v(t)dt − ∫_(3π/2)^(7π/2)v(t)dt =7.83118…≈7.83 m."
+    },
+    {
+      "id": "2023-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "7. [Maximum mark: 15]\n\nConsider the function h(x) = √(4x − 2), for x ≥ 1/2.\n\n(a) (i) Find h⁻¹(x), the inverse of h(x), and state its domain.\n    (ii) Write down the range of h⁻¹(x). [5]\n\n(b) The graph of h intersects the graph of h⁻¹ at two points. Find the x-coordinates of these two points. [3]\n\n(c) Find the area enclosed by the graph of h and the graph of h⁻¹. [2]\n\n(d) Find h′(x). [2]\n\n(e) Find the value of x for which the graph of h and the graph of h⁻¹ have the same gradient. [3]",
+      "summary": "Find an inverse, intersections, enclosed area and equal-gradient point.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Differentiation",
+        "Integration"
+      ],
+      "solution": "(a)(i) y=√(4x−2) gives x=(y²+2)/4, so h⁻¹(x)=(x²+2)/4 with domain x≥0. (ii) Its range is y≥1/2. (b) Intersections lie on y=x: √(4x−2)=x, giving x²−4x+2=0, so x=2±√2. (c) ∫_(2−√2)^(2+√2)[h(x)−h⁻¹(x)]dx=1.88561…≈1.89. (d) h′(x)=2/√(4x−2). (e) Equate 2/√(4x−2) to x/2; numerical solution in the domain is x=1.772776…≈1.77."
+    },
+    {
+      "id": "2023-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        11,
+        12
+      ],
+      "marks": 13,
+      "accessible_text": "8. [Maximum mark: 13]\n\nA weight suspended on a spring is pulled down and released, so that it moves up and down vertically. The height, H metres, of the base of the weight above the ground can be modelled by H(t) = a cos(7.8t) + b, for a, b ∈ ℝ and 0 ≤ t ≤ 10, where t is seconds after release.\n\n[Diagram: a weight suspended from a spring above the ground.]\n\n(a) Find the period. [2]\n\nThe weight is released at a minimum height of 1 m and reaches a maximum of 1.8 m.\n\n[Graph: H oscillates between 1 and 1.8 over 0≤t≤10, starting at H=1.]\n\n(b) Find (i) a; (ii) b. [3]\n\n(c) Find the number of times the weight reaches its maximum height in the first five seconds. [2]\n\n(d) Find the first time the base reaches 1.5 m. [2]\n\nA camera takes a picture at a random time during the first five seconds.\n\n(e) Find the probability that the height is greater than 1.5 m. [4]",
+      "summary": "Analyse a sinusoidal spring-height model and a time-based probability.",
+      "labels": [
+        "Trigonometry",
+        "Radian",
+        "Probability",
+        "Graphs"
+      ],
+      "solution": "(a) Period=2π/7.8=10π/39≈0.806 s. (b) The midline is (1.8+1)/2=1.4, and because H(0) is the minimum, a=−0.4 and b=1.4. (c) Maxima occur at about 0.403,1.21,2.01,2.82,3.62,4.43: 6 times. (d) Solve −0.4cos(7.8t)+1.4=1.5; the first time is 0.233779…≈0.234 s. (e) Within each period H>1.5 from t=0.233779… to 0.571757…, lasting 0.337978…. Six such intervals occur in five seconds, so probability=6(0.337978…)/5=0.405574…≈0.406."
+    },
+    {
+      "id": "2023-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA bag contains n balls. Ten are green and the rest red. Balls are drawn one after another without replacement.\n\n(a) Find, in terms of n, the probability that (i) the first ball is green; (ii) the first two balls are green. [3]\n\nFor the following parts let n=25.\n\n(b) Show that the probability the first two balls are red is 0.35. [2]\n\n(c) Find the probability the first three balls are all red. [2]\n\n(d) Find the probability at least one of the first three balls is green. [2]\n\nA game draws four balls without replacement, then replaces all four. A player earns zero points if no green is picked, or if the first green is on draw 1 or 2; 10 points if the first green is on draw 3; and 50 points if the first green is on draw 4. Millie plays k games and adds her points.\n\n(e) Find the least k such that Millie’s expected score is greater than 100. [6]",
+      "summary": "Apply without-replacement probabilities and expected value to a repeated game.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a)(i) 10/n. (ii) (10/n)(9/(n−1))=90/[n(n−1)]. (b) (15/25)(14/24)=0.35. (c) (15/25)(14/24)(13/23)=91/460≈0.198. (d) 1−91/460=369/460≈0.802. (e) P(first green on 3)=15·14·10/(25·24·23)=7/46; on 4 it is 15·14·13·10/(25·24·23·22)=91/1012. Expected points per game=10(7/46)+50(91/1012)=3045/506≈6.0178. Thus k(3045/506)>100, so k>16.617… and the least integer is 17."
+    }
+  ]
+}

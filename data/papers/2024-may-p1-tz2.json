@@ -1,0 +1,157 @@
+{
+  "paper": {
+    "id": "2024-may-p1-tz2",
+    "title": "May 2024 Mathematics: Analysis and Approaches SL Paper 1 TZ2",
+    "paper": 1,
+    "zone": "2",
+    "year": 2024,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-071b2f5131f5a13a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2024-may-p1-tz2-q1",
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nThe graph of y=f(x), 0≤x≤10, intercepts the axes at (10,0) and (0,5).\n\n[Diagram: grid 0≤x,y≤10. A decreasing concave-up curve from (0,5) to (10,0), through approximately (1,3), (2,2), (4,1), and (9,0).]\n\n(a) Write down (i) f(4); (ii) (f∘f)(4); (iii) f⁻¹(3). [3]\n\n(b) Sketch y=f⁻¹(x), clearly showing its axis intercepts. [2]",
+      "summary": "Read and invert a graph.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a) f(4)=1, f(f(4))=f(1)=3, and f⁻¹(3)=1. (b) Reflect in y=x: the inverse intercepts are (0,10) and (5,0), and it passes through (2,2), (1,4), and (3,1)."
+    },
+    {
+      "id": "2024-may-p1-tz2-q2",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 4,
+      "accessible_text": "2. [Maximum mark: 4]\n\nSolve tan(2x−5°)=1 for 0°≤x≤180°.",
+      "summary": "Solve a tangent equation.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "2x−5°=45° or 225°, so x=25° or 115°."
+    },
+    {
+      "id": "2024-may-p1-tz2-q3",
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\n(a) Solve 3m²+5m−2=0. [3]\n\n(b) Hence or otherwise, solve 3×9ˣ+5×3ˣ−2=0. [2]",
+      "summary": "Use a quadratic substitution in an exponential equation.",
+      "labels": [
+        "Quadratics",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) (3m−1)(m+2)=0, so m=1/3 or −2. (b) With m=3ˣ>0, only 3ˣ=1/3 is valid, giving x=−1."
+    },
+    {
+      "id": "2024-may-p1-tz2-q4",
+      "number": 4,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\n[Diagram: quadrilateral OABC on axes; O is the origin, A lies on the positive x-axis, B is directly above A, C is upper-left of B, and dashed OB is the symmetry axis.]\n\nOABC is symmetrical about [OB]. A=(6,0), C=(3,3√3).\n\n(a) (i) Write down the midpoint of [AC]. (ii) Hence or otherwise, find the equation of the line through O and B. [4]\n\n(b) Given [OA] is perpendicular to [AB], find the area of OABC. [3]",
+      "summary": "Use symmetry and coordinate geometry.",
+      "labels": [
+        "Graphs",
+        "Trigonometry"
+      ],
+      "solution": "(a)(i) (9/2,3√3/2). (ii) Its gradient from O is √3/3, so OB: y=(√3/3)x. (b) At x=6, B has y=2√3. Triangle OAB has area 6√3; symmetry gives area OABC=12√3."
+    },
+    {
+      "id": "2024-may-p1-tz2-q5",
+      "number": 5,
+      "pages": [
+        9,
+        10
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nA bird nests in Spring with probability k and in Summer with probability k/2.\n\n[Tree: Spring nesting k and not nesting blank; following either outcome, Summer nesting k/2 and not nesting blank.]\n\n(a) Complete the not-nesting probabilities in terms of k. [2]\n\nP(not nesting in Spring and not nesting in Summer)=5/9.\n\n(b) (i) Show 9k²−27k+8=0. (ii) Both k=1/3 and k=8/3 satisfy it. State why only k=1/3 is valid. [4]",
+      "summary": "Complete a probability tree and solve its quadratic.",
+      "labels": [
+        "Probability",
+        "Quadratics"
+      ],
+      "solution": "(a) Spring not nesting: 1−k; Summer not nesting: 1−k/2 on both branches. (b) (1−k)(1−k/2)=5/9 gives 9k²−27k+8=0. Since probabilities cannot exceed 1, k=8/3 is invalid; k=1/3 is valid."
+    },
+    {
+      "id": "2024-may-p1-tz2-q6",
+      "number": 6,
+      "pages": [
+        11,
+        12
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nf(x)=2(x+3)/[3(x+2)], x∈ℝ, x≠−2.\n\n[Graph: rational curve on −6≤x,y≤6, with vertical asymptote x=−2 and dashed horizontal asymptote; intercepts (−3,0) and (0,1).]\n\n(a) Write down the horizontal asymptote. [1]\n\nLet g(x)=mx+1, m∈ℝ, m≠0.\n\n(b) (i) Write down the number of solutions to f(x)=g(x) for m>0. (ii) Determine m for exactly one solution. (iii) Determine the range of m for two solutions with x≥0. [7]",
+      "summary": "Analyze intersections with a line family.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Quadratics"
+      ],
+      "solution": "(a) y=2/3. Equating gives 3mx²+(6m+1)x=0, so x=0 or x=−(6m+1)/(3m). (b)(i) 2. (ii) Coincidence at m=−1/6. (iii) Requiring the second root positive gives −1/6<m<0."
+    },
+    {
+      "id": "2024-may-p1-tz2-q7",
+      "number": 7,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 12,
+      "accessible_text": "7. [Maximum mark: 12]\n\nAlex swims only when water is at least 15°C. He models midday temperature by f(x)=a sin(bx)+c, 0≤x≤12, x months after 1 May, a,b,c>0.\n\n[Graph: sinusoid starting at 15°C, maximum 20°C at x=3, minimum 10°C at x=9, returning to 15°C at x=12.]\n\n(a) Show b=π/6. [1]\n\n(b) Write down (i) a; (ii) c. [2]\n\nAt a holiday destination g(x)=3.5sin(πx/6)+11.\n\n(c) (i) Find the temperature on 1 October (x=5). (ii) Show it is never warm enough for Alex to swim. [6]\n\n(d) Given g(x)=0.7f(x)+q, determine q. [3]",
+      "summary": "Interpret two sinusoidal models.",
+      "labels": [
+        "Trigonometry",
+        "Graphs"
+      ],
+      "solution": "(a) Period 12 gives b=2π/12=π/6. (b) a=5,c=15. (c)(i) g(5)=3.5(1/2)+11=12.75°C. (ii) Maximum=14.5°C<15°C. (d) 0.7f has midline 10.5, so q=0.5."
+    },
+    {
+      "id": "2024-may-p1-tz2-q8",
+      "number": 8,
+      "pages": [
+        15
+      ],
+      "marks": 17,
+      "accessible_text": "8. [Maximum mark: 17]\n\nf′(x)=(2x+2)/(x²+2x+2), x∈ℝ.\n\n(a) (i) Show x²+2x+2>0 for all x. (ii) Hence find where f is increasing. [3]\n\n(b) (i) Write down x where f′(x)=0. (ii) Show f″(x)=(−2x²−4x)/(x²+2x+2)². (iii) Hence justify this x gives a local minimum. [7]\n\nGiven f(2)=3+ln10,\n\n(c) find f(x). [4]\n\n(d) Find the normal at (2,3+ln10). [3]",
+      "summary": "Analyze, integrate, and find a normal from a derivative.",
+      "labels": [
+        "Differentiation",
+        "Integration",
+        "Functions - Roots"
+      ],
+      "solution": "(a) Denominator=(x+1)²+1>0; f increases for x>−1. (b) x=−1. Quotient rule gives the stated f″, and f″(−1)=2>0, so it is a local minimum. (c) f=ln(x²+2x+2)+C; the condition gives C=3. (d) f′(2)=3/5, so y−(3+ln10)=−(5/3)(x−2)."
+    },
+    {
+      "id": "2024-may-p1-tz2-q9",
+      "number": 9,
+      "pages": [
+        16
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nArithmetic sequence a,p,q,… has nonzero terms.\n\n(a) Show 2p−q=a. [2]\n\nGeometric sequence a,s,t,… has nonzero terms.\n\n(b) Show s²=at. [2]\n\nBoth start with a and q=t=1.\n\n(c) Show p>1/2. [2]\n\nFor a=9, s>0, q=t=1:\n\n(d) Write the first four terms of (i) the arithmetic sequence; (ii) the geometric sequence. [4]\n\nThey form a new arithmetic sequence uₙ with u₁=9+ln9, u₂=5+ln3, u₃=1+ln1.\n\n(e) (i) Find its common difference in terms of ln3. (ii) Show Σᵢ₌₁¹⁰uᵢ=−90−25ln3. [6]",
+      "summary": "Relate and combine arithmetic and geometric sequences.",
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) p−a=q−p gives 2p−q=a. (b) s/a=t/s gives s²=at. (c) a=2p−1=s²>0, hence p>1/2. (d) Arithmetic: 9,5,1,−3; geometric: 9,3,1,1/3. (e) d=−4−ln3. Then S₁₀=5[2(9+2ln3)+9(−4−ln3)]=−90−25ln3."
+    }
+  ]
+}

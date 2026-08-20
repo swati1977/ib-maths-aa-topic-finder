@@ -1,23 +1,22 @@
 # IB Maths AA Topic Finder
 
-A static prototype for browsing Mathematics: Analysis and Approaches SL past-paper questions by topic, paper and examination zone.
+A static question bank for browsing Mathematics: Analysis and Approaches SL past-paper questions by year, session, paper, timezone and topic.
 
 **Live site:** https://swati1977.github.io/ib-maths-aa-topic-finder/
 
 ## What it does
 
-- indexes 35 visible questions from four May 2026 AA SL papers (Papers 1 and 2, Zones A and C)
+- indexes reviewed English AA SL Paper 1 and Paper 2 questions from 2022–2026
 - supports multiple topic labels per question
-- filters by topic, paper, zone and text search
-- displays permission-approved question-only page images directly in each result card
-- stacks every mapped continuation page for multi-page questions
-- removes red handwritten working from Paper 1 Zone A while preserving the black printed question
+- filters by year, session, paper, timezone/zone, topic and full-question text search
+- displays the complete accessible question transcription as the main card content
+- opens the source PDF at the mapped question page from “View exact question” when available, and otherwise opens its source record
 - reveals concise independent worked solutions, formatted by question part
-- links every item back to its source paper
+- checks 2022–2025 solutions against the matching official markscheme while keeping the wording independent
 
 ## Important content note
 
-The user confirmed permission to host question-only page crops for this project. The repository still excludes full source PDFs, answer-space recovery artifacts and extraction/OCR dumps. It contains the approved question-page images, original summaries, classifications and independently prepared solutions. It is not affiliated with or endorsed by the International Baccalaureate Organization, and the solutions are not official IB markschemes.
+The user confirmed permission to reproduce the question content used by this project. The repository excludes full source PDFs, markscheme PDFs and extraction/OCR dumps. It contains reviewed accessible transcriptions, classifications, source references and independently prepared solutions. It is not affiliated with or endorsed by the International Baccalaureate Organization, and the solutions are not official IB markschemes.
 
 The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question is not indexed. Nothing was guessed or reconstructed.
 
@@ -26,6 +25,7 @@ The available Paper 2 Zone A scan ends at page 11, so its final 15-mark question
 ```bash
 uv run --with pymupdf --with pillow --with numpy python scripts/build_question_crops.py
 python3 scripts/build_data.py
+python3 scripts/validate_bank.py
 ```
 
 ## Run locally
@@ -39,6 +39,7 @@ Then open http://localhost:8000.
 ## Structure
 
 - `site/` — static website
-- `data/*.json` — reviewed per-paper metadata and solutions
+- `data/*.json` and `data/papers/*.json` — reviewed per-paper metadata, accessible text and solutions
 - `scripts/build_data.py` — validates and merges paper data
+- `data/source-manifest-2022-2025.json` — verified source/markscheme manifest
 - `data/raw/` and `data/extracted/` — local ingestion artifacts, ignored by Git

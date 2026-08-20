@@ -1,0 +1,157 @@
+{
+  "paper": {
+    "id": "2024-november-p2-tz1",
+    "title": "November 2024 Mathematics: Analysis and Approaches SL Paper 2 TZ1",
+    "paper": 2,
+    "zone": "1",
+    "year": 2024,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-6afc977fb1f61293",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/November%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/November%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nConsider f(x) = 7√x − x − 7, where 0 ≤ x ≤ 60.\n\n(a) Find (i) f(0); (ii) f(60). [2]\n\n(b) Find the two roots of f(x)=0. [2]\n\n(c) Sketch y=f(x) on the grid. [3]\n\n[Blank grid: x from 0 to 60; y from −15 to 5.]",
+      "summary": "Evaluate, solve, and sketch a radical function.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a) f(0)=−7, f(60)≈−12.8. (b) Solving numerically gives x=1.46, 33.5. (c) Smooth concave-down curve through those endpoints and roots, with maximum about (12.25, 5.25).",
+      "id": "2024-november-p2-tz1-q1"
+    },
+    {
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 4,
+      "accessible_text": "2. [Maximum mark: 4]\n\nFind the coefficient of x⁸ in (2x − 5)¹¹.",
+      "summary": "Use the binomial theorem.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The required coefficient is C(11,8)(2)⁸(−5)³ = −5,280,000.",
+      "id": "2024-november-p2-tz1-q2"
+    },
+    {
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\n(a) Find ∫(e^3ˣ + 5) dx. [3]\n\nh′(x)=e^3ˣ+5 and h(2.1)=185.\n\n(b) Find h(x). [3]",
+      "summary": "Integrate and determine a constant.",
+      "labels": [
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) ∫(e^3ˣ+5)dx=(1/3)e^3ˣ+5x+C. (b) Apply h(2.1)=185 to obtain h(x)=(1/3)e^3ˣ+5x−7.02.",
+      "id": "2024-november-p2-tz1-q3"
+    },
+    {
+      "number": 4,
+      "pages": [
+        8
+      ],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nP(X=x)=kx/15 for x∈{2, 4, 7, 10}.\n\n(a) Find k. [2]\n\n(b) Find E(X). [3]",
+      "summary": "Normalize a discrete distribution and find expectation.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a) Sum probabilities: kΣx/15=1, giving k=15/23. (b) E(X)=Σx²/Σx=169/23 ≈ 7.35.",
+      "id": "2024-november-p2-tz1-q4"
+    },
+    {
+      "number": 5,
+      "pages": [
+        9,
+        10
+      ],
+      "marks": 8,
+      "accessible_text": "5. [Maximum mark: 8]\n\nA roof cross-section is symmetric about vertical AE.\n\n[Diagram: A apex, E below it; outer sloping edge BA and parallel inner edge CE; BC is perpendicular to both; horizontal DF spans between inner slopes.]\n\nGradient of [BA] is 4/15.\n\n(a) Find BÂE in degrees. [3]\n\nAB̂C=BĈE=90°, DC=40 cm, BC=20 cm, DF=700 cm.\n\n[Continuation diagram labels these lengths on the same symmetric roof.]\n\n(b) Find (i) CE; (ii) BA. [5]",
+      "summary": "Use gradient, symmetry, and right triangles.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) BÂE=90°−arctan(4/15)=75.1°. (b) Half DF is 350. Right-triangle trigonometry gives CE=402 cm and then BA=408 cm (3 s.f.).",
+      "id": "2024-november-p2-tz1-q5"
+    },
+    {
+      "number": 6,
+      "pages": [
+        12
+      ],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nh(x)=log₁₀(3x² − rx + r − 2), where x∈ℝ. Find possible r.",
+      "summary": "Keep a quadratic logarithm argument positive.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Quadratics"
+      ],
+      "solution": "The quadratic must be positive for every real x. Its leading coefficient is positive, so require discriminant <0. Solving gives 6 − 2√3 < r < 6 + 2√3.",
+      "id": "2024-november-p2-tz1-q6"
+    },
+    {
+      "number": 7,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nMyLife is a social media platform with 89.8 million users, all aged 12 years old and above. The following frequency table shows the number of users by age group.\n\n| Age, a (years) | Millions of users |\n|---|---:|\n| 12 ≤ a < 18 | 5.8 |\n| 18 ≤ a < 35 | 42.7 |\n| 35 ≤ a < 55 | 26.3 |\n| 55 ≤ a < 75 | 12.9 |\n| 75 ≤ a < 95 | 2.1 |\n| Total | 89.8 |\n\n(a) Find the percentage of MyLife users aged 55 years or older. [1]\n\n(b) A sample of 1000 MyLife users is chosen at random. Find the probability that fewer than 150 of them are aged 55 years or older. [3]\n\n(c) Given that a MyLife user chosen at random is 55 years or older, find the probability that they are 75 years or older. [4]\n\n(d) List the mid-interval value for each class interval. [1]\n\n(e) Hence, for MyLife users, estimate\n(i) the mean age;\n(ii) the variance of the ages. [3]\n\nA different social media platform, SmallTalk, reports that its users have a mean age of 29.9 years and a variance of 137 years². The following four diagrams represent age distributions.\n\n[Diagrams A–D each show a solid and a dotted bell-shaped age-distribution curve. A: both curves have the same centre; the dotted curve is narrower and taller than the solid curve. B: the dotted curve is centred to the right of the solid curve and is narrower and taller. C: the solid curve is centred to the right of the dotted curve and is narrower and taller. D: the dotted curve is centred to the left of the solid curve and is narrower and taller; the solid curve is wider and lower.]\n\n(f) (i) Identify the diagram which best represents the age distributions for the users of MyLife and SmallTalk.\n(ii) In your chosen diagram, identify which social media platform is represented by the dotted line. [2]",
+      "summary": "Grouped statistics, binomial and conditional probability.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) The number aged at least 55 is 12.9 + 2.1 = 15.0 million, so the percentage is (15.0/89.8) × 100 = 16.7037…% ≈ 16.7%.\n\n(b) For a randomly selected user, p = 15.0/89.8 = 0.167037…. Let X be the number aged at least 55 in a random sample of 1000. Then X ~ B(1000, 15.0/89.8), and “fewer than 150” means X ≤ 149. Hence\nP(X < 150) = P(X ≤ 149) = Σ(x=0 to 149) C(1000,x)pˣ(1−p)¹⁰⁰⁰⁻ˣ = 0.0669378… ≈ 0.0669.\n\n(c) In context,\nP(age ≥ 75 | age ≥ 55) = P(age ≥ 75)/P(age ≥ 55)\n= 2.1/(12.9 + 2.1) = 2.1/15.0 = 0.14 (= 7/50).\n\n(d) Each midpoint is the average of the class endpoints: (12+18)/2 = 15, (18+35)/2 = 26.5, (35+55)/2 = 45, (55+75)/2 = 65, (75+95)/2 = 85. Thus the mid-interval values are 15, 26.5, 45, 65, 85.\n\n(e) Use the class midpoints as representative ages.\n(i) Estimated mean\n= [5.8(15) + 42.7(26.5) + 26.3(45) + 12.9(65) + 2.1(85)]/89.8\n= 38.0740… ≈ 38.1 years.\n(ii) First calculate E(a²):\nE(a²) = [5.8(15²) + 42.7(26.5²) + 26.3(45²) + 12.9(65²) + 2.1(85²)]/89.8\n= 1717.4117…. Therefore\nVar(a) = E(a²) − [E(a)]² = 1717.4117… − (38.0740…)² = 267.778… ≈ 268 years².\n\n(f) MyLife has the larger mean (38.1 > 29.9), so its curve must be centred farther right. It also has the larger variance (268 > 137), so its curve must be wider and lower. This is diagram D. The narrower, left-centred dotted curve therefore represents SmallTalk.",
+      "id": "2024-november-p2-tz1-q7"
+    },
+    {
+      "number": 8,
+      "pages": [
+        15,
+        16
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nThe following table shows the population of Canada t years after the year 2000.\n\n| t (years after 2000) | 0 | 5 | 10 | 15 | 20 |\n|---|---:|---:|---:|---:|---:|\n| p (population in millions) | 30.6 | 32.3 | 34.1 | 35.6 | 38.0 |\n\nA student uses linear regression to model the population of Canada using these data. The student model is p = at + b.\n\n(a) (i) Write down the value of a and the value of b.\n(ii) Interpret, in context, the value of a. [3]\n\nThe student uses this model to predict the population of Canada in the year 2030, where t = 30, and calculates a population of approximately 41.4 million people.\n\n(b) Comment on the reliability of the student’s prediction. [1]\n\nA data scientist, Benoit, uses additional information to develop an exponential model for Canada’s future population. In this model, B(t) = 30.6(1.007)ᵗ represents the millions of people in Canada t years after the year 2000, where 25 ≤ t ≤ 100.\n\n(c) (i) Use Benoit’s model to predict the population of Canada in the year 2100.\n(ii) Interpret, in context, the value 1.007 in Benoit’s model. [3]\n\nAnother data scientist, Cecilia, develops a third model for the Canadian population. In this model, C(t) = 61/(1 + e⁻⁰·⁰³ᵗ) represents the millions of people in Canada t years after the year 2000, where 25 ≤ t ≤ 100.\n\n(d) Use Cecilia’s model to predict the population of Canada in the year 2100. [1]\n\n(e) Determine the year in which the difference between the predictions from Benoit’s model and Cecilia’s model is greatest. [3]\n\n(f) Find the value of\n(i) B′(40);\n(ii) C′(40). [2]\n\n(g) Compare and interpret, in context, the values of B′(40) and C′(40). [2]",
+      "summary": "Compare regression, exponential, and logistic models.",
+      "labels": [
+        "Statistics",
+        "Exponentials - Logarithms",
+        "Differentiation"
+      ],
+      "solution": "(a) (i) Linear regression of p on t gives p = 0.362t + 30.5, so a = 0.362 and b = 30.5. (Indeed, at t = 30 this gives p = 0.362(30) + 30.5 = 41.36 ≈ 41.4 million.)\n(ii) The slope means that this model predicts an average increase of 0.362 million people per year (about 362 000 people per year).\n\n(b) The 2030 value uses t = 30, outside the observed interval 0 ≤ t ≤ 20. It is an extrapolation, so it is unreliable/uncertain because the past linear trend may not continue.\n\n(c) (i) The year 2100 corresponds to t = 100. Thus B(100) = 30.6(1.007)¹⁰⁰ = 61.4707… ≈ 61.5 million people.\n(ii) The factor 1.007 means that Benoit’s model increases the population by 0.7% each year.\n\n(d) C(100) = 61/(1 + e⁻³) = 58.1070… ≈ 58.1 million people.\n\n(e) Let D(t) = C(t) − B(t) on 25 ≤ t ≤ 100. A numerical maximum of D (equivalently, solve D′(t) = C′(t) − B′(t) = 0 and compare with the endpoints) occurs at t = 45.9583…. Since t is years after 2000, the required year is 2045 (2046 is also consistent with rounding to the nearest whole year).\n\n(f) B′(t) = 30.6(1.007)ᵗ ln(1.007), so B′(40) = 0.282151… ≈ 0.282 million people per year. Also\nC′(t) = [61(0.03)e⁻⁰·⁰³ᵗ]/(1 + e⁻⁰·⁰³ᵗ)²,\nso C′(40) = 0.325546… ≈ 0.326 million people per year.\n\n(g) Since B′(40) < C′(40), Cecilia’s model predicts that in 2040 Canada’s population is increasing faster than Benoit’s model predicts (by about 0.0434 million people per year).",
+      "id": "2024-november-p2-tz1-q8"
+    },
+    {
+      "number": 9,
+      "pages": [
+        17
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nIn this question all values of x and t are in radians.\n\nConsider the function f(x) = 3 sin(4πx).\n\n(a) (i) Write down the amplitude of the graph of f.\n(ii) Find the period of f. [3]\n\nConsider a second function g(x) = −4 cos(4πx). The sum of these functions can be expressed in the form f(x) + g(x) = a cos(b(x − c)), where a, b, c > 0.\n\n(b) By considering the graph of y = f(x) + g(x), determine\n(i) the value of a;\n(ii) the value of b;\n(iii) the smallest possible value of c. [4]\n\nA car is travelling along a straight residential street with speed bumps placed at regular intervals on the road to encourage safer driving. The car travels at a minimum velocity when passing over speed bumps and reaches a maximum velocity in between speed bumps. Its velocity, in m s⁻¹, can be modelled by the function v(t) = −3.5 cos((π/14)(t − 5)) + 9, where t is measured in seconds.\n\n(c) Find the time at which the car first reaches its maximum velocity. [1]\n\n(d) Find the number of speed bumps the car passes over in the first two minutes of motion. [1]\n\n(e) (i) Find v′(t).\n(ii) Hence, or otherwise, write down the maximum acceleration of the car. [4]\n\n(f) Find the distance, in metres, between consecutive speed bumps. [3]",
+      "summary": "Analyze sinusoidal sums and periodic velocity.",
+      "labels": [
+        "Trigonometry",
+        "Differentiation",
+        "Integration",
+        "Kinematics"
+      ],
+      "solution": "(a) (i) For f(x) = 3 sin(4πx), the amplitude is |3| = 3.\n(ii) The period is 2π/(4π) = 1/2.\n\n(b) Let θ = 4πx. Write 3 sin θ − 4 cos θ = R cos(θ − φ) = R cos θ cos φ + R sin θ sin φ. Matching coefficients gives R cos φ = −4 and R sin φ = 3. Hence R = √(4² + 3²) = 5, so a = 5, and b = 4π. The angle φ is in quadrant II, with φ = π − arctan(3/4) = 2.49809…. Since bc = φ, the smallest positive c is φ/(4π) = 0.198792… ≈ 0.199.\n\n(c) The velocity is maximal when cos((π/14)(t − 5)) = −1. The first non-negative solution satisfies (π/14)(t − 5) = π, giving t = 19 seconds.\n\n(d) Velocity minima, and hence speed bumps, occur when cos((π/14)(t − 5)) = 1: t = 5 + 28k. In 0 ≤ t ≤ 120 these are t = 5, 33, 61, 89, 117, so the car passes 5 speed bumps.\n\n(e) (i) By the chain rule,\nv′(t) = 3.5(π/14) sin((π/14)(t − 5)) = (π/4) sin((π/14)(t − 5)).\n(ii) Acceleration is v′(t). Since the maximum value of sine is 1, the maximum acceleration is π/4 = 0.785398… ≈ 0.785 m s⁻².\n\n(f) Consecutive minima are one period apart, and the period is 2π/(π/14) = 28 seconds. The distance is the integral of velocity over any one period, for example\n∫(from 5 to 33) [−3.5 cos((π/14)(t − 5)) + 9] dt.\nThe cosine term integrates to zero over a full period, so the distance is 9(28) = 252 m.",
+      "id": "2024-november-p2-tz1-q9"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-may-p1-tz2",
+    "title": "May 2025 Mathematics: Analysis and Approaches SL Paper 1 TZ2",
+    "paper": 1,
+    "zone": "2",
+    "year": 2025,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-4745dc25434251f7",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-may-p1-tz2-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 4,
+      "accessible_text": "1. [Maximum mark: 4]\n\nConsider the function f(x) = x³ + 5x² − 8, where x ∈ ℝ.\n\n(a) Find f′(1). [2]\n\n(b) Find the equation of the tangent to the graph of f at x = 1. [2]",
+      "summary": "Differentiate a cubic and find the equation of its tangent at a specified point.",
+      "labels": ["Differentiation"],
+      "solution": "(a) Differentiating gives f′(x) = 3x² + 10x, so f′(1) = 3 + 10 = 13. (b) The point of tangency has y-coordinate f(1) = 1 + 5 − 8 = −2. Using gradient 13 through (1, −2), y + 2 = 13(x − 1), so the tangent is y = 13x − 15."
+    },
+    {
+      "id": "2025-may-p1-tz2-q2",
+      "number": 2,
+      "pages": [4],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nThe derivative of a function g is given by g′(x) = cos x + e²ˣ, where x ∈ ℝ.\n\nGiven that g(0) = 7, find g(x).",
+      "summary": "Recover a function from its derivative and an initial value.",
+      "labels": ["Integration", "Trigonometry", "Exponentials - Logarithms"],
+      "solution": "Integrating the derivative gives g(x) = sin x + ½e²ˣ + C. Since g(0) = 0 + ½ + C = 7, C = 13/2. Therefore g(x) = sin x + ½e²ˣ + 13/2."
+    },
+    {
+      "id": "2025-may-p1-tz2-q3",
+      "number": 3,
+      "pages": [5],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe function f is defined by f(x) = (3x − 2)/(2x + 1) for x ∈ ℝ, x ≠ −1/2.\n\nThe following diagram shows part of the graph of y = f(x).\n\n[Diagram: Coordinate axes are labelled x and y, with arrowheads in both directions and no numerical tick labels. The rational graph has two increasing branches. Its vertical asymptote is x = −1/2 and its horizontal asymptote is y = 3/2. The left branch lies above y = 3/2 and tends upward as x approaches −1/2 from the left. The right branch tends downward as x approaches −1/2 from the right, passes through (0, −2), crosses the x-axis at (2/3, 0), and approaches y = 3/2 from below.]\n\n(a) Write down the value of f(0). [1]\n\n(b) Write down the equation of the horizontal asymptote. [1]\n\nThe function g is defined by g(x) = −f(x) for x ≥ 0.\n\n(c) Find the range of g. [3]",
+      "summary": "Interpret a rational function and determine the range after a reflection and domain restriction.",
+      "labels": ["Functions - Roots", "Graphs"],
+      "solution": "(a) f(0) = (−2)/1 = −2. (b) The ratio of the leading coefficients is 3/2, so the horizontal asymptote is y = 3/2. (c) For x ≥ 0, f begins at −2 and increases towards 3/2 without reaching it. Reflecting in the x-axis, g begins at 2 and decreases towards −3/2 without reaching it. Hence the range is −3/2 < y ≤ 2."
+    },
+    {
+      "id": "2025-may-p1-tz2-q4",
+      "number": 4,
+      "pages": [6],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nThe following diagram shows a non-right angled triangle ABC.\n\ndiagram not to scale\n\n[Diagram: Triangle ABC has A at the lower left, C at the lower right and B above A. AC is horizontal. Side AB is labelled 5 and side BC is labelled 6√2. The interior angle BÂC at A is labelled 2θ, and the interior angle AĈB at C is labelled θ.]\n\nAB = 5, BC = 6√2, AĈB = θ and BÂC = 2θ, where 0 < θ < π/2.\n\n(a) Using the sine rule, show that cos θ = 3√2/5. [3]\n\n(b) Hence, find sin θ. [2]\n\nPoint D is located on [AC] such that the area of triangle BCD is 2√14.\n\n(c) Find DC. [2]",
+      "summary": "Use the sine rule and a double-angle identity, then find a length from a triangle area.",
+      "labels": ["Trigonometry"],
+      "solution": "(a) The sine rule gives sin θ/5 = sin(2θ)/(6√2). Using sin(2θ) = 2sin θ cos θ and cancelling sin θ (which is positive) gives 1/5 = 2cos θ/(6√2), hence cos θ = 3√2/5. (b) Since 0 < θ < π/2, sin θ is positive. Thus sin θ = √(1 − cos²θ) = √(1 − 18/25) = √7/5. (c) Triangle BCD has included angle θ between BC and DC, so 2√14 = ½(6√2)(DC)(√7/5) = (3√14/5)DC. Therefore DC = 10/3."
+    },
+    {
+      "id": "2025-may-p1-tz2-q5",
+      "number": 5,
+      "pages": [7],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nThe quadratic equation x² + kx + 15 − k = 0 has two distinct real roots.\n\n(a) Find the possible values of k. [5]\n\n(b) Find the possible values of k in the case where the two distinct real roots are both positive or both negative. [2]",
+      "summary": "Use the discriminant and root-product condition to constrain a quadratic parameter.",
+      "labels": ["Quadratics"],
+      "solution": "(a) Distinct real roots require Δ > 0. Here Δ = k² − 4(15 − k) = k² + 4k − 60 = (k + 10)(k − 6). Therefore k < −10 or k > 6. (b) For the roots to have the same sign, their product 15 − k must be positive, so k < 15. Intersecting this with the result from part (a) gives k < −10 or 6 < k < 15."
+    },
+    {
+      "id": "2025-may-p1-tz2-q6",
+      "number": 6,
+      "pages": [8],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nConsider the function f(x) = √(x² ln x + 4 − x²), where x ∈ ℝ, x > 0.\n\n(a) Show that the distance, l, between the origin and any point on the graph of f is given by l = √(x² ln x + 4). [1]\n\n(b) Hence, find the x-coordinate of the point on the graph of f which is closest to the origin. [6]",
+      "summary": "Derive a distance function and minimise it by differentiation.",
+      "labels": ["Differentiation", "Exponentials - Logarithms"],
+      "solution": "(a) A point on the graph is (x, f(x)), so l = √(x² + f(x)²) = √(x² + x²ln x + 4 − x²) = √(x²ln x + 4). (b) Since the square-root function is increasing, minimise l² = x²ln x + 4. Its derivative is 2xln x + x = x(2ln x + 1). Because x > 0, a stationary point satisfies 2ln x + 1 = 0, so ln x = −1/2 and x = e⁻¹ᐟ² = 1/√e. Also, d²(l²)/dx² = 2ln x + 3, which equals 2 > 0 at x = e⁻¹ᐟ²; therefore this point gives the minimum distance. The required x-coordinate is 1/√e."
+    },
+    {
+      "id": "2025-may-p1-tz2-q7",
+      "number": 7,
+      "pages": [9],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nA discrete random variable, X, has the following probability distribution, where a > 0 and k is a constant.\n\n[Table: The first row is headed x and contains 0, a, 2a, 3a. The second row is headed P(X = x) and contains, respectively, k, 3k², 2k², k².]\n\n(a) Show that k = 1/3. [5]\n\n(b) Find P(X < 3a). [2]\n\n(c) Find P(X ≥ a | X < 3a). [3]\n\n(d) Given that E(X) = 20, find the value of a. [3]",
+      "summary": "Determine a probability-distribution constant, conditional probability and expected-value parameter.",
+      "labels": ["Probability", "Statistics"],
+      "solution": "(a) The probabilities sum to 1, so k + 3k² + 2k² + k² = 1, giving 6k² + k − 1 = 0. Factoring, (3k − 1)(2k + 1) = 0, so k = 1/3 or k = −1/2. Since k is a probability and must be non-negative, k = 1/3. (b) P(X < 3a) = k + 3k² + 2k² = 1/3 + 5/9 = 8/9. (c) Under X < 3a, the outcomes satisfying X ≥ a are a and 2a. Therefore P(X ≥ a | X < 3a) = (3k² + 2k²)/(8/9) = (5/9)/(8/9) = 5/8. (d) E(X) = 0(k) + a(3k²) + 2a(2k²) + 3a(k²). With k = 1/3, E(X) = 3a/9 + 4a/9 + 3a/9 = 10a/9. Hence 10a/9 = 20, so a = 18."
+    },
+    {
+      "id": "2025-may-p1-tz2-q8",
+      "number": 8,
+      "pages": [10],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nA Ferris wheel with diameter 72 metres rotates at a constant speed. The lowest point on the wheel is 8 metres above the ground, as shown on the following diagram. A seat starts at the lowest point.\n\n[Diagram: A circular Ferris wheel is supported above a horizontal line labelled ground by two sloping supports meeting at its centre. A horizontal double-headed arrow through the centre spans the wheel and is labelled 72 metres. A vertical double-headed arrow from the ground to the lowest point of the wheel is labelled 8 metres. A curved arrow on the left of the wheel points upward, indicating anticlockwise rotation. The seat starts at the lowest point of the circle.]\n\nThe wheel completes one revolution in 12 minutes.\n\nAfter t minutes, the height, h metres, of the seat above the ground is given by h(t) = a cos(bt) + 44, where a, b ∈ ℝ.\n\n(a) Find the value of\n    (i) a;\n    (ii) b. [4]\n\n(b) Sketch the graph of h, for 0 ≤ t ≤ 12. Clearly label the coordinates of the maximum point and the end points. [2]\n\nConsider one revolution of the Ferris wheel.\n\n(c) The seat is at least 26 m above the ground for T minutes. Find the value of T. [5]\n\n(d) (i) Find h′(t).\n    (ii) Hence or otherwise, find the time at which the height of the seat above the ground is decreasing at its fastest rate. [4]",
+      "summary": "Model Ferris-wheel height with a cosine function and analyse its graph, duration and fastest descent.",
+      "labels": ["Trigonometry", "Graphs", "Differentiation"],
+      "solution": "(a) (i) At t = 0 the seat is at height 8, so a cos 0 + 44 = 8 and a = −36. (ii) The period is 12, so 2π/b = 12 and b = π/6. Thus h(t) = −36cos(πt/6) + 44. (b) Over 0 ≤ t ≤ 12, the graph is one cosine cycle with end points (0, 8) and (12, 8), and maximum point (6, 80). (c) The condition h(t) ≥ 26 gives −36cos(πt/6) + 44 ≥ 26, or cos(πt/6) ≤ 1/2. During one revolution this holds from t = 2 to t = 10, so T = 10 − 2 = 8 minutes. (d) (i) h′(t) = 6πsin(πt/6). (ii) The height decreases fastest when h′ is as negative as possible, namely when sin(πt/6) = −1. In 0 ≤ t ≤ 12 this occurs at πt/6 = 3π/2, giving t = 9 minutes."
+    },
+    {
+      "id": "2025-may-p1-tz2-q9",
+      "number": 9,
+      "pages": [11],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nThe function f is defined by f(x) = 4ˣ, where x ∈ ℝ.\n\n(a) Find f⁻¹(8). Express your answer in the form p/q where p, q ∈ ℤ. [3]\n\nThe function g is defined by g(x) = 1 + log₂ x, where x ∈ ℝ⁺.\n\n(b) (i) Find an expression for g⁻¹(x).\n    (ii) Describe a sequence of transformations that transforms the graph of y = g⁻¹(x) to the graph of y = f(x). [4]\n\n(c) Show that (f ◦ g)(x) = 4x². [3]\n\nThe function h is defined by h(x) = 4x²/(2x + 1), x ≠ −1/2.\n\nThe following diagram shows part of the graph of h. Let R be the region enclosed by the graph of h and the x-axis, between the lines x = 1 and x = 3.\n\n[Diagram: Coordinate axes are labelled x and y and marked with evenly spaced, unnumbered ticks. The positive branch of the curve h begins at the origin, rises and is concave up in the displayed interval. Vertical boundary segments are drawn from the x-axis to the curve at x = 1 and x = 3, with filled points on the x-axis labelled 1 and 3. The region under h, above the x-axis and between these boundaries is shaded grey and labelled R.]\n\n(d) (i) Show that 2x − 1 + 1/(2x + 1) = 4x²/(2x + 1).\n    (ii) Hence or otherwise, find the area of R, giving your answer in the form p + q ln r, where p, q, r ∈ ℚ⁺. [7]",
+      "summary": "Work with inverse and composite functions, transformations, algebraic division and an exact area integral.",
+      "labels": ["Functions - Roots", "Exponentials - Logarithms", "Graphs", "Integration"],
+      "solution": "(a) Let f⁻¹(8) = x. Then 4ˣ = 8, so 2²ˣ = 2³ and x = 3/2. (b) (i) From y = 1 + log₂x, interchange x and y: x = 1 + log₂y, so y = 2ˣ⁻¹. Therefore g⁻¹(x) = 2ˣ⁻¹. (ii) First translate the graph of y = g⁻¹(x) one unit to the left, obtaining y = 2ˣ. Then apply a horizontal stretch with scale factor 1/2 (equivalently, a horizontal compression by factor 2), obtaining y = 2²ˣ = 4ˣ = f(x). (c) (f ◦ g)(x) = 4^(1 + log₂x) = 4(2²)^(log₂x) = 4(2^(log₂x))² = 4x². (d) (i) Putting the left side over the common denominator 2x + 1 gives [(2x − 1)(2x + 1) + 1]/(2x + 1) = (4x² − 1 + 1)/(2x + 1) = 4x²/(2x + 1). (ii) The area is ∫₁³h(x) dx = ∫₁³[2x − 1 + 1/(2x + 1)] dx. An antiderivative is x² − x + ½ln(2x + 1). Hence the area is [x² − x + ½ln(2x + 1)]₁³ = (6 + ½ln 7) − ½ln 3 = 6 + ½ln(7/3)."
+    }
+  ]
+}

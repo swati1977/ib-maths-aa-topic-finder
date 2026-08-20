@@ -1,0 +1,155 @@
+{
+  "paper": {
+    "id": "2023-may-p1-tz2",
+    "title": "May 2023 Mathematics: Analysis and Approaches SL Paper 1 TZ2",
+    "paper": 1,
+    "zone": "2",
+    "year": 2023,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-82bace8509095a5c",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2023-may-p1-tz2-q1",
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe following diagram shows a circle with centre O and radius 4 cm.\n\n[Diagram not to scale: P, Q and R lie on the circumference. Arc PQR bounds the shaded major sector and angle PÔR = θ at O.]\n\nThe points P, Q and R lie on the circumference of the circle and PÔR = θ, where θ is measured in radians. The length of arc PQR is 10 cm.\n\n(a) Find the perimeter of the shaded sector. [2]\n\n(b) Find θ. [2]\n\n(c) Find the area of the shaded sector. [2]",
+      "summary": "Calculate a sector's perimeter, angle and area from its arc length.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) Perimeter=10+2(4)=18 cm. (b) Using s=rθ, θ=10/4=5/2 radians. (c) Area=(1/2)r²θ=(1/2)(16)(5/2)=20 cm²."
+    },
+    {
+      "id": "2023-may-p1-tz2-q2",
+      "number": 2,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nConsider an arithmetic sequence with u₁ = 0.6 and u₄ = 0.15.\n\n(a) Find the common difference, d. [2]\n\nThe following table shows the probability distribution of a discrete random variable X such that P(X = n) = uₙ/k, where n ∈ ℤ⁺, 1 ≤ n ≤ 4 and k ∈ ℝ⁺.\n\nn          | 1     | 2     | 3    | 4\nP(X = n)   | 0.6/k | u₂/k  | u₃/k | 0.15/k\n\n(b) Find the value of k. [4]",
+      "summary": "Use an arithmetic sequence to normalize a probability distribution.",
+      "labels": [
+        "Sequences - Series",
+        "Probability"
+      ],
+      "solution": "(a) 0.15=0.6+3d, so d=−0.15. Thus the four terms are 0.6,0.45,0.30,0.15. (b) Their probabilities sum to 1, so (1.5)/k=1 and k=1.5."
+    },
+    {
+      "id": "2023-may-p1-tz2-q3",
+      "number": 3,
+      "pages": [
+        7,
+        8
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nA function f is defined by f(x) = 1 − 1/(x − 2), where x ∈ ℝ, x ≠ 2.\n\n(a) The graph of y = f(x) has a vertical asymptote and a horizontal asymptote. Write down the equation of\n    (i) the vertical asymptote;\n    (ii) the horizontal asymptote. [2]\n\n(b) Find the coordinates of the point where the graph of y = f(x) intersects\n    (i) the y-axis;\n    (ii) the x-axis. [2]\n\n(c) On the provided axes, sketch the graph of y = f(x), showing all the features found in parts (a) and (b). [1]",
+      "summary": "Identify asymptotes and intercepts and sketch a translated reciprocal graph.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a)(i) x=2. (ii) y=1. (b)(i) f(0)=3/2, so (0,3/2). (ii) 1−1/(x−2)=0 gives x=3, so (3,0). (c) Draw the two reciprocal branches approaching x=2 and y=1 and passing through the stated intercepts."
+    },
+    {
+      "id": "2023-may-p1-tz2-q4",
+      "number": 4,
+      "pages": [
+        9
+      ],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nEvents A and B are such that P(A) = 0.4, P(A | B) = 0.25 and P(A ∪ B) = 0.55.\n\nFind P(B).",
+      "summary": "Combine conditional probability with the addition rule.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "Let p=P(B). Then P(A∩B)=P(A|B)P(B)=0.25p. The addition rule gives 0.55=0.4+p−0.25p, so 0.75p=0.15 and P(B)=0.2."
+    },
+    {
+      "id": "2023-may-p1-tz2-q5",
+      "number": 5,
+      "pages": [
+        10
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nThe following diagram shows part of the graph of y = 2x/(x² + 2) for x ≥ 0.\n\n[Diagram: the curve and x-axis bound a shaded region R from x=0 to the vertical line x=c.]\n\nThe shaded region R is bounded by the curve, the x-axis and the line x = c. The area of R is ln 3.\n\nFind the value of c.",
+      "summary": "Use a definite integral and logarithm laws to determine a boundary.",
+      "labels": [
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "Area = ∫₀ᶜ 2x/(x²+2) dx = [ln(x²+2)]₀ᶜ = ln((c²+2)/2). Equating to ln3 gives (c²+2)/2=3, so c²=4. Since c≥0, c=2."
+    },
+    {
+      "id": "2023-may-p1-tz2-q6",
+      "number": 6,
+      "pages": [
+        12
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nThe functions f and g are defined for x ∈ ℝ by\n\nf(x) = ax + b, where a, b ∈ ℤ,\ng(x) = x² + x + 3.\n\nFind the two possible functions f such that (g ∘ f)(x) = 4x² − 14x + 15.",
+      "summary": "Determine linear functions from a prescribed quadratic composition.",
+      "labels": [
+        "Functions - Roots",
+        "Quadratics"
+      ],
+      "solution": "g(f(x))=(ax+b)²+(ax+b)+3=a²x²+a(2b+1)x+(b²+b+3). Hence a²=4 and a(2b+1)=−14. If a=2, b=−4; if a=−2, b=3. Both give the required constant term, so f(x)=2x−4 or f(x)=−2x+3."
+    },
+    {
+      "id": "2023-may-p1-tz2-q7",
+      "number": 7,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 17,
+      "accessible_text": "7. [Maximum mark: 17]\n\nThe following diagram shows part of the graph of a quadratic function f. The vertex of the parabola is (−2, −5) and the y-intercept is at point P.\n\n[Diagram: an upward-opening parabola with vertex (−2,−5), crossing the y-axis at P.]\n\n(a) Write down the equation of the axis of symmetry. [1]\n\nThe function can be written in the form f(x) = (1/4)(x − h)² + k, where h, k ∈ ℤ.\n\n(b) Write down the values of h and k. [2]\n\n(c) Find the y-coordinate of P. [2]\n\nIn the following diagram, the line L is normal to the graph of f at point P.\n\n[Diagram: the normal L passes through P and intersects the parabola again at Q.]\n\n(d) Find the equation of the line L, in the form y = ax + b. [4]\n\n(e) Calculate the distance between P and Q. [8]",
+      "summary": "Use vertex form and differentiation to find a normal and a second intersection.",
+      "labels": [
+        "Quadratics",
+        "Graphs",
+        "Differentiation"
+      ],
+      "solution": "(a) x=−2. (b) h=−2, k=−5, so f(x)=(1/4)(x+2)²−5. (c) f(0)=−4, so P=(0,−4). (d) f′(x)=(x+2)/2, hence the tangent gradient at P is 1 and the normal gradient is −1. Thus L: y=−x−4. (e) Solving (1/4)(x+2)²−5=−x−4 gives x(x+8)=0. The second point is Q=(−8,4). Therefore PQ=√[8²+8²]=8√2."
+    },
+    {
+      "id": "2023-may-p1-tz2-q8",
+      "number": 8,
+      "pages": [
+        15,
+        16
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nConsider an acute angle θ such that cos θ = 2/3.\n\n(a) Find the value of\n    (i) sin θ;\n    (ii) sin 2θ. [4]\n\nThe following diagram shows triangle ABC, with B̂ = θ, Â = 2θ, BC = a and AC = b.\n\n[Diagram: triangle ABC with side BC labelled a, side AC labelled b, angle B=θ and angle A=2θ.]\n\n(b) Show that b/a = 3/4. [2]\n\n[BA] is extended to form an isosceles triangle DAC, with D̂ = θ, as shown in the following diagram.\n\n[Diagram: B, A and D are collinear; triangle DAC is isosceles, with angles at C and D each θ.]\n\n(c) Find the value of sin CÂD. [3]\n\n(d) Find the area of triangle DAC, in terms of a. [5]",
+      "summary": "Apply trigonometric identities, the sine rule and an area formula.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a)(i) sinθ=√(1−4/9)=√5/3. (ii) sin2θ=2sinθcosθ=4√5/9. (b) By the sine rule, b/a=sinθ/sin2θ=(√5/3)/(4√5/9)=3/4. (c) CÂD is supplementary to 2θ, so sin(CÂD)=sin2θ=4√5/9. (d) In isosceles DAC, AD=AC=b=3a/4. Area=(1/2)b²sin(CÂD)=(1/2)(9a²/16)(4√5/9)=√5a²/8."
+    },
+    {
+      "id": "2023-may-p1-tz2-q9",
+      "number": 9,
+      "pages": [
+        17
+      ],
+      "marks": 14,
+      "accessible_text": "9. [Maximum mark: 14]\n\nA circle with equation x² + y² = 9 has centre (0, 0) and radius 3. A triangle, PQR, is inscribed in the circle with its vertices at P(−3, 0), Q(x, y) and R(x, −y), where Q and R are variable points in the first and fourth quadrants respectively.\n\n[Diagram: P is the leftmost point of the circle; Q and R are vertically aligned on the right, forming triangle PQR.]\n\n(a) For point Q, show that y = √(9 − x²). [1]\n\n(b) Hence, find an expression for A, the area of triangle PQR, in terms of x. [3]\n\n(c) Show that dA/dx = (9 − 3x − 2x²)/√(9 − x²). [4]\n\n(d) Hence or otherwise, find the y-coordinate of R such that A is a maximum. [6]",
+      "summary": "Optimize the area of a triangle inscribed in a circle.",
+      "labels": [
+        "Differentiation",
+        "Functions - Roots"
+      ],
+      "solution": "(a) Since Q lies on x²+y²=9 and y>0, y=√(9−x²). (b) Base QR=2y and perpendicular height from P is x+3, so A=(1/2)(2√(9−x²))(x+3)=(x+3)√(9−x²). (c) Product and chain rules give A′=√(9−x²)−x(x+3)/√(9−x²)=(9−3x−2x²)/√(9−x²). (d) Set the numerator to zero: 2x²+3x−9=(2x−3)(x+3)=0. In the first quadrant x=3/2. Point R has y-coordinate −√(9−9/4)=−3√3/2."
+    }
+  ]
+}

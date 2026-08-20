@@ -1,0 +1,151 @@
+{
+  "paper": {
+    "id": "2022-may-p1-tz1",
+    "title": "May 2022 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2022,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-b58ff5f28b646781",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2022-may-p1-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nConsider the points A(−2, 20), B(4, 6) and C(−14, 12). The line L passes through the point A and is perpendicular to [BC].\n\n(a) Find the equation of L. [3]\n\nThe line L passes through the point (k, 2).\n\n(b) Find the value of k. [2]",
+      "summary": "Find a perpendicular line and an unknown coordinate.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "The gradient of BC is (12−6)/(−14−4)=−1/3, so L has gradient 3. Through A, y−20=3(x+2), hence y=3x+26. Then 2=3k+26, so k=−8."
+    },
+    {
+      "id": "2022-may-p1-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\n(a) The expression (3√x − 5)/√x can be written as 3 − 5xᵖ. Write down the value of p. [1]\n\n(b) Hence, find the value of ∫₁⁹ ((3√x − 5)/√x) dx. [4]",
+      "summary": "Rewrite a radical using powers and integrate.",
+      "labels": [
+        "Integration"
+      ],
+      "solution": "(a) (3√x−5)/√x=3−5x^(−1/2), so p=−1/2. (b) An antiderivative is 3x−10√x. Thus [3x−10√x]₁⁹=(27−30)−(3−10)=4."
+    },
+    {
+      "id": "2022-may-p1-tz1-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nA survey at a swimming pool is given to one adult in each family. The age of the adult, a years old, and of their eldest child, c years old, are recorded.\n\nThe ages of the eldest child are summarized in the following box and whisker diagram.\n\n[Diagram not to scale: A horizontal box-and-whisker plot labelled “ages of eldest child (years)”. The left whisker endpoint is 2, the left edge of the box is 6, the median is 7, the right edge of the box is 10, and the right whisker endpoint is 18.]\n\n(a) Find the largest value of c that would not be considered an outlier. [3]\n\nThe regression line of a on c is a = (7/4)c + 20. The regression line of c on a is c = (1/2)a − 9.\n\n(b) (i) One of the adults surveyed is 42 years old. Estimate the age of their eldest child.\n\n(ii) Find the mean age of all the adults surveyed. [4]",
+      "summary": "Use a box plot and regression lines.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) IQR=10−6=4, so the upper fence is 10+1.5(4)=16. (b)(i) c=42/2−9=12 years. (ii) Both regression lines pass through (c̄,ā). Solving a=(7/4)c+20 and c=a/2−9 gives ā=34 years (and c̄=8)."
+    },
+    {
+      "id": "2022-may-p1-tz1-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nConsider the functions f(x) = √3 sin x + cos x, where 0 ≤ x ≤ π, and g(x) = 2x, where x ∈ ℝ.\n\n(a) Find (f ∘ g)(x). [2]\n\n(b) Solve the equation (f ∘ g)(x) = 2 cos 2x, where 0 ≤ x ≤ π. [5]",
+      "summary": "Compose trigonometric functions and solve.",
+      "labels": [
+        "Functions - Roots",
+        "Trigonometry"
+      ],
+      "solution": "(a) (f∘g)(x)=√3sin2x+cos2x. (b) This gives √3sin2x=cos2x, so tan2x=1/√3. Thus 2x=π/6 or 7π/6, hence x=π/12 or 7π/12."
+    },
+    {
+      "id": "2022-may-p1-tz1-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nConsider the curve with equation y = (2x − 1)eᵏˣ, where x ∈ ℝ and k ∈ ℚ. The tangent to the curve at the point where x = 1 is parallel to the line y = 5eᵏx.\n\nFind the value of k.",
+      "summary": "Use the product rule and parallel gradients.",
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "y′=2e^(kx)+k(2x−1)e^(kx). At x=1 this is e^k(2+k). The line has gradient 5e^k, so 2+k=5 and k=3."
+    },
+    {
+      "id": "2022-may-p1-tz1-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nConsider f(x) = 4 sin x + 2.5 and g(x) = 4 sin(x − 3π/2) + 2.5 + q, where x ∈ ℝ and q > 0.\n\nThe graph of g is obtained by two transformations of the graph of f.\n\n(a) Describe these two transformations. [2]\n\nThe y-intercept of the graph of g is at (0, r).\n\n(b) Given that g(x) ≥ 7, find the smallest value of r. [5]",
+      "summary": "Transform a sine graph and optimize an intercept.",
+      "labels": [
+        "Graphs",
+        "Trigonometry"
+      ],
+      "solution": "(a) Translate 3π/2 right and q up. (b) min g=q−1.5, so q≥8.5. Also r=g(0)=4+2.5+q=6.5+q, giving minimum r=15."
+    },
+    {
+      "id": "2022-may-p1-tz1-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nA function, f, has its derivative given by f′(x) = 3x² − 12x + p, where p ∈ ℝ. The following diagram shows part of the graph of f′.\n\n[Diagram: Coordinate axes labelled x and y. The graph y = f′ is an upward-opening parabola. It crosses the positive y-axis, descends to a vertex on and tangent to the positive x-axis, then rises; the vertex lies to the right of the y-axis.]\n\nThe graph of f′ has an axis of symmetry x = q.\n\n(a) Find the value of q. [2]\n\nThe vertex of the graph of f′ lies on the x-axis.\n\n(b) (i) Write down the value of the discriminant of f′.\n\n(ii) Hence or otherwise, find the value of p. [4]\n\n(c) Find the value of the gradient of the graph of f′ at x = 0. [3]\n\n(d) Sketch the graph of f″, the second derivative of f. Indicate clearly the x-intercept and the y-intercept. [2]\n\nThe graph of f has a point of inflexion at x = a.\n\n(e) (i) Write down the value of a.\n\n(ii) Find the values of x for which the graph of f is concave-down. Justify your answer. [3]",
+      "summary": "Analyze first and second derivative graphs.",
+      "labels": [
+        "Differentiation",
+        "Graphs",
+        "Quadratics"
+      ],
+      "solution": "(a) q=2. (b)(i) The discriminant is 0. (ii) 144−12p=0, so p=12. (c) f″=6x−12, giving gradient −12 at x=0. (d) f″ is y=6x−12, through (0,−12) and (2,0). (e)(i) a=2. (ii) f″<0 for x<2, so f is concave-down there."
+    },
+    {
+      "id": "2022-may-p1-tz1-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nConsider the series ln x + p ln x + (1/3)ln x + …, where x ∈ ℝ, x > 1 and p ∈ ℝ, p ≠ 0.\n\n(a) Consider the case where the series is geometric.\n\n(i) Show that p = ±1/√3.\n\n(ii) Given that p > 0 and S∞ = 3 + √3, find the value of x. [5]\n\n(b) Now consider the case where the series is arithmetic with common difference d.\n\n(i) Show that p = 2/3.\n\n(ii) Write down d in the form k ln x, where k ∈ ℚ.\n\n(iii) The sum of the first n terms of the series is −3 ln x. Find the value of n. [10]",
+      "summary": "Treat logarithmic terms as geometric and arithmetic series.",
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a)(i) p²=1/3, so p=±1/√3. (ii) ln x/(1−1/√3)=3+√3 gives ln x=2, so x=e². (b)(i) p−1=1/3−p gives p=2/3. (ii) d=−(1/3)ln x. (iii) n/2[2lnx−(n−1)lnx/3]=−3lnx gives n²−7n−18=0, hence n=9."
+    },
+    {
+      "id": "2022-may-p1-tz1-q9",
+      "number": 9,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\n(a) (i) Expand and simplify (1 − a)³ in ascending powers of a.\n\n(ii) By using a suitable substitution for a, show that 1 − 3 cos 2x + 3 cos² 2x − cos³ 2x = 8 sin⁶ x. [6]\n\nConsider f(x) = 4 cos x(1 − 3 cos 2x + 3 cos² 2x − cos³ 2x).\n\n(b) (i) Show that ∫₀ᵐ f(x) dx = (32/7)sin⁷m, where m is a positive real constant.\n\n(ii) It is given that ∫ₘ^(π/2) f(x) dx = 127/28, where 0 ≤ m ≤ π/2. Find the value of m. [9]",
+      "summary": "Use a binomial identity in trigonometric integration.",
+      "labels": [
+        "Binomial Theorem",
+        "Trigonometry",
+        "Integration"
+      ],
+      "solution": "(a)(i) 1−3a+3a²−a³. (ii) Put a=cos2x: (1−cos2x)³=(2sin²x)³=8sin⁶x. (b)(i) f=32cosx sin⁶x; u=sinx gives (32/7)sin⁷m. (ii) (32/7)(1−sin⁷m)=127/28, so sinm=1/2 and m=π/6."
+    }
+  ]
+}

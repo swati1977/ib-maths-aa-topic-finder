@@ -1,0 +1,152 @@
+{
+  "paper": {
+    "id": "2023-may-p2-tz1",
+    "title": "May 2023 Mathematics: Analysis and Approaches SL Paper 2 TZ1",
+    "paper": 2,
+    "zone": "1",
+    "year": 2023,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-eb6f5ee11dca3f16",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2023-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nThe cities Lucknow (L), Jaipur (J) and Delhi (D) are represented in the following diagram. Lucknow lies 500 km directly east of Jaipur, and JLD̂ = 25°.\n\n[Diagram not to scale: J is west of L on an east–west line of length 500 km; D is north-east of J and north-west of L; angle JLD is 25°. A north arrow is shown.]\n\nThe bearing of D from J is 034°.\n\n(a) Find JDL̂. [2]\n\n(b) Find the distance between Lucknow and Delhi. [3]",
+      "summary": "Use bearings and the sine rule to find an angle and distance.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) The angle DJL is 90°−34°=56°, so JDL=180°−56°−25°=99°. (b) By the sine rule, DL/sin56°=500/sin99°, giving DL=419.685…≈420 km."
+    },
+    {
+      "id": "2023-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe value of a car is given by the function C = 40 000(0.91)^t, where t is in years since 1 January 2023 and C is in USD ($).\n\n(a) Write down the annual rate of depreciation of the car. [1]\n\n(b) Find the value of the car on 1 January 2028. [2]\n\nAlvie wants to buy this car. On 1 January 2023, he invested $15 000 in an account that earns 3% annual interest compounded yearly. He makes no further deposits to, or withdrawals from, the account.\n\nAlvie wishes to buy this car for its value on 1 January 2028. In addition to the money in his account, he will need an extra $M.\n\n(c) Find the value of M. [3]",
+      "summary": "Compare exponential depreciation with compound-interest growth.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Sequences - Series"
+      ],
+      "solution": "(a) The annual depreciation rate is 9%. (b) At t=5, C=40000(0.91)^5=24961.28…, so $25 000 to three significant figures. (c) The investment becomes 15000(1.03)^5=17389.11…. Hence M=24961.28…−17389.11…=7572.17…≈$7570."
+    },
+    {
+      "id": "2023-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe functions f and g are defined by f(x) = 2x − x³ and g(x) = tan x.\n\n(a) Find (f ∘ g)(x). [2]\n\n(b) On the provided grid, sketch the graph of y = (f ∘ g)(x) for −1 ≤ x ≤ 1. Write down and clearly label the coordinates of any local maximum or minimum points. [3]",
+      "summary": "Compose functions and sketch the resulting odd trigonometric function.",
+      "labels": [
+        "Functions - Roots",
+        "Trigonometry",
+        "Graphs"
+      ],
+      "solution": "(a) (f∘g)(x)=2tan x−tan³x. (b) The graph is odd, passes through (0,0), and has endpoints approximately (−1,−0.682) and (1,0.682). Its local minimum is approximately (−0.685,−1.09) and local maximum approximately (0.685,1.09)."
+    },
+    {
+      "id": "2023-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nThe total number of children, y, visiting a park depends on the highest temperature, T, in degrees Celsius (°C). A park official predicts the total number of children visiting his park on any given day using the model y = −0.6T² + 23T + 110, where 10 ≤ T ≤ 35.\n\n(a) Use this model to estimate the number of children in the park on a day when the highest temperature is 25°C. [2]\n\nAn ice cream vendor investigates the relationship between the total number of children visiting the park and the number of ice creams sold, x. The following table shows the data collected on five different days.\n\nTotal number of children (y) | 81 | 175 | 202 | 346 | 360\nIce creams sold (x)          | 15 | 27  | 23  | 35  | 46\n\n(b) Find an appropriate regression equation that will allow the vendor to predict the number of ice creams sold on a day when there are y children in the park. [3]\n\n(c) Hence, use your regression equation to predict the number of ice creams that the vendor sells on a day when the highest temperature is 25°C. [2]",
+      "summary": "Use a quadratic model and an x-on-y linear regression for prediction.",
+      "labels": [
+        "Statistics",
+        "Quadratics"
+      ],
+      "solution": "(a) y(25)=−0.6(25²)+23(25)+110=310 children. (b) The required regression is x on y: x=0.0935114…y+7.43053…, or x≈0.0935y+7.43. (c) With y=310, x=36.419…; predict about 36 ice creams."
+    },
+    {
+      "id": "2023-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nA company manufactures metal tubes for bicycle frames. The diameters of the tubes, D mm, are normally distributed with mean 32 and standard deviation s. The interquartile range of the diameters is 0.28.\n\nFind the value of s.",
+      "summary": "Determine a normal distribution's standard deviation from its interquartile range.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "For a normal distribution, Q₁=32−0.674489…s and Q₃=32+0.674489…s. Thus Q₃−Q₁=2(0.674489…)s=0.28, giving s=0.207564…≈0.208 mm."
+    },
+    {
+      "id": "2023-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nThe coefficient of x⁶ in the expansion of (ax³ + b)⁸ is 448.\n\nThe coefficient of x⁶ in the expansion of (ax³ + b)¹⁰ is 2880.\n\nFind the value of a and the value of b, where a, b > 0.",
+      "summary": "Use binomial coefficients to solve for two positive parameters.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The x⁶ term selects two factors ax³. Thus C(8,2)a²b⁶=448, so a²b⁶=16; and C(10,2)a²b⁸=2880, so a²b⁸=64. Dividing gives b²=4, hence b=2. Then a²·64=16, so a²=1/4 and a=1/2."
+    },
+    {
+      "id": "2023-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nThe temperature of a cup of tea, t minutes after it is poured, can be modelled by H(t) = 21 + 75e^(−0.08t), t ≥ 0. The temperature is measured in degrees Celsius (°C).\n\n(a) (i) Find the initial temperature of the tea.\n    (ii) Find the temperature of the tea three minutes after it is poured. [2]\n\n(b) Write down the value of H′(3). [2]\n\n(c) Interpret the meaning of your answer to part (b) in the given context. [2]\n\n(d) After k minutes, the tea will be below 67°C and cool enough to drink. Find the least possible value of k, where k ∈ ℤ⁺. [3]\n\nAs the tea cools, H(t) approaches the temperature of the room, which is constant.\n\n(e) Find the temperature of the room. [2]\n\n(f) Find the limit of H′(t) as t approaches infinity. [2]",
+      "summary": "Interpret an exponential cooling model and its derivative.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Differentiation"
+      ],
+      "solution": "(a)(i) H(0)=96°C. (ii) H(3)=21+75e^(−0.24)=79.997…≈80.0°C. (b) H′(t)=−6e^(−0.08t), so H′(3)=−4.71976…≈−4.72°C min⁻¹. (c) At three minutes, the tea is cooling at about 4.72°C per minute. (d) Solving H(t)=67 gives t=6.11058…, so the least positive integer is k=7. (e) lim H(t)=21°C. (f) lim H′(t)=0."
+    },
+    {
+      "id": "2023-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 17,
+      "accessible_text": "8. [Maximum mark: 17]\n\nIn a large city, 160 people were surveyed. Of those, 60 were children (C) and the rest adults (A). Each person was asked whether they preferred milk chocolate (M) or dark chocolate (D). It was found that 48 of the children preferred milk chocolate.\n\n                | M (milk) | D (dark) | Total\nC (children)    | 48       | p        | 60\nA (adults)      | x        | y        | q\n\n(a) Find the value of (i) p; (ii) q. [2]\n\n(b) Three people are chosen at random from those surveyed. Find the probability that all three are adults. [4]\n\n(c) (i) Given that P(A | M) = 1/3, find x.\n    (ii) A person is chosen at random from those surveyed. Write down the probability that they are an adult who prefers milk chocolate. [4]\n\n(d) Determine if the events A and M are independent. Justify your answer. [3]\n\nIt can be assumed that the survey results are representative of the population of the city.\n\n(e) Ten people in the city are chosen at random. Find the probability that at least five of them prefer dark chocolate. [4]",
+      "summary": "Complete a contingency table and apply conditional, without-replacement and binomial probabilities.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a)(i) p=60−48=12. (ii) q=160−60=100. (b) P(all adults)=(100/160)(99/159)(98/158)=0.241372…≈0.241. (c)(i) x/(48+x)=1/3 gives x=24. (ii) P(A∩M)=24/160=3/20. (d) P(A|M)=1/3 while P(A)=100/160=5/8, so A and M are not independent. (e) There are 88 dark-preferrers, so p=88/160=0.55. For X~B(10,0.55), P(X≥5)=0.738437…≈0.738."
+    },
+    {
+      "id": "2023-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [
+        11,
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nAn engineer is designing a gutter to catch rainwater from the roof of a house. The gutter will be open at the top and is made by folding a piece of sheet metal 45 cm wide and 600 cm long.\n\n[Diagram not to scale: rectangular sheet metal, 600 cm by 45 cm.]\n\nThe cross-section of the gutter is shaded in the following diagram.\n\n[Diagram not to scale: the cross-section has two vertical sides of height 10 cm separated by width w. Its curved base is arc AB of a circle with centre O and radius 12 cm; angle AÔB=θ.]\n\nThe height of both vertical sides is 10 cm. The width of the gutter is w cm. Arc AB lies on the circumference of a circle with centre O and radius 12 cm. Let AÔB = θ radians, where 0 < θ < π.\n\n(a) Show that θ = 2.08, correct to three significant figures. [3]\n\n(b) Find the area of the cross-section of the gutter. [7]\n\nIn a storm, the total volume, in cm³, of rainwater that enters the gutter can be modelled by a function R(t), where t is the time, in seconds, since the start of the storm. It was determined that the rate at which rainwater entered the gutter could be modelled by\n\nR′(t) = 50cos(2πt/5) + 3000, t ≥ 0.\n\nDuring any 60-second period, if the volume of rainwater entering the gutter is greater than the volume of the gutter, it will overflow.\n\n(c) Determine whether the gutter overflowed in this storm. Justify your answer. [5]",
+      "summary": "Combine arc geometry, cross-sectional area and integration of a periodic inflow rate.",
+      "labels": [
+        "Radian",
+        "Trigonometry",
+        "Integration"
+      ],
+      "solution": "(a) The arc uses 45−10−10=25 cm, so 12θ=25 and θ=25/12=2.0833…≈2.08. (b) The chord width is w=2(12)sin(θ/2)=20.7 cm. The curved segment area is (1/2)12²(θ−sinθ)=87.3 cm² (using exact θ), and the rectangle is 10w≈207 cm². Total cross-sectional area ≈294 cm². (c) Gutter volume ≈294.43(600)=176658 cm³. Over 60 seconds, ∫₀⁶⁰[50cos(2πt/5)+3000]dt=180000 cm³ because the cosine completes 12 periods. Since 180000>176658, the gutter overflowed."
+    }
+  ]
+}

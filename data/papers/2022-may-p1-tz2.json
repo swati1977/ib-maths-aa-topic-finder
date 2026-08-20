@@ -1,0 +1,152 @@
+{
+  "paper": {
+    "id": "2022-may-p1-tz2",
+    "title": "May 2022 Mathematics: Analysis and Approaches SL Paper 1 TZ2",
+    "paper": 1,
+    "zone": "2",
+    "year": 2022,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-cb5cf16116801d4a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2022-may-p1-tz2-q1",
+      "number": 1,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nThe following table shows values of f(x) and g(x) for different values of x. Both f and g are one-to-one functions.\n\n[Table: x: −2, 0, 3, 4. Corresponding f(x): 8, 4, 0, −3. Corresponding g(x): −5, −2, 4, 0.]\n\n(a) Find g(0). [1]\n\n(b) Find (f ∘ g)(0). [2]\n\n(c) Find the value of x such that f(x) = 0. [2]",
+      "summary": "Read function values and a composition from a table.",
+      "labels": [
+        "Functions - Roots"
+      ],
+      "solution": "(a) g(0)=−2. (b) f(g(0))=f(−2)=8. (c) f(3)=0, so x=3."
+    },
+    {
+      "id": "2022-may-p1-tz2-q2",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nThe nth term of an arithmetic sequence is given by uₙ = 15 − 3n.\n\n(a) State the value of the first term, u₁. [1]\n\n(b) Given that the nth term of this sequence is −33, find the value of n. [2]\n\n(c) Find the common difference, d. [2]",
+      "summary": "Use an explicit arithmetic-sequence formula.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) u₁=12. (b) 15−3n=−33 gives n=16. (c) d=−3."
+    },
+    {
+      "id": "2022-may-p1-tz2-q3",
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nConsider any three consecutive integers, n − 1, n and n + 1.\n\n(a) Prove that the sum of these three integers is always divisible by 3. [2]\n\n(b) Prove that the sum of the squares of these three integers is never divisible by 3. [4]",
+      "summary": "Prove divisibility claims for consecutive integers.",
+      "labels": [
+        "Mathematical Induction"
+      ],
+      "solution": "(a) (n−1)+n+(n+1)=3n. (b) (n−1)²+n²+(n+1)²=3n²+2≡2 (mod 3), so it is never divisible by 3."
+    },
+    {
+      "id": "2022-may-p1-tz2-q4",
+      "number": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nA function f is defined by f(x) = (2x − 1)/(x + 1), where x ∈ ℝ, x ≠ −1.\n\n(a) The graph of y = f(x) has a vertical asymptote and a horizontal asymptote. Write down the equation of\n\n(i) the vertical asymptote;\n\n(ii) the horizontal asymptote. [2]\n\n(b) On the set of axes below, sketch the graph of y = f(x). On your sketch, clearly indicate the asymptotes and the position of any points of intersection with the axes. [3]\n\n[Blank coordinate grid: x- and y-axes are marked from −6 to 6 in increments of 2, with the origin labelled 0.]\n\n(c) Hence, solve the inequality 0 < (2x − 1)/(x + 1) < 2. [1]",
+      "summary": "Sketch and analyze a rational function.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a) (i) x=−1; (ii) y=2. (b) f=2−3/(x+1), with intercepts (1/2,0) and (0,−1), and branches approaching the stated asymptotes. (c) x>1/2."
+    },
+    {
+      "id": "2022-may-p1-tz2-q5",
+      "number": 5,
+      "pages": [
+        9
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nFind the least positive value of x for which cos(x/2 + π/3) = 1/√2.",
+      "summary": "Solve a cosine equation in radians.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "The reference angle is π/4. The first-quadrant equation gives x<0. The next valid angle is 7π/4: x/2+π/3=7π/4, so x/2=17π/12 and x=17π/6."
+    },
+    {
+      "id": "2022-may-p1-tz2-q6",
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nConsider the binomial expansion (x + 1)⁷ = x⁷ + ax⁶ + bx⁵ + 35x⁴ + … + 1, where x ≠ 0 and a, b ∈ ℤ⁺.\n\n(a) Show that b = 21. [2]\n\nThe third term in the expansion is the mean of the second term and the fourth term in the expansion.\n\n(b) Find the possible values of x. [5]",
+      "summary": "Use binomial coefficients and a mean condition.",
+      "labels": [
+        "Binomial Theorem",
+        "Quadratics"
+      ],
+      "solution": "(a) b=C(7,2)=21. (b) Also a=7. Thus 21x⁵=(7x⁶+35x⁴)/2. Divide by 7x⁴: x²−6x+5=0, so x=1 or 5."
+    },
+    {
+      "id": "2022-may-p1-tz2-q7",
+      "number": 7,
+      "pages": [
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "7. [Maximum mark: 15]\n\nThe following diagram shows part of the graph of a quadratic function f. The graph of f has its vertex at (3, 4), and it passes through point Q as shown.\n\n[Diagram: Coordinate axes labelled x and y. The graph y = f is an upward-opening parabola with its vertex labelled (3, 4) above and to the right of the origin. Point Q is marked on the rising right-hand branch.]\n\n(a) Write down the equation of the axis of symmetry. [1]\n\n(b) The function can be written in the form f(x) = a(x − h)² + k.\n\n(i) Write down the values of h and k.\n\n(ii) Point Q has coordinates (5, 12). Find the value of a. [4]\n\nThe line L is tangent to the graph of f at Q.\n\n(c) Find the equation of L. [4]\n\nNow consider another function y = g(x). The derivative of g is given by g′(x) = f(x) − d, where d ∈ ℝ.\n\n(d) Find the values of d for which g is an increasing function. [3]\n\n(e) Find the values of x for which the graph of g is concave-up. [3]",
+      "summary": "Determine a quadratic, tangent and derivative behavior.",
+      "labels": [
+        "Quadratics",
+        "Graphs",
+        "Differentiation"
+      ],
+      "solution": "(a) x=3. (b) h=3,k=4; 12=4a+4 gives a=2. (c) f′=4(x−3), so slope at Q is 8 and L is y=8x−28. (d) min f=4, so f−d>0 for all x iff d<4. (e) g″=f′>0 iff x>3."
+    },
+    {
+      "id": "2022-may-p1-tz2-q8",
+      "number": 8,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nConsider the functions f(x) = 1/(x − 4) + 1, for x ≠ 4, and g(x) = x − 3, for x ∈ ℝ.\n\nThe following diagram shows the graphs of f and g.\n\n[Diagram: Coordinate axes labelled x and y. The graph y = f has two decreasing branches separated by the vertical asymptote x = 4 and tending to the horizontal asymptote y = 1: its left branch crosses the x-axis at A, and its upper-right branch intersects the increasing straight line y = g at B. The straight line also passes through A.]\n\nThe graphs of f and g intersect at points A and B. The coordinates of A are (3, 0).\n\n(a) Find the coordinates of B. [5]\n\nIn the following diagram, the shaded region is enclosed by the graph of f, the graph of g, the x-axis, and the line x = k, where k ∈ ℤ.\n\n[Diagram: The same graphs are shown with a vertical line x = k to the right of B. The shaded region lies above the x-axis. From A to B it is bounded above by the line g; from B to x = k it is bounded above by the upper-right branch of f. Its right boundary is the vertical line x = k.]\n\nThe area of the shaded region can be written as ln(p) + 8, where p ∈ ℤ.\n\n(b) Find the value of k and the value of p. [10]",
+      "summary": "Find intersections and an enclosed area.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Integration"
+      ],
+      "solution": "(a) 1/(x−4)+1=x−3 gives (x−3)(x−5)=0; hence B=(5,2). (b) Splitting the shown region at x=5, use ∫f dx=ln|x−4|+x and the triangular line area. The combined area simplifies to ln(k−4)+k−3. Equating with ln p+8 gives k=11 and p=7."
+    },
+    {
+      "id": "2022-may-p1-tz2-q9",
+      "number": 9,
+      "pages": [
+        15
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nA biased four-sided die with faces labelled 1, 2, 3 and 4 is rolled and the result recorded. Let X be the result obtained when the die is rolled. The probability distribution for X is given in the following table where p and q are constants.\n\n[Table: x: 1, 2, 3, 4. Corresponding P(X = x): p, 0.3, q, 0.1.]\n\nFor this probability distribution, it is known that E(X) = 2.\n\n(a) Show that p = 0.4 and q = 0.2. [5]\n\n(b) Find P(X > 2). [2]\n\nNicky plays a game with this four-sided die. In this game she is allowed a maximum of five rolls. Her score is calculated by adding the results of each roll. Nicky wins the game if her score is at least ten.\n\nAfter three rolls of the die, Nicky has a score of four.\n\n(c) Assuming that rolls of the die are independent, find the probability that Nicky wins the game. [5]\n\nDavid has two pairs of unbiased four-sided dice, a yellow pair and a red pair.\n\nBoth yellow dice have faces labelled 1, 2, 3 and 4. Let S represent the sum obtained by rolling the two yellow dice. The probability distribution for S is shown below.\n\n[Table: s: 2, 3, 4, 5, 6, 7, 8. Corresponding P(S = s): 1/16, 2/16, 3/16, 4/16, 3/16, 2/16, 1/16.]\n\nThe first red die has faces labelled 1, 2, 2 and 3. The second red die has faces labelled 1, a, a and b, where a < b and a, b ∈ ℤ⁺. The probability distribution for the sum obtained by rolling the red pair is the same as the distribution for the sum obtained by rolling the yellow pair.\n\n(d) Determine the value of b. [2]\n\n(e) Find the value of a, providing evidence for your answer. [2]",
+      "summary": "Analyze biased and relabelled dice.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a) p+q=0.6 and p+3q=1, so p=0.4,q=0.2. (b) 0.2+0.1=0.3. (c) The last two rolls must total 6,7 or 8, with probabilities 0.10,0.04,0.01; total 0.15. (d) Maximum sum 3+b=8 gives b=5. (e) Enumeration with a=3 gives second die 1,3,3,5 and exactly the required triangular sum frequencies, so a=3."
+    }
+  ]
+}

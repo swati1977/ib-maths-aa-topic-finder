@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-november-p1-tz3",
+    "title": "November 2025 Mathematics: Analysis and Approaches SL Paper 1 TZ3",
+    "paper": 1,
+    "zone": "3",
+    "year": 2025,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz3-sl-1effef9b52d983f9",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ3_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ3_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-november-p1-tz3-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe discrete random variable X has the following probability distribution:\n\n[Table: The first row is x with values 1, 2, 3 and 4. The second row is P(X = x) with corresponding values 0.2, 0.3, k and 0.1.]\n\n(a) Find the value of k. [2]\n\n(b) Find P(X > 1.5). [2]\n\n(c) Find E(X). [2]",
+      "summary": "Complete a discrete probability distribution, calculate a cumulative probability, and find the expected value.",
+      "labels": ["Probability", "Statistics"],
+      "solution": "(a) The probabilities must sum to 1, so 0.2 + 0.3 + k + 0.1 = 1. Hence k = 0.4.\n\n(b) X > 1.5 means X is 2, 3 or 4. Therefore P(X > 1.5) = 0.3 + 0.4 + 0.1 = 0.8.\n\n(c) E(X) = ΣxP(X = x) = 1(0.2) + 2(0.3) + 3(0.4) + 4(0.1) = 0.2 + 0.6 + 1.2 + 0.4 = 2.4."
+    },
+    {
+      "id": "2025-november-p1-tz3-q2",
+      "number": 2,
+      "pages": [4],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nThe gradient of a curve is given by dy/dx = 4 cos x − sin x. The curve passes through the point (π, 3). Find the equation of the curve.",
+      "summary": "Integrate a trigonometric gradient and use a point on the curve to determine the integration constant.",
+      "labels": ["Integration", "Trigonometry"],
+      "solution": "Integrating the gradient gives y = ∫(4 cos x − sin x) dx = 4 sin x + cos x + C. The point (π, 3) lies on the curve, so 3 = 4 sin π + cos π + C = 0 − 1 + C. Thus C = 4, and the equation of the curve is y = 4 sin x + cos x + 4."
+    },
+    {
+      "id": "2025-november-p1-tz3-q3",
+      "number": 3,
+      "pages": [5],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe 7th term of an arithmetic sequence is 6.\n\nThe sum of the 6th term and the 12th term is 24.\n\nFind the first term and the common difference.",
+      "summary": "Use two conditions on terms of an arithmetic sequence to find its first term and common difference.",
+      "labels": ["Sequences - Series"],
+      "solution": "Let the first term be u₁ and the common difference be d. Since uₙ = u₁ + (n − 1)d, the seventh-term condition gives u₁ + 6d = 6. Also, u₆ + u₁₂ = (u₁ + 5d) + (u₁ + 11d) = 24, so 2u₁ + 16d = 24, or u₁ + 8d = 12. Subtracting u₁ + 6d = 6 gives 2d = 6, hence d = 3. Then u₁ + 18 = 6, so u₁ = −12. The first term is −12 and the common difference is 3."
+    },
+    {
+      "id": "2025-november-p1-tz3-q4",
+      "number": 4,
+      "pages": [6],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nEvents A and B are such that P(A) = 1/2, P(B) = 1/3 and P(A | B) = 1/4.\n\n(a) Find the probability that both events A and B occur. [2]\n\n(b) Find P(A | B′). [4]",
+      "summary": "Use conditional probability and a complementary event to calculate an intersection and a second conditional probability.",
+      "labels": ["Probability"],
+      "solution": "(a) By the definition of conditional probability, P(A ∩ B) = P(A | B)P(B) = (1/4)(1/3) = 1/12.\n\n(b) P(B′) = 1 − 1/3 = 2/3. Also, P(A ∩ B′) = P(A) − P(A ∩ B) = 1/2 − 1/12 = 5/12. Therefore P(A | B′) = P(A ∩ B′)/P(B′) = (5/12)/(2/3) = (5/12)(3/2) = 5/8."
+    },
+    {
+      "id": "2025-november-p1-tz3-q5",
+      "number": 5,
+      "pages": [7],
+      "marks": 8,
+      "accessible_text": "5. [Maximum mark: 8]\n\nThe following diagram shows the graph of y = (Ax + B)/(x − 4), where x ∈ ℝ, x ≠ 4 and A, B ∈ ℤ.\n\nThe graph passes through the points P(−10, 1) and Q(3, −12).\n\n[Coordinate diagram: a reciprocal-type graph has vertical asymptote x = 4 and horizontal asymptote y = 2. Its left branch passes through P(−10, 1), crosses the x-axis to the left of the y-axis, passes below the y-axis and through Q(3, −12), then tends downward as x approaches 4 from the left. Its right branch tends upward as x approaches 4 from the right and approaches y = 2 from above as x increases.]\n\n(a) Determine the value of A and the value of B. [3]\n\n(b) Describe a sequence of transformations that would map the graph of y = 1/x onto the graph of y = (Ax + B)/(x − 4). [5]",
+      "summary": "Determine a rational function from two points and describe transformations from the reciprocal parent graph.",
+      "labels": ["Functions - Roots", "Graphs"],
+      "solution": "(a) Substituting P(−10, 1) into y = (Ax + B)/(x − 4) gives 1 = (−10A + B)/(−14), so −10A + B = −14. Substituting Q(3, −12) gives −12 = (3A + B)/(−1), so 3A + B = 12. Subtracting the first equation from the second gives 13A = 26, hence A = 2. Then 3(2) + B = 12, so B = 6.\n\n(b) With A = 2 and B = 6, y = (2x + 6)/(x − 4) = 2 + 14/(x − 4). Starting from y = 1/x: apply a vertical stretch by scale factor 14; translate 4 units to the right; then translate 2 units upwards. The horizontal translation may be performed before or after the vertical stretch, but the vertical stretch must precede the upward translation."
+    },
+    {
+      "id": "2025-november-p1-tz3-q6",
+      "number": 6,
+      "pages": [8],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nSolve the equation 3 log₈(10x) − log₄ x = 1 for x > 0.",
+      "summary": "Use change of base and logarithm laws to solve an equation with bases 8 and 4.",
+      "labels": ["Exponentials - Logarithms"],
+      "solution": "Convert all logarithms to base 2. Since log₈(10x) = log₂(10x)/3 and log₄x = log₂x/2, the equation becomes log₂(10x) − (1/2)log₂x = 1. Using logarithm laws, log₂(10x) − log₂(√x) = log₂(10√x) = 1. Therefore 10√x = 2, so √x = 1/5 and x = 1/25, which satisfies x > 0."
+    },
+    {
+      "id": "2025-november-p1-tz3-q7",
+      "number": 7,
+      "pages": [9],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nConsider a triangle PQR where PR = 3, QR = 2 and P̂RQ = 60°.\n\n[Diagram not to scale: triangle PQR has P at the lower left, R at the lower right and Q above them. The horizontal side PR is labelled 3, side QR is labelled 2, and the interior angle at R is labelled 60°.]\n\n(a) Find PQ. [3]\n\nNow consider a general triangle ABC where AC = x + 2, BC = 3x − 1 and AĈB = 60°.\n\n[Diagram: triangle ABC has A at the lower left, C at the lower right and B above them. The horizontal side AC is labelled x + 2, side BC is labelled 3x − 1, and the interior angle at C is labelled 60°.]\n\n(b) Show that AB = √(7x² − 7x + 7). [5]\n\n(c) Given that AB = 7,\n\n(i) find the value of x;\n\n(ii) find the area of triangle ABC. [6]",
+      "summary": "Apply the cosine rule to two triangles, solve a resulting quadratic under side-length constraints, and calculate an exact area.",
+      "labels": ["Trigonometry", "Quadratics"],
+      "solution": "(a) By the cosine rule, PQ² = PR² + QR² − 2(PR)(QR)cos 60° = 3² + 2² − 2(3)(2)(1/2) = 9 + 4 − 6 = 7. Therefore PQ = √7.\n\n(b) Applying the cosine rule at C, AB² = (x + 2)² + (3x − 1)² − 2(x + 2)(3x − 1)cos 60°. Since cos 60° = 1/2, AB² = (x + 2)² + (3x − 1)² − (x + 2)(3x − 1). Expanding gives AB² = (x² + 4x + 4) + (9x² − 6x + 1) − (3x² + 5x − 2) = 7x² − 7x + 7. As AB is a length, AB = √(7x² − 7x + 7), as required.\n\n(c)(i) Set √(7x² − 7x + 7) = 7. Squaring gives 7x² − 7x + 7 = 49, so x² − x − 6 = 0. Hence (x − 3)(x + 2) = 0, giving x = 3 or x = −2. But AC = x + 2 and BC = 3x − 1 must be positive; x = −2 is invalid. Therefore x = 3.\n\n(c)(ii) When x = 3, AC = 5 and BC = 8. Thus area = (1/2)(AC)(BC)sin 60° = (1/2)(5)(8)(√3/2) = 10√3."
+    },
+    {
+      "id": "2025-november-p1-tz3-q8",
+      "number": 8,
+      "pages": [10],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nConsider the function defined by f(x) = (1/2)x² + kx + 13, where x ∈ ℝ and k ∈ ℤ⁺.\n\n(a) Given that the equation f(x) = 0 has no real roots, show that the greatest possible value of k is 5. [2]\n\nFor the remainder of this question, consider the case k = 5.\n\n(b) (i) Write down the equation of the axis of symmetry of the graph of f.\n\n(ii) Hence, or otherwise, determine the coordinates of the minimum point on the graph of f. [3]\n\nThe following diagram shows the graph of f and a line L which is normal to the curve at x = −3. The shaded area shown is bounded by the curve, the line L and the y-axis.\n\n[Coordinate diagram: an upward-opening parabola has its minimum above the x-axis and to the left of the y-axis. A descending line L meets the curve at x = −3 and crosses the y-axis at 1. The region between the parabola and L from their meeting point at x = −3 to the y-axis x = 0 is shaded.]\n\n(c) Show that the equation of L is given by y = −(1/2)x + 1. [5]\n\n(d) Hence, find the shaded area. [5]",
+      "summary": "Analyze a quadratic using its discriminant and vertex, derive a normal line, and integrate the area between the line and curve.",
+      "labels": ["Quadratics", "Graphs", "Differentiation", "Integration"],
+      "solution": "(a) For f(x) = (1/2)x² + kx + 13, the discriminant is Δ = k² − 4(1/2)(13) = k² − 26. No real roots requires Δ < 0, so k² < 26. Since k is a positive integer, k ≤ 5; therefore the greatest possible value is 5.\n\n(b)(i) With k = 5, the axis of symmetry is x = −b/(2a) = −5/[2(1/2)] = −5.\n\n(b)(ii) f(−5) = (1/2)(25) + 5(−5) + 13 = 25/2 − 25 + 13 = 1/2. Hence the minimum point is (−5, 1/2).\n\n(c) At x = −3, f(−3) = (1/2)(9) − 15 + 13 = 5/2, so the point is (−3, 5/2). Also f′(x) = x + 5, giving tangent gradient f′(−3) = 2. The normal gradient is the negative reciprocal, −1/2. Therefore y − 5/2 = −(1/2)(x + 3), which simplifies to y = −(1/2)x + 1.\n\n(d) On −3 ≤ x ≤ 0, the parabola lies above L. The shaded area is ∫ from −3 to 0 of [(1/2)x² + 5x + 13 − (−(1/2)x + 1)] dx = ∫ from −3 to 0 of [(1/2)x² + (11/2)x + 12] dx. An antiderivative is x³/6 + 11x²/4 + 12x. Therefore the area is [x³/6 + 11x²/4 + 12x] from −3 to 0 = 0 − [−27/6 + 99/4 − 36] = 63/4 square units."
+    },
+    {
+      "id": "2025-november-p1-tz3-q9",
+      "number": 9,
+      "pages": [11],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nThe function f is defined by f(x) = (5eˣ − e²ˣ)/(eˣ + 1). The following diagram shows part of the graph of f. The graph intersects the y-axis at point P and intersects the x-axis at point R.\n\nPoint Q is a local maximum point with coordinates (q, 7 − 2√6).\n\n[Coordinate diagram: the curve approaches the x-axis from above on the far left, rises through P on the y-axis to the nearby local maximum Q just to the right of the y-axis, then falls, crosses the positive x-axis at R, and continues downward.]\n\n(a) (i) Find the coordinates of point P.\n\n(ii) Find the coordinates of point R. [6]\n\n(b) State the range of f. [1]\n\n(c) Show that f′(x) = (−e³ˣ − 2e²ˣ + 5eˣ)/(eˣ + 1)². [3]\n\n(d) Hence, show that q = ln(√6 − 1). [6]",
+      "summary": "Find intercepts and range of an exponential rational function, differentiate it, and solve the stationary-point equation exactly.",
+      "labels": ["Exponentials - Logarithms", "Functions - Roots", "Graphs", "Differentiation"],
+      "solution": "(a)(i) At x = 0, f(0) = (5e⁰ − e⁰)/(e⁰ + 1) = (5 − 1)/2 = 2. Hence P = (0, 2).\n\n(a)(ii) At an x-intercept, 5eˣ − e²ˣ = 0. Factorizing gives eˣ(5 − eˣ) = 0. Since eˣ > 0, eˣ = 5, so x = ln 5. Hence R = (ln 5, 0).\n\n(b) The local maximum Q is the global maximum shown by the function's end behaviour, and its y-coordinate is 7 − 2√6. Therefore the range is f(x) ≤ 7 − 2√6, equivalently (−∞, 7 − 2√6].\n\n(c) Let u = 5eˣ − e²ˣ and v = eˣ + 1. Then u′ = 5eˣ − 2e²ˣ and v′ = eˣ. By the quotient rule, f′(x) = [(eˣ + 1)(5eˣ − 2e²ˣ) − eˣ(5eˣ − e²ˣ)]/(eˣ + 1)². Expanding the numerator gives 5e²ˣ + 5eˣ − 2e³ˣ − 2e²ˣ − 5e²ˣ + e³ˣ = −e³ˣ − 2e²ˣ + 5eˣ. Thus f′(x) = (−e³ˣ − 2e²ˣ + 5eˣ)/(eˣ + 1)², as required.\n\n(d) At Q, f′(q) = 0. The denominator is positive, so −e^(3q) − 2e^(2q) + 5e^q = 0. Dividing by e^q > 0 gives −e^(2q) − 2e^q + 5 = 0, or (e^q)² + 2e^q − 5 = 0. Solving this quadratic gives e^q = −1 ± √6. Since e^q > 0, e^q = √6 − 1. Taking natural logarithms yields q = ln(√6 − 1)."
+    }
+  ]
+}

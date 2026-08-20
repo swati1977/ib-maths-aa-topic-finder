@@ -7,7 +7,10 @@ const TOPICS = [
   "Differential Equations", "Kinematics"
 ];
 
-const state = { questions: [], topics: new Set(), papers: new Set(), zones: new Set(), query: "", sort: "paper" };
+const state = {
+  questions: [], topics: new Set(), papers: new Set(), zones: new Set(),
+  years: new Set(), sessions: new Set(), query: "", sort: "paper"
+};
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
 
@@ -27,6 +30,34 @@ function buildTopicFilters() {
   });
 }
 
+function appendCheckbox(host, name, value, text) {
+  const label = document.createElement("label");
+  const input = document.createElement("input");
+  const caption = document.createElement("span");
+  label.className = "check-row";
+  input.type = "checkbox";
+  input.name = name;
+  input.value = String(value);
+  caption.textContent = text;
+  label.append(input, caption);
+  host.append(label);
+}
+
+function formatZone(zone) {
+  if (/^\d+$/.test(zone)) return `TZ${zone}`;
+  if (zone === "N") return "Single zone";
+  return `Zone ${zone}`;
+}
+
+function buildDynamicFilters(questions) {
+  const years = [...new Set(questions.map(q => q.year))].sort((a, b) => b - a);
+  const sessions = [...new Set(questions.map(q => q.session))].sort();
+  const zones = [...new Set(questions.map(q => q.zone))].sort();
+  years.forEach(year => appendCheckbox($("#year-filters"), "year", year, String(year)));
+  sessions.forEach(session => appendCheckbox($("#session-filters"), "session", session, session));
+  zones.forEach(zone => appendCheckbox($("#zone-filters"), "zone", zone, formatZone(zone)));
+}
+
 function selectedValues(name) {
   return new Set($$(`input[name="${name}"]:checked`).map(input => input.value));
 }
@@ -35,6 +66,8 @@ function syncState() {
   state.topics = selectedValues("topic");
   state.papers = selectedValues("paper");
   state.zones = selectedValues("zone");
+  state.years = selectedValues("year");
+  state.sessions = selectedValues("session");
   state.query = $("#search").value.trim().toLowerCase();
   state.sort = $("#sort").value;
 }
@@ -43,16 +76,18 @@ function filteredQuestions() {
   const items = state.questions.filter(q => {
     const matchesPaper = !state.papers.size || state.papers.has(String(q.paper));
     const matchesZone = !state.zones.size || state.zones.has(q.zone);
+    const matchesYear = !state.years.size || state.years.has(String(q.year));
+    const matchesSession = !state.sessions.size || state.sessions.has(q.session);
     const matchesTopic = !state.topics.size || q.labels.some(label => state.topics.has(label));
-    const haystack = `${q.summary} ${q.labels.join(" ")} paper ${q.paper} zone ${q.zone}`.toLowerCase();
-    return matchesPaper && matchesZone && matchesTopic && (!state.query || haystack.includes(state.query));
+    const haystack = `${q.accessibleText} ${q.labels.join(" ")} paper ${q.paper} zone ${q.zone} ${q.session} ${q.year}`.toLowerCase();
+    return matchesPaper && matchesZone && matchesYear && matchesSession && matchesTopic && (!state.query || haystack.includes(state.query));
   });
 
   return items.sort((a, b) => {
     if (state.sort === "marks-desc") return b.marks - a.marks || a.id.localeCompare(b.id);
     if (state.sort === "marks-asc") return a.marks - b.marks || a.id.localeCompare(b.id);
     if (state.sort === "topic") return a.labels[0].localeCompare(b.labels[0]) || a.id.localeCompare(b.id);
-    return a.paper - b.paper || a.zone.localeCompare(b.zone) || a.number - b.number;
+    return b.year - a.year || a.session.localeCompare(b.session) || a.paper - b.paper || a.zone.localeCompare(b.zone) || a.number - b.number;
   });
 }
 
@@ -61,7 +96,9 @@ function renderActiveFilters() {
   host.replaceChildren();
   const chips = [
     ...[...state.papers].map(value => ["paper", value, `Paper ${value}`]),
-    ...[...state.zones].map(value => ["zone", value, `Zone ${value}`]),
+    ...[...state.years].map(value => ["year", value, value]),
+    ...[...state.sessions].map(value => ["session", value, value]),
+    ...[...state.zones].map(value => ["zone", value, formatZone(value)]),
     ...[...state.topics].map(value => ["topic", value, value])
   ];
   if (state.query) chips.unshift(["search", state.query, `Search: ${state.query}`]);
@@ -84,24 +121,6 @@ function renderActiveFilters() {
 
 function buildPaperUrl(q) {
   return `${q.pdfUrl}#page=${q.pages[0]}&view=FitH&toolbar=1&navpanes=0`;
-}
-
-function renderQuestionImages(host, q) {
-  host.replaceChildren();
-  q.questionImages.forEach((src, index) => {
-    const figure = document.createElement("figure");
-    const caption = document.createElement("figcaption");
-    const image = document.createElement("img");
-    figure.className = "question-image-page";
-    caption.textContent = `Question ${q.number} · source page ${q.displayPages[index]}`;
-    image.className = "question-image";
-    image.src = src;
-    image.alt = `Original Paper ${q.paper} Zone ${q.zone}, question ${q.number}, source page ${q.displayPages[index]}`;
-    image.loading = "lazy";
-    image.decoding = "async";
-    figure.append(caption, image);
-    host.append(figure);
-  });
 }
 
 function renderSolutionParts(host, text) {
@@ -143,11 +162,11 @@ function renderSolutionParts(host, text) {
 function renderQuestion(q) {
   const card = $("#question-template").content.firstElementChild.cloneNode(true);
   card.dataset.questionId = q.id;
-  card.querySelector(".paper-badge").textContent = `Paper ${q.paper} · Zone ${q.zone}`;
-  card.querySelector(".question-meta").textContent = `Question ${q.number} · ${q.year} · page${q.pages.length > 1 ? "s" : ""} ${q.pages.join("–")}`;
+  card.querySelector(".paper-badge").textContent = `Paper ${q.paper} · ${formatZone(q.zone)}`;
+  card.querySelector(".question-meta").textContent = `Question ${q.number} · ${q.session} ${q.year} · page${q.pages.length > 1 ? "s" : ""} ${q.pages.join("–")}`;
   card.querySelector(".marks").textContent = `${q.marks} mark${q.marks === 1 ? "" : "s"}`;
   card.querySelector("h3").textContent = `Question ${q.number}`;
-  card.querySelector(".question-summary").textContent = q.summary;
+  card.querySelector(".question-text").textContent = q.accessibleText;
   const labels = card.querySelector(".labels");
   q.labels.forEach(text => {
     const span = document.createElement("span");
@@ -157,38 +176,11 @@ function renderQuestion(q) {
   });
   const paperLink = card.querySelector(".paper-link");
   paperLink.href = buildPaperUrl(q);
-  paperLink.setAttribute("aria-label", `Open Paper ${q.paper} Zone ${q.zone}, question ${q.number}`);
-
-  const sourceViewer = card.querySelector(".source-viewer");
-  const questionButton = card.querySelector(".question-button");
-  const imageList = card.querySelector(".question-image-list");
-  const viewerId = `question-view-${q.id}`;
-  sourceViewer.id = viewerId;
-  sourceViewer.setAttribute("role", "region");
-  sourceViewer.setAttribute("aria-label", `Original Paper ${q.paper} Zone ${q.zone}, question ${q.number}`);
-  questionButton.setAttribute("aria-controls", viewerId);
-  const mappedPages = q.pages.join("–");
-  const shownPages = q.displayPages.join("–");
-  card.querySelector(".accessible-question-text").textContent = q.accessibleText;
-  card.querySelector(".source-pages").textContent = mappedPages === shownPages
-    ? `Source page${q.displayPages.length > 1 ? "s" : ""} ${shownPages}`
-    : `Showing printed page${q.displayPages.length > 1 ? "s" : ""} ${shownPages} · source span ${mappedPages}`;
+  paperLink.setAttribute("aria-label", `View exact Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`);
   if (!q.viewerAvailable) {
     paperLink.href = q.sourceUrl;
-    paperLink.textContent = "Open source record ↗";
-  }
-  if (!q.questionImages?.length) {
-    questionButton.textContent = "Question preview unavailable";
-    questionButton.disabled = true;
-    sourceViewer.remove();
-  } else {
-    questionButton.addEventListener("click", () => {
-      const opening = sourceViewer.hidden;
-      if (opening && !imageList.childElementCount) renderQuestionImages(imageList, q);
-      sourceViewer.hidden = !opening;
-      questionButton.textContent = opening ? "Hide exact question" : "View exact question";
-      questionButton.setAttribute("aria-expanded", String(opening));
-    });
+    paperLink.textContent = "View source record ↗";
+    paperLink.setAttribute("aria-label", `View source record for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`);
   }
 
   const solution = card.querySelector(".solution");
@@ -229,7 +221,9 @@ async function init() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.questions = payload.questions;
+    buildDynamicFilters(payload.questions);
     $("#question-count").textContent = payload.questions.length;
+    $("#paper-count").textContent = payload.papers.length;
     update();
   } catch (error) {
     const failure = document.createElement("div");
@@ -242,6 +236,7 @@ async function init() {
     $("#questions").replaceChildren(failure);
     $("#visible-count").textContent = "0";
     $("#question-count").textContent = "0";
+    $("#paper-count").textContent = "0";
   }
 
   $("#search").addEventListener("input", update);

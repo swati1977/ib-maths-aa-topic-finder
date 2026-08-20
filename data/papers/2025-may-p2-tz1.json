@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-may-p2-tz1",
+    "title": "May 2025 Mathematics: Analysis and Approaches SL Paper 2 TZ1",
+    "paper": 2,
+    "zone": "1",
+    "year": 2025,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-70c2eb7faf6416ef",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nConsider the function f(x) = (x − 1)²/x, where x ∈ ℝ, x ≠ 0.\n\n(a) Show that (x − 1)²/x = x − 2 + 1/x. [2]\n\n(b) Hence, find ∫ f(x) dx. [3]",
+      "summary": "Rewrite a rational expression and integrate the resulting three terms.",
+      "labels": ["Integration"],
+      "solution": "(a) Expand the numerator and divide each term by x: (x − 1)²/x = (x² − 2x + 1)/x = x − 2 + 1/x, as required. (b) Therefore ∫f(x) dx = ∫(x − 2 + 1/x) dx = x²/2 − 2x + ln|x| + C."
+    },
+    {
+      "id": "2025-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [4],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe points A and B lie on a circle, with centre O and radius 19.5 cm, such that BÔA = 210°.\n\nA piece of paper is cut into the shape of the sector BOA.\n\nA hollow cone with no base is constructed from the sector by joining the points A and B. The sector forms the curved surface of the cone.\n\nThis is shown in the following diagrams.\n\n[Diagrams: On the left, sector BOA is the major sector of a circle. Its centre is O; straight radii OA and OB are each labelled 19.5 cm; the reflex central angle BÔA is labelled 210°; and the major arc runs from B around the left side of the circle to A. On the right, the sector has been formed into a hollow cone with vertex O. The two radii become coincident slant edges of length 19.5 cm, and the joined point on the circular rim is labelled A, B. The visible front half of the circular rim is solid and the hidden rear half is dashed.]\n\nFind\n\n(a) the area of the sector BOA; [3]\n\n(b) the radius of the cone. [3]",
+      "summary": "Use a major sector to calculate its area and the base radius of the cone formed from it.",
+      "labels": ["Radian", "Trigonometry"],
+      "solution": "(a) The sector angle is 210° = 7π/6 radians. Its area is ½r²θ = ½(19.5)²(7π/6) = 3549π/16 = 696.844… cm², so the area is 697 cm² to three significant figures. (b) When the sector is formed into the cone, its arc becomes the base circumference. The arc length is 19.5(7π/6) = 91π/4 cm. If R is the cone's radius, 2πR = 91π/4, so R = 91/8 = 11.375 cm = 11.4 cm to three significant figures."
+    },
+    {
+      "id": "2025-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [5],
+      "marks": 4,
+      "accessible_text": "3. [Maximum mark: 4]\n\nConsider the function f(x) = a tan(2x) + b, where x ≠ (2n + 1)π/4, n ∈ ℤ and a, b ∈ ℝ.\n\n(a) Write down the period of f. [1]\n\nThe graph of y = f(x) passes through the points (π/12, 5) and (π/3, 7).\n\n(b) Find the value of a and the value of b. [3]",
+      "summary": "Find the period and parameters of a transformed tangent function from two points.",
+      "labels": ["Trigonometry"],
+      "solution": "(a) Since tan u has period π and the argument is 2x, the period is π/2. (b) Substituting (π/12, 5) gives a tan(π/6) + b = 5, so a/√3 + b = 5. Substituting (π/3, 7) gives a tan(2π/3) + b = 7, so −a√3 + b = 7. Subtracting the equations gives −4a/√3 = 2, hence a = −√3/2. Then b = 5 − a/√3 = 5 + 1/2 = 11/2."
+    },
+    {
+      "id": "2025-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [6],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nA population, P, has a rate of change modelled by dP/dt = −104000e^(−0.0145t), where t is the time measured in years since the start of 2022.\n\nAt the start of 2022, the population was 6.78 × 10⁶.\n\nBased on this model, find the predicted population at the start of 2026.",
+      "summary": "Integrate a population rate model over four years to predict the population.",
+      "labels": ["Integration", "Differential Equations", "Exponentials - Logarithms"],
+      "solution": "The start of 2026 corresponds to t = 4. The change in population from t = 0 to t = 4 is ∫₀⁴ −104000e^(−0.0145t) dt = (104000/0.0145)[e^(−0.0145t)]₀⁴ = (104000/0.0145)(e^(−0.058) − 1) = −404165.894…. Hence P(4) = 6.78 × 10⁶ − 404165.894… = 6375834.106…, which is 6.38 × 10⁶ people to three significant figures."
+    },
+    {
+      "id": "2025-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [7],
+      "marks": 8,
+      "accessible_text": "5. [Maximum mark: 8]\n\nIn a study, measurements for arm span, A cm, and foot length, F cm, are taken from a large group of adults.\n\nFor this group, the regression line of F on A is found to be F = 0.335A − 32.6, and the regression line of A on F is found to be A = 2.89F + 99.3. Each regression line passes through the mean point.\n\n(a) By using an appropriate regression line, find an estimate of the arm span for an adult with a foot length of 19.8 cm. [2]\n\n(b) For this group of adults, find the mean arm span and the mean foot length. [3]\n\nThe heights, H cm, of adults in the group can be modelled by a normal distribution with mean 163 cm and standard deviation σ cm.\n\nIt is found that 88% of the group have a height between 153 cm and 173 cm.\n\n(c) Find the value of σ. [3]",
+      "summary": "Use two regression lines to estimate and recover sample means, then determine a normal-distribution standard deviation.",
+      "labels": ["Statistics", "Probability"],
+      "solution": "(a) Arm span is the response variable, so use the regression of A on F: A = 2.89(19.8) + 99.3 = 156.522 cm, giving 157 cm to three significant figures. (b) Both regression lines pass through (Ā, F̄), so solve F̄ = 0.335Ā − 32.6 and Ā = 2.89F̄ + 99.3 simultaneously. This gives F̄ = 20.8948… cm and Ā = 159.686… cm. Thus the mean foot length is 20.9 cm and the mean arm span is 160 cm. (c) The interval from 153 to 173 is symmetric about the mean 163. Since its probability is 0.88, each tail has probability 0.06, so P(H < 173) = 0.94. Therefore (173 − 163)/σ = Φ⁻¹(0.94) = 1.55477…, and σ = 10/1.55477… = 6.43180… cm ≈ 6.43 cm."
+    },
+    {
+      "id": "2025-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [8],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nConsider the function h(x) = 15 cos(πx/50) + 15, where 0 ≤ x ≤ 50.\n\nThe tangent, Tₖ, to the curve y = h(x) at the point (k, h(k)) is shown on the following diagram.\n\n[Diagram: Coordinate axes are labelled x and y, with the origin labelled 0, y = 30 marked on the vertical axis and x = 50 marked on the horizontal axis. The curve labelled y = h(x) starts at (0, 30) with a horizontal tangent, decreases in a cosine-shaped arc, and ends at (50, 0) with a horizontal tangent. A point on the upper-left portion of the curve is marked and labelled (k, h(k)). The descending straight tangent through this point is labelled Tₖ; it crosses the positive x-axis to the right of 50.]\n\n(a) Find the gradient of Tₖ in terms of k. [3]\n\nConsider the case where the angle between Tₖ and the x-axis is π/8 radians.\n\n(b) Find the possible values of k. [3]",
+      "summary": "Differentiate a cosine curve and find the two tangent points for a given acute angle with the x-axis.",
+      "labels": ["Differentiation", "Trigonometry", "Graphs"],
+      "solution": "(a) Differentiating h(x) gives h′(x) = 15[−sin(πx/50)](π/50) = −(3π/10)sin(πx/50). Hence the gradient of Tₖ is −(3π/10)sin(πk/50). (b) On 0 ≤ k ≤ 50 the tangent gradient is non-positive. An acute angle π/8 with the x-axis therefore corresponds to gradient −tan(π/8). Thus −(3π/10)sin(πk/50) = −tan(π/8), or sin(πk/50) = 10tan(π/8)/(3π) = 0.439494…. Solving on 0 ≤ k ≤ 50 gives k = 7.24211… or k = 42.7578…, so k = 7.24 or 42.8 to three significant figures."
+    },
+    {
+      "id": "2025-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [9],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nLynn is playing a game with two unbiased six-sided dice, each with faces marked with the integers from 1 to 6.\n\nIn each round, she throws both dice once. The outcomes can be displayed in the following sample space diagram, which has been partially completed:\n\n[Sample space diagram: A 6 by 6 interior grid has Die 2 as the column heading and Die 1 as the row heading. The six columns are labelled 1, 2, 3, 4, 5, 6 from left to right, and the six rows are labelled 1, 2, 3, 4, 5, 6 from top to bottom. Three ordered outcomes are printed: 2,2 in row 2, column 2; 3,4 in row 3, column 4; and 5,3 in row 5, column 3. Every other interior cell is blank.]\n\nLynn scores points according to the following rules.\n\n• If the two dice show the same score, she scores 10 points.\n\n• If the two dice show scores which have a difference of one, for example the scores 4 and 5 in any order, she scores 5 points.\n\n• Otherwise, she scores 0 points.\n\n(a) Show that the probability that Lynn scores 5 points in one round is 5/18. [2]\n\n(b) Find the probability that Lynn scores no points in one round. [2]\n\nThe random variable X represents the number of points Lynn scores in one round.\n\n(c) Find E(X). [4]\n\n(d) Hence, estimate the total number of points that Lynn scores if she plays 90 rounds. [2]\n\nA prize is awarded to any player who scores more than 40 points in total.\n\nLynn plays exactly five rounds.\n\n(e) Find the probability that Lynn wins a prize. [4]",
+      "summary": "Build a discrete score distribution from two dice, calculate its expectation, and find a five-round prize probability.",
+      "labels": ["Probability", "Statistics"],
+      "solution": "(a) A difference of one occurs for (1,2), (2,1), (2,3), (3,2), (3,4), (4,3), (4,5), (5,4), (5,6) and (6,5): 10 of the 36 equally likely outcomes. Thus P(X = 5) = 10/36 = 5/18. (b) There are 6 equal-score outcomes, so P(X = 10) = 6/36 = 1/6. Therefore P(X = 0) = 1 − 5/18 − 1/6 = 5/9. (c) E(X) = 0(5/9) + 5(5/18) + 10(1/6) = 25/18 + 30/18 = 55/18 = 3.05555… points. (d) Over 90 rounds, the expected total is 90(55/18) = 275 points. (e) More than 40 points in five rounds can occur only as five 10-point scores, or as four 10-point scores and one 5-point score. Hence P(win) = (1/6)⁵ + C(5,1)(1/6)⁴(5/18) = 7/5832 = 0.00120027… ≈ 0.00120."
+    },
+    {
+      "id": "2025-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [10],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nRectangular playing cards are stacked in the shape of a pyramid with n rows, where n ≥ 1.\n\nSome cards are placed horizontally and some cards are stacked at an angle of 60° to the horizontal.\n\nThe following diagrams represent pyramid stacks for n = 1, n = 2 and n = 3.\n\n[Diagrams: For n = 1, two inclined cards lean together to form one inverted-V support, with no horizontal card. For n = 2, two inverted-V supports stand in the bottom row, one horizontal card bridges their apexes, and one inverted-V support stands on that card: six inclined cards and one horizontal card in total. For n = 3, three inverted-V supports form the bottom row and two horizontal cards bridge adjacent apexes; two inverted-V supports form the second row and one horizontal card bridges their apexes; one inverted-V support forms the top row: twelve inclined cards and three horizontal cards in total. The visible left face of each inverted-V support is shaded grey.]\n\nLet tₙ represent the number of cards used to create a pyramid stack with n rows.\n\n(a) Write down t₃. [1]\n\n(b) Find t₄. [2]\n\n(c) Show that tₙ = n(3n + 1)/2. [3]\n\nThere are 52 cards in a full pack of playing cards.\n\n(d) A complete pyramid stack is created using playing cards taken from 14 full packs. Find the maximum number of rows in this stack. [3]\n\n(e) A complete pyramid stack is created using playing cards taken from full packs with no cards left over. Find the minimum number of rows in this stack. [2]\n\nThe long edge of each playing card measures 88 mm as illustrated in the following diagram.\n\n[Diagram: Two inclined rectangular cards lean together as one inverted-V support. The long sloping edge of the right-hand card is labelled 88 mm; the visible left face is shaded grey.]\n\n(f) Find the minimum number of cards needed to create a complete pyramid stack with a vertical height of more than 2 metres. The thickness of the cards may be ignored. [5]",
+      "summary": "Develop and apply the card-count sequence for a pyramid, including pack divisibility and a trigonometric height condition.",
+      "labels": ["Sequences - Series", "Trigonometry"],
+      "solution": "(a) The n = 3 diagram contains 12 inclined cards and 3 horizontal cards, so t₃ = 15. (b) A fourth row adds 2(4) = 8 inclined cards and 3 horizontal cards, so t₄ = 15 + 11 = 26. (c) Row r contributes 2r inclined cards and r − 1 horizontal cards, for 3r − 1 cards. Therefore tₙ = Σᵣ₌₁ⁿ(3r − 1) = 3n(n + 1)/2 − n = n(3n + 1)/2, as required. (d) Fourteen packs contain 14(52) = 728 cards. Solve n(3n + 1)/2 ≤ 728. The positive boundary is n = (−1 + √17473)/6 = 21.8642…. Also t₂₁ = 672 and t₂₂ = 737, so the maximum is 21 rows. (e) The stack must use a positive multiple of 52 cards. Checking tₙ = n(3n + 1)/2 in increasing order, no value for 1 ≤ n ≤ 12 is divisible by 52, while t₁₃ = 13(40)/2 = 260 = 5(52). Thus the minimum is 13 rows. (f) The vertical height contributed by each row is 88sin60° = 44√3 = 76.2102… mm. More than 2 m means n(44√3) > 2000, so n > 26.2431… and the minimum is n = 27 rows. The number of cards is t₂₇ = 27(82)/2 = 1107."
+    },
+    {
+      "id": "2025-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [11],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nConsider the function f(x) = (2 − 2x)/(x + 2), where x ∈ ℝ, x ≠ −2.\n\n(a) Show that f⁻¹(x) = f(x). [3]\n\nThe point P(k, (2 − 2k)/(k + 2)) is the point on the graph of y = f(x) that is closest to the origin (0, 0).\n\n(b) (i) Find the value of k.\n\n(ii) Hence, write down the coordinates of P. [4]\n\nConsider the function g(x) = (2 − 3x)/(cx + d), where x ∈ ℝ, x ≠ −d/c, and c, d ≠ 0.\n\nThe graph of y = g(x) has a vertical asymptote and a horizontal asymptote.\n\n(c) In terms of c and d, write down the equation of\n\n(i) the vertical asymptote;\n\n(ii) the horizontal asymptote. [2]\n\nIt is given that g⁻¹(x) = g(x).\n\n(d) Find the value of d. [2]\n\nConsider the case where c = 1.\n\n(e) Sketch the graph of y = 1/g(x), showing the values of any intercepts with the axes and including any asymptotes, labelled with their equations. [4]",
+      "summary": "Analyse self-inverse rational functions, minimize distance to the origin, and sketch a reciprocal rational graph with its asymptotes and discontinuity.",
+      "labels": ["Functions - Roots", "Differentiation", "Graphs"],
+      "solution": "(a) Let y = (2 − 2x)/(x + 2). Then yx + 2y = 2 − 2x, so x(y + 2) = 2 − 2y and x = (2 − 2y)/(y + 2) = f(y). Interchanging x and y therefore gives f⁻¹(x) = f(x). (b)(i) The graph is symmetric in y = x because f is its own inverse. Its two intersections with y = x satisfy k = (2 − 2k)/(k + 2), so k² + 4k − 2 = 0 and k = −2 ± √6. The nearer intersection to the origin is k = −2 + √6 = 0.449489…; the other has k = −4.44948…. Hence k = 0.449 to three significant figures. (ii) At this closest point f(k) = k, so P = (√6 − 2, √6 − 2), or (0.449, 0.449) to three significant figures. (c)(i) The denominator is zero when cx + d = 0, so the vertical asymptote is x = −d/c. (ii) The ratio of the leading coefficients is −3/c, so the horizontal asymptote is y = −3/c. (d) Solving y = (2 − 3x)/(cx + d) for x gives g⁻¹(y) = (2 − dy)/(cy + 3). For this to equal g(y) = (2 − 3y)/(cy + d), comparison of the constant terms after cross-multiplication gives 2d = 6, hence d = 3. (e) With c = 1 and d = 3, 1/g(x) = (x + 3)/(2 − 3x), subject to the original domain restriction x ≠ −3. The vertical asymptote is x = 2/3 and the horizontal asymptote is y = −1/3. The y-intercept is (0, 3/2). The simplified expression would be zero at x = −3, but that value is excluded, so show an open point discontinuity at (−3, 0), not an included x-intercept. Draw two decreasing rational branches: for x < 2/3 the branch approaches y = −1/3 from above as x → −∞, has the open point at (−3, 0), passes through (0, 3/2), and tends to +∞ as x → (2/3)⁻; for x > 2/3 the branch tends to −∞ as x → (2/3)⁺ and approaches y = −1/3 from below as x → ∞."
+    }
+  ]
+}

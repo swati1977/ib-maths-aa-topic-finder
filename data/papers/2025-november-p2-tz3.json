@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-november-p2-tz3",
+    "title": "November 2025 Mathematics: analysis and approaches SL Paper 2 TZ3",
+    "paper": 2,
+    "zone": "3",
+    "year": 2025,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz3-sl-933d9560b8b4190a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ3_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ3_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-november-p2-tz3-q1",
+      "number": 1,
+      "pages": [3, 4],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nKiran and Logan collect the following data about the river Afon, where x is the distance in metres from the source and y is the depth in centimetres.\n\n[Table: Distance from the source x (m): 50, 100, 150, 200, 300, 400, 450. Corresponding depth y (cm): 11, 15, 23, 34, 35, 49, 67.]\n\nThis data is represented in the following scatter diagram.\n\n[Scatter diagram titled “River Afon”. The horizontal axis is “Distance from source x (m)”, from 0 to 500 with labelled intervals of 100. The vertical axis is “Depth of river y (cm)”, from 0 to 80 with labelled intervals of 10. The seven plotted points are (50, 11), (100, 15), (150, 23), (200, 34), (300, 35), (400, 49) and (450, 67).]\n\nKiran knows that the depth of the river is 0 cm at the source.\n\nKiran calculates x̄ and ȳ for the seven points given in the table on page 2 and draws a line on the scatter diagram through the mean point (x̄, ȳ) and the point (0, 0).\n\n(a) Find\n\n(i) the value of x̄ and the value of ȳ;\n\n(ii) the equation of Kiran’s line. [3]\n\nFor the seven points given in the table Logan finds the regression line of y on x with equation y = ax + b, where a, b ∈ ℝ.\n\n(b) Determine the value of a and the value of b. [2]\n\n(c) By using the equation of Logan’s regression line, estimate the depth of the river 350 m from its source. [2]",
+      "summary": "Compare a line through the origin and the data mean with the least-squares regression line for river depth, then make a prediction.",
+      "labels": ["Statistics"],
+      "solution": "(a)(i) The coordinate means are x̄ = (50 + 100 + 150 + 200 + 300 + 400 + 450)/7 = 1650/7 = 235.714… = 236 m (3 s.f.) and ȳ = (11 + 15 + 23 + 34 + 35 + 49 + 67)/7 = 234/7 = 33.4285… = 33.4 cm (3 s.f.). (ii) Kiran’s line passes through (0, 0) and (x̄, ȳ), so its gradient is ȳ/x̄ = 234/1650 = 0.141818…. Hence y = 0.142x (3 s.f.). (b) For the regression of y on x, a = Σ(x − x̄)(y − ȳ)/Σ(x − x̄)² = 0.125515… and b = ȳ − ax̄ = 3.84278…. Thus a = 0.126 and b = 3.84 (3 s.f.), giving y = 0.125515…x + 3.84278…. (c) At x = 350, y = 0.125515…(350) + 3.84278… = 47.7731…, so the estimated depth is 47.8 cm. These values agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q2",
+      "number": 2,
+      "pages": [5],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nA boat sets off from a port P and travels on a bearing of 090° until reaching point B.\n\nA lighthouse L is 5 km from P on a bearing of 056°.\n\nThe bearing of the lighthouse from B is 290°.\n\nThis is shown in the following diagram.\n\n[Diagram not to scale: P and B lie on a horizontal east–west line, with B due east of P. A north arrow is drawn at each point. L is above the segment PB, forming triangle PLB. Segment PL is labelled 5 km. At P, the clockwise angle from north to PL is 056°. At B, the clockwise bearing from north to BL is 290°.]\n\n(a) Find the angle LP̂B. [1]\n\n(b) Find LB, the distance from point L to point B. [4]",
+      "summary": "Use bearings to determine two triangle angles and apply the sine rule to find the lighthouse-to-boat distance.",
+      "labels": ["Trigonometry"],
+      "solution": "(a) Since PB has bearing 090° and PL has bearing 056°, angle LP̂B = 090° − 056° = 34°. (b) From B, BP has bearing 270° while BL has bearing 290°, so angle LBP = 290° − 270° = 20°. Therefore angle PLB = 180° − 34° − 20° = 126°. By the sine rule, LB/sin 34° = PL/sin 20° = 5/sin 20°. Hence LB = 5 sin 34°/sin 20° = 8.17485… km = 8.17 km (3 s.f.). These results agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q3",
+      "number": 3,
+      "pages": [6],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\n(a) Show that 3 cos 2x + 11 sin x = 3 + 11 sin x − 6 sin²x. [2]\n\n(b) Hence, or otherwise, solve the equation 3 cos 2x + 11 sin x − 6 = 0 for 0° ≤ x ≤ 180°. [3]",
+      "summary": "Use a double-angle identity to rewrite a trigonometric expression as a quadratic in sin x and solve it on a stated interval.",
+      "labels": ["Trigonometry", "Quadratics"],
+      "solution": "(a) Using cos 2x = 1 − 2 sin²x gives 3 cos 2x + 11 sin x = 3(1 − 2 sin²x) + 11 sin x = 3 + 11 sin x − 6 sin²x, as required. (b) Substitute this form into the equation: 3 + 11 sin x − 6 sin²x − 6 = 0, so 6 sin²x − 11 sin x + 3 = 0. Factoring gives (3 sin x − 1)(2 sin x − 3) = 0. Since sin x cannot equal 3/2, sin x = 1/3. On 0° ≤ x ≤ 180°, x = sin⁻¹(1/3) = 19.4712…° or x = 180° − 19.4712…° = 160.528…°. Therefore x = 19.5° or 161° (3 s.f.). These answers agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q4",
+      "number": 4,
+      "pages": [7],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nA teacher sets her class of 30 pupils a quiz.\n\nAiden and Brett were absent on the day of the quiz.\n\nThe following box and whisker diagram shows the results of the 28 pupils who took the quiz on the day.\n\n[Box and whisker diagram on a quiz-score scale from 6 to 17: minimum 6, lower quartile 6.5, median 10.5, upper quartile 14.5 and maximum 17.]\n\nAiden and Brett take the quiz when they return.\n\nAiden scores less than 6.\n\nBrett scores more than 17.\n\n(a) Explain, briefly, why the median score for all 30 pupils would still be 10.5. [1]\n\nThe mean score of the 28 pupils was 10.5.\n\nThe mean score for all 30 pupils is now 10.6.\n\nThe range of scores for all 30 pupils is 14.\n\n(b) Determine Aiden’s score and Brett’s score. [5]",
+      "summary": "Reason about how two extreme scores affect a median, then use mean and range information to recover both scores.",
+      "labels": ["Statistics"],
+      "solution": "(a) Aiden’s new score lies below every original score and Brett’s lies above every original score. They are therefore added at opposite ends of the ordered list, so the two central original values remain the 15th and 16th values of the 30 scores. Their average, and hence the median, stays 10.5. (b) Let A and B be Aiden’s and Brett’s scores. The original total was 28(10.5) = 294 and the new total is 30(10.6) = 318, so A + B = 24. Because A < 6 and B > 17, they become the new minimum and maximum; the new range gives B − A = 14. Solving the simultaneous equations, 2B = 38, so B = 19 and A = 5. Thus Aiden scored 5 and Brett scored 19, agreeing with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q5",
+      "number": 5,
+      "pages": [8],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nConsider a circle and a sector.\n\nThe radius of the circle is 8 mm.\n\nThe radius of the sector is r mm and the acute angle at the centre is θ radians.\n\nThis is shown in the following diagram.\n\n[Diagram not to scale: A circle with a radius marked 8 is shown beside a separate circular sector. The sector has radius r and acute central angle θ.]\n\nThe perimeter of the sector is 1.5 times the circumference of the circle.\n\n(a) Show that r = 24π/(2 + θ). [3]\n\nIt is given that the area of the circle is the same as the area of the sector.\n\n(b) Determine the value of θ. [3]",
+      "summary": "Relate the perimeter and area of a circle and a sector, then solve for the sector’s acute central angle.",
+      "labels": ["Radian", "Quadratics"],
+      "solution": "(a) The circle’s circumference is 2π(8) = 16π mm, so the sector’s perimeter is 1.5(16π) = 24π mm. A sector of radius r and angle θ has perimeter 2r + rθ = r(2 + θ). Thus r(2 + θ) = 24π and r = 24π/(2 + θ), as required. (b) Equality of areas gives 64π = ½r²θ. Substituting the expression for r, 64π = ½[24π/(2 + θ)]²θ. After simplification, (2 + θ)² = (9π/2)θ, or θ² + (4 − 9π/2)θ + 4 = 0. Solving gives θ = 0.411273… or θ = 9.72589…. Since θ is acute, 0 < θ < π/2, so θ = 0.411 radians (3 s.f.). This agrees with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q6",
+      "number": 6,
+      "pages": [10],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nA garden centre sells seeds for two varieties of sunflowers: large and giant.\n\nThe heights of large sunflowers are normally distributed with mean m and standard deviation s.\n\nIt is known that 25% of large sunflowers have a height of over 180 cm.\n\n(a) Given that m + As = 180, where A ∈ ℝ, find the value of A. [3]\n\nThe heights of giant sunflowers are also normally distributed.\n\nThe giant sunflowers have a mean height that is 35 cm more than that of the large sunflowers and a standard deviation that is double that of the large sunflowers.\n\nIt is known that 98% of giant sunflowers have a height greater than 180 cm.\n\n(b) Determine m and s. [4]",
+      "summary": "Use normal-distribution quantiles for two related sunflower populations to determine a standardized constant, mean and standard deviation.",
+      "labels": ["Statistics", "Probability"],
+      "solution": "Let X be a large-sunflower height, so X ~ N(m, s²). Since P(X > 180) = 0.25, P(X ≤ 180) = 0.75 and (180 − m)/s = Φ⁻¹(0.75) = 0.674489…. Therefore m + 0.674489…s = 180, so (a) A = 0.674 (3 s.f.). For giant sunflowers, let Y ~ N(m + 35, (2s)²). Since P(Y > 180) = 0.98, P(Y ≤ 180) = 0.02, so [180 − (m + 35)]/(2s) = Φ⁻¹(0.02) = −2.053748…. Hence 145 − m = −4.107497…s, or m = 145 + 4.107497…s. Combining this with m = 180 − 0.674489…s gives 35 = 4.781987…s, so s = 7.31913… and m = 175.063…. Thus m = 175 cm and s = 7.32 cm (3 s.f.), agreeing with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q7",
+      "number": 7,
+      "pages": [11],
+      "marks": 12,
+      "accessible_text": "7. [Maximum mark: 12]\n\nAndy and Jess each have $5000.\n\nAndy invests the money in a new savings plan that will pay interest at the end of each month.\n\nAndy will receive a fixed amount of interest each month. The amount received is 0.315% of the initial investment.\n\n(a) (i) Determine the amount of interest Andy will receive at the end of each month. Give this answer correct to two decimal places.\n\n(ii) Hence, determine the amount of interest Andy will receive each year.\n\n(iii) Write down an expression in the form 5000 + pn, where p ∈ ℤ⁺, for the amount of money Andy will have in his savings plan at the end of n years.\n\n(iv) Hence, show that Andy will have $5945 in his savings plan at the end of 5 years. [4]\n\nIn this part, where appropriate, give all answers to the nearest dollar.\n\nJess invests her $5000 in a new account that pays 3% interest compounded annually.\n\n(b) (i) Determine the amount of money that will be in Jess’s account at the end of 5 years.\n\n(ii) Hence, find the amount of interest Jess will receive in the 5 years. [3]\n\n(c) (i) Write an expression in the form 5000 × qⁿ, where q ∈ ℝ⁺, for the amount of money that Jess will have in her account at the end of n years.\n\n(ii) Hence, determine the smallest number of complete years that it will take for Jess to have more money in her account than Andy has in his savings plan. [5]",
+      "summary": "Compare simple monthly interest based on the initial principal with annual compound interest and find when the compound account overtakes.",
+      "labels": ["Sequences - Series", "Exponentials - Logarithms"],
+      "solution": "(a)(i) Andy’s monthly interest is 0.315% of $5000: 5000(0.00315) = $15.75. (ii) In one year he receives 12(15.75) = $189. (iii) After n years his balance is 5000 + 189n, so p = 189. (iv) At n = 5, 5000 + 189(5) = 5000 + 945 = $5945, as required. (b)(i) Jess’s balance after 5 years is 5000(1.03)⁵ = $5796.370…, which is $5796 to the nearest dollar. (ii) Her interest is 5796.370… − 5000 = $796.370…, or $796 to the nearest dollar. (c)(i) Jess’s balance after n years is 5000(1.03)ⁿ, so q = 1.03. (ii) We need 5000(1.03)ⁿ > 5000 + 189n. Numerical solution of the equality gives n = 16.0097…, so the first complete integer year after the crossing is n = 17. Indeed, at n = 16 Jess has $8023.53 while Andy has $8024, but at n = 17 Jess has $8264.24 while Andy has $8213. Therefore the smallest number is 17 years. All results agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q8",
+      "number": 8,
+      "pages": [12],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nA manufacturer creates an ice cream model consisting of two parts.\n\nThe top part consists of a hemisphere of ice cream with radius r cm.\n\nThe bottom part consists of a cone of ice cream with radius r cm and height h cm, which is wrapped in a wafer coating.\n\nThis is shown in the following diagram.\n\n[Diagram: A hemisphere and an inverted cone are shown separately with a plus sign, then combined into an ice cream model. The hemisphere sits on the cone’s circular top. Both have radius r; the cone has vertical height h. The cone’s curved exterior is labelled “wafer coating”.]\n\n(a) Consider the case where r = 3 and h = 8.\n\n(i) Show that the total volume, V, of ice cream is 132 cm³, correct to 3 significant figures.\n\n(ii) Determine the curved surface area, S, of the wafer coating. [7]\n\nThe manufacturer changes the dimensions of the model to ensure that the total volume, V, of ice cream is 120 cm³.\n\n(b) Show that h = (360 − 2πr³)/(πr²). [3]\n\n(c) Hence, show that the curved surface area of the wafer coating is given by\n\nS = πr√(r² + ((360 − 2πr³)/(πr²))²). [2]\n\nThe manufacturer wants to use the minimum possible value of S.\n\n(d) Determine the minimum value of S and the corresponding value of r. [3]",
+      "summary": "Calculate a hemisphere-and-cone model’s volume and cone surface area, derive a fixed-volume constraint, and minimize the coating area.",
+      "labels": ["Differentiation"],
+      "solution": "(a)(i) With r = 3 and h = 8, V = (2/3)πr³ + (1/3)πr²h = (2/3)π(27) + (1/3)π(9)(8) = 18π + 24π = 42π = 131.946… cm³ = 132 cm³ (3 s.f.). (ii) The cone’s slant height is l = √(r² + h²) = √(3² + 8²) = √73. Its curved surface area is S = πrl = 3π√73 = 80.5253… cm² = 80.5 cm². (b) For the redesigned model, (2/3)πr³ + (1/3)πr²h = 120. Multiplying by 3 and rearranging gives πr²h = 360 − 2πr³, hence h = (360 − 2πr³)/(πr²). (c) Since l = √(r² + h²) and S = πrl, substitution of the expression for h gives S = πr√(r² + ((360 − 2πr³)/(πr²))²), as required. (d) For r > 0 with h > 0, minimize this one-variable function using a GDC or by solving dS/dr = 0. The minimum occurs at r = 3.67084… cm, where h = 1.16228… cm and S = 44.4045… cm². Thus the minimum coating area is 44.4 cm² and the corresponding radius is 3.67 cm (3 s.f.). These results agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz3-q9",
+      "number": 9,
+      "pages": [13, 14],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nA particle P moves in a straight line so that its displacement, s cm, from a fixed point O at time t seconds is given by s(t) = 2^(1 − t/5) sin(2πt/3), where t ≥ 0.\n\nThe following diagram shows part of the graph of y = s(t).\n\n[Graph: A damped sinusoidal curve on axes labelled s(t) vertically and t horizontally. It begins at the origin with positive slope, then oscillates above and below the t-axis with steadily decreasing amplitude.]\n\n(a) Find\n\n(i) the maximum displacement of P from O;\n\n(ii) the maximum velocity of P. [5]\n\n(b) Find\n\n(i) the minimum value of the displacement function s(t);\n\n(ii) the displacement of P from O when t = 3.5. [3]\n\n(c) Hence, determine the total distance travelled by P in the first 3.5 seconds. [3]\n\nThe first time that P returns and passes through O is when t = T.\n\n(d) Write down the value of T. [1]\n\nThe particle passes through O every T seconds.\n\nA sequence u₁, u₂, u₃ … is formed where u₁, u₂, u₃ … are the largest distances from O in each of the intervals 0 < t < T, T < t < 2T, 2T < t < 3T … respectively.\n\nIt is known that u₁, u₂, u₃ … form a geometric sequence.\n\n(e) (i) Determine the value of the common ratio r of this geometric sequence.\n\n(ii) Calculate the total distance travelled by the particle if it were to continue to move in this way indefinitely. [5]",
+      "summary": "Analyse damped sinusoidal displacement for extrema, velocity and distance, then use its geometric decay to find an infinite travel distance.",
+      "labels": ["Kinematics", "Differentiation", "Sequences - Series", "Trigonometry", "Exponentials - Logarithms"],
+      "solution": "Write s(t) = 2e^(−kt)sin(ωt), where k = ln 2/5 and ω = 2π/3. Then v(t) = s′(t) = 2e^(−kt)[ω cos(ωt) − k sin(ωt)]. (a)(i) At a nonzero stationary point, tan(ωt) = ω/k. The first positive maximum occurs at t = 0.718442… and gives s = 1.80645… cm, so the maximum displacement is 1.81 cm. Later maxima are smaller because of the factor 2^(−t/5). (ii) The greatest positive velocity occurs at t = 0; v(0) = 2ω = 4π/3 = 4.18879… cm s⁻¹, so the maximum velocity is 4.19 cm s⁻¹. (b)(i) The first minimum occurs at t = 0.718442… + 1.5 = 2.218442… and gives s = −1.46729… cm, so the minimum value is −1.47 cm. (ii) s(3.5) = 2^(1 − 3.5/5)sin(7π/3) = 1.06620… cm = 1.07 cm. (c) From t = 0 to 3.5, the particle travels from 0 to the first maximum, back through 0 to the first minimum, back through 0 to the second maximum, then back to s(3.5). Equivalently, the successive turning values needed are 1.80645…, −1.46729…, 1.19181… and s(3.5) = 1.06620…. The distance is 1.80645 + (1.80645 + 1.46729) + (1.46729 + 1.19181) + (1.19181 − 1.06620) = 7.61369… cm, so 7.61 cm. (d) Zeros occur when sin(2πt/3) = 0, so the first positive zero is T = 3/2 = 1.5 seconds. (e)(i) Each interval is T = 1.5 seconds later than the previous one. The sinusoidal shape repeats in absolute value, while the amplitude is multiplied by 2^(−T/5). Therefore r = 2^(−1.5/5) = 2^(−3/10) = 0.812252… = 0.812. (ii) In each interval between consecutive crossings of O, the particle travels from O to its largest distance uₙ and back to O, a distance 2uₙ. Since u₁ = 1.80645… and the uₙ form a geometric sequence, total distance = 2[u₁/(1 − r)] = 2(1.80645…)/(1 − 0.812252…) = 19.2433… cm = 19.2 cm. These values agree with the official markscheme."
+    }
+  ]
+}

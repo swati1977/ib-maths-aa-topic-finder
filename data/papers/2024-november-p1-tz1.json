@@ -1,0 +1,149 @@
+{
+  "paper": {
+    "id": "2024-november-p1-tz1",
+    "title": "November 2024 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2024,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-41c4add4b786cd32",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/November%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/November%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nConsider the following set of ordered data.\n\n27, 27, 31, 32, 33, 37, 41, 46, 54, 57\n\n(a) Write down\n    (i) the mode;\n    (ii) the range;\n    (iii) the median. [3]\n\n(b) Find the interquartile range. [3]",
+      "summary": "Calculate central tendency and spread for ordered data.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a)(i) Mode = 27. (ii) Range = 30. (iii) Median = 35. (b) Q₁ = 31, Q₃ = 46, hence IQR = 46 − 31 = 15.",
+      "id": "2024-november-p1-tz1-q1"
+    },
+    {
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nPoints A and B lie on a circle with centre O and radius r cm, where AÔB = 0.75 radians.\n\n[Diagram not to scale: sector OAB, with radii OA and OB and central angle AÔB labelled 0.75.]\n\nThe area of sector OAB is 6 cm².\n\n(a) Find r. [3]\n\n(b) Hence, find the perimeter of sector OAB. [2]",
+      "summary": "Use sector area and arc length.",
+      "labels": [
+        "Radian"
+      ],
+      "solution": "(a) ½r²θ=6, so ½r²(0.75)=6; therefore r=4 cm. (b) Perimeter = 2r+rθ = 11 cm.",
+      "id": "2024-november-p1-tz1-q2"
+    },
+    {
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nTwo events A and B satisfy P(A) = 0.45, P(B) = 0.65 and P(A ∪ B) = 0.8.\n\n(a) Find P(A ∩ B). [3]\n\n(b) Find P(A′ | B′). [3]",
+      "summary": "Use addition and conditional probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) P(A∩B)=0.45+0.65−0.8=0.3. (b) P(A′∩B′)=1−0.8 and P(B′)=1−0.65; their quotient is 4/7.",
+      "id": "2024-november-p1-tz1-q3"
+    },
+    {
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 4,
+      "accessible_text": "4. [Maximum mark: 4]\n\nProve that (2n + 5)² − (2n − 5)² is a multiple of 10 for all n ∈ ℤ⁺.",
+      "summary": "Prove divisibility by a difference of squares.",
+      "labels": [
+        "Mathematical Induction"
+      ],
+      "solution": "Using a²−b²=(a+b)(a−b), (2n + 5)²−(2n − 5)² = 40n = 10(4n). Since the remaining factor is integral for n∈ℤ⁺, it is a multiple of 10.",
+      "id": "2024-november-p1-tz1-q4"
+    },
+    {
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nTriangle ABC has AB = 3 cm, BC = 10 cm, AC = 8 cm and AB̂C = 2θ.\n\n[Diagram not to scale: triangle ABC with the three sides labelled as stated and angle at B labelled 2θ.]\n\nFind the exact value of cos θ, giving your answer in the form √p/q, where p, q ∈ ℤ⁺.",
+      "summary": "Use cosine rule and a half-angle identity.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "Cosine rule gives cos(2θ)=(3²+10²−8²)/(2·3·10). Then cos²θ=(1+cos2θ)/2. Taking the positive root gives cosθ=√14/4.",
+      "id": "2024-november-p1-tz1-q5"
+    },
+    {
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nFor an arithmetic sequence, u₁₀ = 14 and S₂₅ = 200.\n\nFind k such that uₖ = 0.",
+      "summary": "Solve an arithmetic sequence from a term and sum.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "Let first term be a and difference d. Then a+9d=14 and 25/2(2a+24d)=200. Solving gives d=−2, a=32. Setting a+(k−1)d=0 gives k=17.",
+      "id": "2024-november-p1-tz1-q6"
+    },
+    {
+      "number": 7,
+      "pages": [
+        9,
+        10
+      ],
+      "marks": 16,
+      "accessible_text": "7. [Maximum mark: 16]\n\nGraphs of f and g are shown. f is linear with x-intercept (6, 0) and y-intercept (0, 12). g has x-intercepts (−2, 0), (6, 0) and y-intercept (0, 12).\n\n[Diagram: a descending line through (0, 12) and (6, 0), and a downward parabola through all three stated intercepts; the parabola is above the line between x=0 and x=6.]\n\n(a) Write f(x)=mx+c. [2]\n\ng(x)=−x²+bx+12.\n\n(b) Find b. [3]\n\n(c) Show that the enclosed area is ∫₀⁶(−x² + 6x) dx. [2]\n\n(d) Hence find the area. [4]\n\nAt P on g, the tangent is parallel to f.\n\n(e) Find P. [5]",
+      "summary": "Find equations, enclosed area, and a parallel tangent.",
+      "labels": [
+        "Graphs",
+        "Quadratics",
+        "Integration",
+        "Differentiation"
+      ],
+      "solution": "(a) Slope=−2, so f(x)=−2x + 12. (b) Substitution of (6,0) gives b=4. (c) g−f=−x² + 6x, so area=∫₀⁶(−x² + 6x) dx. (d) Integrating gives 36 square units. (e) g′(x)=−2x+4; equate to −2 and substitute in g, giving P=(3, 15).",
+      "id": "2024-november-p1-tz1-q7"
+    },
+    {
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nf(x)=log₂(8x), x>0.\n\n(a) Find (i) f(2); (ii) f(1/8). [3]\n\n(b) Find f⁻¹(x). [4]\n\n(c) Hence, or otherwise, find f⁻¹(0). [1]\n\nThe graph y=f(4x²) is obtained by translating and stretching y=log₂x.\n\n(d) Describe the two transformations, including their order. [6]",
+      "summary": "Evaluate and invert logarithms and describe transformations.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a)(i) f(2)=4; (ii) f(1/8)=0. (b) From y=log₂(8x), 2ʸ=8x, so f⁻¹(x)=2ˣ/8. (c) f⁻¹(0)=1/8. (d) f(4x²)=log₂(32x²)=5+2log₂x. First stretch vertically by factor 2, then translate 5 units upward.",
+      "id": "2024-november-p1-tz1-q8"
+    },
+    {
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nA cylinder has radius 4r and height h. A central cylinder of radius r is removed.\n\n[Diagram: vertical hollow cylinder of height h; hole radius r and radial wall thickness 3r.]\n\nSurface area is S and volume is V.\n\n(a) Show S=30πr²+10πrh. [3]\n\n(b) Given S=240π cm², show V=360πr−45πr³. [6]\n\n(c) Find dV/dr. [2]\n\nMaximum volume occurs when r=p√(2/3), p∈ℤ⁺.\n\n(d) Find p. [3]\n\n(e) Hence find the maximum volume in the form qπ√(2/3), q∈ℤ⁺. [3]",
+      "summary": "Model and optimize a hollow cylinder.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a) Two annuli give 30πr²; curved surfaces give 10πrh. (b) S=240π gives rh=24−3r². Thus V=15πr²h=15πr(24−3r²)=360πr−45πr³. (c) dV/dr=360π−135πr². (d) Set derivative zero: r²=8/3, so r=2√(2/3), p=2; d²V/dr²<0. (e) Substitution gives Vmax=480π√(2/3) cm³, q=480.",
+      "id": "2024-november-p1-tz1-q9"
+    }
+  ]
+}

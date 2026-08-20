@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-may-p2-tz2",
+    "title": "May 2025 Mathematics: Analysis and Approaches SL Paper 2 TZ2",
+    "paper": 2,
+    "zone": "2",
+    "year": 2025,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-4d630981b971ce04",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 4,
+      "accessible_text": "1. [Maximum mark: 4]\n\nThe following table shows the number of hours of play time, x, and sleep time, y, for a group of six children, over the period of one week.\n\n[Table: Play time (x): 11, 13, 14, 17, 22, 24; Sleep time (y): 62, 65, 68, 75, 84, 87]\n\nThe regression line of y on x for this data can be written in the form y = ax + b.\n\n(a) Find the value of a and the value of b. [2]\n\n(b) Use the equation of the regression line to estimate the sleep time of a child whose weekly play time is 20 hours. [2]",
+      "summary": "Calculate regression line and use it to estimate.",
+      "labels": ["Statistics"],
+      "solution": "(a) Using calculator: a=1.97651…≈1.98, b=40.2286…≈40.2, so y=1.98x+40.2. (b) y=1.97651…×20+40.2286…=79.7589…≈79.8 hours."
+    },
+    {
+      "id": "2025-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [4],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows a square-based right-pyramid with vertex V(1, 7, 0). Point X(−3, 4, 2) is the centre of the base ABCD.\n\ndiagram not to scale\n\n[Diagram: The square base ABCD is drawn in perspective, with A at the left/front, B at the lower right/front, C at the right/back and D at the left/back. Base edges AB and BC and lateral edges VA, VB and VC are solid; hidden edges AD, DC and VD are dashed. A dashed interior altitude VX descends from the apex V to X at the centre of the base.]\n\n(a) Find VX. [2]\n\nThe square base has side length 5 cm.\n\n(b) Find AC. [2]\n\n(c) Find the size of the angle between the edge [VC] and the base of the pyramid. [2]",
+      "summary": "Find distances and angle in a 3D pyramid.",
+      "labels": ["Vectors - Lines - Planes", "Trigonometry"],
+      "solution": "(a) VX=√((1−(−3))²+(7−4)²+(0−2)²)=√(4²+3²+(−2)²)=√29=5.38516…≈5.39. (b) AC=√(5²+5²)=5√2=7.07106…≈7.07 cm. (c) In triangle VXC, VX is perpendicular to base so angle at C between VC and base: tanθ=VX/(AC/2)=√29/(5√2/2)=5.38516/3.53553, so θ=56.7138…°≈56.7° or 0.989842…≈0.990 rad."
+    },
+    {
+      "id": "2025-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [5],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nThe derivative of a function f is given by f′(x) = 4 + 2x − 3eˣ, where x ∈ ℝ.\n\n(a) Find the values of x for which f is decreasing. [3]\n\n(b) Find the values of x for which the graph of f is concave-up. [3]",
+      "summary": "Determine intervals where function decreases and is concave-up from its derivative.",
+      "labels": ["Differentiation", "Exponentials - Logarithms"],
+      "solution": "(a) f is decreasing when f′(x) < 0. The critical values solve 4 + 2x − 3eˣ = 0, giving x = −1.73554… and x = 0.517999…. Hence f is decreasing for x < −1.74 or x > 0.518. (b) The graph of f is concave-up when f″(x) > 0. Since f″(x) = 2 − 3eˣ, the critical value satisfies eˣ = 2/3, so x = ln(2/3) = −0.405465…. Hence the graph is concave-up for x < ln(2/3), or x < −0.405."
+    },
+    {
+      "id": "2025-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [6],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nConsider the expansion of (2x + k)¹⁰, where k ∈ ℤ.\n\nGiven that the coefficient of x⁶ is 8.4 × 10⁶, find the possible values of k.",
+      "summary": "Find unknown constant from a binomial coefficient.",
+      "labels": ["Binomial Theorem", "Permutation - Combination"],
+      "solution": "General term of (2x+k)¹⁰: C(10,r)(2x)^(10−r)k^r. For x⁶: 10−r=6, so r=4. Coefficient = C(10,4)×2⁶×k⁴ = 210×64×k⁴ = 13440k⁴. Set 13440k⁴ = 8.4×10⁶, so k⁴ = 625. Hence k=±5."
+    },
+    {
+      "id": "2025-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [7],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nA particle P moves in a straight line. The velocity v m s⁻¹ of P, at time t seconds is given by v(t) = e^(−sin t) cos(2t), for 0 ≤ t ≤ 5.\n\n(a) Find the maximum speed of P. [2]\n\n(b) Find the total distance travelled by P. [2]\n\n(c) Find the acceleration when P changes direction for the second time. [3]",
+      "summary": "Analyse velocity, speed, distance and acceleration of a particle.",
+      "labels": ["Kinematics", "Differentiation", "Trigonometry"],
+      "solution": "(a) Maximum speed occurs when |v| is greatest. At t = 4.71238…, v = −2.71828… = −e, so the maximum speed is e ≈ 2.72 m s⁻¹. (b) Total distance = ∫₀⁵|v(t)| dt = 3.84591… ≈ 3.85 m. (c) The second direction change occurs when v = 0 at t = 3π/4 = 2.35619…. Differentiating gives a(t) = v′(t) = −e^(−sin t)cos t cos(2t) − 2e^(−sin t)sin(2t). At t = 3π/4 this is 2e^(−√2/2) = 0.986137… ≈ 0.986 m s⁻²."
+    },
+    {
+      "id": "2025-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [8],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nThe following diagram shows a circle with centre O and radius r cm. Points A and B lie on the circle and AÔB = θ radians. Sector OAB is divided into two regions, a shaded segment P and a triangle Q.\n\n[Diagram: circle centre O with radii OA=OB=r, chord AB, sector AOB with central angle θ; the segment (between chord AB and arc AB) is shaded and labelled P, the triangle OAB is labelled Q]\n\nThe area of the shaded segment P is 12.8 cm².\nThe areas of P and Q are in the ratio 3 : 5.\n\nFind the value of r.",
+      "summary": "Find radius from sector segment and triangle area ratio.",
+      "labels": ["Radian", "Trigonometry"],
+      "solution": "Area of triangle Q = (1/2)r²sinθ. Area of segment P = (1/2)r²(θ−sinθ). Given P:Q=3:5, so (θ−sinθ)/sinθ=3/5 → θ−sinθ=(3/5)sinθ → θ=(8/5)sinθ → θ=1.59934… rad. Then P=12.8=(1/2)r²(θ−sinθ), so r²=25.6/(θ−sinθ)=42.6666…, giving r=6.53330…≈6.53 cm."
+    },
+    {
+      "id": "2025-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [9, 10],
+      "marks": 15,
+      "accessible_text": "7. [Maximum mark: 15]\n\nA lighthouse, L, is located 8 kilometres due East of a coastguard station, C, on a straight stretch of coastline.\n\nThe coastguard station sees a Jet Ski, J, on a bearing of 062° and at a distance of 5.5 kilometres. This is shown on the following diagram.\n\n[Diagram: Points C (coastguard) and L (lighthouse) on a horizontal coastline, with C to the left of L, distance 8 km. Point J is located inland such that the bearing from C to J is 062° and CJ = 5.5 km. North arrow shown at C. Triangle CJL is unlabelled except sides and angle. Diagram not to scale.]\n\n(a) Find JL. [4]\n\nWhile travelling due South, the Jet Ski breaks down at point B, before it reaches the coastline. The position of the Jet Ski at B and the lighthouse are shown in the following diagram.\n\n[Diagram: Points J and B on a north-south line (due south direction), with B south of J. Lighthouse L at top of a 60-metre tower. The angle of depression from L to B is 0.94°. Diagram not to scale.]\n\nFrom the top of the 60-metre-tall lighthouse, the angle of depression to the Jet Ski at B, is measured to be 0.94°.\n\n(b) Find BL. [3]\n\nThe bearing from the Jet Ski at B to the lighthouse is 121°.\n\n(c) Find the bearing from L to B. [2]\n\nThe jet-skier sets off a distress flare which is seen at the lighthouse and the coastguard station at the same time.\nThe lighthouse has a small rescue boat which travels at a speed of 48 km h⁻¹.\n\n(d) Find the time, in minutes, for the lighthouse rescue boat to reach the Jet Ski at B. [2]\n\nThe coastguard rescue boat travels at a speed of 55 km h⁻¹ and sets out at the same time as the lighthouse rescue boat.\n\n(e) Determine which rescue boat reaches the Jet Ski first. Justify your answer. [4]",
+      "summary": "Triangulate positions using bearings and solve a rescue-boat race.",
+      "labels": ["Trigonometry"],
+      "solution": "(a) ∠JCL=90°−62°=28°. Using cosine rule: JL²=5.5²+8²−2(5.5)(8)cos28°=30.25+64−77.699=16.551, JL=4.06824…≈4.07 km. (b) tan(0.94°)=60/BL, so BL=60/tan(0.94°)=3656.85…m≈3.66 km. (c) Bearing from L to B is 301° (or N59°W). (d) Time=3.65685/48×60=4.57106…≈4.57 min. (e) Using cosine rule in triangle CBL: BC²=3.65685²+8²−2(3.65685)(8)cos31°=27.2200, BC=5.21728…km. Coast guard time=5.21728/55×60=5.69158…≈5.69 min. Since 4.57<5.69, the lighthouse rescue boat arrives first."
+    },
+    {
+      "id": "2025-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [11],
+      "marks": 17,
+      "accessible_text": "8. [Maximum mark: 17]\n\nAt Adam's Apple Orchard the weights of apples, W, in grams, are normally distributed with a mean 175 grams and standard deviation 8 grams.\n\n(a) Find the probability that a randomly chosen apple weighs less than 170 grams. [2]\n\n(b) It is found that 20% of the apples weigh more than w grams. Find w, correct to four significant figures. [2]\n\nAll orchards classify an apple as premium when its weight is between 170 and 185 grams.\n\n(c) Find the percentage of apples that are classified as premium at Adam's Apple Orchard. [2]\n\nAfter orders are completed, there are many apples left over. Boxes are filled with randomly chosen left-over apples. Each box contains 40 apples.\n\n(d) Find the probability that a randomly chosen box contains at least 30 premium apples. [3]\n\n(e) If 10 of these boxes are randomly selected, find the probability that exactly 4 boxes have at least 30 premium apples. [2]\n\nAt a neighbouring orchard the weights of apples, M, in grams, are normally distributed with mean m and standard deviation s. It is known that:\n• 82% of their apples are classified as premium\n• the percentage of apples that weigh less than 170 grams is twice the percentage of apples that weigh more than 185 grams.\n\n(f) Find the value of m. [6]",
+      "summary": "Normal and binomial distribution calculations for apple weights.",
+      "labels": ["Statistics", "Probability"],
+      "solution": "(a) P(W<170)=0.265985…≈0.266 (26.6%). (b) P(W>w)=0.2 gives w=181.732…≈181.7 g (4 sf). (c) P(170<W<185)=0.628364…≈62.8%. (d) X~B(40,0.628364), P(X≥30)=0.073861…≈0.0739 (7.39%). (e) Y~B(10,0.073861), P(Y=4)=0.003944…≈0.00394 (0.394%). (f) Let the percentage <170 be p. Then P(M<170)=p, P(M>185)=p/2, and P(170<M<185)=0.82. So p+p/2=0.18, giving p=0.12. Hence P(M<170)=0.12 and P(M>185)=0.06. Inverse normal: z₁=(170−m)/s=−1.174986, z₂=(185−m)/s=1.554773. Solving simultaneously: m−1.174986s=170 and m+1.554773s=185, giving 2.729759s=15, s=5.495, and m=176.456…≈176 g."
+    },
+    {
+      "id": "2025-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [12],
+      "marks": 14,
+      "accessible_text": "9. [Maximum mark: 14]\n\nA tennis ball is dropped from a height. After each bounce the maximum height reached by the ball is ²⁄₃ of its previous maximum height. This can be seen in the diagram below where h, in metres, is the height of a ball after t seconds.\n\n[Diagram: The vertical axis is labelled h and the horizontal axis is labelled t; neither axis has tick marks or a stated scale. Starting at a positive height on the h-axis, the ball’s path curves down to the t-axis, then continues as a sequence of concave-down, inverted-U-shaped bounce arcs whose endpoints lie on the t-axis. Each successive peak is lower and each arc is narrower than the preceding one. An ellipsis near the t-axis after the last visible small arc indicates that still smaller bounces continue.]\n\nA box contains tennis balls. Each ball satisfies the condition of rebounding to ²⁄₃ of their previous maximum height. The tennis balls are numbered Ball 1, 2, 3, ...\n\nBall 1 is dropped from a height of 10 metres.\n\n(a) Find the maximum height of Ball 1 after the 5th bounce. [3]\n\n(b) Find the total distance travelled by Ball 1 immediately before the 5th bounce. [3]\n\nLet d be the total distance travelled by any of these balls.\n\n(c) A ball is dropped from a height of x metres. Show that d = 5x metres. [3]\n\nLet d₁ be the total distance travelled by Ball 1.\n\n(d) Write down the value of d₁. [1]\n\nBall 2 is dropped from a height of 9.56 metres.\nLet d₂ be the total distance travelled by Ball 2, and so on for each ball in the box.\nIt is given that d₁, d₂, d₃, ... form an arithmetic sequence.\n\n(e) Determine which tennis ball is the first ball to travel less than 25 metres. [4]",
+      "summary": "Geometric sequence of bounce heights and arithmetic sequence of total distances.",
+      "labels": ["Sequences - Series"],
+      "solution": "(a) Geometric sequence with r=2/3: height after 5th bounce = 10×(2/3)^5 = 320/243 = 1.31687…≈1.32 m. (b) Total distance = 10 + 2×10×(2/3) + 2×10×(2/3)² + 2×10×(2/3)³ + 2×10×(2/3)^4 = 10 + 2×10×(2/3)(1−(2/3)^4)/(1−2/3) = 42.0987…≈42.1 m. (c) Using sum to infinity for vertical travel after first drop: d = x + 2×x×(2/3)/(1−2/3) = x + 2x×(2/3)×3 = x + 4x = 5x. (d) d₁ = 5×10 = 50 m. (e) d₂ = 5×9.56 = 47.8. Arithmetic sequence: first term 50, common difference = 47.8−50 = −2.2. Need nth term < 25: 50 + (n−1)(−2.2) < 25 → 50 − 2.2(n−1) < 25 → 2.2(n−1) > 25 → n−1 > 11.3636… → n > 12.3636…. So Ball 13 is the first to travel less than 25 m."
+    }
+  ]
+}

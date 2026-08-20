@@ -1,0 +1,155 @@
+{
+  "paper": {
+    "id": "2023-may-p1-tz1",
+    "title": "May 2023 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2023,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-0c405e28b4496327",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/May%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2023-may-p1-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nPoint P has coordinates (−3, 2), and point Q has coordinates (15, −8). Point M is the midpoint of [PQ].\n\n(a) Find the coordinates of M. [2]\n\nLine L is perpendicular to [PQ] and passes through M.\n\n(b) Find the gradient of L. [2]\n\n(c) Hence, write down the equation of L. [1]",
+      "summary": "Find a midpoint and the equation of a perpendicular bisector.",
+      "labels": [
+        "Graphs",
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) M = ((−3+15)/2, (2−8)/2) = (6, −3). (b) The gradient of PQ is −10/18 = −5/9, so the perpendicular gradient is 9/5. (c) Thus L is y + 3 = (9/5)(x − 6), equivalently y = (9/5)x − 69/5."
+    },
+    {
+      "id": "2023-may-p1-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "2. [Maximum mark: 7]\n\nThe function f is defined by f(x) = (7x + 7)/(2x − 4) for x ∈ ℝ, x ≠ 2.\n\n(a) Find the zero of f(x). [2]\n\n(b) For the graph of y = f(x), write down the equation of\n    (i) the vertical asymptote;\n    (ii) the horizontal asymptote. [2]\n\n(c) Find f⁻¹(x), the inverse function of f(x). [3]",
+      "summary": "Find a rational function's zero, asymptotes and inverse.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a) 7x+7=0 gives x=−1. (b)(i) The denominator vanishes at x=2. (ii) The ratio of leading coefficients gives y=7/2. (c) From y=(7x+7)/(2x−4), x=(4y+7)/(2y−7). Hence f⁻¹(x)=(4x+7)/(2x−7), x≠7/2."
+    },
+    {
+      "id": "2023-may-p1-tz1-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nOn a Monday at an amusement park, a sample of 40 visitors was randomly selected as they were leaving the park. They were asked how many times that day they had been on a ride called The Dragon. This information is summarized in the following frequency table.\n\nNumber of times on The Dragon | 0 | 1 | 2 | 3 | 4\nFrequency                     | 6 | 16 | 13 | 2 | 3\n\nIt can be assumed that this sample is representative of all visitors to the park for the following day.\n\n(a) For the following day, Tuesday, estimate\n    (i) the probability that a randomly selected visitor will ride The Dragon;\n    (ii) the expected number of times a visitor will ride The Dragon. [4]\n\nIt is known that 1000 visitors will attend the amusement park on Tuesday. The Dragon can carry a maximum of 10 people each time it runs.\n\n(b) Estimate the minimum number of times The Dragon must run to satisfy demand. [2]",
+      "summary": "Use sample frequencies to estimate a probability, expectation and capacity.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a)(i) 34 of 40 visitors rode, so the estimate is 34/40=0.85. (ii) E(X)=(16+2·13+3·2+4·3)/40=60/40=1.5 rides. (b) Estimated rides are 1000(1.5)=1500; at 10 riders per run, at least 150 runs are needed."
+    },
+    {
+      "id": "2023-may-p1-tz1-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\n(a) Show that the equation cos 2x = sin x can be written in the form 2sin²x + sin x − 1 = 0. [1]\n\n(b) Hence, solve cos 2x = sin x, where −π ≤ x ≤ π. [5]",
+      "summary": "Convert a double-angle equation to a quadratic in sine and solve it.",
+      "labels": [
+        "Trigonometry",
+        "Radian",
+        "Quadratics"
+      ],
+      "solution": "(a) Since cos2x=1−2sin²x, equality gives 2sin²x+sin x−1=0. (b) Factor: (2sin x−1)(sin x+1)=0. Thus sin x=1/2 or −1. On the stated interval, x=π/6, 5π/6 or −π/2."
+    },
+    {
+      "id": "2023-may-p1-tz1-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nFind the range of possible values of k such that e^(2x) + ln k = 3e^x has at least one real solution.",
+      "summary": "Use a discriminant to find when an exponential equation has a real solution.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Quadratics"
+      ],
+      "solution": "Let u=e^x>0. Then u²−3u+ln k=0. A real root requires 9−4ln k≥0, so k≤e^(9/4). Also ln k requires k>0. At equality u=3/2>0, and for every 0<k≤e^(9/4) at least one root is positive. Therefore 0<k≤e^(9/4)."
+    },
+    {
+      "id": "2023-may-p1-tz1-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nThe function f is defined by f(x) = sin(qx), where q > 0. The following diagram shows part of the graph of f for 0 ≤ x ≤ 4m, where x is in radians. There are x-intercepts at x = 0, 2m and 4m.\n\n[Graph: a sine curve of amplitude 1 starts at (0,0), has a maximum at (m,1), crosses at (2m,0), has a minimum at (3m,−1), and crosses again at (4m,0). Axes continue to 6m and from y=−4 to y=4.]\n\n(a) Find an expression for m in terms of q. [2]\n\nThe function g is defined by g(x) = 3sin(2qx/3), for 0 ≤ x ≤ 6m.\n\n(b) On the axes above, sketch the graph of g. [4]",
+      "summary": "Relate the period of a sine graph to a parameter and sketch a transformation.",
+      "labels": [
+        "Trigonometry",
+        "Graphs",
+        "Radian"
+      ],
+      "solution": "(a) The period of f is 4m=2π/q, so m=π/(2q). (b) g has amplitude 3 and period 3π/q=6m. It starts at (0,0), reaches (3m/2,3), crosses at (3m,0), reaches (9m/2,−3), and ends at (6m,0), joined by a sinusoidal curve."
+    },
+    {
+      "id": "2023-may-p1-tz1-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nThe function h is defined by h(x) = 2xe^x + 3, for x ∈ ℝ. The following diagram shows part of the graph of h, which has a local minimum at point A.\n\n[Diagram: coordinate axes and the curve y=h(x), with its local minimum labelled A.]\n\n(a) Find the value of the y-intercept. [2]\n\n(b) Find h′(x). [2]\n\n(c) Hence, find the coordinates of A. [5]\n\n(d) (i) Show that h″(x) = (2x + 4)e^x.\n    (ii) Find the values of x for which the graph of h is concave-up. [4]",
+      "summary": "Differentiate an exponential product to find a minimum and concavity interval.",
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
+      "solution": "(a) h(0)=3. (b) By the product rule, h′(x)=2e^x+2xe^x=2e^x(x+1). (c) Since e^x>0, h′=0 gives x=−1; h(−1)=3−2/e, so A=(−1,3−2/e). (d)(i) Differentiating gives h″=2e^x(x+1)+2e^x=(2x+4)e^x. (ii) As e^x>0, h″>0 exactly when 2x+4>0, so x>−2."
+    },
+    {
+      "id": "2023-may-p1-tz1-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nConsider the arithmetic sequence u₁, u₂, u₃, …. The sum of the first n terms of this sequence is given by Sₙ = n² + 4n.\n\n(a) (i) Find the sum of the first five terms.\n    (ii) Given that S₆ = 60, find u₆. [4]\n\n(b) Find u₁. [2]\n\n(c) Hence or otherwise, write an expression for uₙ in terms of n. [3]\n\nConsider a geometric sequence, vₙ, where v₂ = u₁ and v₄ = u₆.\n\n(d) Find the possible values of the common ratio, r. [3]\n\n(e) Given that v₉₉ < 0, find v₅. [2]",
+      "summary": "Derive arithmetic terms from partial sums and link them to a geometric sequence.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a)(i) S₅=25+20=45. (ii) u₆=S₆−S₅=60−45=15. (b) u₁=S₁=5. (c) uₙ=Sₙ−Sₙ₋₁=n²+4n−[(n−1)²+4(n−1)]=2n+3. (d) v₄/v₂=r²=15/5=3, so r=±√3. (e) Since v₉₉=v₂r⁹⁷<0 while v₂=5, r=−√3. Thus v₅=v₂r³=5(−√3)³=−15√3."
+    },
+    {
+      "id": "2023-may-p1-tz1-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nAn object moves along a straight line. Its velocity, v m s⁻¹, at time t seconds is given by v(t) = −t³ + (7/2)t² − 2t + 6, for 0 ≤ t ≤ 4. The object first comes to rest at t = k.\n\n[Graph: v starts positive at t=0, decreases to a local minimum, rises to a local maximum, then decreases through the t-axis at t=k and becomes negative.]\n\nAt t = 0, the object is at the origin.\n\n(a) Find the displacement of the object from the origin at t = 1. [5]\n\n(b) Find an expression for the acceleration of the object. [2]\n\n(c) Hence, find the greatest speed reached by the object before it comes to rest. [5]\n\n(d) Find the greatest speed reached by the object for 0 ≤ t ≤ 4. [2]\n\n(e) Write down an expression that represents the distance travelled by the object while its speed is increasing. Do not evaluate the expression. [3]",
+      "summary": "Use integration and differentiation to analyse displacement, acceleration and speed.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration"
+      ],
+      "solution": "(a) Displacement is ∫₀¹v(t)dt=[−t⁴/4+7t³/6−t²+6t]₀¹=71/12 m. (b) a(t)=v′(t)=−3t²+7t−2. (c) a=0 gives (3t−1)(t−2)=0, so t=1/3 or 2. Before the first rest, the greatest velocity occurs at t=2 and v(2)=8; greatest speed is 8 m s⁻¹. (d) Also check t=4: v(4)=−10, so the greatest speed on [0,4] is 10 m s⁻¹. (e) Speed increases on [1/3,2] and [k,4], so one expression is ∫_(1/3)^2 v(t)dt − ∫_k^4 v(t)dt."
+    }
+  ]
+}

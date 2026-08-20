@@ -1,0 +1,152 @@
+{
+  "paper": {
+    "id": "2024-may-p1-tz1",
+    "title": "May 2024 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2024,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-ba15b8b546aa2871",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2024-may-p1-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 4,
+      "accessible_text": "1. [Maximum mark: 4]\n\nThe second term of an arithmetic sequence is 10 and the fourth term is 22.\n\n(a) Find the value of the common difference. [2]\n\n(b) Find an expression for uₙ, the nth term. [2]",
+      "summary": "Find an arithmetic sequence’s common difference and nth term.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "u₄−u₂=2d=12, so d=6. Then u₁=10−6=4 and uₙ=4+6(n−1)=6n−2."
+    },
+    {
+      "id": "2024-may-p1-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nClaire rolls a six-sided die 16 times. The scores are shown in the frequency table.\n\n[Table: Score 1, 2, 3, 4, 5, 6; frequency p, q, 4, 2, 0, 3 respectively.]\n\nThe mean score is 3.\n\n(a) Find p and q. [5]\n\nEach score is multiplied by 10 to determine a final score.\n\n(b) Write down the mean final score. [1]",
+      "summary": "Find missing frequencies and transform a mean.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Total frequency: p+q=7. Total score 48: p+2q+12+8+18=48, so p+2q=10. Hence p=4, q=3. (b) The mean becomes 10×3=30."
+    },
+    {
+      "id": "2024-may-p1-tz1-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nIt is given that log₁₀a=1/3, where a>0. Find\n\n(a) log₁₀(1/a); [2]\n\n(b) log₁₀₀₀a. [3]",
+      "summary": "Apply logarithm laws and change of base.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) log₁₀(1/a)=−log₁₀a=−1/3. (b) log₁₀₀₀a=log₁₀a/log₁₀1000=(1/3)/3=1/9."
+    },
+    {
+      "id": "2024-may-p1-tz1-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 8,
+      "accessible_text": "4. [Maximum mark: 8]\n\nPoints A and B lie on a circle of radius r cm centred at O. Sector OAB has central angle θ radians.\n\n[Diagram, not to scale: sector OAB with OA=OB=r cm and angle AÔB=θ.]\n\nThe sector perimeter is 10 cm and its area is 6.25 cm².\n\n(a) Show that 4r²−20r+25=0. [4]\n\n(b) Hence, or otherwise, find r and θ. [4]",
+      "summary": "Use sector perimeter and area equations.",
+      "labels": [
+        "Radian",
+        "Quadratics"
+      ],
+      "solution": "2r+rθ=10 and r²θ/2=6.25. Eliminating θ gives 6.25=r(10−2r)/2, hence 4r²−20r+25=0. Thus (2r−5)²=0, r=5/2 cm, and θ=(10−2r)/r=2."
+    },
+    {
+      "id": "2024-may-p1-tz1-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nConsider f(x)=cos x and g(x)=sin2x, where 0≤x≤π. Their graphs intersect at A, B=(π/2,0), and C.\n\n[Diagram: f is a decreasing cosine curve and g is one full sine arch on 0≤x≤π. They intersect at A in the first quadrant, B=(π/2,0), and C in the fourth quadrant. Region R between the curves from B to C is shaded.]\n\n(a) Find the x-coordinates of A and C. [3]\n\n(b) Find the area of R. [4]",
+      "summary": "Find trigonometric intersections and an enclosed area.",
+      "labels": [
+        "Trigonometry",
+        "Integration",
+        "Graphs"
+      ],
+      "solution": "sin2x=2sin x cos x. Besides cos x=0 at B, sin x=1/2 gives x_A=π/6 and x_C=5π/6. Area=∫_{π/2}^{5π/6}(cos x−sin2x)dx=[sin x+(1/2)cos2x]=1/4."
+    },
+    {
+      "id": "2024-may-p1-tz1-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nA geometric sequence has first term 1 and common ratio 10. Sₙ is the sum of its first n terms.\n\n(a) Find Sₙ in the form (aⁿ−1)/b, where a,b∈ℤ⁺. [1]\n\n(b) Hence show that S₁+S₂+⋯+Sₙ=[10(10ⁿ−1)−9n]/81. [4]",
+      "summary": "Sum a geometric sequence and its partial sums.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) Sₙ=(10ⁿ−1)/9. (b) ΣSᵢ=(1/9)(Σ10ⁱ−n)=(1/9)(10(10ⁿ−1)/9−n)=[10(10ⁿ−1)−9n]/81."
+    },
+    {
+      "id": "2024-may-p1-tz1-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nConsider y=x³−x²−x+1.\n\n(a) Find (i) dy/dx; (ii) d²y/dx². [3]\n\nThe curve has a local maximum at A.\n\n(b) Find A, using part (a)(ii) to justify your answer. [6]\n\nThe curve has a point of inflexion at B.\n\n(c) Find the x-coordinate of B. [2]\n\nL is the normal at (0,1).\n\n(d) Find the equation of L. [3]",
+      "summary": "Analyze a cubic and its normal.",
+      "labels": [
+        "Differentiation",
+        "Graphs"
+      ],
+      "solution": "(a) y′=3x²−2x−1; y″=6x−2. (b) y′=(3x+1)(x−1), and y″(−1/3)=−4<0, so A=(−1/3,32/27). (c) y″=0 gives x=1/3. (d) Tangent slope at x=0 is −1, so normal slope is 1 and L: y=x+1."
+    },
+    {
+      "id": "2024-may-p1-tz1-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nLet f(x)=(4x+2)/(x−2), x≠2.\n\n(a) Sketch y=f(x), indicating axis intercepts and labelling asymptotes. [5]\n\n(b) Write down the range of f. [1]\n\nLet g(x)=x²+bx+c. Its axis of symmetry is x=2 and its roots are −1/2 and p, where p∈ℚ.\n\n(c) Show p=9/2. [1]\n\n(d) Find b and c. [3]\n\n(e) Find the y-coordinate of the vertex of y=g(x). [2]\n\n(f) Find the number of solutions of f(x)=g(x). [2]",
+      "summary": "Analyze rational and quadratic graphs.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Quadratics"
+      ],
+      "solution": "(a) f=4+10/(x−2): asymptotes x=2, y=4; intercepts (−1/2,0), (0,−1), with branches above-right and below-left of (2,4). (b) y≠4. (c) (−1/2+p)/2=2, so p=9/2. (d) g=(x+1/2)(x−9/2)=x²−4x−9/4, so b=−4,c=−9/4. (e) g(2)=−25/4. (f) There are 3 intersections."
+    },
+    {
+      "id": "2024-may-p1-tz1-q9",
+      "number": 9,
+      "pages": [
+        11,
+        12
+      ],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nA bag initially contains three red and one blue button. Francine selects one button, replaces it, and adds one extra button of the same colour, then selects a second button.\n\n[Tree: first red 3/4, blue 1/4; after red, second red 4/5 and blue 1/5; after blue, second red p and blue q.]\n\n(a) Find p and q. [2]\n\n(b) Show that P(two of the same colour)=7/10. [2]\n\n(c) Given two of the same colour, find P(two red). [3]\n\nLet X be the number of red buttons selected.\n\n[Distribution table: x=0,1,2; P(X=x)=1/10,a,b.]\n\n(d) Find a and b. [2]\n\n(e) Find E(X). [2]\n\nFrancine restarts and repeats until selecting blue.\n\n(f) Given the first two selections are red, write down P(next is blue). [1]\n\nP(the first blue is after n selections in total)=3/56.\n\n(g) Find n. [5]",
+      "summary": "Apply conditional probability to a reinforced process.",
+      "labels": [
+        "Probability",
+        "Statistics",
+        "Sequences - Series"
+      ],
+      "solution": "(a) p=3/5,q=2/5. (b) (3/4)(4/5)+(1/4)(2/5)=7/10. (c) (3/5)/(7/10)=6/7. (d) a=3/10,b=3/5. (e) E(X)=3/10+2(3/5)=3/2. (f) 1/6. (g) P(n−1 reds)=3/(n+2), then P(blue)=1/(n+3), so 3/[(n+2)(n+3)]=3/56; n=5."
+    }
+  ]
+}

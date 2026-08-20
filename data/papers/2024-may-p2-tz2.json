@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "2024-may-p2-tz2",
+    "title": "May 2024 Mathematics: Analysis and Approaches SL Paper 2 TZ2",
+    "paper": 2,
+    "zone": "2",
+    "year": 2024,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-36b461fcac907e2f",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2024-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nTen students’ phone-use times t (hours) are 0.7, 1.2, 1.9, 4.0, 4.4, 4.5, 4.9, 5.7, 6.5, 11.7.\n\n(a) Find (i) the median; (ii) the interquartile range. [3]\n\nAn outlier is below Q₁−1.5×IQR or above Q₃+1.5×IQR.\n\n(b) Show 11.7 is an outlier. [3]",
+      "summary": "Calculate quartiles and test an outlier.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Median=(4.4+4.5)/2=4.45 h. Q₁=1.9,Q₃=5.7, so IQR=3.8 h. (b) Upper fence=5.7+1.5(3.8)=11.4; since 11.7>11.4, it is an outlier."
+    },
+    {
+      "id": "2024-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nFor −1≤x≤0, f(x)=1−x² and g(x)=e^(2x). Their graphs intersect at x=a and x=b, a<b.\n\n(a) Find a and b. [3]\n\n(b) Find the enclosed area. [3]",
+      "summary": "Find numerical intersections and area between curves.",
+      "labels": [
+        "Functions - Roots",
+        "Exponentials - Logarithms",
+        "Integration"
+      ],
+      "solution": "(a) Solving 1−x²=e^(2x) gives a=−0.916562…≈−0.917 and b=0. (b) Area=∫_a^0[(1−x²)−e^(2x)]dx=0.239855…≈0.240."
+    },
+    {
+      "id": "2024-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\n[Table: x=5,6,6,8,10; y=9,13,p,q,21, where p,q∈ℤ⁺.]\n\nThe regression line of y on x is y=2.1875x+0.6875 and passes through (x̄,ȳ).\n\n(a) Given x̄=7, verify ȳ=16. [1]\n\n(b) Given q−p=3, find p and q. [4]",
+      "summary": "Use a regression mean point to recover data.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) ȳ=2.1875(7)+0.6875=16. (b) Since the mean is 16, 9+13+p+q+21=80, so p+q=37. Together with q−p=3, p=17 and q=20."
+    },
+    {
+      "id": "2024-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nSound loudness L decibels and intensity I units satisfy L=10log₁₀(I×10¹²). S₁ has intensity 10⁻⁶ and loudness 60 dB. S₂ has twice S₁’s intensity.\n\n(a) State S₂’s intensity. [1]\n\n(b) Determine S₂’s loudness. [2]\n\nThunder has loudness 115 dB.\n\n(c) Find its intensity I. [3]",
+      "summary": "Apply a logarithmic loudness model.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) I₂=2×10⁻⁶. (b) L₂=10log₁₀(2×10⁶)=63.0102…≈63.0 dB. (c) 115=10log₁₀(I×10¹²), so I=10^11.5/10¹²=10⁻⁰⋅⁵≈0.316 units."
+    },
+    {
+      "id": "2024-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nA particle’s velocity is v(t)=1+e^(−t)−e^(−sin(2t)) m s⁻¹ for 0≤t≤2.\n\n(a) Find v(2). [1]\n\n(b) Find the maximum velocity. [2]\n\n(c) Find acceleration when the particle changes direction. [3]",
+      "summary": "Analyze numerical velocity and acceleration.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) v(2)=−0.996114…≈−0.996 m s⁻¹. (b) Solving v′=0 gives t=0.405833… and v_max=1.18230…≈1.18 m s⁻¹. (c) The direction change has v=0 at t=1.65840…. Evaluating a=v′ there gives −2.53487…≈−2.53 m s⁻²."
+    },
+    {
+      "id": "2024-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nX∼B(n,0.25). Determine the least n such that P(X≥1)>0.99.",
+      "summary": "Solve a binomial probability inequality.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "P(X≥1)=1−P(X=0)=1−0.75ⁿ. Require 0.75ⁿ<0.01, giving n>ln(0.01)/ln(0.75)=16.0078…. Thus the least integer is n=17 (indeed n=16 gives 0.989977<0.99 and n=17 gives 0.992483>0.99)."
+    },
+    {
+      "id": "2024-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nCarp lengths L cm are normal with mean 45.6 and standard deviation 4.2. Lengths between 41.4 cm and k cm lie within one standard deviation.\n\n(a) Write down k. [2]\n\n(b) Find P(L>48). [2]\n\n(c) 99% of carp have length greater than x cm. Find x. [2]\n\n(d) For a random sample of 100: (i) find the expected number with 40<L<56; (ii) find the probability exactly 95 have 40<L<56. [5]\n\nLengths are recorded to nearest 0.1 cm.\n\n(e) Find P(a recorded length is 45.6 cm). [3]",
+      "summary": "Use normal and binomial distributions with rounding.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) k=45.6+4.2=49.8 cm. (b) P(L>48)=0.283854…≈0.284. (c) The 1st percentile is x=35.8293…≈35.8 cm. (d) p=P(40<L<56)=0.902149…. Expected=100p=90.2149…≈90.2. With Y∼B(100,p), P(Y=95)=0.038105…≈0.0381. (e) Recorded 45.6 means 45.55≤L<45.65; probability=0.009498…≈0.00950."
+    },
+    {
+      "id": "2024-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nA window is a semicircle attached to a rectangle of width 2x m and height h m.\n\n[Diagram: rectangle 2x by h topped by a semicircle of radius x.]\n\n(a) Write area A in terms of x,h. [2]\n\nLet perimeter P=10.\n\n(b) Show h=(1/2)(10−2x−πx). [2]\n\nClear rectangular glass admits 3 light units/m²; tinted semicircle admits 1 unit/m².\n\n(c) Show L=30x−6x²−(5/2)πx². [4]\n\n(d) (i) Find dL/dx. (ii) Find x maximizing L and justify a maximum. (iii) Find corresponding h. [7]",
+      "summary": "Optimize a composite window under a perimeter constraint.",
+      "labels": [
+        "Differentiation",
+        "Quadratics"
+      ],
+      "solution": "(a) A=2xh+(1/2)πx². (b) P=2x+2h+πx=10, giving the result. (c) L=3(2xh)+(1/2)πx²; substitution gives 30x−6x²−(5/2)πx². (d) L′=30−12x−5πx. Thus x=30/(12+5π)=1.08272…≈1.08 m. Since L″=−12−5π<0, this is a maximum. Then h=(10−(2+π)x)/2=2.21654…≈2.22 m."
+    },
+    {
+      "id": "2024-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nA sprinkler at S waters a circle of radius 20 m. S is 14 m from the straight north–south edge of a path, which intersects the circle at A and B.\n\n[Diagram: circle centred S; vertical path edge is a chord through A above B; perpendicular distance from S to chord is 14 m; SA=20 m.]\n\n(a) Show AB=28.57, correct to four significant figures. [3]\n\nThe sprinkler makes one revolution every 16 s.\n\n(b) Show it rotates π/8 radians per second. [1]\n\nLet T be the time [AB] is watered each revolution.\n\n(c) Find T. [4]\n\nDuring one clockwise revolution, at t=0 water crosses at A; at t seconds it crosses at D, d metres south of A. Let α=AŜD and β=SÂB, in radians.\n\n[Diagram: SA=SD=20 m; D lies on chord/path between A and B; perpendicular distance from S to path is 14 m; α at S and β at A.]\n\n(d) Write α in terms of t. [1]\n\nGiven β=0.7754 radians,\n\n(e) use the sine rule in triangle ASD to show d(t)=20sin(πt/8)/sin(2.37−πt/8). [3]\n\nA turtle walks south along the path with g(t)=0.05t²+1.1t+18 metres south of A.\n\n(f) At t=0, state how far south it is from A. [1]\n\nLet w be the distance between turtle and D.\n\n(g) (i) Write w in terms of t using g and d. (ii) Hence find when and where the water first reaches the turtle. [4]",
+      "summary": "Model rotating-sprinkler geometry and an interception.",
+      "labels": [
+        "Trigonometry",
+        "Radian",
+        "Kinematics"
+      ],
+      "solution": "(a) Half-chord=√(20²−14²)=√204, so AB=2√204=28.5657…=28.57 m. (b) 2π/16=π/8 rad/s. (c) The watered central angle is 2cos⁻¹(14/20)=1.59080 rad, so T=1.59080/(π/8)=4.05093…≈4.05 s. (d) α=πt/8. (e) ∠ADS=π−β−α≈2.37−α. Sine rule gives d/sinα=20/sin(2.37−α), yielding the model. (f) g(0)=18 m. (g)(i) w(t)=0.05t²+1.1t+18−20sin(πt/8)/sin(2.37−πt/8). (ii) First solve w=0: t=3.34880…≈3.35 s. Then g(t)=22.2444…≈22.2 m south of A."
+    }
+  ]
+}

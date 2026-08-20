@@ -1,0 +1,155 @@
+{
+  "paper": {
+    "id": "2025-may-p2-tz3",
+    "title": "May 2025 Mathematics: Analysis and Approaches SL Paper 2 TZ3",
+    "paper": 2,
+    "zone": "3",
+    "year": 2025,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz3-sl-8b7917c59711c219",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ3_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ3_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-may-p2-tz3-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nThe following diagram shows a solid hemisphere with centre A(6, -1, -3).\nPoint B(4, -5, -9) lies on the curved surface.\n\n[Diagram: Solid hemisphere resting on a horizontal surface. Centre A is at the centre of the flat circular face. Point B is on the curved surface. A straight line segment AB is drawn from A to B, representing the radius of the hemisphere.]\n\n(a) Find AB, the radius of the hemisphere. [2]\n\n(b) Hence, find the total surface area of the solid hemisphere. [3]",
+      "summary": "Find the radius of a hemisphere in 3D coordinates and its total surface area.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) AB = √((6-4)² + (-1-(-5))² + (-3-(-9))²) = √(4 + 16 + 36) = √56 = 2√14 ≈ 7.48 (3 sf). (b) Total surface area of a solid hemisphere = curved surface area + base area = ½(4πr²) + πr² = 3πr² = 3π(56) = 168π ≈ 528 (3 sf)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows a triangle ABC, with AB = 7, AC = 12 and BÂC = 116°.\n\ndiagram not to scale\n\n[Triangle: vertex A at the left, vertex B at the top, vertex C at the right. Side AB is labelled 7, side AC is labelled 12. The angle at A (BÂC) is marked as 116°.]\n\n(a) Find BC. [3]\n\n(b) Find AĈB. [3]",
+      "summary": "Use cosine and sine rules to find side and angle in a triangle.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) Using the cosine rule, BC² = AB² + AC² − 2(AB)(AC)cos(BÂC) = 7² + 12² − 2(7)(12)cos116° = 266.646…, so BC = 16.3293… ≈ 16.3 (3 sf). (b) Using the sine rule, sin(AĈB)/7 = sin116°/16.3293…, so sin(AĈB) = 7sin116°/16.3293… = 0.385292…. Hence AĈB = 22.6619…° ≈ 22.7° (3 sf)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nConsider the expansion of (x + k)¹¹, where k > 0.\n\n(a) Write down the number of terms in the expansion. [1]\n\nIn the expansion, the coefficient of x⁷ is 1320.\n\n(b) Find the value of k. [4]",
+      "summary": "Use binomial expansion to find the number of terms and solve for an unknown coefficient.",
+      "labels": [
+        "Binomial Theorem",
+        "Permutation - Combination"
+      ],
+      "solution": "(a) The expansion has 12 terms. (b) In (x + k)¹¹ the general term is ¹¹Cᵣx¹¹⁻ʳkʳ. The term in x⁷ occurs when 11 − r = 7, so r = 4. Its coefficient is ¹¹C₄k⁴ = 330k⁴. Setting 330k⁴ = 1320 gives k⁴ = 4. Since k > 0, k = ⁴√4 = √2 ≈ 1.41 (3 sf)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nA supermarket analyses the shopping habits of its customers.\nThe number of times, X, each customer visits the supermarket in a week is given by the following probability distribution.\n\n[Table: The first row is headed x and contains 1, 2, 3, 4, 5, ≥ 6. The second row is headed P(X = x) and contains, respectively, 1.5a, 2a, 0.281, a, 0.026, 0.]\n\n(a) (i) Find the value of a.\n(ii) Write down the mode of X. [3]\n\n(b) Find the mean of X. [2]\n\nThe manager wants to know why customers come to their supermarket. They survey the first 50 customers to arrive at the supermarket on a particular day.\n\n(c) Identify which one of the following best describes the manager's sampling method. Circle your answer.\n\nSimple random   /   Systematic   /   Convenience   /   Quota   /   Stratified [1]",
+      "summary": "Work with a discrete probability distribution, find mode and mean, and identify a sampling method.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a)(i) Summing probabilities: 1.5a + 2a + 0.281 + a + 0.026 + 0 = 1, so 4.5a = 0.693, a = 0.154 (3 sf). (a)(ii) Mode is the value with highest probability: P(X=2) = 2a = 0.308, which is the largest, so mode = 2. (b) Mean = Σ x·P(X=x) = 1(1.5a) + 2(2a) + 3(0.281) + 4(a) + 5(0.026) = 1.5a + 4a + 0.843 + 4a + 0.13 = 9.5a + 0.973 = 9.5(0.154) + 0.973 = 1.463 + 0.973 = 2.436 ≈ 2.44 (3 sf). (c) Convenience (surveying the first 50 customers to arrive)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nThe following diagram shows a circle with centre O.\nPoints A, B and C lie on the circle.\n\ndiagram not to scale\n\n[Circle with centre O. Points A, B, C are on the circumference. Angle AÔB = 2.51 radians is marked at the centre. Triangle AOB is drawn. The arc from A through C to B (the major arc ACB) is highlighted.]\n\nThe area of triangle AOB is 26 cm² and AÔB = 2.51 radians.\n\nFind the length of arc ACB.",
+      "summary": "Find the radius from triangle area, then compute a major arc length.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "Area of triangle AOB = ½ r² sin(AÔB) = 26, so ½ r² sin(2.51) = 26. sin(2.51) = 0.590803..., hence r² = 52 / 0.590803... = 88.0177..., r = 9.38462... cm. The major arc ACB subtends an angle of (2π − 2.51) = 3.77319... radians at the centre. Arc length = r × angle = 9.38462... × 3.77319... = 35.4035... ≈ 35.4 cm (3 sf)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum marks: 7]\n\nConsider the function f(x) = (2x + a)³ / (x + 5)², where x ≠ -5 and a ∈ ℝ⁺.\n\n(a) Find an expression for f′(x), in terms of a. [3]\n\nWhen x = 1, the tangent to the graph of f makes an angle of 70° to the horizontal.\n\n(b) Find the two possible values of a. [4]",
+      "summary": "Differentiate a rational function using quotient rule and solve for the parameter given the gradient.",
+      "labels": [
+        "Differentiation",
+        "Functions - Roots"
+      ],
+      "solution": "(a) Using quotient rule: f(x) = (2x+a)³/(x+5)². f′(x) = [3(2x+a)²·2·(x+5)² − (2x+a)³·2(x+5)] / (x+5)⁴ = [6(2x+a)²(x+5)² − 2(2x+a)³(x+5)] / (x+5)⁴ = 2(2x+a)²(x+5)[3(x+5) − (2x+a)] / (x+5)⁴ = 2(2x+a)²(3x+15−2x−a) / (x+5)³ = 2(2x+a)²(x+15−a) / (x+5)³. (b) Gradient of tangent = tan(70°) ≈ 2.74748. f′(1) = 2(2(1)+a)²(1+15−a) / (1+5)³ = 2(2+a)²(16−a) / 216 = (2+a)²(16−a) / 108. Set (2+a)²(16−a) = 108tan70° ≈ 296.7. Solving the cubic gives a = 2.73 or a = 15.0 (both 3 sf)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q7",
+      "number": 7,
+      "pages": [
+        9,
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "7. [Maximum mark: 15]\n\nConsider the function f(x) = (2/π) sin(3πx) + 2, where 0 ≤ x ≤ 2. The following diagram shows the graph of f.\n\n[Graph of f for 0 ≤ x ≤ 2. x-axis from 0 to 2.5 labelled in steps of 0.5. y-axis from 0 to 3 labelled in steps of 0.5. The sinusoidal curve oscillates between y = 2 − 2/π ≈ 1.36 and y = 2 + 2/π ≈ 2.64, completing 3 full cycles from x = 0 to x = 2.]\n\n(a) (i) Write down the amplitude of f.\n(ii) Find the period of f. [3]\n\n(b) The point P has coordinates (1.63, 2.16). State whether P lies above, below or on the graph of f. Justify your answer. [3]\n\nThe line L₁ has equation x − 6y + 11 = 0.\n\n(c) Write down the gradient of the line L₁. [1]\n\nThe line L₁ is normal to the graph of f at point A(1, 2).\nThe line L₂ is tangent to the graph of f at A.\n\n(d) (i) Find the gradient of L₂.\n(ii) Hence, or otherwise, find the equation of L₂. [3]\n\nThe line L₁ intersects the graph of f at another point B, where the x-coordinate of B is greater than 1.5. This is shown in the following diagram.\n\n[Diagram: Graph of f with line L₁ drawn through A(1,2) and point B. The region between A and B, bounded by the curve of f and the line L₁, is shaded.]\n\n(e) Find the coordinates of B. [2]\n\nThe shaded region is enclosed by the graph of f and the line L₁ between A and B.\n\n(f) Find the area of the shaded region. [3]",
+      "summary": "Analyze a sinusoidal function, its tangent and normal, intersection of curves, and area between them.",
+      "labels": [
+        "Trigonometry",
+        "Differentiation",
+        "Integration",
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a)(i) Amplitude = 2/π ≈ 0.637 (3 sf). (ii) Period = 2π / (3π) = 2/3 ≈ 0.667 (3 sf). (b) f(1.63) = (2/π) sin(3π × 1.63) + 2 = (2/π) sin(4.89π) + 2 = 2.21564... . Since 2.21564... > 2.16, f(1.63) > 2.16, so P lies below the graph of f. (c) x − 6y + 11 = 0 ⇒ 6y = x + 11 ⇒ y = (1/6)x + 11/6, gradient = 1/6 ≈ 0.167. (d)(i) L₁ is normal, so gradient of tangent L₂ = −1/(1/6) = −6. (d)(ii) Equation of L₂: y − 2 = −6(x − 1), i.e. y = −6x + 8, or 6x + y − 8 = 0. (e) Solve L₁ and f simultaneously: y = (x+11)/6 = (2/π) sin(3πx) + 2. Using GDC, intersection with x > 1.5 gives x = 1.64856..., y = 2.10809..., so B(1.65, 2.11) (3 sf). (f) Area = ∫₁^¹·⁶⁴⁸⁵⁶... [((x+11)/6) − ((2/π) sin(3πx) + 2)] dx = 0.253204... ≈ 0.253 (3 sf)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q8",
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 17,
+      "accessible_text": "8. [Maximum mark: 17]\n\nConsider a discrete random variable X.\n\n(a) State two conditions required for X to be modelled by a binomial distribution. [2]\n\nA water theme park has two rides: Daifong and Torbellino. Each visitor's decision to ride on either Daifong or Torbellino is made independently of any other person.\nFrom previous records, it is expected that 37% of the visitors on any particular day will ride Daifong.\nOn Saturday, 1900 people will visit the theme park.\n\n(b) Find the number of people that are expected to ride Daifong. [2]\n\n(c) Find the probability that\n(i) 712 people will ride Daifong;\n(ii) between 684 and 712 people, inclusive, will ride Daifong. [4]\n\n(d) Given that between 684 and 712 people, inclusive, will ride Daifong, find the probability that at most 692 people will ride Daifong. [4]\n\nThe ride Torbellino is more popular at the theme park. It is expected that 61% of the visitors on any particular day will ride Torbellino.\nIt can be assumed that the probability a person will ride Daifong is independent of them riding Torbellino.\n\n(e) Find the probability that a person will ride both Daifong and Torbellino. [2]\n\nNext Tuesday n people will visit the theme park. The probability that at most 500 people will ride Torbellino is approximately 0.693.\n\n(f) Find the value of n. [3]",
+      "summary": "Apply binomial distribution to theme park visitor data, including conditional probability and independence.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a) Any two of: fixed number of trials; each trial has two outcomes (success/failure); trials are independent; probability of success is constant. (b) Expected number = 1900 × 0.37 = 703. (c) Let D ~ B(1900, 0.37). (i) P(D = 712) = 0.0172556... ≈ 0.0173 (3 sf). (ii) P(D ≤ 712) = 0.674739..., P(D ≤ 683) = 0.177146..., so P(684 ≤ D ≤ 712) = 0.674739... − 0.177146... = 0.497593... ≈ 0.498 (3 sf). (d) P(D ≤ 692 | 684 ≤ D ≤ 712) = P(684 ≤ D ≤ 692) / P(684 ≤ D ≤ 712). P(684 ≤ D ≤ 692) = P(D ≤ 692) − P(D ≤ 683) = 0.309464... − 0.177146... = 0.132318.... Hence probability = 0.132318... / 0.497593... = 0.265912... ≈ 0.266 (3 sf). (e) Assuming independence: P(both) = 0.37 × 0.61 = 0.2257 ≈ 0.226 (3 sf). (f) Let T ~ B(n, 0.61). Need P(T ≤ 500) ≈ 0.693. Using inverse binomial/GDC: n = 809 (accept n = 808)."
+    },
+    {
+      "id": "2025-may-p2-tz3-q9",
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 14,
+      "accessible_text": "9. [Maximum mark: 14]\n\nTwo athletes, Fiona and Lucy, compete in a 200 metres race along a straight track.\nFiona's velocity, in m s⁻¹, during the race can be modelled by v(t) = (8.14t) / √(t² + 0.2), where t ≥ 0.\nTime, t, is measured in seconds from when the race starts.\n\n(a) (i) Write down the value of v(1).\n(ii) Find the time when Fiona's velocity is 5 m s⁻¹. [3]\n\n(b) Find the time when Fiona's acceleration is 4 m s⁻². [2]\n\n(c) (i) Write down the limit of v(t) as t approaches infinity.\n(ii) State a reason why the value in part (c)(i) is not valid in the context of this question. [3]\n\nLucy's velocity, in m s⁻¹, during the race can be modelled by w(t) = (8t) / √(t² + 0.3), where t ≥ 0.\n\nFiona completes the race and crosses the finishing line in front of Lucy.\n\n(d) Find the distance Lucy is from the finishing line when Fiona completes the 200 metres. [6]",
+      "summary": "Model a 200 m race using rational velocity functions, find times, limits, and Lucy's remaining distance.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration",
+        "Functions - Roots"
+      ],
+      "solution": "(a)(i) v(1) = 8.14 / √(1²+0.2) = 8.14 / √1.2 = 8.14 / 1.095445... = 7.43076... ≈ 7.43 (3 sf). (a)(ii) Solve 8.14t / √(t²+0.2) = 5: squaring gives 66.2596t² = 25(t²+0.2) = 25t² + 5, so 41.2596t² = 5, t² = 5/41.2596 = 0.121185..., t = 0.348114... ≈ 0.348 s. (b) a(t) = v′(t) = 8.14(0.2) / (t²+0.2)^(3/2) = 1.628 / (t²+0.2)^(3/2). Set = 4: 1.628/(t²+0.2)^(3/2) = 4, so (t²+0.2)^(3/2) = 0.407, t²+0.2 = 0.407^(2/3) = 0.5493..., t² = 0.3493..., t = 0.590930... ≈ 0.591 s. (c)(i) As t → ∞, v(t) → 8.14 (m s⁻¹). (c)(ii) The race lasts a finite time (Fiona crosses the line after about 25 s), so she never approaches this limiting speed. (d) Distance travelled by Fiona: ∫₀^(t_f) v(t) dt = 200. Antiderivative: s(t) = [8.14√(t²+0.2)]_0^t = 8.14√(t²+0.2) − 8.14√0.2. Set equal to 200: 8.14√(t_f²+0.2) = 200 + 3.64031... = 203.64031..., so √(t_f²+0.2) = 25.0132..., t_f = 25.0132... ≈ 25.0 s. Lucy's distance: ∫₀^(t_f) 8t/√(t²+0.3) dt = [8√(t²+0.3)]_0^(25.0132) = 8√(625.960) − 8√0.3 = 8×25.0192 − 4.3818 = 200.154 − 4.3818 = 195.772... m. Lucy's distance from finishing line = 200 − 195.772... = 4.2278... ≈ 4.23 m (3 sf)."
+    }
+  ]
+}

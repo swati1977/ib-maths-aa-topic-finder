@@ -1,0 +1,154 @@
+{
+  "paper": {
+    "id": "2023-november-p1-tz1",
+    "title": "November 2023 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2023,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-bee8c5c8e574bcfa",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2023-november-p1-tz1-q1",
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nConsider the function f(x) = a sin(bx), with a, b ∈ ℤ⁺. The following diagram shows part of the graph of f.\n\n[Diagram: A sinusoidal graph with maximum 7, minimum −7 and period π; it passes through the origin and has zeros at integer multiples of π/2.]\n\n(a) Write down the value of a. [1]\n\n(b) (i) Write down the period of f.\n    (ii) Hence, find the value of b. [3]\n\n(c) Find the value of f(π/12). [3]",
+      "summary": "Read amplitude and period from a sine graph and evaluate the function.",
+      "labels": [
+        "Trigonometry",
+        "Graphs",
+        "Radian"
+      ],
+      "solution": "(a) The amplitude is 7, so a = 7. (b)(i) The period is π. (ii) Since the period of sin(bx) is 2π/b, 2π/b = π, hence b = 2. (c) f(π/12) = 7sin(2π/12) = 7sin(π/6) = 7/2."
+    },
+    {
+      "id": "2023-november-p1-tz1-q2",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nConsider the functions f(x) = x + 2 and g(x) = x² − k², where k is a real constant.\n\n(a) Write down an expression for (g ∘ f)(x). [2]\n\n(b) Given that (g ∘ f)(4) = 11, find the possible values of k. [3]",
+      "summary": "Compose two functions and solve for a parameter.",
+      "labels": [
+        "Functions - Roots",
+        "Quadratics"
+      ],
+      "solution": "(a) (g ∘ f)(x) = g(x + 2) = (x + 2)² − k² = x² + 4x + 4 − k². (b) At x = 4, 36 − k² = 11, so k² = 25 and k = ±5."
+    },
+    {
+      "id": "2023-november-p1-tz1-q3",
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 4,
+      "accessible_text": "3. [Maximum mark: 4]\n\nEvents A and B are such that P(A) = 0.7, P(B) = 0.75 and P(A ∩ B) = 0.55.\n\n(a) Find P(A ∪ B). [2]\n\n(b) Hence, or otherwise, find P(A′ ∩ B′). [2]",
+      "summary": "Use the addition rule and De Morgan’s law.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) P(A ∪ B) = 0.7 + 0.75 − 0.55 = 0.9. (b) By De Morgan’s law, P(A′ ∩ B′) = 1 − P(A ∪ B) = 0.1."
+    },
+    {
+      "id": "2023-november-p1-tz1-q4",
+      "number": 4,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nThe sum of the first n terms of an arithmetic sequence is given by Sₙ = pn² − qn, where p and q are positive constants.\n\nIt is given that S₅ = 65 and S₆ = 96.\n\n(a) Find the value of p and the value of q. [5]\n\n(b) Find the value of u₆. [2]",
+      "summary": "Determine a quadratic partial-sum formula and a sequence term.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) 25p − 5q = 65 and 36p − 6q = 96, or 5p − q = 13 and 6p − q = 16. Subtracting gives p = 3, then q = 2. (b) u₆ = S₆ − S₅ = 96 − 65 = 31."
+    },
+    {
+      "id": "2023-november-p1-tz1-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nIn the following triangle ABC, AB = 15 cm, AC = 16 cm and cos BÂC = 1/4.\n\n[Diagram not to scale: Triangle ABC with AB = 15 cm and AC = 16 cm meeting at A.]\n\nFind the area of triangle ABC.",
+      "summary": "Find a triangle area from two sides and the cosine of their included angle.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "sin A = √(1 − (1/4)²) = √15/4 because A is an angle of a triangle. Therefore area = (1/2)(15)(16)(√15/4) = 30√15 cm²."
+    },
+    {
+      "id": "2023-november-p1-tz1-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nThe binomial expansion of (1 + kx)ⁿ is given by 1 + (9/2)x + (15/2)k²x² + … + kⁿxⁿ, where n ∈ ℤ⁺ and k ∈ ℚ.\n\nFind the value of n and the value of k.",
+      "summary": "Compare coefficients in a binomial expansion.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "From the x² coefficient, C(n,2)k² = (15/2)k², so n(n − 1)/2 = 15/2 and n(n − 1) = 15. The positive integer solution is n = 6. The x coefficient gives nk = 9/2, so k = (9/2)/6 = 3/4."
+    },
+    {
+      "id": "2023-november-p1-tz1-q7",
+      "number": 7,
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "marks": 17,
+      "accessible_text": "7. [Maximum mark: 17]\n\nA ballet company performs The Sleeping Beauty every year. Last year they gave a total of 60 performances at their theatre which has a maximum capacity of 800. The number of tickets sold, n, at each performance is shown in the following frequency table.\n\n[Table: Number of tickets sold, n | Number of performances; 0 < n ≤ 200 | 3; 200 < n ≤ 400 | p; 400 < n ≤ 600 | 18; 600 < n ≤ 800 | 30.]\n\n(a) (i) Find the value of p.\n    (ii) Write down the modal class. [2]\n\nThe following cumulative frequency diagram also displays these data.\n\n[Diagram: Cumulative frequency curve with number of tickets sold from 0 to 800 on the horizontal axis and cumulative frequency from 0 to 60 on the vertical axis. The curve passes through approximately (0, 0), (200, 3), (400, 12), (600, 30) and (800, 60).]\n\n(b) Use the cumulative frequency curve to estimate\n    (i) the median number of tickets sold;\n    (ii) the number of performances where at least 80% of the tickets were sold. [4]\n\nAfter a performance, the company decides to conduct a survey to obtain feedback from the audience.\n\n(c) (i) State one disadvantage of the company surveying only the first 5% of the audience as they leave the theatre.\n    (ii) Describe briefly how the company could collect feedback from 5% of the audience using the systematic sampling method.\n    (iii) State the sampling method which should be used if the survey is to be representative of the number of children and the number of adults in the audience. [4]\n\nLast year 36 000 tickets were sold to The Sleeping Beauty.\n\n(d) The following box and whisker diagram displays the amount spent by the audience at the souvenir shop when they attended the performance.\n\n[Diagram: Horizontal box plot of Amount Spent ($), with minimum 0, lower quartile 3, median 7, upper quartile 13 and maximum 25.]\n\n    (i) Estimate the number of people who spent between $3 and $25.\n    (ii) Half the audience spent less than $a. Estimate the value of a. [3]\n\n(e) This year the company will again give 60 performances and expects to sell 18 additional tickets for each performance.\n    (i) Calculate the mean number of tickets the company expects to sell this year for each performance.\n    (ii) State what effect, if any, this increase in ticket sales would have on the variance of the number of tickets sold for each performance. [4]",
+      "summary": "Interpret grouped-frequency, cumulative-frequency and box-plot data; compare sampling methods and transformations of statistics.",
+      "labels": [
+        "Statistics",
+        "Graphs"
+      ],
+      "solution": "(a)(i) p = 60 − 3 − 18 − 30 = 9. (ii) The modal class is 600 < n ≤ 800. (b)(i) The median is read at cumulative frequency 30, giving about 600 tickets. (ii) 80% of 800 is 640 tickets. The curve gives about 40 performances below 640, so about 60 − 40 = 20 performances sold at least 80%. (c)(i) The first 5% is a convenience sample and may be biased, for example because those people may leave from the same seating area or group. (ii) Choose a random starting person among the first 20, then survey every 20th person, since 5% = 1/20. (iii) Use quota sampling for children and adults. (d)(i) From Q₁ = $3 to the maximum $25 contains 75% of the audience, so 0.75(36 000) = 27 000 people. (ii) The median is $7, so a = 7. (e)(i) Last year's mean was 36 000/60 = 600; the new mean is 618. (ii) Adding the same constant to every value has no effect on the variance."
+    },
+    {
+      "id": "2023-november-p1-tz1-q8",
+      "number": 8,
+      "pages": [
+        13
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nThe functions f and g are defined by\n\nf(x) = ln(2x − 7), where x > 7/2,\n\ng(x) = 2 ln x − ln d, where x > 0, d ∈ ℝ⁺.\n\n(a) State the equation of the vertical asymptote to the graph of y = g(x). [1]\n\nThe graphs of y = f(x) and y = g(x) intersect at two distinct points.\n\n(b) (i) Show that, at the points of intersection, x² − 2dx + 7d = 0.\n    (ii) Hence, show that d² − 7d > 0.\n    (iii) Find the range of possible values of d. [9]\n\nThe following diagram shows part of the graphs of y = f(x) and y = g(x).\n\n[Diagram: Two increasing logarithmic curves labelled f and g intersect twice, at x = p and x = q, where p < q.]\n\n(c) In the case where d = 10, find the value of q − p. Express your answer in the form a√b, where a, b ∈ ℤ⁺. [5]",
+      "summary": "Use logarithm laws and a discriminant to analyse two intersections and their separation.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a) Since g(x) = 2ln x − ln d has domain x > 0, its vertical asymptote is x = 0. (b)(i) At an intersection, ln(2x − 7) = 2ln x − ln d = ln(x²/d). Hence 2x − 7 = x²/d, so x² − 2dx + 7d = 0. (ii) Two distinct intersections require a positive discriminant: (−2d)² − 4(7d) > 0, giving 4(d² − 7d) > 0 and hence d² − 7d > 0. (iii) d(d − 7) > 0 gives d < 0 or d > 7; since d > 0, d > 7. (c) For d = 10 the equation is x² − 20x + 70 = 0, with roots p, q = 10 ± √30. Therefore q − p = 2√30."
+    },
+    {
+      "id": "2023-november-p1-tz1-q9",
+      "number": 9,
+      "pages": [
+        14
+      ],
+      "marks": 13,
+      "accessible_text": "9. [Maximum mark: 13]\n\nConsider the function f defined by f(x) = 12x/(x² + 2)³, where x ∈ ℝ. The graph of f is shown in the following diagram.\n\n[Diagram: An odd-shaped curve approaches the x-axis from below as x → −∞, has a local minimum for x < 0, crosses the origin, has a local maximum for x > 0, and approaches the x-axis from above as x → ∞.]\n\n(a) Show that f′(x) = 12(2 − 5x²)/(x² + 2)⁴. [4]\n\n(b) Find ∫ f(x) dx. [4]\n\nConsider a function g(x) defined for x ∈ ℝ. The derivative of g is such that g′(x) = f′(x), for all x ∈ ℝ.\n\nLet R be the region enclosed by the graph of f, the graph of g, the line x = 0 and the line x = 3. The area of R is 21/2.\n\n(c) Find the two possible expressions for g(x). [5]",
+      "summary": "Differentiate and integrate a rational function, then determine vertical translations from an enclosed area.",
+      "labels": [
+        "Differentiation",
+        "Integration",
+        "Graphs"
+      ],
+      "solution": "(a) Write f(x) = 12x(x² + 2)⁻³. Then f′(x) = 12(x² + 2)⁻³ − 72x²(x² + 2)⁻⁴ = 12[x² + 2 − 6x²]/(x² + 2)⁴ = 12(2 − 5x²)/(x² + 2)⁴. (b) Let u = x² + 2, so du = 2x dx. Then ∫12x(x² + 2)⁻³ dx = 6∫u⁻³du = -3/(x² + 2)² + C. (c) Since g′ = f′, g(x) = f(x) + k. The vertical separation is |k|, so the area from x = 0 to x = 3 is 3|k| = 21/2. Thus k = ±7/2, and g(x) = 12x/(x² + 2)³ + 7/2 or g(x) = 12x/(x² + 2)³ − 7/2."
+    }
+  ]
+}

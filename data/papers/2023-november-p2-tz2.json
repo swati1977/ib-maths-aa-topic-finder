@@ -1,0 +1,155 @@
+{
+  "paper": {
+    "id": "2023-november-p2-tz2",
+    "title": "November 2023 Mathematics: Analysis and Approaches SL Paper 2 TZ2",
+    "paper": 2,
+    "zone": "2",
+    "year": 2023,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-6321d308830863a0",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2023-november-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nConsider the function defined by f(x) = x² − 8x. The graph of f passes through the point A(3, −15).\n\n(a) (i) Find the gradient of the tangent to the graph of f at the point A.\n    (ii) Hence, write down the gradient of the normal to the graph of f at point A. [3]\n\n(b) Write down the equation of the normal to the graph of f at point A. [1]\n\nThe normal to the graph of f at point A intersects the graph of f again at a second point B.\n\n(c) Find the coordinates of B. [3]",
+      "summary": "Find tangent and normal gradients and the second intersection of a normal with a parabola.",
+      "labels": [
+        "Differentiation",
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a)(i) f′(x) = 2x − 8, so f′(3) = −2. The normal gradient is the negative reciprocal, 1/2. (a)(ii) The normal gradient is 1/2. (b) Using point A, the normal is y + 15 = (1/2)(x − 3). (c) Equating the normal to f and solving gives the known root at A's x-coordinate and the second x-coordinate shown by B; substitution gives B = (5.5, −13.75)."
+    },
+    {
+      "id": "2023-november-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows a pyramid with vertex V and rectangular base OABC.\n\nPoint B has coordinates (6, 8, 0), point C has coordinates (6, 0, 0) and point V has coordinates (3, 4, 9).\n\n[Diagram not to scale: A rectangular-based pyramid in three-dimensional x, y, z axes, with O and A at the other base vertices and the labelled points B, C and V at the given coordinates.]\n\n(a) Find BV. [2]\n\n(b) Find the size of BVĈ. [4]",
+      "summary": "Use three-dimensional distance and the cosine rule in a pyramid.",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Trigonometry"
+      ],
+      "solution": "(a) BV = √[(6−3)²+(8−4)²+(0−9)²] = √106. (b) Since VC = √106 and BC = 8, the cosine rule gives cos ∠BVC = (106+106−64)/(2·106) = 37/53, so ∠BVC = 0.798 radians."
+    },
+    {
+      "id": "2023-november-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        5,
+        6
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nConsider the function f(x) = eˣ − 3x − 4.\n\n(a) On the following axes, sketch the graph of f for −4 ≤ x ≤ 3. [3]\n\n[Coordinate axes: x from −4 to 3 and y from −5 to 10.]\n\nThe function g is defined by g(x) = e²ˣ − 6x − 7.\n\n(b) The graph of g is obtained from the graph of f by a horizontal stretch with scale factor k, followed by a vertical translation of c units.\n\nFind the value of k and the value of c. [2]",
+      "summary": "Sketch an exponential-linear function and identify transformations.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
+      "solution": "(a) The graph has roots approximately x = −1.24 and x = 2.42, y-intercept (0, −3), local minimum near (1.10, −4.30), and endpoints near (−4, 8.02) and (3, 7.09). Join these with a smooth convex curve. (b) For a horizontal stretch by factor 1/2, f(2x) = e²ˣ − 6x − 4; translating 3 units down gives g(x), so k = 1/2 and c = −3."
+    },
+    {
+      "id": "2023-november-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nA company is designing a new logo in the shape of a letter “C”.\n\nThe letter “C” is formed between two circles with centre O. The point A lies on the circumference of the inner circle with radius r cm, where r < 10. The point B lies on the circumference of the outer circle with radius 10 cm.\n\nThe reflex angle AÔB is 5.2 radians. The letter “C” is shown by the shaded area in the following diagram.\n\n[Diagram not to scale: A C-shaped annular sector centred at O, bounded by concentric circular arcs through A and B and by two radial segments; its reflex central angle is 5.2 radians.]\n\n(a) Show that the area of the “C” is given by 260 − 2.6r². [2]\n\nThe area of the “C” is 64 cm².\n\n(b) (i) Find the value of r.\n    (ii) Find the perimeter of the “C”. [5]",
+      "summary": "Use sector area and arc length for a C-shaped annular sector.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) The area is the difference between sectors of angle 5.2: (1/2)(5.2)(10² − r²) = 260 − 2.6r². (b)(i) Set 260 − 2.6r² = 64. This gives r = √(980/13) = 8.68 cm (3 s.f.). (ii) The perimeter comprises the outer arc, inner arc and two radial segments: 5.2(10) + 5.2r + 2(10 − r). Substitution gives 99.8 cm (3 s.f.)."
+    },
+    {
+      "id": "2023-november-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        9
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nA particle moves along a straight line. Its displacement, s metres, from a fixed point O after time t seconds is given by s(t) = 4.3 sin(√(3t + 5)), where 0 ≤ t ≤ 10.\n\nThe particle first comes to rest after q seconds.\n\n(a) Find the value of q. [2]\n\n(b) Find the total distance that the particle travels in the first q seconds. [3]",
+      "summary": "Differentiate a sinusoidal displacement and find distance to the first rest point.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Trigonometry"
+      ],
+      "solution": "(a) Solve v(t) = ds/dt = 6.45cos(√(3t+5))/√(3t+5) = 0; the first solution has √(3t+5) = 3π/2, giving q = [(3π/2)²−5]/3 = 5.74 seconds. (b) The velocity does not change sign before q, so the distance is |s(q) − s(0)| = 7.68 m (3 s.f.)."
+    },
+    {
+      "id": "2023-november-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nThe following table shows the probability distribution of a discrete random variable X, where a, k ∈ ℝ⁺.\n\n[Table: x | 1 | 2 | 3 | 4; P(X = x) | k | k² | a | k³.]\n\nGiven that E(X) = 2.3, find the value of a.",
+      "summary": "Use normalization and expectation to determine a probability parameter.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "The probabilities sum to 1, so k + k² + a + k³ = 1. Also E(X) = k + 2k² + 3a + 4k³ = 2.3. Eliminating a gives k³ − k² − 2k + 0.7 = 0. The only positive root that makes all probabilities valid is k = 0.315870. Hence a = 1 − k − k² − k³ = 0.553 (3 s.f.)."
+    },
+    {
+      "id": "2023-november-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        11
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nThe solid shown in the following diagram is comprised of a cylinder and two hemispheres. The cylinder has height h cm and radius x cm. The hemispheres fit exactly onto either end of the cylinder.\n\n[Diagram: A capsule-shaped solid made from a cylinder of height h and radius x, capped by a hemisphere at each end.]\n\nThe volume of the cylinder is 45 cm³.\n\n(a) Show that the total surface area, S cm², of the solid is given by S = 90/x + 4πx². [3]\n\nThe total surface area of the solid has a local maximum or a local minimum value when x = a.\n\n(b) (i) Find an expression for dS/dx.\n    (ii) Hence, find the exact value of a. [5]\n\n(c) (i) Find an expression for d²S/dx².\n    (ii) Use the second derivative of S to justify that S is a minimum when x = a.\n    (iii) Find the minimum surface area of the solid. [6]",
+      "summary": "Minimize the surface area of a capsule-shaped solid using calculus.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a) πx²h = 45, so h = 45/(πx²). The exposed area is 2πxh + 4πx² = 2πx[45/(πx²)] + 4πx² = 90/x + 4πx². (b)(i) dS/dx = −90/x² + 8πx. (ii) Setting this to zero gives 8πa³ = 90, so a = (90/(8π))^(1/3). (c)(i) d²S/dx² = 180/x³ + 8π. (ii) At x = a this equals 24π > 0, so the stationary value is a minimum. (iii) Substituting a into S gives 88.2 cm² (3 s.f.)."
+    },
+    {
+      "id": "2023-november-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nGive your answers to parts (a)(ii), (c)(i) and (d) correct to two decimal places.\n\nDaniela and Sorin have each recently received some money. Daniela won a cash prize and Sorin received an inheritance.\n\nDaniela had two options to choose from to receive her winnings. In both options she receives a payment on the first day of each month for three years.\n\nOption A: Each payment is $5500.\n\nOption B: The first payment is $2000. In each month which follows, the payment is 6% more than the previous month.\n\n(a) Find the total amount Daniela would receive if she chooses\n    (i) Option A;\n    (ii) Option B. [5]\n\nSorin received an inheritance of $120 000. Sorin invested his inheritance in an account that pays a nominal annual interest rate of 4% per annum, compounded monthly. The interest is added on the last day of each month.\n\n(b) Write down an expression for the value of Sorin’s investment after n years. [1]\n\nDaniela chose Option B and received her first payment on 1st January 2023. Sorin invested his inheritance on the same day.\n\n(c) (i) Find the total value of Daniela’s winnings and Sorin’s investment on the last day of the sixth month.\n    (ii) Find the minimum number of complete months before the total value of Daniela’s winnings and Sorin’s investment is at least $250 000. [6]\n\nAt the end of the three years, Daniela invested $40 000 for a further six years in a second account that pays a nominal annual interest rate of r% per annum compounded quarterly.\n\n(d) Find the value of r if this investment grows to $53 000 after six years. [3]",
+      "summary": "Compare arithmetic and geometric payment options and compound investments.",
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a)(i) There are 36 payments, so the total is 5500(36) = $198 000. (ii) Option B is geometric: S₃₆ = 2000[1 − (1.06)³⁶]/[1 − 1.06] = $238 241.73. (b) After n years the value is 120000(1 + 4/(100·12))^(12n). (c)(i) After six months Sorin has 120000(1 + 4/1200)⁶ and Daniela has 2000[1 − (1.06)⁶]/[1 − 1.06]; their total is $136 370.73. (ii) Solve 120000(1 + 4/1200)^m + 2000[1 − (1.06)^m]/[1 − 1.06] ≥ 250000. The crossing occurs between months 26 and 27, so the minimum is 27 complete months. (d) 40000(1 + r/(100·4))²⁴ = 53000. Solving gives r = 4.72%."
+    },
+    {
+      "id": "2023-november-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nA farmer is growing a field of wheat plants. The height, H cm, of each plant can be modelled by a normal distribution with mean m and standard deviation s.\n\nIt is known that P(H < 94.6) = 0.288 and P(H > 98.1) = 0.434.\n\n(a) Find the probability that the height of a randomly selected plant is between 94.6 cm and 98.1 cm. [2]\n\n(b) Find the value of m and the value of s. [5]\n\nThe farmer measures 100 randomly selected plants. Any plant with a height greater than 98.1 cm is considered ready to harvest. Heights of plants are independent of each other.\n\n(c) (i) Find the probability that exactly 34 plants are ready to harvest.\n    (ii) Given that fewer than 49 plants are ready to harvest, find the probability that exactly 34 plants are ready to harvest. [6]\n\nIn another field, the farmer is growing the same variety of wheat, but is using a different fertilizer. The heights of these plants, F cm, are normally distributed with mean 98.6 and standard deviation d. The farmer finds the interquartile range to be 4.82 cm.\n\n(d) Find the value of d. [3]",
+      "summary": "Use normal and binomial distributions, including a conditional probability and an interquartile range.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) The three disjoint regions sum to 1, so P(94.6 < H < 98.1) = 1 − 0.288 − 0.434 = 0.278. (b) Using z-scores Φ⁻¹(0.288) and Φ⁻¹(0.566) in (94.6 − m)/s and (98.1 − m)/s gives m = 97.3 cm and s = 4.82 cm (3 s.f.). (c) Let X ~ B(100, 0.434). (i) P(X = 34) = 0.0133. (ii) P(X = 34 | X < 49) = P(X = 34)/P(X < 49) = 0.0157. (d) For a normal distribution, IQR = [Φ⁻¹(0.75) − Φ⁻¹(0.25)]d = 1.34898d. Thus d = 4.82/1.34898 = 3.57 cm (3 s.f.)."
+    }
+  ]
+}

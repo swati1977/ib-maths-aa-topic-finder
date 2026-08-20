@@ -1,0 +1,157 @@
+{
+  "paper": {
+    "id": "2022-may-p2-tz1",
+    "title": "May 2022 Mathematics: Analysis and Approaches SL Paper 2 TZ1",
+    "paper": 2,
+    "zone": "1",
+    "year": 2022,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-0d04bc3599227194",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2022-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nIn this question, give all answers correct to two decimal places.\n\nSam invests $1700 in a savings account that pays a nominal annual rate of interest of 2.74%, compounded half-yearly. Sam makes no further payments to, or withdrawals from, this account.\n\n(a) Find the amount that Sam will have in his account after 10 years. [3]\n\nDavid also invests $1700 in a savings account that pays an annual rate of interest of r%, compounded yearly. David makes no further payments or withdrawals from this account.\n\n(b) Find the value of r required so that the amount in David’s account after 10 years will be equal to the amount in Sam’s account. [2]\n\n(c) Find the interest David will earn over the 10 years. [1]",
+      "summary": "Compare half-yearly and yearly compound interest.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Sequences - Series"
+      ],
+      "solution": "(a) 1700(1+0.0274/2)^20=$2231.71. (b) 1700(1+r/100)^10=2231.71 gives r=2.76%. (c) Interest=2231.71−1700=$531.71."
+    },
+    {
+      "id": "2022-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 4,
+      "accessible_text": "2. [Maximum mark: 4]\n\nThe number of hours spent exercising each week by a group of students is shown in the following table.\n\n[Table: Exercising time (in hours): 2, 3, 4, 5, 6. Corresponding number of students: 5, 1, 4, 3, x.]\n\nThe median is 4.5 hours.\n\n(a) Find the value of x. [2]\n\n(b) Find the standard deviation. [2]",
+      "summary": "Use a frequency table, median and standard deviation.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) For median 4.5, the middle pair is 4 and 5, requiring 20 values; hence x=7. (b) Using frequencies 5,1,4,3,7 gives population standard deviation 1.58429…, so 1.58 hours."
+    },
+    {
+      "id": "2022-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [
+        5,
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nA company is designing a new logo. The logo is created by removing two equal segments from a rectangle, as shown in the following diagram.\n\n[Diagram not to scale: The logo is a shaded rectangle whose left and right sides have identical inward-facing circular-arc cut-outs.]\n\nThe rectangle measures 5 cm by 4 cm. The points A and B lie on a circle, with centre O and radius 2 cm, such that AÔB = θ, where 0 < θ < π. This information is shown in the following diagram.\n\n[Diagram not to scale: A rectangle has horizontal width 4 and vertical height 5. Its left and right inward circular segments are shaded. On the left, A and B are the upper and lower endpoints of the segment’s vertical chord; O lies outside the rectangle to their left. Radii OA and OB are each 2 and enclose the central angle θ at O. The right segment is congruent and mirrored.]\n\n(a) Find the area of one of the shaded segments in terms of θ. [3]\n\n(b) Given that the area of the logo is 13.4 cm², find the value of θ. [3]",
+      "summary": "Use sector and triangle areas for circular segments.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) Segment area=(1/2)(2²)θ−(1/2)(2²)sinθ=2θ−2sinθ. (b) 20−2(2θ−2sinθ)=13.4. Solving 2θ−2sinθ=3.3 gives θ=2.35672…=2.36 radians."
+    },
+    {
+      "id": "2022-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nA discrete random variable, X, has the following probability distribution:\n\n[Table: x: 0, 1, 2, 3. Corresponding P(X = x): 0.41, k − 0.28, 0.46, 0.29 − 2k².]\n\n(a) Show that 2k² − k + 0.12 = 0. [1]\n\n(b) Find the value of k, giving a reason for your answer. [3]\n\n(c) Hence, find E(X). [2]",
+      "summary": "Determine a probability parameter and expectation.",
+      "labels": [
+        "Probability",
+        "Statistics",
+        "Quadratics"
+      ],
+      "solution": "(a) Summing probabilities to 1 gives 2k²−k+0.12=0. (b) Roots are 0.2 and 0.3; k=0.2 makes P(X=1)<0, so k=0.3. (c) E(X)=1(0.02)+2(0.46)+3(0.11)=1.27."
+    },
+    {
+      "id": "2022-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nA particle moves along a straight line so that its velocity, v m s⁻¹, after t seconds is given by v(t) = e^(sin t) + 4 sin t for 0 ≤ t ≤ 6.\n\n(a) Find the value of t when the particle is at rest. [2]\n\n(b) Find the acceleration of the particle when it changes direction. [3]\n\n(c) Find the total distance travelled by the particle. [2]",
+      "summary": "Analyze velocity, acceleration and distance.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration",
+        "Exponentials - Logarithms",
+        "Trigonometry"
+      ],
+      "solution": "(a) Solve e^(sin t)+4sin t=0: t=3.34692…=3.35 s. (b) a=v′=cos t[e^(sin t)+4], so at this time a=−4.71439…=−4.71 m s⁻². (c) Split ∫|v| at 3.34692; the two distances are 14.3104… and 6.44300…, totaling 20.8 m."
+    },
+    {
+      "id": "2022-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nLet A and B be two independent events such that P(A ∩ B′) = 0.16 and P(A′ ∩ B) = 0.36.\n\n(a) Given that P(A ∩ B) = x, find the value of x. [4]\n\n(b) Find P(A′ | B′). [2]",
+      "summary": "Use independence in a probability partition.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "P(A)=x+0.16 and P(B)=x+0.36. Independence gives x=(x+0.16)(x+0.36), whose valid solution is x=0.24. (b) Independence is preserved under complements, so P(A′|B′)=P(A′)=1−(0.24+0.16)=0.6."
+    },
+    {
+      "id": "2022-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nAll lengths in this question are in centimetres.\n\nA solid metal ornament is in the shape of a right pyramid, with vertex V and square base ABCD. The centre of the base is X. Point V has coordinates (1, 5, 0) and point A has coordinates (−1, 1, 6).\n\n[Diagram not to scale: A right square-based pyramid has apex V and base vertices A, B, C and D. The base centre X is marked. Dashed segments show VD, VX and the hidden base edges AD and DC; VX is the perpendicular height from V to the centre of the square base.]\n\n(a) Find AV. [2]\n\n(b) Given that ∠AVB = 40°, find AB. [3]\n\nThe volume of the pyramid is 57.2 cm³, correct to three significant figures.\n\n(c) Find the height of the pyramid, VX. [3]\n\nA second ornament is in the shape of a cuboid with a rectangular base of length 2x cm, width x cm and height y cm. The cuboid has the same volume as the pyramid.\n\n(d) The cuboid has a minimum surface area of S cm². Find the value of S. [5]",
+      "summary": "Apply 3D distance, trigonometry, volume and optimization.",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Trigonometry",
+        "Differentiation"
+      ],
+      "solution": "(a) AV=√[2²+4²+(−6)²]=√56=7.48. (b) Isosceles triangle AVB gives AB=2AV sin20°=5.12. (c) 57.2=(1/3)AB²(VX), hence VX=6.55. (d) 2x²y=57.2, so y=28.6/x². Surface area S=2[(2x)(x)+(2x)y+xy]=4x²+6xy=4x²+171.6/x. Minimization gives x=2.77849… and S=92.6 cm²."
+    },
+    {
+      "id": "2022-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nThe function f is defined by f(x) = (4x + 1)/(x + 4), where x ∈ ℝ, x ≠ −4.\n\n(a) For the graph of f\n\n(i) write down the equation of the vertical asymptote;\n\n(ii) find the equation of the horizontal asymptote. [3]\n\n(b) (i) Find f⁻¹(x).\n\n(ii) Using an algebraic approach, show that the graph of f⁻¹ is obtained by a reflection of the graph of f in the y-axis followed by a reflection in the x-axis. [8]\n\nThe graphs of f and f⁻¹ intersect at x = p and x = q, where p < q.\n\n(c) (i) Find the value of p and the value of q.\n\n(ii) Hence, find the area enclosed by the graph of f and the graph of f⁻¹. [5]",
+      "summary": "Analyze a rational function and its inverse.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Integration"
+      ],
+      "solution": "(a) x=−4; y=4. (b)(i) Interchanging x,y and solving gives f⁻¹(x)=(1−4x)/(x−4). (ii) −f(−x)=−[(−4x+1)/(−x+4)]=(1−4x)/(x−4)=f⁻¹(x), exactly the stated two reflections. (c)(i) Solving f(x)=x gives x=−1,1, so p=−1,q=1. (ii) ∫₋₁¹[f(x)−f⁻¹(x)]dx=0.675231…=0.675 square units."
+    },
+    {
+      "id": "2022-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nA bakery makes two types of muffins: chocolate muffins and banana muffins.\n\nThe weights, C grams, of the chocolate muffins are normally distributed with a mean of 62 g and standard deviation of 2.9 g.\n\n(a) Find the probability that a randomly selected chocolate muffin weighs less than 61 g. [2]\n\n(b) In a random selection of 12 chocolate muffins, find the probability that exactly 5 weigh less than 61 g. [2]\n\nThe weights, B grams, of the banana muffins are normally distributed with a mean of 68 g and standard deviation of 3.4 g.\n\nEach day 60% of the muffins made are chocolate.\n\nOn a particular day, a muffin is randomly selected from all those made at the bakery.\n\n(c) (i) Find the probability that the randomly selected muffin weighs less than 61 g.\n\n(ii) Given that a randomly selected muffin weighs less than 61 g, find the probability that it is chocolate. [7]\n\nThe machine that makes the chocolate muffins is adjusted so that the mean weight of the chocolate muffins remains the same but their standard deviation changes to σ g. The machine that makes the banana muffins is not adjusted. The probability that the weight of a randomly selected muffin from these machines is less than 61 g is now 0.157.\n\n(d) Find the value of σ. [5]",
+      "summary": "Combine normal, binomial and conditional probabilities.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) P(C<61)=0.365112…=0.365. (b) With X~B(12,0.365112), P(X=5)=0.214. (c) P(B<61)=0.0197555. Thus total=0.6(0.365112)+0.4(0.0197555)=0.227. Conditional chocolate probability=0.6(0.365112)/0.226969=0.965. (d) The required chocolate tail is [0.157−0.4(0.0197555)]/0.6=0.248496. Inverse normal gives z=−0.679229, so (61−62)/σ=z and σ=1.47 g."
+    }
+  ]
+}

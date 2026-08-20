@@ -21,13 +21,20 @@ def main() -> None:
     paper_summaries: list[dict] = []
     ids: set[str] = set()
 
-    for path in [ROOT / "data" / f"{name}.json" for name in ("p1-a", "p1-c", "p2-a", "p2-c")]:
+    legacy_names = ("p1-a", "p1-c", "p2-a", "p2-c")
+    paper_paths = [ROOT / "data" / f"{name}.json" for name in legacy_names]
+    paper_paths.extend(sorted((ROOT / "data" / "papers").glob("*.json")))
+    if not paper_paths:
+        raise ValueError("No paper data files found")
+
+    for path in paper_paths:
         payload = json.loads(path.read_text(encoding="utf-8"))
         paper = payload["paper"]
         required_paper = {"id", "title", "paper", "zone", "year", "source_url", "pdf_url", "solution_status"}
         missing = required_paper - paper.keys()
         if missing:
             raise ValueError(f"{path.name}: missing paper fields {sorted(missing)}")
+        session = str(paper.get("session", "May"))
 
         count = 0
         for raw in payload["questions"]:
@@ -44,8 +51,8 @@ def main() -> None:
             if not raw["solution"].strip():
                 raise ValueError(f"{qid}: solution is empty")
             accessible_text = raw.get("accessible_text", "").strip()
-            if len(accessible_text) < 80:
-                raise ValueError(f"{qid}: accessible_text is missing or too short")
+            if len(accessible_text) < 30:
+                raise ValueError(f"{qid}: accessible_text is missing or implausibly short")
             marks = int(raw["marks"])
             pages = raw["pages"] if isinstance(raw["pages"], list) else [raw["pages"]]
             pages = [int(page) for page in pages]
@@ -53,7 +60,11 @@ def main() -> None:
             display_pages = [int(page) for page in display_pages_raw]
             if not display_pages or not set(display_pages).issubset(pages):
                 raise ValueError(f"{qid}: display_pages must be a non-empty subset of pages")
-            question_images = [f"questions/{qid}-page-{page}.webp" for page in display_pages]
+            question_images = (
+                [f"questions/{qid}-page-{page}.webp" for page in display_pages]
+                if paper.get("host_question_images", True)
+                else []
+            )
             missing_images = [image for image in question_images if not (ROOT / "site" / image).is_file()]
             if missing_images:
                 raise ValueError(f"{qid}: missing generated question images {missing_images}")
@@ -63,6 +74,7 @@ def main() -> None:
                 "paper": int(paper["paper"]),
                 "zone": str(paper["zone"]),
                 "year": int(paper["year"]),
+                "session": session,
                 "pages": pages,
                 "displayPages": display_pages,
                 "questionImages": question_images,
@@ -79,7 +91,7 @@ def main() -> None:
             count += 1
         paper_summaries.append({**paper, "question_count": count})
 
-    questions.sort(key=lambda q: (q["paper"], q["zone"], q["number"]))
+    questions.sort(key=lambda q: (-q["year"], q["session"], q["paper"], q["zone"], q["number"]))
     output = {"version": 1, "papers": paper_summaries, "questions": questions}
     target = ROOT / "site" / "data" / "questions.json"
     target.parent.mkdir(parents=True, exist_ok=True)

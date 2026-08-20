@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "2025-may-p1-tz3",
+    "title": "May 2025 Mathematics: Analysis and Approaches SL Paper 1 TZ3",
+    "paper": 1,
+    "zone": "3",
+    "year": 2025,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz3-sl-4a04e7e47fa50baa",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ3_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ3_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-may-p1-tz3-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 4,
+      "accessible_text": "1. [Maximum mark: 4]\n\nThe scores achieved by 80 golfers in a competition are summarized in the following box and whisker diagram.\n\n[Box and whisker diagram, not to scale: The number line is labelled \"score\" and is marked from 62 to 78 in steps of 2: 62, 64, 66, 68, 70, 72, 74, 76, 78. The box-and-whisker plot shows: left whisker from 62 to 68 (box starts at 68), box from 68 to 74 with a vertical line at 70 (median), right whisker from 74 to 78.]\n\n(a) Find the interquartile range. [2]\n\n(b) Find the number of golfers that scored between 70 and 74. [2]",
+      "summary": "Interpret a box and whisker diagram to find the interquartile range and count golfers in a given interval.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) From the box and whisker diagram, Q1 = 68 and Q3 = 74. The interquartile range is IQR = Q3 − Q1 = 74 − 68 = 6. (b) The box from 70 to 74 represents the upper 25% of the data. Since there are 80 golfers, the number scoring between 70 and 74 is 25% × 80 = 20."
+    },
+    {
+      "id": "2025-may-p1-tz3-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nLet log₁₀ 2 = p and log₁₀ 3 = q.\n\n(a) Find an expression for log₁₀ 24 in terms of p and q. [3]\n\n(b) Find an expression for log₃ 8 in terms of p and q. [2]",
+      "summary": "Express logarithms in terms of given base-10 logs using logarithm laws and change of base.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) 24 = 2³ × 3, so log₁₀ 24 = 3 log₁₀ 2 + log₁₀ 3 = 3p + q. (b) Using change of base: log₃ 8 = (log₁₀ 8)/(log₁₀ 3) = (3 log₁₀ 2)/(log₁₀ 3) = 3p/q."
+    },
+    {
+      "id": "2025-may-p1-tz3-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe following diagram shows the graph of y = f(x), for −6 ≤ x ≤ 5.\n\n[Diagram: A coordinate grid with x-axis from −7 to 6 and y-axis from −6 to 6. The graph is a continuous, strictly decreasing piecewise-linear graph on −6 ≤ x ≤ 5. It starts at the filled endpoint (−6, 5), descends steeply in a straight line to the corner (−3, −1), then continues in a less steep straight line to the filled endpoint (5, −3). There are no turning points; only the gradient changes at (−3, −1). The range is −3 ≤ y ≤ 5.]\n\n(a) Write down the value of f(−3). [1]\n\n(b) State the domain of f⁻¹, the inverse function of f. [1]\n\n(c) Find the value of x that satisfies f⁻¹(2x − 7) = −3. [3]",
+      "summary": "Read a value from a function graph, state the domain of its inverse, and solve an inverse function equation.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a) From the graph, f(−3) = −1. (b) The domain of f⁻¹ is the range of f. From the graph, the range is −3 ≤ y ≤ 5, so the domain of f⁻¹ is [−3, 5]. (c) If f⁻¹(2x − 7) = −3, then f(−3) = 2x − 7. Since f(−3) = −1, we have −1 = 2x − 7, so 2x = 6, and x = 3."
+    },
+    {
+      "id": "2025-may-p1-tz3-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\n(a) Show that cos⁴ x − sin⁴ x = cos 2x. [3]\n\n(b) Hence, find ∫ (cos⁴ x − sin⁴ x) dx. [3]",
+      "summary": "Prove a trigonometric identity using difference of squares, then integrate the result.",
+      "labels": [
+        "Trigonometry",
+        "Integration"
+      ],
+      "solution": "(a) cos⁴ x − sin⁴ x = (cos² x − sin² x)(cos² x + sin² x) = (cos² x − sin² x)(1) = cos 2x. (b) ∫ (cos⁴ x − sin⁴ x) dx = ∫ cos 2x dx = (1/2) sin 2x + c."
+    },
+    {
+      "id": "2025-may-p1-tz3-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nConsider the curve y = x² − x − 1 and the line y = mx − 3, where m ∈ ℝ.\n\n(a) Show that the curve and the line meet when x² − (m + 1)x + 2 = 0. [2]\n\n(b) Hence, find the values of m when the line is tangent to the curve. [5]",
+      "summary": "Find intersection condition of a quadratic curve and a line, then find when the line is tangent using the discriminant.",
+      "labels": [
+        "Quadratics",
+        "Differentiation",
+        "Graphs"
+      ],
+      "solution": "(a) Equating: x² − x − 1 = mx − 3, so x² − x − 1 − mx + 3 = 0, giving x² − (m + 1)x + 2 = 0. (b) For tangency, the discriminant must be zero: Δ = (m + 1)² − 4(1)(2) = (m + 1)² − 8 = 0. Hence (m + 1)² = 8, so m + 1 = ±2√2, giving m = −1 + 2√2 or m = −1 − 2√2."
+    },
+    {
+      "id": "2025-may-p1-tz3-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nThe random variables X and Y are normally distributed with X ∼ N(7, a²) and Y ∼ N(19, a²), where a > 0.\n\n(a) Find b such that P(X > b) = P(Y > 22). [2]\n\n(b) Write down the approximate value of P(7 − a < X < 7 + a), correct to two significant figures. [1]\n\n(c) Given that a = 3, calculate the approximate value of P(Y < 22), correct to two significant figures. [3]",
+      "summary": "Work with normal distributions of equal variance: equate probabilities across distributions and apply the empirical rule.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) Since X and Y have the same variance, P(X > b) = P(Y > 22) means b is as many standard deviations above 7 as 22 is above 19. So b − 7 = 22 − 19 = 3, hence b = 10. (b) By the empirical rule, P(μ − σ < X < μ + σ) ≈ 0.68 (or 68%). (c) For Y ∼ N(19, 9), 22 is one standard deviation above the mean. P(Y < 22) = 0.5 + P(19 < Y < 22) ≈ 0.5 + 0.34 = 0.84 (correct to 2 significant figures)."
+    },
+    {
+      "id": "2025-may-p1-tz3-q7",
+      "number": 7,
+      "pages": [
+        9,
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "7. [Maximum mark: 15]\n\nA gardener plans to enclose part of their garden with rope. The total area being enclosed is 60 m². This will be further divided by rope to make eight identical rectangular areas, each measuring x metres by y metres, where x, y > 0. This is shown in the following diagram.\n\n[Diagram, not to scale: A large rectangle is subdivided into 8 identical smaller rectangles arranged in a 4-column by 2-row grid. The width of each small rectangle is labelled x metres and the height is labelled y metres. The outer boundary and all internal dividing lines represent rope. There are 3 horizontal rope segments (each spanning the full width of 4x) and 5 vertical rope segments (each spanning the full height of 2y).]\n\n(a) Find an expression for y in terms of x. [2]\n\n(b) Show that the total length, T metres, of rope required is given by T = 12x + 75/x. [2]\n\n(c) Find an expression for dT/dx. [2]\n\nWhen x = k, dT/dx = 0.\n\n(d) (i) Find the value of k.\n    (ii) Hence, calculate the value of T when x = k.\n    (iii) Find the value of y when x = k. [7]\n\n(e) (i) Find an expression for d²T/dx².\n    (ii) Hence, justify whether T has a local minimum or a local maximum when x = k. [2]",
+      "summary": "Optimise the total rope length for enclosing and subdividing 8 identical rectangular areas of fixed total area.",
+      "labels": [
+        "Differentiation",
+        "Quadratics"
+      ],
+      "solution": "(a) The total area is 8xy = 60, so y = 60/(8x) = 15/(2x). (b) The rope consists of 3 horizontal segments each of length 4x (total 12x) and 5 vertical segments each of length 2y (total 10y). So T = 12x + 10y = 12x + 10(15/(2x)) = 12x + 75/x. (c) dT/dx = 12 − 75/x². (d) (i) Setting 12 − 75/k² = 0 gives k² = 75/12 = 25/4, so k = 5/2 (since x > 0). (ii) T = 12(5/2) + 75/(5/2) = 30 + 30 = 60 m. (iii) y = 15/(2 × 5/2) = 15/5 = 3 m. (e) (i) d²T/dx² = 150/x³. (ii) At x = 5/2, d²T/dx² = 150/(125/8) = 150 × 8/125 = 48/5 = 9.6 > 0, so T has a local minimum at x = k."
+    },
+    {
+      "id": "2025-may-p1-tz3-q8",
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nConsider the sequence {uₙ}, with nth term given by uₙ. The first three terms are u₁ = k − 5, u₂ = 3 − 2k and u₃ = 5k + 3, where k ∈ ℝ.\n\n(a) Consider the case when {uₙ} is arithmetic.\n    (i) Find the value of k.\n    (ii) Hence, or otherwise, find u₃. [5]\n\n(b) Consider the case where k = 12.\n    (i) Show that the first three terms of {uₙ} form a geometric sequence.\n    (ii) Given that {uₙ} is geometric, state a reason why the sum of an infinite number of terms of this sequence does not exist. [4]\n\n(c) The sequence, {uₙ}, is geometric for a second value of k.\n    (i) Show that k² − 10k − 24 = 0.\n    (ii) Find the first three terms of {uₙ} for this second value of k.\n    (iii) Hence, write down the value of S₂ₘ, the sum of the first 2m terms, for this second value of k. [7]",
+      "summary": "Investigate a sequence for arithmetic and geometric conditions, analyse convergence, and find the sum of an even number of terms.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) (i) For an arithmetic sequence, u₂ − u₁ = u₃ − u₂. So (3 − 2k) − (k − 5) = (5k + 3) − (3 − 2k). This gives 3 − 2k − k + 5 = 5k + 3 − 3 + 2k, so 8 − 3k = 7k, hence 8 = 10k, so k = 4/5. (ii) u₃ = 5(4/5) + 3 = 4 + 3 = 7. (b) (i) When k = 12: u₁ = 12 − 5 = 7, u₂ = 3 − 2(12) = 3 − 24 = −21, u₃ = 5(12) + 3 = 60 + 3 = 63. The common ratio is r = u₂/u₁ = −21/7 = −3 and u₃/u₂ = 63/(−21) = −3, so the three terms form a geometric sequence with r = −3. (ii) The sum of an infinite number of terms does not exist because |r| = 3 ≥ 1, so the series diverges. (c) (i) For a geometric sequence, u₂² = u₁u₃. So (3 − 2k)² = (k − 5)(5k + 3). Expanding: 4k² − 12k + 9 = 5k² + 3k − 25k − 15 = 5k² − 22k − 15. Rearranging: 0 = k² − 10k − 24. (ii) k² − 10k − 24 = (k − 12)(k + 2) = 0, so k = −2 (the second value, since k = 12 was already considered). u₁ = −2 − 5 = −7, u₂ = 3 − 2(−2) = 3 + 4 = 7, u₃ = 5(−2) + 3 = −10 + 3 = −7. The terms are −7, 7, −7, ... with r = −1. (iii) S₂ₘ = 0 because the terms cancel in pairs: (−7 + 7) + (−7 + 7) + ... + (−7 + 7) = 0."
+    },
+    {
+      "id": "2025-may-p1-tz3-q9",
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\n(a) (i) Solve 5 − 4x − x² = 0.\n    (ii) Hence, find the values of x such that 5 − 4x − x² > 0. [4]\n\nConsider the function f(x) = logₖ(5 − 4x − x²), where a < x < b and k > 1. Part of the graph of f is shown in the following diagram.\n\n[Diagram: A coordinate grid showing the graph of y = f(x). The curve has vertical asymptotes at x = a and x = b, and lies between them. The curve rises from the left asymptote to a maximum point, then decreases to the right asymptote. The maximum point is labelled as having y-coordinate 2.]\n\n(b) Write down the value of\n    (i) a;\n    (ii) b. [2]\n\n(c) Find the exact values of x such that f(x) = 0. [4]\n\nThe graph of f has a maximum value of 2.\n\n(d) Find the value of k. [6]",
+      "summary": "Analyse a logarithmic function with a quadratic argument: find domain, zeros, and determine the base from the maximum value.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Functions - Roots",
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a) (i) 5 − 4x − x² = 0 ⇒ x² + 4x − 5 = 0 ⇒ (x + 5)(x − 1) = 0 ⇒ x = −5 or x = 1. (ii) The quadratic is a negative parabola (opening downwards) with roots at −5 and 1, so 5 − 4x − x² > 0 when −5 < x < 1. (b) The domain of f is a < x < b, which corresponds to the interval where the argument is positive. So a = −5 and b = 1. (c) f(x) = 0 when logₖ(5 − 4x − x²) = 0 ⇒ 5 − 4x − x² = 1 ⇒ x² + 4x − 4 = 0. Using the quadratic formula: x = [−4 ± √(16 + 16)]/2 = [−4 ± √32]/2 = [−4 ± 4√2]/2 = −2 ± 2√2. (d) The maximum of f occurs at the maximum of the quadratic 5 − 4x − x². The quadratic has vertex at x = −b/(2a) = 4/(−2) = −2. At x = −2: 5 − 4(−2) − (−2)² = 5 + 8 − 4 = 9. The maximum value of f is logₖ(9) = 2, so k² = 9, and since k > 1, k = 3."
+    }
+  ]
+}

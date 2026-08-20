@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Browse IB Mathematics AA SL past-paper questions by topic, paper, and zone.">
+  <meta name="description" content="Browse complete accessible IB Mathematics AA SL past-paper questions from 2022–2026 by year, session, paper, timezone, and topic.">
   <title>Maths AA Topic Finder</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,17 +24,17 @@
     <section class="hero" aria-labelledby="page-title">
       <div class="eyebrow">IB Mathematics · Analysis &amp; Approaches · SL</div>
       <h1 id="page-title">Past-paper practice,<br><span>sorted by topic.</span></h1>
-      <p>Choose one or more topics, then work through matching questions from the May 2026 Zone A and Zone C papers.</p>
+      <p>Choose a year, session, paper, zone, or topic, then work through matching Mathematics AA SL past-paper questions from 2022–2026.</p>
       <div class="stats" aria-label="Collection statistics">
         <div><strong id="question-count">—</strong><span>questions</span></div>
-        <div><strong>4</strong><span>papers</span></div>
+        <div><strong id="paper-count">—</strong><span>papers</span></div>
         <div><strong>20</strong><span>topic labels</span></div>
       </div>
     </section>
 
     <section class="notice" aria-label="Solution notice">
       <span class="notice-icon" aria-hidden="true">i</span>
-      <p><strong>Exact question view.</strong> Open “View exact question” to see only the page or pages belonging to that question, including every printed subpart and diagram. Topic descriptions are summaries only. Solutions are independently prepared study guidance, not official IB markschemes. The available Paper 2 Zone A source ends at page 11, so its final 15-mark question is not indexed.</p>
+      <p><strong>Full question text.</strong> Each card contains the complete accessible question wording, subparts, marks, and diagram/table descriptions. “View exact question” opens the original source PDF at the mapped page when available, and otherwise opens its source record. Solutions are independently prepared study guidance, not official IB markschemes. The available Paper 2 Zone A source ends at page 11, so its final 15-mark question is not indexed.</p>
     </section>
 
     <section class="workspace">
@@ -57,9 +57,18 @@
         </fieldset>
 
         <fieldset>
-          <legend>Zone</legend>
-          <label class="check-row"><input type="checkbox" name="zone" value="A"><span>Zone A</span></label>
-          <label class="check-row"><input type="checkbox" name="zone" value="C"><span>Zone C</span></label>
+          <legend>Year</legend>
+          <div id="year-filters"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Session</legend>
+          <div id="session-filters"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Zone / timezone</legend>
+          <div id="zone-filters"></div>
         </fieldset>
 
         <fieldset>
@@ -72,17 +81,17 @@
         <div class="results-heading-row">
           <div>
             <div class="eyebrow">Question bank</div>
-            <h2 id="results-heading"><span id="visible-count">—</span> matching questions</h2>
+            <h2 id="results-heading"><span id="visible-count" aria-live="polite">—</span> matching questions</h2>
           </div>
           <select id="sort" aria-label="Sort questions">
-            <option value="paper">Sort by paper</option>
+            <option value="paper">Sort by year and paper</option>
             <option value="topic">Sort by topic</option>
             <option value="marks-desc">Highest marks</option>
             <option value="marks-asc">Lowest marks</option>
           </select>
         </div>
-        <div id="active-filters" class="active-filters" aria-live="polite"></div>
-        <div id="questions" class="question-list" aria-live="polite"></div>
+        <div id="active-filters" class="active-filters"></div>
+        <div id="questions" class="question-list"></div>
         <div id="empty-state" class="empty-state" hidden>
           <div aria-hidden="true">∅</div>
           <h3>No questions match</h3>
@@ -105,25 +114,11 @@
         <span class="marks"></span>
       </div>
       <h3></h3>
-      <div class="summary-label">Topic summary — not the question wording</div>
-      <p class="question-summary"></p>
+      <div class="question-text"></div>
       <div class="labels"></div>
       <div class="card-actions">
-        <button class="button question-button" type="button" aria-expanded="false">View exact question</button>
+        <a class="button question-link paper-link" target="_blank" rel="noreferrer">View exact question ↗</a>
         <button class="button secondary solution-button" type="button" aria-expanded="false">Show solution</button>
-        <a class="button secondary paper-link" target="_blank" rel="noreferrer">Open full paper ↗</a>
-      </div>
-      <div class="source-viewer" hidden>
-        <div class="source-viewer-heading">
-          <span>Original question — word for word</span>
-          <small class="source-pages"></small>
-        </div>
-        <div class="question-image-list"></div>
-        <details class="accessible-transcript">
-          <summary>Accessible text version</summary>
-          <div class="accessible-question-text"></div>
-        </details>
-        <p class="source-viewer-note">Only the page or pages belonging to this question are shown. Use “Open full paper” for the original source document.</p>
       </div>
       <div class="solution" hidden>
         <div class="solution-heading"><span>Independent worked solution</span><small>Not an official IB markscheme</small></div>

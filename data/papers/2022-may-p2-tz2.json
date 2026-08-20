@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "2022-may-p2-tz2",
+    "title": "May 2022 Mathematics: Analysis and Approaches SL Paper 2 TZ2",
+    "paper": 2,
+    "zone": "2",
+    "year": 2022,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-dfbaf14fbbbe7f7f",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2022-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe following diagram shows a circle with centre O and radius 5 metres. Points A and B lie on the circle and AÔB = 1.9 radians.\n\n[Diagram not to scale: Radii OA and OB enclose the minor central angle 1.9 radians, with A above B on the right of the circle. The chord [AB] is drawn. The major sector—the part of the circle outside the minor sector AOB—is shaded.]\n\n(a) Find the length of the chord [AB]. [3]\n\n(b) Find the area of the shaded sector. [3]",
+      "summary": "Use radians for a chord and major-sector area.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) AB=2(5)sin(1.9/2)=8.13 m. (b) The shaded reflex angle is 2π−1.9, so area=(1/2)(5²)(2π−1.9)=54.8 m²."
+    },
+    {
+      "id": "2022-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nThe derivative of a function g is given by g′(x) = 3x² + 5eˣ, where x ∈ ℝ. The graph of g passes through the point (0, 4). Find g(x).",
+      "summary": "Recover a function from its derivative and a point.",
+      "labels": [
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "Integrating gives g(x)=x³+5eˣ+C. Since g(0)=4, 5+C=4 and C=−1. Thus g(x)=x³+5eˣ−1."
+    },
+    {
+      "id": "2022-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nGemma and Kaia started working for different companies on January 1st 2011.\n\nGemma’s starting annual salary was $45 000, and her annual salary increases 2% on January 1st each year after 2011.\n\n(a) Find Gemma’s annual salary for the year 2021, to the nearest dollar. [3]\n\nKaia’s annual salary is based on a yearly performance review. Her salary for the years 2011, 2013, 2014, 2018, and 2022 is shown in the following table.\n\n[Table: year (x): 2011, 2013, 2014, 2018, 2022. Corresponding annual salary ($S): 45 000, 47 200, 48 500, 53 000, 57 000.]\n\n(b) Assuming Kaia’s annual salary can be approximately modelled by the equation S = ax + b, show that Kaia had a higher salary than Gemma in the year 2021, according to the model. [3]",
+      "summary": "Compare geometric salary growth with linear regression.",
+      "labels": [
+        "Sequences - Series",
+        "Statistics"
+      ],
+      "solution": "(a) 45000(1.02)^10=$54 855 nearest dollar. (b) Linear regression gives a=1096.89… and b=−2160753.8…; at 2021, S=$56 063.21, greater than Gemma’s $54 855."
+    },
+    {
+      "id": "2022-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nEvents A and B are independent and P(A) = 3P(B).\n\nGiven that P(A ∪ B) = 0.68, find P(B).",
+      "summary": "Use independence and the addition rule.",
+      "labels": [
+        "Probability",
+        "Quadratics"
+      ],
+      "solution": "Let p=P(B), so P(A)=3p and P(A∩B)=3p². Then 3p+p−3p²=0.68. Solving gives p=0.2 or 1.133…, and only 0.2 is a probability. Thus P(B)=0.2."
+    },
+    {
+      "id": "2022-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        7,
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nA random sample of nine adults were selected to see whether sleeping well affected their reaction times to a visual stimulus. Each adult’s reaction time was measured twice.\n\nThe first measurement for reaction time was taken on a morning after the adult had slept well. The second measurement was taken on a morning after the same adult had not slept well.\n\nThe box and whisker diagrams for the reaction times, measured in seconds, are shown below.\n\n[Two horizontal box-and-whisker plots share a seconds axis marked 0.24, 0.30, 0.36, 0.42 and 0.48. The unshaded first-reaction-time plot (slept well) has minimum 0.24, lower quartile 0.27, median 0.28, upper quartile 0.35 and maximum 0.46. The shaded second-reaction-time plot (not slept well) has minimum 0.27, lower quartile 0.29, median 0.35, upper quartile 0.39 and maximum 0.48.]\n\nConsider the box and whisker diagram representing the reaction times after sleeping well.\n\n(a) State the median reaction time after sleeping well. [1]\n\n(b) Verify that the measurement of 0.46 seconds is not an outlier. [3]\n\n(c) State why it appears that the mean reaction time is greater than the median reaction time. [1]\n\nNow consider the two box and whisker diagrams.\n\n(d) Comment on whether these box and whisker diagrams provide any evidence that might suggest that not sleeping well causes an increase in reaction time. [1]",
+      "summary": "Interpret and compare box plots and outliers.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) 0.28 s. (b) IQR=0.35−0.27=0.08; upper fence=0.35+1.5(0.08)=0.47, and 0.46<0.47. (c) The distribution is positively skewed: the upper spread is longer and the median is nearer Q1. (d) The not-slept-well distribution is centred higher (its median 0.35 equals the slept-well upper quartile), suggesting higher times, though the sample of nine is small."
+    },
+    {
+      "id": "2022-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nA particle moves in a straight line such that its velocity, v m s⁻¹, at time t seconds is given by v = ((t² + 1)cos t)/4, 0 ≤ t ≤ 3.\n\n(a) Determine when the particle changes its direction of motion. [2]\n\n(b) Find the times when the particle’s acceleration is −1.9 m s⁻². [3]\n\n(c) Find the particle’s acceleration when its speed is at its greatest. [2]",
+      "summary": "Analyze trigonometric velocity and acceleration.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Trigonometry"
+      ],
+      "solution": "(a) v=0 when cos t=0, so t=π/2=1.57 s. (b) a=v′=[2t cos t−(t²+1)sin t]/4. Solving a=−1.9 gives t=2.26 and 2.96 s. (c) Comparing |v| on the interval shows greatest speed at t=3; a(3)=−1.83778…=−1.84 m s⁻²."
+    },
+    {
+      "id": "2022-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nA farmer is placing posts at points A, B, and C in the ground to mark the boundaries of a triangular piece of land on his property.\n\nFrom point A, he walks due west 230 metres to point B.\n\nFrom point B, he walks 175 metres on a bearing of 063° to reach point C.\n\nThis is shown in the following diagram.\n\n[Diagram not to scale: Triangle ABC has horizontal base BA of 230 m, with B on the left and A on the right. A dashed north ray rises from B. Segment BC of 175 m rises to the right from B and makes a clockwise bearing angle of 63° from north; C is above the base. Segment CA closes the triangle.]\n\n(a) Find the distance from point A to point C. [4]\n\n(b) Find the area of this piece of land. [2]\n\n(c) Find CÂB. [3]\n\nThe farmer wants to divide the piece of land into two sections. He will put a post at point D, which is between A and C. He wants the boundary BD to divide the piece of land such that the sections have equal area. This is shown in the following diagram.\n\n[Diagram not to scale: The same triangle ABC is shown with D on side AC and a dashed segment BD dividing the triangle into two sections. AB is labelled 230 m and BC is labelled 175 m.]\n\n(d) Find the distance from point B to point D. [5]",
+      "summary": "Solve a bearing triangle and its median.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "The included angle ABC is 27°. (a) Cosine rule: AC²=175²+230²−2(175)(230)cos27°, so AC=109 m. (b) Area=(1/2)(175)(230)sin27°=9140 m². (c) Cosine or sine rule gives angle CAB=47.0°. (d) Equal areas imply D is midpoint of AC, so AD=54.3115…. Cosine rule in ABD gives BD=197 m."
+    },
+    {
+      "id": "2022-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 12,
+      "accessible_text": "8. [Maximum mark: 12]\n\nA scientist conducted a nine-week experiment on two plants, A and B, of the same species. He wanted to determine the effect of using a new plant fertilizer. Plant A was given fertilizer regularly, while Plant B was not.\n\nThe scientist found that the height of Plant A, h_A cm, at time t weeks can be modelled by the function h_A(t) = sin(2t + 6) + 9t + 27, where 0 ≤ t ≤ 9.\n\nThe scientist found that the height of Plant B, h_B cm, at time t weeks can be modelled by the function h_B(t) = 8t + 32, where 0 ≤ t ≤ 9.\n\n(a) Use the scientist’s models to find the initial height of\n\n(i) Plant B;\n\n(ii) Plant A correct to three significant figures. [3]\n\n(b) Find the values of t when h_A(t) = h_B(t). [3]\n\n(c) For 0 ≤ t ≤ 9, find the total amount of time when the rate of growth of Plant B was greater than the rate of growth of Plant A. [6]",
+      "summary": "Compare trigonometric-linear growth models and rates.",
+      "labels": [
+        "Functions - Roots",
+        "Trigonometry",
+        "Differentiation"
+      ],
+      "solution": "(a) h_B(0)=32 cm; h_A(0)=sin6+27=26.7 cm. (b) Solving gives t=4.01, 4.70 and 5.88 weeks. (c) h_A′=2cos(2t+6)+9 and h_B′=8. Solve 8>2cos(2t+6)+9. The qualifying intervals have endpoints 1.18879,2.23598; 4.33038,5.37758; 7.47197,8.51917, each length π/3. Total time=π=3.14 weeks."
+    },
+    {
+      "id": "2022-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 18,
+      "accessible_text": "9. [Maximum mark: 18]\n\nThe time it takes Suzi to drive from home to work each morning is normally distributed with a mean of 35 minutes and a standard deviation of σ minutes.\n\nOn 25% of days, it takes Suzi longer than 40 minutes to drive to work.\n\n(a) Find the value of σ. [4]\n\n(b) On a randomly selected day, find the probability that Suzi’s drive to work will take longer than 45 minutes. [2]\n\nSuzi will be late to work if it takes her longer than 45 minutes to drive to work. The time it takes to drive to work each day is independent of any other day.\n\nSuzi will work five days next week.\n\n(c) Find the probability that she will be late to work at least one day next week. [3]\n\n(d) Given that Suzi will be late to work at least one day next week, find the probability that she will be late less than three times. [5]\n\nSuzi will work 22 days this month. She will receive a bonus if she is on time at least 20 of those days.\n\nSo far this month, she has worked 16 days and been on time 15 of those days.\n\n(e) Find the probability that Suzi will receive a bonus. [4]",
+      "summary": "Apply normal and conditional binomial probabilities.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) (40−35)/σ=0.674489…, so σ=7.41 min. (b) P(T>45)=0.0886718…=0.0887. Let p=0.0886718. (c) 1−(1−p)^5=0.371. (d) [P(X=1)+P(X=2)]/P(X≥1)=0.983636…=0.984 for X~B(5,p). (e) She may be late at most once in six remaining days: for Y~B(6,p), P(Y≤1)=0.907294…=0.907."
+    }
+  ]
+}

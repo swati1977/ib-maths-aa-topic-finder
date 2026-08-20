@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-november-p2-tz1",
+    "title": "November 2025 Mathematics: analysis and approaches SL Paper 2 TZ1",
+    "paper": 2,
+    "zone": "1",
+    "year": 2025,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-7e66ae71c23725cc",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2_TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-november-p2-tz1-q1",
+      "number": 1,
+      "pages": [3, 4],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe following diagram shows a regular pentagon inscribed in a circle with centre O and radius r cm.\n\nThe angle AÔB is θ, where θ is measured in radians.\n\nThe arc AB is 12 cm.\n\n[Diagram not to scale: A regular pentagon is inscribed in a circle with centre O. Adjacent vertices A and B lie near the top of the circle. Radii OA and OB are drawn; OA is labelled r and the central angle AÔB is labelled θ. The minor arc AB is labelled 12. The five circular segments between the sides of the pentagon and the circumference are shaded.]\n\n(a) Find\n\n(i) θ;\n\n(ii) r. [3]\n\n(b) Find the area of the shaded region. [3]",
+      "summary": "Use the central angle and arc length of an inscribed regular pentagon to find its circumradius and the area outside the pentagon.",
+      "labels": ["Radian", "Trigonometry"],
+      "solution": "(a)(i) A regular pentagon divides the full angle at O into five equal angles, so θ = 2π/5 = 1.25663… ≈ 1.26 radians. (ii) Arc length s = rθ. Hence 12 = r(2π/5), so r = 30/π = 9.54929… ≈ 9.55 cm. (b) The shaded region consists of five congruent circular segments. One segment has area ½r²(θ − sin θ), so the total shaded area is (5/2)(30/π)²(2π/5 − sin(2π/5)) = 69.6640… ≈ 69.7 cm². This agrees with the official markscheme answers θ = 1.26, r = 9.55 cm and area 69.7 cm²."
+    },
+    {
+      "id": "2025-november-p2-tz1-q2",
+      "number": 2,
+      "pages": [5],
+      "marks": 4,
+      "accessible_text": "2. [Maximum mark: 4]\n\nThe random variable Z has a standard normal distribution with mean 0 and standard deviation 1.\n\n(a) Find P(Z < 1.7). [1]\n\nIt is known that P(a < Z < 1.7) = 0.7865, correct to four significant figures.\n\n(b) Sketch this information on the following diagram. [1]\n\n[Diagram: A standard normal bell curve is drawn above a horizontal z-axis. A vertical line through the centre marks the mean 0, and another vertical line to its right is labelled 1.7.]\n\n(c) Hence, or otherwise, find the value of a. [2]",
+      "summary": "Evaluate a standard normal cumulative probability, represent an interval on the normal curve, and recover its lower endpoint.",
+      "labels": ["Statistics", "Probability", "Graphs"],
+      "solution": "(a) Using the standard normal cumulative distribution, P(Z < 1.7) = Φ(1.7) = 0.955434… ≈ 0.955. (b) Draw a vertical boundary at a to the left of 0 and shade the area under the curve from a to 1.7; label that shaded area 0.7865. (c) Φ(a) = Φ(1.7) − 0.7865 = 0.168934…, so a = Φ⁻¹(0.168934…) = −0.958384… ≈ −0.958. These values and the required sketch features agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q3",
+      "number": 3,
+      "pages": [6],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nData was collected on two variables, x and y, from eight members of a population. The data is shown in the table below.\n\n[Table: x: 3.8, 6.3, 2.5, 2.4, 8.9, 10.7, 6.7, 10.3. Corresponding y: 11.8, 9.7, 6.1, 4.1, p, 23.3, 13.7, 24.5.]\n\n(a) Find x̄. [2]\n\nThe regression line of y on x for this data is y = 0.014375 + 2.1625x.\n\n(b) Find\n\n(i) ȳ;\n\n(ii) the value of p. [4]\n\n(c) Hence, find Pearson’s product-moment correlation coefficient, r. [1]",
+      "summary": "Use bivariate data and a regression line to find both means, a missing observation, and Pearson’s correlation coefficient.",
+      "labels": ["Statistics"],
+      "solution": "(a) x̄ = (3.8 + 6.3 + 2.5 + 2.4 + 8.9 + 10.7 + 6.7 + 10.3)/8 = 51.6/8 = 6.45. (b)(i) A least-squares regression line passes through (x̄, ȳ), so ȳ = 0.014375 + 2.1625(6.45) = 13.9625 ≈ 14.0. (ii) Therefore Σy = 8(13.9625) = 111.7. The seven known y-values sum to 93.2, hence p = 111.7 − 93.2 = 18.5. (c) Using the completed paired data, r = Σ((x − x̄)(y − ȳ))/√(Σ(x − x̄)² Σ(y − ȳ)²) = 0.953958… ≈ 0.954. All results agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q4",
+      "number": 4,
+      "pages": [8],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nIn the expansion of (√x + k)¹² where k ∈ ℤ, the coefficient of the term in x^(3/2) is −112640.\n\nFind the value of k.",
+      "summary": "Identify the x^(3/2) term in a binomial expansion and determine the integer constant from its coefficient.",
+      "labels": ["Binomial Theorem"],
+      "solution": "To obtain x^(3/2), choose √x from three of the 12 factors and k from the other nine. The term is C(12,3)(√x)³k⁹ = 220k⁹x^(3/2). Equating coefficients gives 220k⁹ = −112640, so k⁹ = −512 = (−2)⁹. Therefore k = −2, matching the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q5",
+      "number": 5,
+      "pages": [9, 10],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nConsider the function g(x) = a cos(bx) − 3, where x ∈ ℝ and a, b ∈ ℝ.\n\nThe following diagram shows part of the graph of g.\n\n[Diagram: Coordinate axes are labelled x and y. A smooth increasing half-wave begins at the local minimum (0, −8), rises through the x-axis, and ends at the local maximum (16, 2).]\n\nThe graph of g has a local minimum at (0, −8) and a local maximum at (16, 2).\n\n(a) Find the value of\n\n(i) a;\n\n(ii) b, where b > 0. [3]\n\n(b) Write down the smallest positive value of the constant k such that g(x + k) = g(x) for all x. [1]\n\n(c) The function g(x) can be written in the form f(x) = p sin b(x − q) − 3 where p, q ∈ ℤ⁺.\n\n(i) Find the smallest positive value of q.\n\n(ii) For this value of q, write down the value of p. [3]",
+      "summary": "Determine the amplitude, angular frequency, period, and sine phase form of a transformed cosine graph.",
+      "labels": ["Trigonometry", "Graphs"],
+      "solution": "(a)(i) Since g(0) = a cos 0 − 3 = a − 3 = −8, a = −5. (ii) The interval from the minimum at x = 0 to the maximum at x = 16 is half a period, so the period is 32. Thus b = 2π/32 = π/16 ≈ 0.196. (b) The smallest positive period is k = 32. (c) With b = π/16, shifting the sine curve right by 8 gives sin((π/16)(x − 8)); at x = 0 this equals −1 and at x = 16 it equals 1. Therefore the smallest positive q is 8 and p = 5, since f(x) = 5 sin((π/16)(x − 8)) − 3. These results agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q6",
+      "number": 6,
+      "pages": [11],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nTwo machines are used in a factory to manufacture semiconductors. Machine A manufactures defective semiconductors 10% of the time, while machine B manufactures defective semiconductors 5% of the time.\n\nA randomly selected machine manufactures ten semiconductors.\n\nBoth machines are equally likely to be selected.\n\n(a) Find the probability that exactly two semiconductors are defective. [4]\n\n(b) Given that exactly two semiconductors are defective, find the probability that they were manufactured by machine A. [3]",
+      "summary": "Combine two binomial models using total probability, then apply Bayes’ theorem to identify the selected machine.",
+      "labels": ["Probability"],
+      "solution": "Let D be the event that exactly two of the ten semiconductors are defective. For machine A, P(D|A) = C(10,2)(0.10)²(0.90)⁸ = 0.193710…. For machine B, P(D|B) = C(10,2)(0.05)²(0.95)⁸ = 0.0746348…. (a) Since each machine is selected with probability 0.5, P(D) = 0.5P(D|A) + 0.5P(D|B) = 0.134172… ≈ 0.134. (b) By Bayes’ theorem, P(A|D) = 0.5P(D|A)/P(D) = 0.0968551…/0.134172… = 0.721870… ≈ 0.722. Both answers agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q7",
+      "number": 7,
+      "pages": [12],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nConsider the function f(x) = (3x + 1)/(2x − 4) where x ≠ 2.\n\n(a) Write down the equation of\n\n(i) the vertical asymptote of the graph of f;\n\n(ii) the horizontal asymptote of the graph of f. [2]\n\n(b) Find f′(x). [4]\n\n(c) Hence, explain briefly why f is never increasing. [2]\n\nThe point P(x, f(x)) is on the graph of f such that x < 2.\n\nLet d be the distance between the points P and Q(3, 5).\n\n(d) Find an expression for d in terms of x. [2]\n\n(e) Hence, find the coordinates of P such that d is a minimum. [3]",
+      "summary": "Analyse a rational function’s asymptotes and derivative, then minimize the distance from its left branch to a fixed point.",
+      "labels": ["Functions - Roots", "Differentiation"],
+      "solution": "(a)(i) The denominator is zero at x = 2, so the vertical asymptote is x = 2. (ii) The ratio of leading coefficients is 3/2, so the horizontal asymptote is y = 3/2. (b) By the quotient rule, f′(x) = [3(2x − 4) − 2(3x + 1)]/(2x − 4)² = −14/(2x − 4)². (c) For every x ≠ 2, (2x − 4)² > 0, hence f′(x) < 0. Thus f is decreasing on each interval of its domain and is never increasing. (d) By the distance formula, d = √((x − 3)² + (((3x + 1)/(2x − 4)) − 5)²). (e) Minimize d² for x < 2. Solving d(d²)/dx = 0 numerically gives x = −0.305218…. Then f(x) = −0.0182945…. Therefore P = (−0.305, −0.0183) to three significant figures. This agrees with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q8",
+      "number": 8,
+      "pages": [13],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nA population of frogs, F, in a swamp after t months, can be modelled by the function\n\nF(t) = 1850 × 1.105ᵗ where t ≥ 0.\n\n(a) Find the population of frogs after one year. [2]\n\n(b) After x complete months, the population will be at least 35 000 frogs. Find the value of x. [3]\n\nThe function F can be written in the form F(t) = 1850eᵏᵗ.\n\n(c) Find the exact value of k. [2]\n\n(d) Find the rate at which the population of frogs is growing after 15 months. [2]\n\nA more realistic model describing the population of frogs, G, after t months is given by\n\nG(t) = 35000/(1 + Ae^(−0.0998t)) where t ≥ 0.\n\n(e) After 15 months, this model predicts a population of 6995 frogs. Find the value of A. [2]\n\n(f) Find the value of t when the rate of population growth is the greatest. [2]\n\n(g) By considering the graph of G or otherwise, state one reason why G(t) is a more appropriate long-term model than F(t). [1]",
+      "summary": "Compare exponential and logistic frog-population models, including growth, parameter recovery, and the logistic inflection point.",
+      "labels": ["Exponentials - Logarithms", "Differentiation", "Graphs"],
+      "solution": "(a) F(12) = 1850(1.105)¹² = 6130.827…, giving 6130 frogs to three significant figures (6131 if rounded to the nearest whole frog). (b) Solve 1850(1.105)ˣ ≥ 35000. This gives x ≥ ln(35000/1850)/ln(1.105) = 29.4471…, so after 30 complete months the population is first at least 35 000; x = 30. (c) Since 1.105ᵗ = e^(t ln 1.105), k = ln(1.105) exactly. (d) F′(t) = 1850(1.105)ᵗ ln(1.105), so F′(15) = 825.911… ≈ 826 frogs per month. (e) 6995 = 35000/(1 + Ae^(−0.0998·15)), so A = (35000/6995 − 1)e^(0.0998·15) = 17.8890… ≈ 17.9. (f) Logistic growth is greatest at the inflection point, where Ae^(−0.0998t) = 1. Hence t = ln(A)/0.0998 = 28.8996… ≈ 28.9 months. (g) G has a carrying capacity of 35 000 and therefore accounts for limited resources, whereas F grows without bound. All numerical results and the long-term justification agree with the official markscheme."
+    },
+    {
+      "id": "2025-november-p2-tz1-q9",
+      "number": 9,
+      "pages": [14],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nAn airplane lands on a runway 100 metres in front of a stationary car. At the instant the airplane lands, the car begins to travel in the same direction towards the airplane.\n\n[Diagram not to scale: A car and an airplane face to the right on the same runway. The car is behind the airplane, an arrow above the car points right, and the initial gap from the front of the car to the back of the airplane is labelled 100 m.]\n\nLet t represent the number of seconds after the airplane lands. For t ≥ 0, the velocities of the airplane and the car in m s⁻¹, can be modelled by the following equations:\n\nv_air = 60e^(−0.1t)\n\nv_car = 5t\n\n(a) When the airplane lands, write down the speed of\n\n(i) the airplane;\n\n(ii) the car. [2]\n\n(b) Find\n\n(i) the value of t when the airplane and the car have the same speed;\n\n(ii) the speed at this time. [3]\n\nLet d(t) represent the distance, in metres, between the car and the back of the airplane after t seconds.\n\n(c) If d(0) = 100, find d(t). [7]\n\n(d) Hence, find how long it takes for the car to reach the back of the airplane. [2]\n\n(e) Find the distance travelled by the car when it reaches the back of the airplane. [3]",
+      "summary": "Integrate two velocity models to obtain separation, then find the catch-up time and the car’s travel distance.",
+      "labels": ["Kinematics", "Integration", "Exponentials - Logarithms"],
+      "solution": "(a)(i) v_air(0) = 60e⁰ = 60 m s⁻¹. (ii) v_car(0) = 5(0) = 0 m s⁻¹. (b)(i) Equal speeds satisfy 60e^(−0.1t) = 5t. Solving numerically gives t = 6.35564… ≈ 6.36 s. (ii) The common speed is 5t = 31.7782… ≈ 31.8 m s⁻¹. (c) Measured from the car’s initial position, the airplane’s position is 100 + ∫₀ᵗ60e^(−0.1u) du = 700 − 600e^(−0.1t), while the car’s position is ∫₀ᵗ5u du = (5/2)t². Therefore d(t) = 700 − 600e^(−0.1t) − (5/2)t². This gives d(0) = 100 as required. (d) Solve d(t) = 0 for t > 0: t = 15.0586… ≈ 15.1 s. (e) The car travels (5/2)(15.0586…)² = 566.904… ≈ 567 m. All answers agree with the official markscheme."
+    }
+  ]
+}

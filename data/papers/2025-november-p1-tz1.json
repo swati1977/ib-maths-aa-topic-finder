@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-november-p1-tz1",
+    "title": "November 2025 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2025,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-5db5fa01666422cf",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/November%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-november-p1-tz1-q1",
+      "number": 1,
+      "pages": [3, 4],
+      "marks": 4,
+      "accessible_text": "1. [Maximum mark: 4]\n\nThe graph of a function f for −3 ≤ x ≤ 3 is shown in the following diagram.\n\n[Diagram: On coordinate axes from −4 to 4, the piecewise-linear graph y = f(x) joins the points (−3, −1), (−2, −1), (−1, 0), (0, −1), (2, 1) and (3, 1) in order.]\n\nThe following graphs are transformations of the graph of y = f(x).\n\n[Six coordinate diagrams labelled (A) to (F): (A) joins (−3, −2), (−2, −2), (−1, −1), (0, −2), (2, 0), (3, 0); (B) joins (−4, −1), (−3, −1), (−2, 0), (−1, −1), (1, 1), (2, 1); (C) joins (−4, −1), (−2, 0), (0, −1), (4, 1), with short horizontal end segments extending beyond x = −4 and x = 4; (D) joins (−1.5, −1), (−1, −1), (−0.5, 0), (0, −1), (1, 1), (1.5, 1); (E) joins (−3, 1), (−2, 1), (−1, 0), (0, 1), (2, −1), (3, −1); (F) joins (−3, 1), (−2, 1), (0, −1), (1, 0), (2, −1), (3, −1).]\n\nConsider the following table of transformations of y = f(x).\n\nNext to each transformed function, write down the letter that corresponds to its graph.\n\n[Table with columns Function and Letter; the Letter cells are blank. Rows: y = f(x + 1); y = f(x) − 1; y = f(−x); y = f(2x).]",
+      "summary": "Match horizontal and vertical translations, reflection in the y-axis, and horizontal compression to transformed piecewise-linear graphs.",
+      "labels": ["Graphs", "Functions - Roots"],
+      "solution": "Track how each transformation moves the key points of the original graph. For y = f(x + 1), every x-coordinate decreases by 1, so the graph is (B). For y = f(x) − 1, every y-coordinate decreases by 1, so the graph is (A). For y = f(−x), reflect the graph in the y-axis, so the graph is (F). For y = f(2x), divide every x-coordinate by 2, giving a horizontal compression by scale factor 1/2, so the graph is (D). Thus the table entries, in order, are B, A, F, D."
+    },
+    {
+      "id": "2025-november-p1-tz1-q2",
+      "number": 2,
+      "pages": [5],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe 1st and 5th terms of an arithmetic sequence are 36 and 12 respectively.\n\n(a) Find the 13th term of this arithmetic sequence. [4]\n\nThe sum of the first n terms of this arithmetic sequence is zero.\n\n(b) Find the value of n. [2]",
+      "summary": "Find the common difference and a later term of an arithmetic sequence, then determine when its partial sum is zero.",
+      "labels": ["Sequences - Series"],
+      "solution": "The arithmetic sequence has u₁ = 36 and u₅ = 12. Since u₅ = u₁ + 4d, 12 = 36 + 4d, so d = −6. (a) u₁₃ = u₁ + 12d = 36 + 12(−6) = −36. (b) Sₙ = n/2[2u₁ + (n − 1)d] = n/2[72 − 6(n − 1)] = n/2(78 − 6n). Since n is a positive number of terms and Sₙ = 0, 78 − 6n = 0, giving n = 13."
+    },
+    {
+      "id": "2025-november-p1-tz1-q3",
+      "number": 3,
+      "pages": [6],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nTwo events A and B are such that P(A) = 0.5, P(B) = 0.6 and P(A ∩ B) = 0.4.\n\n(a) Find P(A ∪ B). [2]\n\n(b) Show that A and B are not independent. [1]\n\n(c) Find P(A | B′). [3]",
+      "summary": "Use the addition rule, test independence, and calculate a conditional probability involving a complementary event.",
+      "labels": ["Probability"],
+      "solution": "(a) P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = 0.5 + 0.6 − 0.4 = 0.7. (b) If A and B were independent, P(A ∩ B) would equal P(A)P(B) = 0.5(0.6) = 0.3. Since 0.3 ≠ 0.4, A and B are not independent. (c) P(A ∩ B′) = P(A) − P(A ∩ B) = 0.5 − 0.4 = 0.1, while P(B′) = 1 − 0.6 = 0.4. Therefore P(A | B′) = P(A ∩ B′)/P(B′) = 0.1/0.4 = 1/4."
+    },
+    {
+      "id": "2025-november-p1-tz1-q4",
+      "number": 4,
+      "pages": [7, 8],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nA line with equation y = −3x + 9 intersects the axes at the points P(0, 9) and Q(3, 0).\n\nA parabola of the form y = ax² + c, where a, c ∈ ℤ, also passes through the points P and Q.\n\nThis is shown in the following diagram.\n\n[Diagram: Coordinate axes labelled x and y. A downward-opening parabola and the descending line y = −3x + 9 pass through P(0, 9) on the y-axis and Q(3, 0) on the x-axis. Between P and Q, the parabola lies above the line.]\n\n(a) (i) Write down the value of c.\n    (ii) Find the value of a. [3]\n\nThe region enclosed by the line and the parabola is shaded in the following diagram.\n\n[Diagram: The same line and parabola, with the region between them from P(0, 9) to Q(3, 0) shaded; the parabola is the upper boundary and the line is the lower boundary.]\n\n(b) Find the area of the shaded region. [4]",
+      "summary": "Determine a parabola through two intercepts and integrate the area enclosed between it and a line.",
+      "labels": ["Quadratics", "Graphs", "Integration"],
+      "solution": "Because P(0, 9) lies on y = ax² + c, (a)(i) c = 9. Using Q(3, 0), 0 = 9a + 9, so (a)(ii) a = −1. The parabola is therefore y = −x² + 9. (b) On 0 ≤ x ≤ 3, the parabola is above the line. The enclosed area is ∫₀³[(-x² + 9) − (−3x + 9)] dx = ∫₀³(−x² + 3x) dx = [−x³/3 + 3x²/2]₀³ = −9 + 27/2 = 9/2 square units."
+    },
+    {
+      "id": "2025-november-p1-tz1-q5",
+      "number": 5,
+      "pages": [9],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\n(a) Given that x > 7, show that [x/(x² − 8x + 7)] × [(x² − 1)/(x + 1)] = x/(x − 7). [2]\n\n(b) Hence, or otherwise, solve log₂[x(x² − 1)] − 1 = log₂[(x² − 8x + 7)(x + 1)]. [4]",
+      "summary": "Simplify a factored rational expression and use logarithm laws to solve an equation with domain restrictions.",
+      "labels": ["Exponentials - Logarithms", "Functions - Roots"],
+      "solution": "(a) Factor x² − 8x + 7 = (x − 1)(x − 7) and x² − 1 = (x − 1)(x + 1). Since x > 7, all cancelled factors and denominators are non-zero, so [x/((x − 1)(x − 7))]·[((x − 1)(x + 1))/(x + 1)] = x/(x − 7), as required. (b) Write 1 = log₂2 and combine logarithms: log₂{[x(x² − 1)]/2} = log₂[(x² − 8x + 7)(x + 1)]. Equating positive arguments and dividing by (x² − 8x + 7)(x + 1), or using part (a), gives x/[2(x − 7)] = 1. Hence x = 2x − 14, so x = 14. This makes both logarithm arguments positive, so it is valid."
+    },
+    {
+      "id": "2025-november-p1-tz1-q6",
+      "number": 6,
+      "pages": [10],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nFor x ∈ ℝ, the functions f and g are defined by\n\nf(x) = −x² + 4x + p and\n\ng(x) = x² + qx − 1,\n\nwhere p and q are non-zero constants.\n\nThe graph of y = f(x) has a vertex at A and the graph of y = g(x) has a vertex at B.\n\nPoints A and B both lie on the line y = 2x − 1.\n\n(a) Show that p = −1. [3]\n\n(b) Find the value of q. [5]",
+      "summary": "Use the vertices of two parameterized quadratics and a shared line condition to determine their constants.",
+      "labels": ["Quadratics", "Graphs"],
+      "solution": "Complete the square for f: f(x) = −(x − 2)² + 4 + p, so A = (2, 4 + p). Since A lies on y = 2x − 1, its y-coordinate is 2(2) − 1 = 3. Thus 4 + p = 3 and (a) p = −1. For g, complete the square: g(x) = (x + q/2)² − q²/4 − 1, so B = (−q/2, −q²/4 − 1). The line has y = 2(−q/2) − 1 = −q − 1 at this x-coordinate. Hence −q²/4 − 1 = −q − 1, so q² = 4q and q(q − 4) = 0. Since q is non-zero, (b) q = 4."
+    },
+    {
+      "id": "2025-november-p1-tz1-q7",
+      "number": 7,
+      "pages": [11, 12],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nConsider the function f(x) = 2x + 3 where x ∈ ℝ.\n\n(a) Find\n    (i) f(2);\n    (ii) f⁻¹(x). [3]\n\nThe following diagram shows part of the graph of a linear function h.\n\nThe graph has x-intercept 2 and y-intercept −1.\n\n[Diagram: Coordinate axes labelled x and y from −3 to 3. The increasing straight line y = h(x) crosses the y-axis at (0, −1) and the x-axis at (2, 0); it also passes through points such as (−2, −2).]\n\n(b) Write down an expression for h(x). [2]\n\n(c) Solve the equation h⁻¹(x) = −2. [2]\n\nConsider the function g(x) = mx + c, where x ∈ ℝ and m, c ∈ ℚ.\n\n(d) Given that h(x) = (f⁻¹ ∘ g)(x), find the value of m and the value of c. [4]\n\nA function k exists such that h(k(x)) = x.\n\n(e) Find an expression for k(x). [2]\n\n(f) State the single transformation that maps the graph of y = k(x) onto the graph of y = h(x). [1]",
+      "summary": "Work with linear functions, inverses and composition, then relate the graphs of a function and its inverse.",
+      "labels": ["Functions - Roots", "Graphs"],
+      "solution": "(a)(i) f(2) = 2(2) + 3 = 7. (a)(ii) Let y = 2x + 3, interchange x and y, and solve: x = 2y + 3, so f⁻¹(x) = (x − 3)/2. (b) The slope of h through (0, −1) and (2, 0) is [0 − (−1)]/(2 − 0) = 1/2, hence h(x) = x/2 − 1. (c) Since h⁻¹(x) = 2x + 2, solve 2x + 2 = −2 to get x = −2. (d) (f⁻¹ ∘ g)(x) = f⁻¹(mx + c) = (mx + c − 3)/2. Equating this with h(x) = x/2 − 1 gives m = 1 and (c − 3)/2 = −1, so c = 1. (e) The identity h(k(x)) = x means k = h⁻¹, so k(x) = 2x + 2. (f) The graphs of a function and its inverse are reflections of one another in the line y = x. Therefore the required transformation is reflection in the line y = x."
+    },
+    {
+      "id": "2025-november-p1-tz1-q8",
+      "number": 8,
+      "pages": [13],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nThe function f has a derivative given by f′(x) = 3x² + 12x − 15.\n\nThe graph of y = f(x) has horizontal tangents at the points where x = a and x = b, a < b.\n\n(a) Find the value of a and the value of b. [3]\n\nThe following diagram shows three intervals along the x-axis defined by a and b. The sign of the first derivative of f is shown in each interval.\n\n[Sign diagram for f′: positive for x < a, zero at a, negative for a < x < b, zero at b, and positive for x > b.]\n\n(b) State, with a reason, whether there is a local maximum point or a local minimum point on the graph of y = f(x) at x = a. [2]\n\nThe second derivative f″(x) is zero at x = c.\n\n(c) Find the value of c. [3]\n\nThe following diagram shows two intervals along the x-axis defined by c. The sign of the second derivative is shown in each interval.\n\n[Sign diagram for f″: negative for x < c, zero at c, and positive for x > c.]\n\n(d) State, with a reason, whether there is a point of inflexion on the graph of y = f(x) at x = c. [2]\n\n(e) Given that f(−2) = 36, find f(x). [4]",
+      "summary": "Find stationary points and an inflection point from derivative sign information, then recover the original cubic using an initial value.",
+      "labels": ["Differentiation", "Integration", "Graphs", "Quadratics"],
+      "solution": "(a) Horizontal tangents occur where f′(x) = 0. Factor 3x² + 12x − 15 = 3(x² + 4x − 5) = 3(x + 5)(x − 1). Thus a = −5 and b = 1. (b) At x = a, f′ changes from positive to negative, so f changes from increasing to decreasing; therefore f has a local maximum there. (c) f″(x) = 6x + 12. Setting this equal to zero gives c = −2. (d) Yes. The sign diagram shows f″ changing from negative to positive at c, so the concavity of f changes and there is a point of inflexion at x = c. (e) Integrating, f(x) = x³ + 6x² − 15x + C. Using f(−2) = 36 gives −8 + 24 + 30 + C = 36, so C = −10. Hence f(x) = x³ + 6x² − 15x − 10."
+    },
+    {
+      "id": "2025-november-p1-tz1-q9",
+      "number": 9,
+      "pages": [14],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\n(a) Show that 2tan θ/(1 + tan²θ) can be expressed as sin 2θ. [3]\n\n(b) Hence, solve the equation 2tan θ/(1 + tan²θ) = 1/2 for 0° ≤ θ ≤ 180°. [5]\n\nLet x = tan(22 1/2°).\n\n(c) Use the result from part (a) to show that x² − 2√2x + 1 = 0. [4]\n\n(d) Hence, find the exact value of tan(22 1/2°). [3]",
+      "summary": "Derive the tangent form of the double-angle identity, solve a trigonometric equation, and obtain the exact value of tan 22.5°.",
+      "labels": ["Trigonometry", "Quadratics"],
+      "solution": "(a) Substitute tan θ = sin θ/cos θ: [2(sin θ/cos θ)]/[1 + sin²θ/cos²θ] = [2sin θ cos θ]/[cos²θ + sin²θ] = 2sin θ cos θ = sin 2θ. (b) The equation becomes sin 2θ = 1/2. Since 0° ≤ 2θ ≤ 360°, 2θ = 30° or 150°, so θ = 15° or 75°. (c) With x = tan 22.5°, part (a) gives 2x/(1 + x²) = sin 45° = √2/2. Therefore 4x = √2(1 + x²), so x² − 2√2x + 1 = 0, as required. (d) The quadratic formula gives x = [2√2 ± √(8 − 4)]/2 = √2 ± 1. Since 0° < 22.5° < 45°, 0 < tan 22.5° < 1, so the valid root is tan(22.5°) = √2 − 1."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "paper": {
+    "id": "2025-may-p1-tz1",
+    "title": "May 2025 Mathematics: Analysis and Approaches SL Paper 1 TZ1",
+    "paper": 1,
+    "zone": "1",
+    "year": 2025,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-2d04df956ed97e6c",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2025%20Examination%20Session/May%202025%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1_TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2025-may-p1-tz1-q1",
+      "number": 1,
+      "pages": [3],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nWrite each of the following expressions in the form ln k, where k ∈ ℤ⁺.\n\n(a) ln 3 + ln 4 [1]\n\n(b) 3 ln 2 [2]\n\n(c) −ln(1/2) [2]",
+      "summary": "Combine and transform logarithms into a single natural logarithm.",
+      "labels": ["Exponentials - Logarithms"],
+      "solution": "(a) Using ln a + ln b = ln(ab), ln 3 + ln 4 = ln(3 × 4) = ln 12, so k = 12. (b) Using c ln a = ln(aᶜ), 3 ln 2 = ln(2³) = ln 8, so k = 8. (c) Using −ln a = ln(a⁻¹), −ln(1/2) = ln((1/2)⁻¹) = ln 2, so k = 2."
+    },
+    {
+      "id": "2025-may-p1-tz1-q2",
+      "number": 2,
+      "pages": [4],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nConsider the function f(x) = 4x³/3 − 16x, where x ∈ ℝ.\n\nThe graph of y = f(x) has a local minimum point at (p, q) where p > 0.\n\nFind the value of p and the value of q.",
+      "summary": "Differentiate a cubic to locate its positive local minimum.",
+      "labels": ["Differentiation", "Graphs"],
+      "solution": "Differentiate: f′(x) = 4x² − 16. At a stationary point, 4x² − 16 = 0, so x² = 4 and x = ±2. Since p > 0, p = 2. Also f″(x) = 8x, and f″(2) = 16 > 0, confirming that x = 2 gives a local minimum. Therefore q = f(2) = 4(2³)/3 − 16(2) = 32/3 − 32 = −64/3. Hence p = 2 and q = −64/3."
+    },
+    {
+      "id": "2025-may-p1-tz1-q3",
+      "number": 3,
+      "pages": [5],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nBob invests 1000 dinar in an account which pays a nominal annual interest rate of 4% compounded quarterly.\n\nThe amount of money in the account after one complete year can be written as 1000(1 + k)⁴ where k ∈ ℚ.\n\n(a) Write down the value of k. [1]\n\n(b) Expand and simplify (1 + x)⁴. [2]\n\n(c) Hence or otherwise, find the amount of money in the account after one complete year, giving your answer correct to the nearest dinar. [4]",
+      "summary": "Use quarterly compound interest and a binomial expansion to find a one-year balance.",
+      "labels": ["Binomial Theorem", "Exponentials - Logarithms"],
+      "solution": "(a) The quarterly interest rate is 4%/4 = 1% = 1/100, so k = 1/100. (b) The binomial coefficients are 1, 4, 6, 4, 1, hence (1 + x)⁴ = 1 + 4x + 6x² + 4x³ + x⁴. (c) Substitute x = 1/100: 1000(1 + 1/100)⁴ = 1000[1 + 4/100 + 6/10000 + 4/1000000 + 1/100000000] = 1040.60401 dinar. Correct to the nearest dinar, the amount is 1041 dinar."
+    },
+    {
+      "id": "2025-may-p1-tz1-q4",
+      "number": 4,
+      "pages": [6],
+      "marks": 4,
+      "accessible_text": "4. [Maximum mark: 4]\n\nFind the area completely enclosed by the curves y = eˣ, y = −eˣ, and the lines x = −1 and x = 1.",
+      "summary": "Integrate the vertical separation between two exponential curves over a fixed interval.",
+      "labels": ["Integration", "Exponentials - Logarithms"],
+      "solution": "For every x, the upper curve is y = eˣ and the lower curve is y = −eˣ, so their vertical separation is eˣ − (−eˣ) = 2eˣ. Therefore the enclosed area is ∫₋₁¹ 2eˣ dx = [2eˣ]₋₁¹ = 2e − 2e⁻¹ = 2(e − 1/e)."
+    },
+    {
+      "id": "2025-may-p1-tz1-q5",
+      "number": 5,
+      "pages": [7],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nConsider events A and B such that P(A′) = P(A ∪ B) = 3/4 and P(B | A) = 2/3.\n\n(a) Find P(A ∩ B). [3]\n\n(b) Show that events A and B are independent. [3]",
+      "summary": "Use complements, conditional probability and a union to establish independence.",
+      "labels": ["Probability"],
+      "solution": "Since P(A′) = 3/4, P(A) = 1 − 3/4 = 1/4. (a) By conditional probability, P(B | A) = P(A ∩ B)/P(A). Thus P(A ∩ B) = P(B | A)P(A) = (2/3)(1/4) = 1/6. (b) Using P(A ∪ B) = P(A) + P(B) − P(A ∩ B), 3/4 = 1/4 + P(B) − 1/6. Hence P(B) = 3/4 − 1/4 + 1/6 = 2/3. Therefore P(A)P(B) = (1/4)(2/3) = 1/6 = P(A ∩ B), so A and B are independent."
+    },
+    {
+      "id": "2025-may-p1-tz1-q6",
+      "number": 6,
+      "pages": [8],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nConsider a sequence of ten rectangular picture frames F₁, F₂, ..., F₉, F₁₀.\n\nPicture frame F₁ has width 4 cm and height 5 cm.\n\nThe width and height of picture frame Fₙ, are each increased by 50% to generate the width and height of the next picture frame Fₙ₊₁, for n ∈ ℤ⁺, 1 ≤ n ≤ 9.\n\n(a) (i) Show that the area of picture frame Fₙ is 20(9/4)ⁿ⁻¹ cm².\n\n    (ii) Hence, find the mean area of the ten picture frames, giving your answer in the form p((9/4)ᵃ − 1) cm², where p ∈ ℚ⁺, a ∈ ℤ⁺. [5]\n\n(b) Find the median area of the ten picture frames, giving your answer in the form q(9/4)⁴ cm², where q ∈ ℚ⁺. [3]",
+      "summary": "Model frame areas geometrically, then derive the mean and median of ten terms.",
+      "labels": ["Sequences - Series", "Statistics"],
+      "solution": "(a)(i) Each width and each height is multiplied by 3/2 from one frame to the next, so each area is multiplied by (3/2)² = 9/4. Since the first area is 4 × 5 = 20 cm², the area of Fₙ is 20(9/4)ⁿ⁻¹ cm². (ii) The sum of the ten areas is the geometric sum 20[((9/4)¹⁰ − 1)/((9/4) − 1)] = 16((9/4)¹⁰ − 1). Dividing by 10 gives the mean area (8/5)((9/4)¹⁰ − 1) cm². Thus p = 8/5 and a = 10. (b) The areas increase, so the median is the mean of the fifth and sixth areas: (1/2)[20(9/4)⁴ + 20(9/4)⁵] = 10(9/4)⁴(1 + 9/4) = (65/2)(9/4)⁴ cm². Thus q = 65/2."
+    },
+    {
+      "id": "2025-may-p1-tz1-q7",
+      "number": 7,
+      "pages": [9],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nAn object moves in a straight line.\n\nIts velocity v m s⁻¹, at time t seconds, is given by v(t) = 30 + 20t − 10t² for 0 ≤ t ≤ 5.\n\nThe graph of v is shown in the following diagram.\n\n[Diagram: A velocity-time graph with horizontal axis t marked 0, 1, 2, 3, 4, 5 and vertical axis v(t). The graph is a downward-opening parabola. It starts above the t-axis at t = 0 with v(0) = 30, rises to its local and absolute maximum at t = 1 with v(1) = 40, then falls, intersects the t-axis at t = 3, and continues below the axis to t = 5, where v(5) = −120.]\n\nThe graph of v has a local maximum point where t = 1 and intersects the t-axis at t = 3.\n\n(a) Determine the object’s\n    (i) maximum velocity;\n    (ii) maximum speed. [4]\n\nAt t = T, the object changes direction.\n\n(b) (i) Write down the value of T.\n    (ii) Find the distance travelled by the object in the first T seconds. [5]\n\n(c) Determine whether the object returns to its initial position during the time period 0 ≤ t ≤ 5, justifying your answer. [4]",
+      "summary": "Analyse a quadratic velocity model to find extrema, distance, direction change and return behavior.",
+      "labels": ["Kinematics", "Differentiation", "Integration", "Graphs"],
+      "solution": "(a)(i) The downward-opening velocity graph has its maximum at t = 1. Thus the maximum velocity is v(1) = 30 + 20 − 10 = 40 m s⁻¹. (ii) Speed is |v|. At t = 5, v(5) = 30 + 100 − 250 = −120 m s⁻¹, whose magnitude is 120 m s⁻¹; this exceeds 40 m s⁻¹, so the maximum speed is 120 m s⁻¹. (b)(i) The object changes direction when velocity changes sign, at the given intercept t = 3; hence T = 3. (ii) Since v ≥ 0 from t = 0 to t = 3, the distance travelled is ∫₀³(30 + 20t − 10t²) dt = [30t + 10t² − (10/3)t³]₀³ = 90 + 90 − 90 = 90 m. (c) The displacement by t = 5 is ∫₀⁵v(t)dt = [30t + 10t² − (10/3)t³]₀⁵ = 150 + 250 − 1250/3 = −50/3 m. At t = 3 the displacement is 90 m, while at t = 5 it is negative. Since displacement is continuous, it must equal zero at some time between 3 and 5. Therefore the object does return to its initial position during 0 ≤ t ≤ 5."
+    },
+    {
+      "id": "2025-may-p1-tz1-q8",
+      "number": 8,
+      "pages": [10],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nThe function f is defined by f(x) = 5(x + 1)(x + 3), where x ∈ ℝ.\n\n(a) Write f(x) in the form a(x − h)² + k, where a, h, k ∈ ℤ. [4]\n\n(b) Sketch the graph of y = f(x), showing the values of any intercepts with the axes and the coordinates of the vertex. [4]\n\n(c) Solve the inequality f(x) ≤ 40. [4]\n\nThe function g is defined by g(x) = ln x, where x ∈ ℝ, x > 0.\n\n(d) (i) Write down an expression for (f ∘ g)(x).\n    (ii) Solve the inequality (f ∘ g)(x) ≤ 40. [3]",
+      "summary": "Rewrite and sketch a quadratic, solve its inequality, and transfer the result through a logarithmic composition.",
+      "labels": ["Quadratics", "Graphs", "Functions - Roots", "Exponentials - Logarithms"],
+      "solution": "(a) f(x) = 5(x² + 4x + 3) = 5[(x + 2)² − 1] = 5(x + 2)² − 5. Thus a = 5, h = −2 and k = −5. (b) The graph is an upward-opening parabola. From the factorized form its x-intercepts are (−3, 0) and (−1, 0). Its y-intercept is (0, 15), and its vertex is (−2, −5), with axis of symmetry x = −2. (c) 5(x + 2)² − 5 ≤ 40 gives (x + 2)² ≤ 9, so −3 ≤ x + 2 ≤ 3 and therefore −5 ≤ x ≤ 1. (d)(i) (f ∘ g)(x) = f(ln x) = 5(ln x + 1)(ln x + 3), for x > 0. (ii) Applying part (c) with ln x in place of x gives −5 ≤ ln x ≤ 1. Since the exponential function is increasing, e⁻⁵ ≤ x ≤ e."
+    },
+    {
+      "id": "2025-may-p1-tz1-q9",
+      "number": 9,
+      "pages": [11],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nA solid cylinder has height h cm and base radius R cm.\n\nThe cylinder fits exactly inside a hollow sphere of radius r cm.\n\nPoints A, B and C are points where the surface of the cylinder touches the surface of the sphere.\n\nThe line segment [AB] is a diameter of the sphere.\n\nThe line segment [BC] is a diameter of the base of the cylinder and AB̂C = θ.\n\nThis information is shown on the following diagram.\n\n[Diagram not to scale: A vertical solid cylinder fits exactly inside a hollow sphere, shown in cross-section as a rectangle inside a circle with elliptical top and bottom faces. A is the upper-left contact point of the cylinder and sphere, C is the lower-left contact point, and B is the lower-right contact point. Segment AC is vertical and is labelled h; it is the cylinder’s height. Segment BC runs across the bottom base from C to B and is its diameter, of length 2R. Dashed segment AB runs diagonally from A to B and is a diameter of the sphere, of length 2r. Triangle ABC is right-angled at C. The angle ABC between BA and BC is labelled θ. Above the cylinder, horizontal dimension arrows from the vertical centreline to the right-hand surfaces label the sphere radius r and the cylinder base radius R.]\n\n(a) (i) By considering triangle ABC, show that R = r cos θ.\n    (ii) Find an expression for h in terms of r and θ. [4]\n\n(b) Hence or otherwise, show that the total surface area, S cm², of the cylinder is given by S = 2πr²(1 + 2 sin θ cos θ − sin²θ). [4]\n\nThe external surface area of the sphere is 2S.\n\n(c) Show that tan θ = 2. [4]\n\nThe volume of the cylinder is V cm³.\n\n(d) Find V, giving your answer in the form pπr³√5, where p ∈ ℚ⁺. [5]",
+      "summary": "Use inscribed-cylinder geometry, surface areas and trigonometry to derive the cylinder’s volume.",
+      "labels": ["Trigonometry"],
+      "solution": "(a)(i) Since AB is the sphere’s diameter, AB = 2r. Since BC is the cylinder base’s diameter, BC = 2R. In right triangle ABC, cos θ = BC/AB = 2R/(2r) = R/r, so R = r cos θ. (ii) AC is the cylinder height h and is opposite θ, so sin θ = h/(2r), giving h = 2r sin θ. (b) The cylinder’s total surface area is the area of its two circular ends plus its curved surface: S = 2πR² + 2πRh. Substituting R = r cos θ and h = 2r sin θ gives S = 2πr²cos²θ + 4πr²sin θ cos θ = 2πr²(cos²θ + 2 sin θ cos θ). Since cos²θ = 1 − sin²θ, S = 2πr²(1 + 2 sin θ cos θ − sin²θ), as required. (c) The sphere’s external surface area is 4πr², and this equals 2S. Hence 4πr² = 4πr²(1 + 2 sin θ cos θ − sin²θ), so 2 sin θ cos θ − sin²θ = 0. As θ is an acute angle, sin θ ≠ 0; dividing by sin θ cos θ gives 2 − tan θ = 0. Therefore tan θ = 2. (d) V = πR²h = π(r cos θ)²(2r sin θ) = 2πr³sin θ cos²θ. From tan θ = 2, take the sides of a right triangle proportional to 2, 1 and √5, so sin θ = 2/√5 and cos θ = 1/√5. Thus V = 2πr³(2/√5)(1/5) = 4πr³/(5√5) = (4/25)πr³√5. Therefore p = 4/25."
+    }
+  ]
+}

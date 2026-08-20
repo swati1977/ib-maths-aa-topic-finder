@@ -5,42 +5,69 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = (ROOT / "site/index.html").read_text(encoding="utf-8")
 APP = (ROOT / "site/app.js").read_text(encoding="utf-8")
+STYLES = (ROOT / "site/styles.css").read_text(encoding="utf-8")
+README = (ROOT / "README.md").read_text(encoding="utf-8")
 DATA = json.loads((ROOT / "site/data/questions.json").read_text(encoding="utf-8"))
 
 
-def test_question_card_has_authoritative_source_viewer():
-    assert 'question-button' in INDEX
-    assert 'class="source-viewer"' in INDEX
-    assert 'class="question-image-list"' in INDEX
-    assert "View exact question" in INDEX
-
-
-def test_question_viewer_uses_hosted_question_images_not_pdf_iframes():
-    assert "renderQuestionImages" in APP
-    assert 'document.createElement("img")' in APP
-    assert 'className = "question-image"' in APP
-    assert "iframe" not in INDEX.lower()
-    assert "question-page-frame" not in APP
-
-
-def test_every_question_has_accessible_exact_text_alternative():
-    assert 'class="accessible-transcript"' in INDEX
-    assert 'card.querySelector(".accessible-question-text").textContent = q.accessibleText' in APP
+def test_question_card_uses_accessible_text_as_primary_content():
+    assert 'class="question-text"' in INDEX
+    assert "question-link" in INDEX
+    assert 'card.querySelector(".question-text").textContent = q.accessibleText' in APP
+    assert 'question-summary' not in INDEX
+    assert 'q.summary' not in APP.split("function renderQuestion(q)", 1)[1].split("return card", 1)[0]
     for q in DATA["questions"]:
-        assert len(q["accessibleText"].strip()) >= 80, q["id"]
+        assert len(q["accessibleText"].strip()) >= 30, q["id"]
 
 
-def test_summary_is_explicitly_labelled_not_presented_as_question_text():
-    assert 'class="summary-label"' in INDEX
-    assert 'class="question-summary"' in INDEX
-    assert 'card.querySelector(".question-summary").textContent = q.summary' in APP
-    assert 'card.querySelector("h3").textContent = q.summary' not in APP
+def test_long_math_text_cannot_expand_cards_beyond_the_viewport():
+    assert ".question-card {" in STYLES and "min-width: 0" in STYLES
+    assert ".question-text" in STYLES and "overflow-wrap: anywhere" in STYLES
+    assert ".solution-content" in STYLES and ".solution-part > p" in STYLES
 
 
-def test_every_question_has_one_hosted_image_per_display_page():
+def test_exact_question_action_opens_source_pdf_or_source_record():
+    assert "buildPaperUrl" in APP
+    assert "paperLink.href = buildPaperUrl(q)" in APP
+    assert "View exact question" in INDEX
+    assert 'target="_blank"' in INDEX
+    assert 'paperLink.setAttribute("aria-label", `View source record for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`)' in APP
+    assert "otherwise opens its source record" in INDEX
+    assert "otherwise opens its source record" in README
+
+
+def test_default_sort_label_describes_year_then_paper_order():
+    assert '<option value="paper">Sort by year and paper</option>' in INDEX
+
+
+def test_search_uses_accessible_question_text():
+    assert "q.accessibleText" in APP.split("function filteredQuestions", 1)[1].split("return items.sort", 1)[0]
+
+
+def test_year_session_and_zone_filters_are_data_driven():
+    assert 'id="year-filters"' in INDEX
+    assert 'id="session-filters"' in INDEX
+    assert 'id="zone-filters"' in INDEX
+    assert "buildDynamicFilters(payload.questions)" in APP
+    assert 'selectedValues("year")' in APP
+    assert 'selectedValues("session")' in APP
+    assert "matchesYear" in APP
+    assert "matchesSession" in APP
+
+
+def test_filter_updates_announce_only_the_result_count():
+    assert 'id="visible-count" aria-live="polite"' in INDEX
+    assert INDEX.count('aria-live="polite"') == 1
+    assert 'id="questions" class="question-list" aria-live=' not in INDEX
+    assert 'id="active-filters" class="active-filters" aria-live=' not in INDEX
+
+
+def test_hosted_question_images_match_display_pages_when_present():
     for q in DATA["questions"]:
         assert q["displayPages"]
         assert set(q["displayPages"]).issubset(q["pages"])
+        if not q["questionImages"]:
+            continue
         assert len(q["questionImages"]) == len(q["displayPages"])
         for image in q["questionImages"]:
             path = ROOT / "site" / image
@@ -58,20 +85,31 @@ def test_solution_renderer_preserves_labelled_subparts_without_splitting_functio
 
 def test_every_question_has_https_pdf_and_valid_pages():
     questions = DATA["questions"]
-    assert len(questions) == 35
+    assert len(questions) >= 35
+    assert {q["year"] for q in questions}.issubset({2022, 2023, 2024, 2025, 2026})
     for q in questions:
         assert q["pdfUrl"].startswith("https://")
         assert q["pages"] and all(isinstance(page, int) and page > 0 for page in q["pages"])
         assert q["solution"].strip()
+        assert re.search(rf"Maximum marks?:\s*{q['marks']}", q["accessibleText"]), q["id"]
 
 
-def test_malformed_paper_uses_explicit_source_fallback_instead_of_blank_pdf_viewer():
+def test_complete_2022_to_2026_collection_is_present():
+    assert len(DATA["papers"]) == 36
+    assert len(DATA["questions"]) == 323
+    assert {q["year"] for q in DATA["questions"]} == {2022, 2023, 2024, 2025, 2026}
+    paper_ids = {paper["id"] for paper in DATA["papers"]}
+    manifest = json.loads((ROOT / "data/source-manifest-2022-2025.json").read_text(encoding="utf-8"))
+    assert {paper["id"] for paper in manifest["papers"]}.issubset(paper_ids)
+
+
+def test_malformed_paper_uses_source_record_fallback():
     p2a = [q for q in DATA["questions"] if q["paper"] == 2 and q["zone"] == "A"]
     others = [q for q in DATA["questions"] if not (q["paper"] == 2 and q["zone"] == "A")]
     assert p2a and all(q["viewerAvailable"] is False for q in p2a)
     assert all(q["viewerAvailable"] is True for q in others)
-    assert all(q["questionImages"] for q in p2a)
-    assert "if (!q.questionImages?.length)" in APP
+    assert "if (!q.viewerAvailable)" in APP
+    assert "paperLink.href = q.sourceUrl" in APP
 
 
 def test_answer_only_continuation_pages_are_not_displayed():

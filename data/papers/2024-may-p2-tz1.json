@@ -1,0 +1,156 @@
+{
+  "paper": {
+    "id": "2024-may-p2-tz1",
+    "title": "May 2024 Mathematics: Analysis and Approaches SL Paper 2 TZ1",
+    "paper": 2,
+    "zone": "1",
+    "year": 2024,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-626a0a50878de744",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
+    "host_question_images": false,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2024-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nJanie claims Australian rabbits have longer ears than Spanish rabbits. Random samples were measured to the nearest millimetre. Australia has median 80 mm and interquartile range 11 mm.\n\n[Box-and-whisker diagram for Spain on a 44–92 mm scale: minimum 46, Q₁=68, median 75, Q₃=84, maximum 89.]\n\n(a) Complete the table.\n\n[Table: columns Australia, Spain; Median (mm): 80, blank; Interquartile range (mm): 11, blank.] [3]\n\n(b) Justifying your answers, compare the distributions using (i) the median; (ii) the interquartile range. [4]",
+      "summary": "Read and compare box-plot statistics.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Spain’s median is 75 mm and IQR=84−68=16 mm. (b)(i) Australia’s median 80>75, suggesting Australian rabbits generally have longer ears. (ii) Spain’s IQR 16>11, so the middle 50% of Spanish ear lengths is more variable."
+    },
+    {
+      "id": "2024-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "2. [Maximum mark: 7]\n\nDarren buys a car for $35 000. Its value decreases by 15% in the first year.\n\n(a) Find its value after the first year. [2]\n\nAfter the first year, it decreases by 11% each subsequent year.\n\n(b) Find its value 10 years after purchase, to the nearest dollar. [2]\n\nAfter n complete years its value is less than 10% of the original.\n\n(c) Find the least n. [3]",
+      "summary": "Model compound depreciation.",
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) 35000(0.85)=$29 750. (b) 29750(0.89)^9=$10 423 (nearest dollar). (c) Solve 29750(0.89)^(n−1)<3500, giving n>19.364…, so the least integer is n=20."
+    },
+    {
+      "id": "2024-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nA right cone monument has vertical height 20 m. Oliver stands 5 m from its base. His eye is 1.8 m above ground and the angle of elevation to the vertex is 58°.\n\n[Diagram, not to scale: cone of height 20 m; Oliver is 5 m beyond the rim, eye height 1.8 m; line of sight to vertex makes 58° with horizontal.]\n\n(a) Find the base radius. [3]\n\n(b) Find the monument’s volume. [2]",
+      "summary": "Use right-triangle trigonometry and cone volume.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) The vertical rise is 20−1.8=18.2 m and horizontal distance to the axis is r+5. Thus tan58°=18.2/(r+5), giving r=6.37262…≈6.37 m. (b) V=(1/3)πr²(20)=850.540…≈851 m³."
+    },
+    {
+      "id": "2024-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [
+        7
+      ],
+      "marks": 4,
+      "accessible_text": "4. [Maximum mark: 4]\n\nX is normally distributed with mean 10 and standard deviation 2.\n\n(a) Find P(X is more than 1.5 standard deviations above the mean). [2]\n\nP(X is more than k standard deviations above the mean)=0.1, k∈ℝ.\n\n(b) Find k. [2]",
+      "summary": "Calculate standard-normal tail probabilities and a quantile.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a) P(Z>1.5)=0.0668072…≈0.0668. (b) P(Z>k)=0.1 means Φ(k)=0.9, so k=1.28155…≈1.28."
+    },
+    {
+      "id": "2024-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nA particle passes O at t=0. For 0≤t≤10 its velocity is v=2sin(0.5t)+0.3t−2 m s⁻¹.\n\n[Graph: velocity starts at −2, crosses zero near t=1.69, reaches a positive maximum, crosses again near t=6.12, then is negative to t=10.]\n\n(a) Find the smallest t when it changes direction. [2]\n\n(b) Find the range of t for which displacement is increasing. [2]\n\n(c) Find displacement relative to O at t=10. [2]",
+      "summary": "Analyze velocity and displacement.",
+      "labels": [
+        "Kinematics",
+        "Integration",
+        "Trigonometry"
+      ],
+      "solution": "(a) Solving v=0 gives first root t=1.68694…≈1.69 s. (b) Displacement increases when v>0: 1.69<t<6.12. (c) ∫₀¹⁰[2sin(0.5t)+0.3t−2]dt=−2.13464…≈−2.13 m."
+    },
+    {
+      "id": "2024-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [
+        9,
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nTen students’ Test A and Test B scores are:\n\n[Table: Student 1–10. Test A: 52,71,100,93,81,80,88,100,70,61. Test B: 58,80,92,98,90,82,100,100,65,74.]\n\nLet x be Test A and y Test B. The regression line of y on x is y=0.822x+18.4.\n\n(a) Find Pearson’s r. [2]\n\nPaulo scored 10 on Test A; y=0.822(10)+18.4≈27 was used to estimate Test B.\n\n(b) Give a reason this is inappropriate. [1]\n\nGiovanni scored 90 on Test B; solving 90=0.822x+18.4 gave x≈87.\n\n(c) (i) Give a reason this is inappropriate. (ii) Use an appropriate method to show the estimated Test A score is 86 to the nearest integer. [4]",
+      "summary": "Interpret correlation and regression direction.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Calculator regression gives r=0.901017…≈0.901. (b) x=10 is far outside the observed Test A range 52–100, so this is extrapolation. (c)(i) A y-on-x line must not be inverted to predict x from y. (ii) The x-on-y regression is x=0.987124y−3.21970; at y=90, x=85.6214…≈86."
+    },
+    {
+      "id": "2024-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [
+        12
+      ],
+      "marks": 12,
+      "accessible_text": "7. [Maximum mark: 12]\n\nLet f(x)=(3/2)e^(x−2), 0≤x≤4.\n\n(a) Show f⁻¹(x)=2+ln(2x/3). [3]\n\nThe graphs of f and f⁻¹ intersect at P and Q.\n\n[Diagram: increasing exponential f and concave-down logarithmic f⁻¹ intersect twice on y=x at P and Q.]\n\n(b) Find PQ. [3]\n\nReflect f in the x-axis, then translate 5 units upward to form g.\n\n(c) Write down (i) g(x); (ii) the domain of g. [3]\n\n(d) Solve f(x)=g(x), in the form x=a+ln b, a,b∈ℚ. [3]",
+      "summary": "Work with an exponential inverse and transformations.",
+      "labels": [
+        "Functions - Roots",
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
+      "solution": "(a) y=(3/2)e^(x−2) gives x=2+ln(2y/3), hence the result. (b) Intersections lie on y=x at x=0.264456… and 2.51799…. Thus PQ=√2(2.51799−0.264456)=3.18689…≈3.19. (c) g(x)=−(3/2)e^(x−2)+5, domain 0≤x≤4. (d) 3e^(x−2)=5, so x=2+ln(5/3)."
+    },
+    {
+      "id": "2024-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nAt Sule Skerry, water height is H(t)=1.63sin(0.513(t−8.20))+2.13 metres, t hours after midnight.\n\n[Graph for 0≤t≤15 showing one low and one high tide; low height 0.50 m, high 3.76 m.]\n\n(a) The first low-to-high interval is 6 hours m minutes. Find m to nearest integer. [3]\n\n(b) Between consecutive high tides, find how long H<1 m. [2]\n\n(c) Find the rate of change at t=13, in m/h. [2]\n\nAt Rockall, h(t)=a sin(b(t−c))+d, a,b,c,d>0. First low tide is 02:41 at 0.40 m; first high tide is 09:02 at 2.74 m.\n\n(d) Find a,b,c,d. [7]\n\n(e) Find the first T when the two heights are equal. [2]",
+      "summary": "Analyze and compare sinusoidal tide models.",
+      "labels": [
+        "Trigonometry",
+        "Differentiation",
+        "Graphs"
+      ],
+      "solution": "(a) Half-period=π/0.513=6.12396 h, so m=0.12396×60≈7. (b) Solving H=1 at adjacent crossings gives 6.70684−3.56919=3.14 h. (c) H′=1.63(0.513)cos(0.513(t−8.20)); H′(13)=−0.650622≈−0.651 m/h. (d) a=(2.74−0.40)/2=1.17, d=1.57. Low-to-high time=6.35 h, so period=12.7 and b=2π/12.7≈0.495. The midpoint time gives c=(2:41+9:02)/2=5.85833…≈5.86. (e) Solving H(t)=h(t) gives T=4.16292…≈4.16."
+    },
+    {
+      "id": "2024-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [
+        15,
+        16
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nAll angles are in degrees. A wall OA is 50 m long. A hedge meets it at O at 28°. A 25 m fence AB runs from A to point B on the hedge, forming triangular field OAB.\n\n[Diagram, not to scale: OA along wall, OB along hedge at 28° to OA, AB=25 m and OA=50 m.]\n\n(a) (i) Find the two possible sizes of OÂB. (ii) Hence find the two possible areas of OAB. [8]\n\nA second fence CD of length 10 m forms smaller triangle OCD inside OAB, with C on wall, D on hedge, and area 60 m². Let x=OC and y=OD.\n\n[Diagram: triangle OCD at O inside OAB; ∠COD=28°, CD=10 m.]\n\n(b) Show x²+y²=100+240/tan28°. [5]\n\n(c) Hence determine the two possible lengths of OC. [3]",
+      "summary": "Solve ambiguous triangles and a constrained inner triangle.",
+      "labels": [
+        "Trigonometry",
+        "Quadratics"
+      ],
+      "solution": "(a) By sine rule, sin B/50=sin28°/25, so B=69.8748° or 110.125°. Hence A=82.1251° or 41.8748°, i.e. 82.1° or 41.9°. Areas are (1/2)(50)(25)sin A=619 m² or 417 m². (b) Cosine rule: 100=x²+y²−2xy cos28°. Area gives (1/2)xy sin28°=60, so xy=120/sin28°. Substitute to obtain x²+y²=100+240/tan28°. (c) Solving with xy fixed gives x=13.1300… or 19.4673…, so OC=13.1 m or 19.5 m."
+    }
+  ]
+}
