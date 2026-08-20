@@ -22,13 +22,12 @@ jobs:
       - name: Download and verify complete release
         run: |
           curl --fail --location --retry 3 --output /tmp/site-only.tar.gz \
-            'https://tmpfiles.org/dl/wBwErRaKosOk/site-only.tar.gz'
+            'https://litter.catbox.moe/blgbxq.gz'
           echo '6b8f903a2fc2352e6e164ea09445888003f0866485bbc3d22c44b248b40ebcf9  /tmp/site-only.tar.gz' | sha256sum --check --strict
 
       - name: Import full source and site tree
         run: |
           tar -xzf /tmp/site-only.tar.gz -C .
-          rm -f .github/workflows/import-complete-2017-2026.yml
           rm -f .github/workflows/deploy-expansion.yml
           git config user.name 'MyInsightAcademy'
           git config user.email 'swati1977@users.noreply.github.com'
