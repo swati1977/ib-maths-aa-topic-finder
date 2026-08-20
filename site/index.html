@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Browse complete accessible IB Mathematics AA SL past-paper questions from 2022–2026 by year, session, paper, timezone, and topic.">
-  <title>Maths AA Topic Finder</title>
+  <meta name="description" content="Browse complete accessible IB Mathematics SL and AA SL past-paper questions from 2017–2026 by course, year, session, paper, timezone, and topic.">
+  <title>IB Maths Topic Finder</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,18 +13,18 @@
 <body>
   <a class="skip-link" href="#questions">Skip to questions</a>
   <header class="site-header">
-    <a class="brand" href="#" aria-label="Maths AA Topic Finder home">
+    <a class="brand" href="#" aria-label="IB Maths Topic Finder home">
       <span class="brand-mark" aria-hidden="true">∑</span>
-      <span>Maths AA Topic Finder</span>
+      <span>IB Maths Topic Finder</span>
     </a>
-    <a class="source-link" href="https://ibdocs.re/past-papers-by-subject/mathematics-analysis-and-approaches" target="_blank" rel="noreferrer">Source papers ↗</a>
+    <a class="source-link" href="https://ibdocs.re/past-papers" target="_blank" rel="noreferrer">Source archive ↗</a>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="page-title">
-      <div class="eyebrow">IB Mathematics · Analysis &amp; Approaches · SL</div>
+      <div class="eyebrow">IB Mathematics SL · Analysis &amp; Approaches SL</div>
       <h1 id="page-title">Past-paper practice,<br><span>sorted by topic.</span></h1>
-      <p>Choose a year, session, paper, zone, or topic, then work through matching Mathematics AA SL past-paper questions from 2022–2026.</p>
+      <p>Choose a course, year, session, paper, zone, or topic, then work through matching Mathematics SL and AA SL past-paper questions from 2017–2026.</p>
       <div class="stats" aria-label="Collection statistics">
         <div><strong id="question-count">—</strong><span>questions</span></div>
         <div><strong id="paper-count">—</strong><span>papers</span></div>
@@ -34,16 +34,20 @@
 
     <section class="notice" aria-label="Solution notice">
       <span class="notice-icon" aria-hidden="true">i</span>
-      <p><strong>Full question text.</strong> Each card contains the complete accessible question wording, subparts, marks, and diagram/table descriptions. “View exact question” opens the original source PDF at the mapped page when available, and otherwise opens its source record. Solutions are independently prepared study guidance, not official IB markschemes. The available Paper 2 Zone A source ends at page 11, so its final 15-mark question is not indexed.</p>
+      <p><strong>Full question text.</strong> Each card contains the complete accessible question wording, subparts, marks, and actual diagram images where present. “View exact question” opens a locked question-only image panel; the original source remains available separately. Solutions are independently prepared study guidance, not official IB markschemes. May 2026 Paper 2 Zone A Question 9 is explicitly labelled as a verified reconstruction because the complete alternate source blocks original page-image retrieval.</p>
     </section>
 
     <section class="workspace">
       <aside class="filters" aria-labelledby="filters-heading">
         <div class="filter-title-row">
           <h2 id="filters-heading">Filters</h2>
-          <button id="clear-filters" class="text-button" type="button">Clear all</button>
+          <div class="filter-title-actions">
+            <button id="toggle-filters" class="text-button mobile-filter-toggle" type="button" aria-expanded="false" aria-controls="filter-body">Show filters</button>
+            <button id="clear-filters" class="text-button" type="button">Clear all</button>
+          </div>
         </div>
 
+        <div id="filter-body" class="filter-body">
         <label class="search-label" for="search">Search questions</label>
         <div class="search-box">
           <span aria-hidden="true">⌕</span>
@@ -54,6 +58,11 @@
           <legend>Paper</legend>
           <label class="check-row"><input type="checkbox" name="paper" value="1"><span>Paper 1</span></label>
           <label class="check-row"><input type="checkbox" name="paper" value="2"><span>Paper 2</span></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Course</legend>
+          <div id="subject-filters"></div>
         </fieldset>
 
         <fieldset>
@@ -75,6 +84,7 @@
           <legend>Topics <span class="legend-note">match any selected</span></legend>
           <div id="topic-filters" class="topic-filter-list"></div>
         </fieldset>
+        </div>
       </aside>
 
       <section class="results" aria-labelledby="results-heading">
@@ -83,15 +93,19 @@
             <div class="eyebrow">Question bank</div>
             <h2 id="results-heading"><span id="visible-count" aria-live="polite">—</span> matching questions</h2>
           </div>
-          <select id="sort" aria-label="Sort questions">
-            <option value="paper">Sort by year and paper</option>
-            <option value="topic">Sort by topic</option>
-            <option value="marks-desc">Highest marks</option>
-            <option value="marks-asc">Lowest marks</option>
-          </select>
+          <div class="result-tools">
+            <select id="sort" aria-label="Sort questions">
+              <option value="paper">Sort by year and paper</option>
+              <option value="topic">Sort by topic</option>
+              <option value="marks-desc">Highest marks</option>
+              <option value="marks-asc">Lowest marks</option>
+            </select>
+            <button id="download-pdf" class="button secondary" type="button">Download PDF</button>
+          </div>
         </div>
         <div id="active-filters" class="active-filters"></div>
         <div id="questions" class="question-list"></div>
+        <button id="load-more" class="button secondary load-more" type="button" hidden>Load more questions</button>
         <div id="empty-state" class="empty-state" hidden>
           <div aria-hidden="true">∅</div>
           <h3>No questions match</h3>
@@ -101,6 +115,34 @@
       </section>
     </section>
   </main>
+
+  <dialog id="pdf-export-dialog" class="export-dialog" aria-labelledby="export-dialog-title">
+    <form method="dialog">
+      <div class="export-dialog-heading">
+        <div>
+          <div class="eyebrow">Current matches</div>
+          <h2 id="export-dialog-title">Download as PDF</h2>
+        </div>
+        <button class="dialog-close" value="cancel" aria-label="Close PDF export dialog">×</button>
+      </div>
+      <label for="pdf-content">Include</label>
+      <select id="pdf-content">
+        <option value="questions">Questions only</option>
+        <option value="solutions">Solutions only</option>
+        <option value="both">Questions and solutions</option>
+      </select>
+      <label for="pdf-format">Question layout</label>
+      <select id="pdf-format">
+        <option value="clean">Clean text with original visuals</option>
+        <option value="original">Original question images</option>
+      </select>
+      <p id="pdf-export-status" class="export-status" aria-live="polite"></p>
+      <div class="export-dialog-actions">
+        <button class="button secondary" value="cancel">Cancel</button>
+        <button id="generate-pdf" class="button" type="button">Generate PDF</button>
+      </div>
+    </form>
+  </dialog>
 
   <footer>
     <p>Built as an independent teaching index. Not affiliated with or endorsed by the International Baccalaureate Organization.</p>
@@ -115,10 +157,20 @@
       </div>
       <h3></h3>
       <div class="question-text"></div>
+      <div class="question-visual-list"></div>
       <div class="labels"></div>
       <div class="card-actions">
-        <a class="button question-link paper-link" target="_blank" rel="noreferrer">View exact question ↗</a>
+        <button class="button question-button" type="button" aria-expanded="false">View exact question</button>
         <button class="button secondary solution-button" type="button" aria-expanded="false">Show solution</button>
+        <a class="button secondary paper-link" target="_blank" rel="noreferrer">Open source paper ↗</a>
+      </div>
+      <div class="source-viewer" hidden>
+        <div class="source-viewer-heading">
+          <span>Original question</span>
+          <small class="source-pages"></small>
+        </div>
+        <div class="question-image-list"></div>
+        <p class="source-viewer-note">Only the page or pages containing this question are shown.</p>
       </div>
       <div class="solution" hidden>
         <div class="solution-heading"><span>Independent worked solution</span><small>Not an official IB markscheme</small></div>
@@ -127,6 +179,7 @@
     </article>
   </template>
 
+  <script src="vendor/jspdf.umd.min.js" defer></script>
   <script src="app.js" defer></script>
 </body>
 </html>
