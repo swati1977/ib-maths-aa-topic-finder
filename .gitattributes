@@ -1,1 +1,3 @@
-site/vendor/* whitespace=-trailing-space
+./node_modules
+site/questions/*
+site/vendor/*
