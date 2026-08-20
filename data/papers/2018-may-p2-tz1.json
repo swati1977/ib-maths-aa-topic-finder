@@ -1,0 +1,175 @@
+{
+  "paper": {
+    "id": "2018-may-p2-tz1",
+    "title": "May 2018 Mathematics SL Paper 2 TZ1",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "1",
+    "year": 2018,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-6a69d7bdd9a3fb24",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL_markscheme.pdf",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2018-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nLet f(x) = ln x − 5x, for x > 0.\n(a) Find f′(x). [2]\n(b) Find f″(x). [1]\n(c) Solve f′(x) = f″(x). [2]",
+      "summary": "Differentiate twice and solve.",
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) f′=1/x−5. (b) f″=−1/x². (c) 5x²−x−1=0; x>0 gives x=(1+√21)/10=0.558."
+    },
+    {
+      "id": "2018-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nA biased four-sided die is rolled.\n\n[Table: Score: 1, 2, 3, 4. Probability: 0.28, k, 0.15, 0.3.]\n(a) Find k. [2]\n(b) Calculate the expected value. [2]\n(c) The die is rolled 80 times. On how many rolls would you expect to obtain a three? [2]",
+      "summary": "Analyze a discrete distribution.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) k=0.27. (b) E(X)=1(0.28)+2(0.27)+3(0.15)+4(0.3)=2.47. (c) 80(0.15)=12."
+    },
+    {
+      "id": "2018-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nA circle has centre O and radius 4 cm. Points A and B lie on it and AÔB=θ, where 0≤θ≤π.\n\n[Diagram not to scale: The minor circular segment between chord AB and arc AB is shaded.]\n(a) Find the area of the shaded region, in terms of θ. [3]\n(b) The area is 12 cm². Find θ. [3]",
+      "summary": "Find a circular segment.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) Area=8θ−8sinθ=8(θ−sinθ). (b) Solve 8(θ−sinθ)=12 to get θ=2.27 radians."
+    },
+    {
+      "id": "2018-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [
+        6,
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nLet g(x)=−(x−1)²+5.\n(a) Write down the vertex. [1]\nLet f(x)=x². [Diagram: graph y=x² on a coordinate grid.] The graphs intersect at x=−1 and x=2.\n(b) Sketch g for −2≤x≤4. [3]\n(c) Find the area enclosed by f and g. [3]",
+      "summary": "Sketch parabolas and find area.",
+      "labels": [
+        "Quadratics",
+        "Graphs",
+        "Integration"
+      ],
+      "solution": "(a) (1,5). (b) A concave-down parabola through (−1,1),(2,4), endpoints (−2,−4),(4,−4). (c) ∫₋₁²(g−f)dx=9."
+    },
+    {
+      "id": "2018-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [
+        9
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nP(A)=0.62 and P(A∩B)=0.18.\n(a) Find P(A∩B′). [2]\n(b) Given P((A∪B)′)=0.19, find P(A|B′). [4]",
+      "summary": "Use conditional probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) 0.62−0.18=0.44. (b) P(B′)=0.44+0.19=0.63, so P(A|B′)=0.44/0.63=44/63=0.698."
+    },
+    {
+      "id": "2018-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nTriangle ABC has a=8.1 cm, b=12.3 cm and area 15 cm². Find the largest possible perimeter.",
+      "summary": "Resolve the ambiguous triangle case.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "sinC=30/(8.1·12.3). Use the obtuse C=162.475° for the larger third side. Cosine rule gives c=20.1720, so perimeter=40.6 cm."
+    },
+    {
+      "id": "2018-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [
+        11
+      ],
+      "marks": 8,
+      "accessible_text": "7. [Maximum mark: 8]\n\nLet f(x)=e^(2sin(πx/2)), for x>0. The kth maximum point on the graph of f has x-coordinate xₖ, where k∈ℤ⁺.\n\n(a) Given that xₖ₊₁=xₖ+a, find a. [4]\n\n(b) Hence find the value of n such that ∑(from k=1 to n)xₖ=861. [4]",
+      "summary": "Use periodic maxima and a series.",
+      "labels": [
+        "Graphs",
+        "Sequences - Series",
+        "Exponentials - Logarithms",
+        "Trigonometry"
+      ],
+      "solution": "Because the exponential function is increasing, f is greatest whenever sin(πx/2)=1. Thus πx/2=π/2+2πm, so x=1+4m. Hence x₁=1, x₂=5 and (a) a=4. (b) The xₖ form an arithmetic sequence with xₖ=1+4(k−1). Therefore 861=∑ₖ₌₁ⁿxₖ=n[2+4(n−1)]/2=n(2n−1). Solving 2n²−n−861=0 gives (2n+41)(n−21)=0; since n∈ℤ⁺, n=21."
+    },
+    {
+      "id": "2018-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [
+        12
+      ],
+      "marks": 13,
+      "accessible_text": "8. [Maximum mark: 13]\n\n[Table: ln x: 1.10, 2.08, 4.30, 6.03; ln y: 5.63, 5.22, 4.18, 3.41.]\nThe model is ln y=a ln x+b.\n(a) Find a and b. [3]\n(b) Estimate y when x=3.57. [3]\nThe relationship is also y=kxⁿ.\n(c) By expressing ln y in terms of ln x, find n and k. [7]",
+      "summary": "Interpret log-log regression.",
+      "labels": [
+        "Statistics",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) Regression gives a=−0.454,b=6.14. (b) ln y=5.56484, so y=261. (c) ln y=lnk+nlnx, hence n=−0.454 and k=e^6.14210=465."
+    },
+    {
+      "id": "2018-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nOrange weights W are normal with mean 297 g. P(W>289)=0.79 and P(W>310)=0.095.\n(a) Find P(289<W<310). [2]\nThe standard deviation is σ.\n(b) (i) Find the standardized value for 289 g. (ii) Hence find σ. [5]\nA grocer buys oranges exceeding the 35th percentile.\n(c) To the nearest gram, find the minimum weight bought. [3]\nBoxes contain 36 oranges.\n(d) Find the probability the grocer buys more than half in a random box. [5]\n(e) For two boxes, find the probability this happens in each. [2]",
+      "summary": "Apply normal and binomial models.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) 0.695. (b)(i) Φ⁻¹(0.21)=−0.806. (ii) (289−297)/σ=−0.806421, so σ=9.92. (c) 35th percentile=293.177, so minimum whole-gram weight is 294 g. (d) X~B(36,0.65): P(X≥19)=0.954279. (e) 0.954279²=0.911."
+    },
+    {
+      "id": "2018-may-p2-tz1-q10",
+      "number": 10,
+      "pages": [
+        14,
+        15
+      ],
+      "marks": 15,
+      "accessible_text": "10. [Maximum mark: 15]\n\nLet f(x)=12cosx−5sinx, −π≤x≤2π, with f(x)=f(x+2π). [Diagram: sinusoid with maximum A slightly left of the y-axis.] The minimum value is −13.\n(a) Find A. [2]\n(b) Write down (i) amplitude; (ii) period. [2]\n(c) Hence write f(x)=p cos(x+r). [3]\nA ball on a spring has distance d(t)=f(t)+17 cm from O, 0≤t≤5. [Diagram not to scale: ball hanging below O, distance d.]\n(d) Find maximum speed. [3]\n(e) Find the first time when speed is changing at 2 cm s⁻². [5]",
+      "summary": "Analyze harmonic motion.",
+      "labels": [
+        "Trigonometry",
+        "Graphs",
+        "Differentiation",
+        "Kinematics"
+      ],
+      "solution": "(a) A=(−0.395,13). (b)(i) The amplitude is 13. (ii) The period is 2π. (c) Since 12=13cos r and 5=13sin r, r=tan⁻¹(5/12)=0.395, so f(x)=13cos(x+0.395). (d) d′(t)=−12sin t−5cos t=−13sin(t+0.395), so the maximum speed is max|d′(t)|=13 cm s⁻¹. (e) At the first required time the velocity is negative, so speed is −d′(t) and its rate of change is −d″(t). Set −d″(t)=2, where d″(t)=−12cos t+5sin t. Thus 12cos t−5sin t=2; the first solution on 0≤t≤5 is t=1.02 s."
+    }
+  ]
+}

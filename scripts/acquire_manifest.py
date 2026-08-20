@@ -39,6 +39,18 @@ def download(url: str, target: Path) -> dict:
     }
 
 
+def download_first(urls: list[str], target: Path) -> dict:
+    errors = []
+    for url in [value for value in urls if value]:
+        try:
+            result = download(url, target)
+            result["source_url"] = url
+            return result
+        except Exception as error:  # try the next verified mirror
+            errors.append(f"{url}: {error}")
+    raise RuntimeError("All verified PDF sources failed: " + " | ".join(errors))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
@@ -49,16 +61,20 @@ def main() -> None:
     payload = json.loads(args.manifest.read_text(encoding="utf-8"))
     tasks = []
     for paper in payload["papers"]:
-        tasks.append((paper, "question", paper["question_pdf_url"]))
+        tasks.append((paper, "question", [
+            paper["question_pdf_url"], paper.get("alternate_question_pdf_url")
+        ]))
         if paper.get("markscheme_pdf_url"):
-            tasks.append((paper, "markscheme", paper["markscheme_pdf_url"]))
+            tasks.append((paper, "markscheme", [
+                paper["markscheme_pdf_url"], paper.get("alternate_markscheme_pdf_url")
+            ]))
 
     results: dict[str, dict] = {}
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         futures = {}
-        for paper, kind, url in tasks:
+        for paper, kind, urls in tasks:
             target = safe_output_path(args.output, paper["id"], f"-{kind}.pdf")
-            futures[executor.submit(download, url, target)] = (paper, kind)
+            futures[executor.submit(download_first, urls, target)] = (paper, kind)
         for future in as_completed(futures):
             paper, kind = futures[future]
             key = f"{paper['id']}:{kind}"

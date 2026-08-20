@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-15fe64821a583df8",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/November%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/November%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -27,7 +27,10 @@
         "Graphs"
       ],
       "solution": "(a) f(0)=−11, f(20)≈−1.81. (b) Solving numerically gives x=1.73, 17.5. (c) Smooth concave-down curve through those endpoints and roots, with maximum about (7.56, 4.13).",
-      "id": "2024-november-p2-tz2-q1"
+      "id": "2024-november-p2-tz2-q1",
+      "display_pages": [
+        3
+      ]
     },
     {
       "number": 2,

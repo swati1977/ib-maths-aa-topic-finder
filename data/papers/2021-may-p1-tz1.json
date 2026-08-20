@@ -1,0 +1,159 @@
+{
+  "paper": {
+    "id": "2021-may-p1-tz1",
+    "title": "May 2021 Mathematics: analysis and approaches SL Paper 1 TZ1",
+    "subject": "Mathematics: analysis and approaches SL",
+    "paper": 1,
+    "zone": "1",
+    "year": 2021,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-d410a0ed157864cb",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ1-SL-markscheme.pdf",
+    "source_hosts": [
+      "ibdocs.re",
+      "ibpastpapers.publit.io"
+    ],
+    "host_question_images": true,
+    "expected_marks": 80,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2021-may-p1-tz1-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nThe graph of y=f(x) for −4≤x≤6 is shown in the following diagram.\n\n[Graph: f is the horizontal segment y=4 from x=−4 to x=0. It then follows a downward-opening parabola through (0,4) and (4,4), with vertex (2,6), ending at (6,−2).]\n\n(a) Write down the value of\n(i) f(2);\n(ii) (f∘f)(2). [2]\n\n(b) Let g(x)=(1/2)f(x)+1 for −4≤x≤6. On the axes above, sketch the graph of g. [3]",
+      "summary": "Transform a graph and evaluate a composite function.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a)(i) f(2)=6. (ii) (f∘f)(2)=f(6)=−2. (b) Apply a vertical scale factor 1/2 and then translate up 1. The horizontal part is y=3 for −4≤x≤0. The parabolic part is concave down through (0,3), (4,3), and (6,0), with vertex (2,4)."
+    },
+    {
+      "id": "2021-may-p1-tz1-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 4,
+      "accessible_text": "2. [Maximum mark: 4]\n\nThe diameter of a spherical planet is 6×10⁴ km.\n\n(a) Write down the radius of the planet. [1]\n\nThe volume of the planet can be expressed in the form π(a×10ᵏ) km³, where 1≤a<10 and k∈ℤ.\n\n(b) Find the value of a and the value of k. [3]",
+      "summary": "Express a sphere's volume in scientific notation.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) r=3×10⁴ km. (b) V=(4/3)π(3×10⁴)³=36π×10¹²=π(3.6×10¹³) km³. Hence a=3.6, k=13."
+    },
+    {
+      "id": "2021-may-p1-tz1-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nConsider an arithmetic sequence where u₈=S₈=8. Find the value of the first term, u₁, and the value of the common difference, d.",
+      "summary": "Determine an arithmetic sequence.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "u₁+7d=8. Also 4(2u₁+7d)=8, so 2u₁+7d=2. Subtracting gives u₁=−6, and then d=2."
+    },
+    {
+      "id": "2021-may-p1-tz1-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nA research student weighed lizard eggs in grams and recorded the results. The following box and whisker diagram shows a summary of the results, where L and U are the lower and upper quartiles respectively.\n\n[Box and whisker diagram, not to scale: minimum 10, lower quartile L, median 40, upper quartile U, maximum 75.]\n\nThe interquartile range is 20 grams and there are no outliers in the results.\n\n(a) Find the minimum possible value of U. [3]\n\n(b) Hence, find the minimum possible value of L. [2]",
+      "summary": "Use outlier fences and the IQR.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Since 75 is not an outlier, 75≤U+1.5(20)=U+30, so U≥45. Minimum U=45. (b) U−L=20, hence minimum L=45−20=25."
+    },
+    {
+      "id": "2021-may-p1-tz1-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nConsider the functions f(x)=−(x−h)²+2k and g(x)=e^(x−2)+k, where h,k∈ℝ.\n\n(a) Find f′(x). [1]\n\nThe graphs of f and g have a common tangent at x=3.\n\n(b) Show that h=(6+e)/2. [3]\n\n(c) Hence, show that k=(e²+4e)/4. [3]",
+      "summary": "Use common-tangent conditions.",
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) f′(x)=−2(x−h). (b) g′(3)=e. Equal gradients give −2(3−h)=e, hence h=(6+e)/2. (c) Equal values give −(3−h)²+2k=e+k. Since 3−h=−e/2, −e²/4+2k=e+k, so k=e+e²/4=(e²+4e)/4."
+    },
+    {
+      "id": "2021-may-p1-tz1-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\n(a) Show that sin(2x)+cos(2x)−1=2sinx(cosx−sinx). [2]\n\n(b) Hence or otherwise, solve sin(2x)+cos(2x)−1+cosx−sinx=0 for 0<x<2π. [6]",
+      "summary": "Prove an identity and solve it.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) 2sinx cosx+(1−2sin²x)−1=2sinx(cosx−sinx). (b) Factor to (cosx−sinx)(2sinx+1)=0. Thus tanx=1 or sinx=−1/2, giving x=π/4, 7π/6, 5π/4, 11π/6."
+    },
+    {
+      "id": "2021-may-p1-tz1-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nLet f(x)=mx²−2mx, where x,m∈ℝ. The line y=mx−9 meets the graph of f at exactly one point.\n\n(a) Show that m=4. [6]\n\nThe function f can be expressed in the form f(x)=4(x−p)(x−q), where p,q∈ℝ.\n\n(b) Find the value of p and the value of q. [2]\n\nThe function f can also be expressed in the form f(x)=4(x−h)²+k, where h,k∈ℝ.\n\n(c) Find the value of h and the value of k. [3]\n\n(d) Hence find the values of x where the graph of f is both negative and increasing. [3]",
+      "summary": "Analyze a quadratic constrained by tangency.",
+      "labels": [
+        "Quadratics",
+        "Differentiation"
+      ],
+      "solution": "(a) Intersections obey mx²−3mx+9=0. One intersection requires discriminant 9m²−36m=9m(m−4)=0. m=0 gives parallel distinct lines, so m=4. (b) f=4x(x−2), so {p,q}={0,2}. (c) f=4(x−1)²−4, so h=1,k=−4. (d) f<0 for 0<x<2, while f′=8x−8>0 for x>1. Hence 1<x<2."
+    },
+    {
+      "id": "2021-may-p1-tz1-q8",
+      "number": 8,
+      "pages": [
+        9
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nLet y=(lnx)/x⁴ for x>0.\n\n(a) Show that dy/dx=(1−4lnx)/x⁵. [3]\n\nConsider the function f defined by f(x)=(lnx)/x⁴ for x>0 and its graph y=f(x).\n\n(b) The graph of f has a horizontal tangent at point P. Find the coordinates of P. [5]\n\n(c) Given that f″(x)=(20lnx−9)/x⁶, show that P is a local maximum point. [3]\n\n(d) Solve f(x)>0 for x>0. [2]\n\n(e) Sketch the graph of f, showing clearly the value of the x-intercept and the approximate position of point P. [3]",
+      "summary": "Analyze a logarithmic rational function.",
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
+      "solution": "(a) Differentiate (lnx)x⁻⁴: f′=x⁻⁵−4lnx·x⁻⁵=(1−4lnx)/x⁵. (b) f′=0 gives lnx=1/4, x=e^(1/4), and y=1/(4e); P=(e^(1/4),1/(4e)). (c) f″(e^(1/4))=(5−9)/e^(3/2)<0, so P is a maximum. (d) x⁴>0, so lnx>0 and x>1. (e) Intercept (1,0); P≈(1.28,0.0920); f→−∞ as x→0⁺ and f→0⁺ as x→∞."
+    },
+    {
+      "id": "2021-may-p1-tz1-q9",
+      "number": 9,
+      "pages": [
+        10
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nA biased four-sided die, A, is rolled. Let X be the score obtained when die A is rolled. The probability distribution for X is given in the following table.\n\n[Table: x=1,2,3,4; P(X=x)=p,p,p,p/2.]\n\n(a) Find the value of p. [2]\n\n(b) Hence, find the value of E(X). [2]\n\nA second biased four-sided die, B, is rolled. Let Y be the score obtained when die B is rolled. The probability distribution for Y is given in the following table.\n\n[Table: y=1,2,3,4; P(Y=y)=q,q,q,r.]\n\n(c) (i) State the range of possible values of r.\n(ii) Hence, find the range of possible values of q. [3]\n\n(d) Hence, find the range of possible values for E(Y). [3]\n\nAgnes and Barbara play a game using these dice. Agnes rolls die A once and Barbara rolls die B once. The probability that Agnes’ score is less than Barbara’s score is 1/2.\n\n(e) Find the value of E(Y). [6]",
+      "summary": "Determine discrete-distribution parameters.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a) 3p+p/2=1, so p=2/7. (b) E(X)=p+2p+3p+4(p/2)=8p=16/7. (c) 0≤r≤1 and q=(1−r)/3, so 0≤q≤1/3. (d) E(Y)=6q+4r=2+2r, hence 2≤E(Y)≤4. (e) P(X<Y)=p[(2q+r)+(q+r)+r]=3p(q+r)=1/2. With p=2/7 and r=1−3q, q=5/24,r=3/8. Thus E(Y)=6q+4r=11/4."
+    }
+  ]
+}

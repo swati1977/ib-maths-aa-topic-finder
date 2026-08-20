@@ -1,0 +1,57 @@
+{
+  "scope": "English Mathematics: analysis and approaches SL, May 2026, Papers 1 and 2, Zones A and C",
+  "count": 4,
+  "papers": [
+    {
+      "id": "m26-math-aasl-p1-tza",
+      "year": 2026,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 1,
+      "timezone": "A",
+      "question_document_url": "https://ibdocs.re/documents/math-aasl-paper-1-tza-ef379c970ea73150",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZA.pdf",
+      "markscheme_pdf_url": null,
+      "source_hosts": ["ibdocs.re"]
+    },
+    {
+      "id": "m26-math-aasl-p1-c",
+      "year": 2026,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 1,
+      "timezone": "C",
+      "question_document_url": "https://ibdocs.re/documents/math-aasl-paper-1-tzc-4d4324709c92c37e",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%201%20TZC.pdf",
+      "markscheme_pdf_url": null,
+      "source_hosts": ["ibdocs.re"]
+    },
+    {
+      "id": "m26-math-aasl-p2-tza",
+      "year": 2026,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 2,
+      "timezone": "A",
+      "question_document_url": "https://ibdocs.re/documents/math-aasl-paper-2-tza-fd028c571b190e39",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "alternate_question_pdf_url": "https://dl.pirateib.su/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/DONATED%20PAPERS%20M26/Math%20AASL%20Paper%202%20TZA.pdf",
+      "markscheme_pdf_url": null,
+      "source_hosts": ["ibdocs.re", "dl.pirateib.su"],
+      "notes": "Primary PDF is malformed and ends after printed page 11. Question 9 wording and tables are restored from verified alternate PDF extraction; page images are explicitly labelled reconstructions."
+    },
+    {
+      "id": "m26-math-aasl-p2-tzc",
+      "year": 2026,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 2,
+      "timezone": "C",
+      "question_document_url": "https://ibdocs.re/documents/math-aasl-paper-2-tzc-d117ef418bd83733",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2026%20Examination%20Session/More%20Papers%20M26/Math%20AASL%20Paper%202%20TZC.pdf",
+      "markscheme_pdf_url": null,
+      "source_hosts": ["ibdocs.re"]
+    }
+  ],
+  "unavailable_markschemes": "No official May 2026 markschemes were found in the checked archives."
+}

@@ -1,0 +1,166 @@
+{
+  "paper": {
+    "id": "2021-may-p2-tz1",
+    "title": "May 2021 Mathematics: analysis and approaches SL Paper 2 TZ1",
+    "subject": "Mathematics: analysis and approaches SL",
+    "paper": 2,
+    "zone": "1",
+    "year": 2021,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-125535f8990ffa4a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ1-SL-markscheme.pdf",
+    "source_hosts": [
+      "ibdocs.re",
+      "ibpastpapers.publit.io"
+    ],
+    "host_question_images": true,
+    "expected_marks": 80,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2021-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\n(a) Find ∫(6x+7)dx. [3]\n\n(b) Given f′(x)=6x+7 and f(1.2)=7.32, find f(x). [3]",
+      "summary": "Integrate and use an initial value.",
+      "labels": [
+        "Integration"
+      ],
+      "solution": "(a) ∫(6x+7)dx=3x²+7x+C. (b) f(x)=3x²+7x+C. Substituting x=1.2 gives 7.32=3(1.2)²+7(1.2)+C=12.72+C, so C=−5.4. Therefore f(x)=3x²+7x−5.4."
+    },
+    {
+      "id": "2021-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [
+        5,
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "2. [Maximum mark: 7]\n\nThe following table shows the data collected from an experiment.\n\n[Table: x: 3.3, 6.9, 11.9, 13.4, 17.8, 19.6, 21.8, 25.3; y: 6.3, 8.1, 8.4, 11.6, 10.3, 12.9, 13.1, 17.3.]\n\nThe data is also represented on the following scatter diagram.\n\n[Scatter diagram: x-axis from 0 to 30 and y-axis from 0 to 25; the eight points in the table are plotted.]\n\nThe relationship between x and y can be modelled by the regression line of y on x with equation y=ax+b, where a,b∈ℝ.\n\n(a) Write down the value of a and the value of b. [2]\n\n(b) Use this model to predict the value of y when x=18. [2]\n\n(c) Write down the value of x̄ and the value of ȳ. [1]\n\n(d) Draw the line of best fit on the scatter diagram. [2]",
+      "summary": "Calculate and draw a regression line.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Least-squares regression gives a=0.433156…≈0.433 and b=4.50265…≈4.50. (b) y=0.433156…(18)+4.50265…=12.2994…≈12.3. (c) x̄=15 and ȳ=11. (d) Draw the straight line y=0.433156x+4.50265 through (15,11), with y-intercept about 4.50.",
+      "display_pages": [
+        5
+      ]
+    },
+    {
+      "id": "2021-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nA company produces bags of sugar whose masses, in grams, can be modelled by a normal distribution with mean 1000 and standard deviation 3.5. A bag of sugar is rejected for sale if its mass is less than 995 grams.\n\n(a) Find the probability that a bag selected at random is rejected. [2]\n\n(b) Estimate the number of bags which will be rejected from a random sample of 100 bags. [1]\n\n(c) Given that a bag is not rejected, find the probability that it has a mass greater than 1005 grams. [3]",
+      "summary": "Use normal and conditional probability.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "Let X~N(1000,3.5²). (a) P(X<995)=Φ((995−1000)/3.5)=0.0765637…≈0.0766. (b) 100(0.0765637)=7.66, so about 8 bags. (c) By symmetry P(X>1005)=0.0765637. Thus P(X>1005|X≥995)=0.0765637/(1−0.0765637)=0.0829."
+    },
+    {
+      "id": "2021-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [
+        8
+      ],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nA Ferris wheel with diameter 110 metres rotates at a constant speed. The lowest point on the wheel is 10 metres above the ground. P is a point on the wheel. The wheel starts moving with P at the lowest point and completes one revolution in 20 minutes.\n\n[Diagram not to scale: a Ferris wheel of diameter 110 m, with its lowest point 10 m above the ground and P initially at the lowest point.]\n\nThe height, h metres, of P above the ground after t minutes is given by h(t)=a cos(bt)+c, where a,b,c∈ℝ. Find the values of a, b and c.",
+      "summary": "Model circular height with cosine.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "Radius/amplitude is 55. Since P starts at the minimum, a=−55. The centre is 10+55=65 m high, so c=65. Period 20 gives 2π/b=20, hence b=π/10."
+    },
+    {
+      "id": "2021-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [
+        9
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nA particle moves in a straight line. The velocity, v m s⁻¹, of the particle at time t seconds is given by v(t)=t sint−3, for 0≤t≤10. The following diagram shows the graph of v.\n\n[Velocity–time graph: v starts at −3 and oscillates with increasing amplitude, crossing the t-axis at approximately 6.744 and 9.088 on 0≤t≤10.]\n\n(a) Find the smallest value of t for which the particle is at rest. [2]\n\n(b) Find the total distance travelled by the particle. [2]\n\n(c) Find the acceleration of the particle when t=7. [2]",
+      "summary": "Use numerical roots and integration in kinematics.",
+      "labels": [
+        "Kinematics",
+        "Integration",
+        "Differentiation"
+      ],
+      "solution": "(a) Solve tsint−3=0 numerically: the first root is t=6.74416…, so 6.74 s. (b) Further root in the interval is 9.08837…. Integrating |v| piecewise on [0,6.74416], [6.74416,9.08837], and [9.08837,10] gives 37.0968…≈37.1 m. (c) a=v′=sint+t cost; a(7)=sin7+7cos7=5.93430…≈5.93 m s⁻²."
+    },
+    {
+      "id": "2021-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nConsider the expansion of (3+x²)^(n+1), where n∈ℤ⁺. Given that the coefficient of x⁴ is 20 412, find the value of n.",
+      "summary": "Determine a binomial exponent.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The x⁴ term chooses (x²)²: coefficient C(n+1,2)3^(n−1). Set this equal to 20412. Testing the positive integer solution n=7 gives C(8,2)3⁶=28·729=20412, so n=7."
+    },
+    {
+      "id": "2021-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [
+        12
+      ],
+      "marks": 16,
+      "accessible_text": "7. [Maximum mark: 16]\n\nTwo friends, Amelia and Bill, each set themselves a target of saving $20 000. They each have $9000 to invest.\n\n(a) Amelia invests her $9000 in an account that offers an interest rate of 7% per annum compounded annually.\n(i) Find the value of Amelia’s investment after 5 years to the nearest hundred dollars.\n(ii) Determine the number of years required for Amelia’s investment to reach the target. [5]\n\n(b) Bill invests his $9000 in an account that offers an interest rate of r% per annum compounded monthly, where r is set to two decimal places. Find the minimum value of r needed for Bill to reach the target after 10 years. [3]\n\n(c) A third friend, Chris, also wants to reach the $20 000 target. He puts his money in a safe where he does not earn any interest. His system is to add more money to this safe each year. Each year he will add half the amount added in the previous year.\n(i) Show that Chris will never reach the target if his initial deposit is $9000.\n(ii) Find the amount Chris needs to deposit initially in order to reach the target after 5 years. Give your answer to the nearest dollar. [8]",
+      "summary": "Compare compound interest and geometric savings.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Sequences - Series"
+      ],
+      "solution": "(a)(i) 9000(1.07)⁵=12622.965…, so $12 600. (ii) Solve 9000(1.07)ⁿ≥20000: n≥ln(20/9)/ln1.07=11.80…, so 12 years. (b) 9000(1+r/1200)^120=20000 gives r=8.01170…%; rounded upward to two decimals, minimum r=8.02%. (c)(i) Infinite total is 9000/(1−1/2)=18000<20000, so never reaches target. (ii) If initial amount is u, five deposits total u(1−0.5⁵)/(1−0.5)=20000; u=10322.58…, so $10 323."
+    },
+    {
+      "id": "2021-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nTwo straight fences meet at point A and a field lies between them. A horse is tied to a post, P, by a rope of length r metres. Point D is on one fence and point E is on the other, such that PD=PE=PA=r and DPE=θ radians.\n\n[Diagram: the two fences meet at A; P is the post; D and E are on the respective fences; PD, PE and PA all have length r, and angle DPE is θ. The reachable part of the field consists of sector DPE together with the adjacent triangular region.]\n\nThe length of the arc DE shown in the diagram is 28 m.\n\n(a) Write down an expression for r in terms of θ. [1]\n\n(b) Show that the area of the field that the horse can reach is (392/θ²)(θ+sinθ). [4]\n\n(c) The area of field that the horse can reach is 460 m². Find the value of θ. [2]\n\n(d) Hence, find the size of DÂE. [2]\n\nA new fence is to be constructed between points B and C which will enclose the field.\n\n[Diagram: triangle ABC; C is due west of B; AC=800 m; the bearing of B from A is 195°.]\n\nPoint C is due west of B and AC=800 m. The bearing of B from A is 195°.\n\n(e) (i) Find the size of A B̂ C.\n(ii) Find the length of new fence required. [5]",
+      "summary": "Use radians, areas, bearings and sine rule.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) rθ=28, so r=28/θ. (b) Area is sector plus triangle: (1/2)r²θ+(1/2)r²sin(π−θ)=(1/2)(28/θ)²(θ+sinθ)=392(θ+sinθ)/θ². (c) Solve 392(θ+sinθ)/θ²=460 numerically: θ=1.43917…≈1.44. (d) In isosceles triangle DPE, each base angle is (π−θ)/2. Geometry at A gives DÂE=θ/2=0.719588…≈0.720 rad. (e)(i) AB has bearing 195° and BC is west (270°), so interior angle ABC=105°. (ii) With angle A=0.719588… and AC=800 opposite 105°, sine rule gives BC/sinA=800/sin105°, hence BC=546 m."
+    },
+    {
+      "id": "2021-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [
+        15,
+        16
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nConsider the function f defined by f(x)=90e^(−0.5x) for x∈ℝ⁺. The graph of f and the line y=x intersect at point P.\n\n(a) Find the x-coordinate of P. [2]\n\nThe line L has a gradient of −1 and is a tangent to the graph of f at the point Q.\n\n(b) Find the exact coordinates of Q. [4]\n\n(c) Show that the equation of L is y=−x+2ln45+2. [2]\n\nThe shaded region A is enclosed by the graph of f and the lines y=x and L.\n\n[Diagram: f is decreasing; y=x meets f at P; the tangent L touches f at Q and meets y=x; the enclosed region is labelled A.]\n\n(d) (i) Find the x-coordinate of the point where L intersects the line y=x.\n(ii) Hence, find the area of A. [5]\n\nThe line L is tangent to the graphs of both f and the inverse function f⁻¹.\n\n[Diagram: the graphs of f and f⁻¹ and their common tangent L enclose a shaded region.]\n\n(e) Find the shaded area enclosed by the graphs of f and f⁻¹ and the line L. [2]",
+      "summary": "Find tangency and enclosed areas.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Differentiation",
+        "Integration"
+      ],
+      "solution": "(a) Solve 90e^(−x/2)=x numerically: x=5.56619…≈5.57. (b) f′=−45e^(−x/2). Setting −1 gives e^(−x/2)=1/45, so x=2ln45 and y=2; Q=(2ln45,2). (c) Through Q with slope −1: y−2=−(x−2ln45), so y=−x+2ln45+2. (d)(i) Set y=x: x=−x+2ln45+2, hence x=ln45+1≈4.81. (ii) Let α=ln45+1, β=5.56619…, γ=2ln45. Area =∫_α^β[x−L(x)]dx+∫_β^γ[f(x)−L(x)]dx=1.52196…≈1.52. (e) Reflection in y=x makes the full enclosed area twice A: 3.04392…≈3.04."
+    }
+  ]
+}

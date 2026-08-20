@@ -1,0 +1,173 @@
+{
+  "paper": {
+    "id": "2018-november-p2-tzn",
+    "title": "November 2018 Mathematics SL Paper 2",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "N",
+    "year": 2018,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-816896513997a4bf",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2018-november-p2-tzn-q1",
+      "number": 1,
+      "pages": [
+        2,
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nIn a group of 35 students, some take art (A), some music (M), and 5 neither. [Venn diagram: A only 11, intersection 6, M only 13, outside 5.]\n(a) Write down the number who take art. [2]\n(b) One student is chosen. Find the probability that (i) the student does not take art; (ii) the student takes art or music, but not both. [4]",
+      "summary": "Use a Venn diagram.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) 11+6=17. (b)(i) (13+5)/35=18/35. (ii) (11+13)/35=24/35.",
+      "display_pages": [
+        2
+      ]
+    },
+    {
+      "id": "2018-november-p2-tzn-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\n[Table: hand length x cm: 21.0,21.9,21.0,20.3,20.8; height y cm: 178.3,185.0,177.1,169.0,174.6.] The regression line is y=ax+b.\n(a) (i) Find a and b. (ii) Write the correlation coefficient. [4]\n(b) Estimate height for hand length 21.5 cm. [2]",
+      "summary": "Use linear regression.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) a=9.91,b=−31.3,r=0.986. (b) y=9.91044(21.5)−31.3194=182 cm."
+    },
+    {
+      "id": "2018-november-p2-tzn-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nLet f(x)=(x−1)/(2x+3), for x≠−3/2.\n(a) For the graph, (i) find y-intercept; (ii) vertical asymptote; (iii) horizontal asymptote. [5]\n(b) Hence or otherwise write down lim(x→∞)(6x−1)/(2x+3). [2]",
+      "summary": "Analyze rational asymptotes.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a)(i) (0,−1/3). (ii) x=−3/2. (iii) y=1/2. (b) Ratio of leading coefficients is 3."
+    },
+    {
+      "id": "2018-november-p2-tzn-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nA particle has velocity v(t)=1.4ᵗ−2.7 m s⁻¹, 0≤t≤5.\n(a) Find when it is at rest. [2]\n(b) Find acceleration at t=2. [2]\n(c) Find total distance travelled. [3]",
+      "summary": "Analyze exponential motion.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) 1.4ᵗ=2.7 gives t=ln2.7/ln1.4=2.95 s. (b) a=1.4ᵗln1.4; a(2)=0.659 m s⁻². (c) Integrate |1.4ᵗ−2.7| over [0,5], split at 2.95195: 5.35 m."
+    },
+    {
+      "id": "2018-november-p2-tzn-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nThe sum of an infinite geometric sequence is 33.25. The second term is 7.98. Find the possible values of r.",
+      "summary": "Solve geometric sequence conditions.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "u₁/(1−r)=33.25 and u₁r=7.98. Thus 33.25r(1−r)=7.98, yielding r=0.4 or r=0.6."
+    },
+    {
+      "id": "2018-november-p2-tzn-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nConsider the expansion of (2x⁴ + x²/k)¹², k≠0. The coefficient of x⁴⁰ is five times the coefficient of x³⁸. Find k.",
+      "summary": "Compare binomial terms.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The general term is C(12,r)(2x⁴)^(12−r)(x²/k)^r, with x-power 48−2r. Thus x⁴⁰ has r=4 and coefficient C(12,4)2⁸/k⁴, while x³⁸ has r=5 and coefficient C(12,5)2⁷/k⁵. Setting the first equal to five times the second gives k=4."
+    },
+    {
+      "id": "2018-november-p2-tzn-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 6,
+      "accessible_text": "7. [Maximum mark: 6]\n\nA tower T has signal radius 32 km. A straight road crosses the coverage circle. Point R is on the circle; S and R lie on the road; ST=38 km and ∠RST=43°. [Diagram not to scale.]\n(a) Let SR=x. Use the cosine rule to show x²−(76cos43°)x+420=0. [2]\n(b) Find the total road distance covered. [4]",
+      "summary": "Use cosine rule intersections.",
+      "labels": [
+        "Trigonometry",
+        "Quadratics"
+      ],
+      "solution": "(a) 32²=38²+x²−2(38)xcos43°, rearranging gives the stated quadratic. (b) Its roots are 9.02007 and 46.5628; their difference is 37.5 km."
+    },
+    {
+      "id": "2018-november-p2-tzn-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nA=(−3,4,2), B=(8,−1,5).\n(a) (i) Find AB⃗. (ii) Find |AB⃗|. [4]\nLine L: r=(5,0,−5)+t(1,−2,2). C=(5,y,1) lies on L.\n(b) (i) Find y. (ii) Show AC⃗=(8,−10,−1). [5]\n(c) Find angle between AB⃗ and AC⃗. [5]\n(d) Find area of triangle ABC. [2]",
+      "summary": "Use 3D vectors.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) AB=(11,−5,3), |AB|=√155=12.4. (b) z:−5+2t=1 gives t=3, so y=−6 and AC=(8,−10,−1). (c) cosθ=135/(√155√165), hence θ=0.566 rad. (d) Area=(1/2)√155√165 sinθ=42.9."
+    },
+    {
+      "id": "2018-november-p2-tzn-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nReaction times for Group X are normal with mean 0.489 s and standard deviation 0.07 s.\n(a) Find P(X>0.65). [2]\nGroup Y is normal with mean 0.592 and standard deviation σ; P(Y>0.65)=0.396.\n(b) Find σ. [4]\n38% of participants are Group X.\n(c) Given reaction time >0.65, find probability participant is Group X. [6]\n(d) Ten such participants are selected. Find probability at least two are Group X. [3]",
+      "summary": "Combine normal and binomial probabilities.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) 0.0107. (b) z=Φ⁻¹(0.604)=0.263714 and (0.65−0.592)/σ=z, so σ=0.220. (c) Bayes: [0.38(0.010724)]/[0.38(0.010724)+0.62(0.396)]=0.0163. (d) For B(10,0.016327), P(X≥2)=0.0110."
+    },
+    {
+      "id": "2018-november-p2-tzn-q10",
+      "number": 10,
+      "pages": [
+        12
+      ],
+      "marks": 14,
+      "accessible_text": "10. [Maximum mark: 14]\n\nAll lengths in this question are in metres.\n\nConsider the function f(x)=√((4−x²)/8), for −2≤x≤2. In the following diagram, the shaded region is enclosed by the graph of f and the x-axis.\n\n[Diagram not to scale: The non-negative arch y=√((4−x²)/8) runs from (−2,0) to (2,0), and the region between the curve and the x-axis is shaded.]\n\nA container can be modelled by rotating this region by 360° about the x-axis.\n\n(a) Find the volume of the container. [3]\n\nWater can flow in and out of the container. The volume of water in the container is given by the function g(t), for 0≤t≤4, where t is measured in hours and g(t) is measured in m³. The rate of change of the volume of water in the container is given by g′(t)=0.9−2.5cos(0.4t²).\n\n(b) The volume of water in the container is increasing only when p<t<q.\n(i) Find the value of p and of q.\n(ii) During the interval p<t<q, the volume of water in the container increases by k m³. Find the value of k. [6]\n\nWhen t=0, the volume of water in the container is 2.3 m³. It is known that the container is never completely full of water during the 4 hour period.\n\n(c) Find the minimum volume of empty space in the container during the 4 hour period. [5]",
+      "summary": "Use volumes and rates of change.",
+      "labels": [
+        "Integration",
+        "Differentiation",
+        "Trigonometry"
+      ],
+      "solution": "(a) A radius of the solid is f(x), so V=π∫₋₂²[f(x)]²dx=(π/8)∫₋₂²(4−x²)dx=4π/3=4.19 m³. (b)(i) The water volume increases where g′(t)>0. Solving 0.9−2.5cos(0.4t²)=0 on 0≤t≤4 gives the boundary times p=1.73 and q=3.56. (ii) The increase is ∫ₚ^qg′(t)dt=3.75 m³. (c) The maximum water volume occurs at t=q: g(q)=2.3+∫₀^qg′(t)dt=3.85746 m³. Therefore the minimum empty volume is 4π/3−3.85746=0.331 m³."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "paper": {
+    "id": "2019-may-p1-tz1",
+    "title": "May 2019 Mathematics SL Paper 1 TZ1",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "1",
+    "year": 2019,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-d09ed5bf565df837",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL_markscheme.pdf",
+    "alternate_source_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe following Venn diagram shows the events A and B, where P(A)=0.3. The values shown are probabilities.\n\n[Diagram: A-only region 0.1; intersection A∩B labelled p; B-only region labelled q; outside both circles 0.4.]\n\n(a) Find the value of p. [2]\n\n(b) Find the value of q. [2]\n\n(c) Find P(A′∪B). [2]",
+      "summary": "Use a Venn diagram with A-only probability 0.1, intersection p, B-only q and outside probability 0.4 to find p, q and P(A′∪B).",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) P(A)=0.1+p=0.3, so p=0.2. (b) The four disjoint regions total 1: 0.1+0.2+q+0.4=1, hence q=0.3. (c) A′∪B excludes only the A-only region, whose probability is 0.1. Therefore P(A′∪B)=1−0.1=0.9.",
+      "id": "2019-may-p1-tz1-q1",
+      "display_pages": [
+        3
+      ]
+    },
+    {
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nA line L₁ has equation r=(−3,9,10)+s(6,0,2). Point P(15,9,c) lies on L₁. (a) Find c. [4] A second line L₂ is parallel to L₁ and passes through (1,2,3). (b) Write a vector equation for L₂. [2]",
+      "summary": "A line L₁ has equation r=(−3,9,10)+s(6,0,2). Point P(15,9,c) lies on L₁. (a) Find c. [4] A second line L₂ is parallel to L₁ and passes through (1,2,3). (b) Write a vector equation ",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) From −3+6s=15, s=3, so c=10+2(3)=16. (b) A parallel line is L₂: r=(1,2,3)+t(6,0,2), t∈ℝ. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q2"
+    },
+    {
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nA right triangle ABC has D on AB such that CD bisects angle ACB. [Diagram not to scale: right angle at A; ACD=DCB=θ; AC=14 cm.] (a) Given sinθ=3/5, find cosθ. [3] (b) Find cos2θ. [2] (c) Hence find BC. [2]",
+      "summary": "A right triangle ABC has D on AB such that CD bisects angle ACB. [Diagram not to scale: right angle at A; ACD=DCB=θ; AC=14 cm.] (a) Given sinθ=3/5, find cosθ. [3] (b) Find cos2θ. [",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) cosθ=4/5. (b) cos2θ=16/25−9/25=7/25. (c) cos(2θ)=AC/BC, so 7/25=14/BC and BC=50 cm. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q3"
+    },
+    {
+      "number": 4,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nLet f(x)=(2x−1)/(x+3), x≠−3. (a) Write the vertical asymptote. [1] (b) Find f⁻¹(x). [3] (c) Find the horizontal asymptote of f⁻¹. [2]",
+      "summary": "Let f(x)=(2x−1)/(x+3), x≠−3. (a) Write the vertical asymptote. [1] (b) Find f⁻¹(x). [3] (c) Find the horizontal asymptote of f⁻¹. [2]",
+      "labels": [
+        "Graphs",
+        "Functions - Roots"
+      ],
+      "solution": "(a) x=−3. (b) Interchanging x,y and rearranging gives f⁻¹(x)=(3x+1)/(2−x). (c) y=−3. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q4"
+    },
+    {
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nThe derivative of f is f′(x)=2e^(−3x). The graph passes through (1/3,5). Find f(x).",
+      "summary": "The derivative of f is f′(x)=2e^(−3x). The graph passes through (1/3,5). Find f(x).",
+      "labels": [
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "f(x)=−(2/3)e^(−3x)+C. Using f(1/3)=5 gives C=5+2/(3e), so f(x)=−(2/3)e^(−3x)+5+2/(3e). This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q5"
+    },
+    {
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nThe magnitudes of vectors u and v are 4 and 3, and the angle between them is π/6. Let w=u−v. Find |w|.",
+      "summary": "The magnitudes of vectors u and v are 4 and 3, and the angle between them is π/6. Let w=u−v. Find |w|.",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Trigonometry"
+      ],
+      "solution": "Using the scalar product, u·v=|u||v|cos(π/6)=4·3·(√3/2)=6√3. Therefore |w|²=|u−v|²=|u|²−2u·v+|v|²=16−12√3+9=25−12√3, so |w|=√(25−12√3).",
+      "id": "2019-may-p1-tz1-q6"
+    },
+    {
+      "number": 7,
+      "pages": [
+        11,
+        12
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nA velocity graph for 0≤t≤6 has intercepts t=0,2,4; it is positive, then negative, then positive. P travels 15 m in the first 2 s, s(2)=s(5), and ∫₂⁴v dt=−9. (a) Find s(4)−s(2). [2] (b) Find total distance in the first 5 s. [5]",
+      "summary": "A velocity graph for 0≤t≤6 has intercepts t=0,2,4; it is positive, then negative, then positive. P travels 15 m in the first 2 s, s(2)=s(5), and ∫₂⁴v dt=−9. (a) Find s(4)−s(2). [2]",
+      "labels": [
+        "Kinematics",
+        "Integration"
+      ],
+      "solution": "(a) s(4)−s(2)=−9 m. (b) Since ∫₂⁵vdt=0, ∫₄⁵vdt=9. Distance=15+|−9|+9=33 m. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q7",
+      "display_pages": [
+        11
+      ]
+    },
+    {
+      "number": 8,
+      "pages": [
+        13
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nLet f(x)=9−x². (a) Find its x-intercepts. [2] [Diagram: rectangle PQRS under the parabola, symmetric about y-axis, OP=b.] (b) Show its area is 18b−2b³. [2] (c) Find b for maximum area. [5] Let g(x)=(x−3)²+k. (d) Show intersections satisfy 2x²−6x+k=0. [2] (e) If they intersect once, find k. [5]",
+      "summary": "Let f(x)=9−x². (a) Find its x-intercepts. [2] [Diagram: rectangle PQRS under the parabola, symmetric about y-axis, OP=b.] (b) Show its area is 18b−2b³. [2] (c) Find b for maximum a",
+      "labels": [
+        "Quadratics",
+        "Differentiation",
+        "Graphs"
+      ],
+      "solution": "(a) x=±3. (b) A=2b(9−b²)=18b−2b³. (c) A′=18−6b²=0 gives b=√3 and A″<0. (d) Equating f,g gives the stated quadratic. (e) Its discriminant is 36−8k=0, so k=9/2. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q8"
+    },
+    {
+      "number": 9,
+      "pages": [
+        14
+      ],
+      "marks": 13,
+      "accessible_text": "9. [Maximum mark: 13]\n\nZ~N(0,1), P(Z<−1.6)=a and P(Z>2.4)=b. [Normal curve with tails a and b.] (a) Find P(−1.6<Z<2.4). [2] (b) Given Z>−1.6, find P(Z<2.4). [4] X~N(m,s²), P(X<1)=a. (c) Write the standardized value for x=1. [1] Also P(X>2)=b. (d) Find s. [6]",
+      "summary": "Z~N(0,1), P(Z<−1.6)=a and P(Z>2.4)=b. [Normal curve with tails a and b.] (a) Find P(−1.6<Z<2.4). [2] (b) Given Z>−1.6, find P(Z<2.4). [4] X~N(m,s²), P(X<1)=a. (c) Write the standar",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) 1−a−b. (b) (1−a−b)/(1−a). (c) −1.6. (d) (1−m)/s=−1.6 and (2−m)/s=2.4; subtraction gives 1/s=4, hence s=1/4. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q9"
+    },
+    {
+      "number": 10,
+      "pages": [
+        15
+      ],
+      "marks": 17,
+      "accessible_text": "10. [Maximum mark: 17]\n\nConsider f(x)=√x sin(πx/4) and g(x)=√x for x≥0. Their first intersection is x=0. (a) Find the two smallest non-zero intersection x-values. [5] They form uₙ=a+bn, n≥1. (b) Find a,b. [4] (c) P is the 21st intersection; find P. [4] [Diagram: f and the reflection of g in the x-axis enclose shading to x=158.] (d) Give an integral for the shaded area. [4]",
+      "summary": "Consider f(x)=√x sin(πx/4) and g(x)=√x for x≥0. Their first intersection is x=0. (a) Find the two smallest non-zero intersection x-values. [5] They form uₙ=a+bn, n≥1. (b) Find a,b. [4",
+      "labels": [
+        "Trigonometry",
+        "Sequences - Series",
+        "Integration"
+      ],
+      "solution": "For x>0, f(x)=g(x) gives √x sin(πx/4)=√x, so sin(πx/4)=1. (a) Thus πx/4=π/2+2πk and the first two non-zero values are 2 and 10. (b) uₙ=2+8(n−1)=−6+8n, so a=−6,b=8. (c) Counting (0,0) as the first intersection, the 21st uses u₂₀=154, hence P=(154,√154). (d) The shaded area is ∫₀¹⁵⁸√x[1+sin(πx/4)]dx. This agrees with the official markscheme.",
+      "id": "2019-may-p1-tz1-q10"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "paper": {
+    "id": "2019-november-p1-tzn",
+    "title": "November 2019 Mathematics SL Paper 1 TZ0",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "N",
+    "year": 2019,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-ab81930b929a512e",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+    "alternate_source_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nIn an arithmetic sequence u₂=5 and u₃=11. (a) Find common difference. [2] (b) Find first term. [2] (c) Find sum of first 20 terms. [2]",
+      "summary": "In an arithmetic sequence u₂=5 and u₃=11. (a) Find common difference. [2] (b) Find first term. [2] (c) Find sum of first 20 terms. [2]",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) d=11−5=6. (b) u₁=5−6=−1. (c) S₂₀=10[2(−1)+19(6)]=1120. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q1"
+    },
+    {
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nIn a class of 30, 18 are fluent in Spanish, 10 in French, and 5 in neither. [Venn diagram: Spanish-only m, intersection n, French-only p, outside q.] (a) q. [1] (b) n. [2] (c) m,p. [3]",
+      "summary": "In a class of 30, 18 are fluent in Spanish, 10 in French, and 5 in neither. [Venn diagram: Spanish-only m, intersection n, French-only p, outside q.] (a) q. [1] (b) n. [2] (c) m,p.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) q=5. (b) Union has 25, so n=18+10−25=3. (c) m=18−3=15 and p=10−3=7. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q2"
+    },
+    {
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nLet g(x)=x²+bx+11. Point (−1,8) lies on g. (a) Find b. [3] (b) Describe the transformation from f(x)=x² to g. [4]",
+      "summary": "Let g(x)=x²+bx+11. Point (−1,8) lies on g. (a) Find b. [3] (b) Describe the transformation from f(x)=x² to g. [4]",
+      "labels": [
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a) 1−b+11=8 gives b=4. (b) g=x²+4x+11=(x+2)²+7, a translation 2 units left and 7 units up, vector (−2,7). This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q3"
+    },
+    {
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nConsider C(11,a)=11!/(a!9!). (a) Find a. [2] (b) Hence find coefficient of x⁹ in (x+3)^11. [4]",
+      "summary": "Consider C(11,a)=11!/(a!9!). (a) Find a. [2] (b) Hence find coefficient of x⁹ in (x+3)^11. [4]",
+      "labels": [
+        "Binomial Theorem",
+        "Permutation - Combination"
+      ],
+      "solution": "(a) Comparing C(11,a)=11!/[a!(11−a)!] gives 11−a=9, so a=2. (b) The x⁹ term selects nine x factors and two 3 factors: C(11,9)3²=55·9=495. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q4"
+    },
+    {
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nf′(x)=2x²+5kx+3k²+2, x,k∈ℝ. (a) Show its discriminant is k²−16. [2] (b) Given f is increasing, find all k. [4]",
+      "summary": "f′(x)=2x²+5kx+3k²+2, x,k∈ℝ. (a) Show its discriminant is k²−16. [2] (b) Given f is increasing, find all k. [4]",
+      "labels": [
+        "Differentiation",
+        "Quadratics"
+      ],
+      "solution": "(a) Δ=(5k)²−4(2)(3k²+2)=25k²−24k²−16=k²−16. (b) Since the leading coefficient is positive, f′≥0 for every x exactly when Δ≤0. Thus −4≤k≤4. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q5"
+    },
+    {
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nLet f(x)=4cos(x/2)+1, 0≤x≤6π. Find x for which f(x)>2√2+1.",
+      "summary": "Let f(x)=4cos(x/2)+1, 0≤x≤6π. Find x for which f(x)>2√2+1.",
+      "labels": [
+        "Trigonometry",
+        "Radian"
+      ],
+      "solution": "The inequality is cos(x/2)>√2/2. With 0≤x/2≤3π, this gives 0≤x<π/2 or 7π/2<x<9π/2 (strict at threshold endpoints). This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q6"
+    },
+    {
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 6,
+      "accessible_text": "7. [Maximum mark: 6]\n\nX~N(14,a²), Y~N(22,a²), a>0. (a) Find b so P(X>b)=P(Y<b). [2] Given P(X>20)=0.112, (b) find P(16<Y<28). [4]",
+      "summary": "X~N(14,a²), Y~N(22,a²), a>0. (a) Find b so P(X>b)=P(Y<b). [2] Given P(X>20)=0.112, (b) find P(16<Y<28). [4]",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) Equal opposite tails occur midway between means, b=18. (b) The interval is 22±6. By the given tail and equal standard deviations, each outside tail is 0.112, so probability=1−2(0.112)=0.776. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q7"
+    },
+    {
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nA cuboid has base 3x by x and height y, with x,y>0; length+width+height=12. [Cuboid diagram.] (a) Express y. [1] (b) Express volume V. [2] (c) Find dV/dx. [2] (d)(i) Find x maximizing V; (ii) justify. [7] (e) Find maximum volume. [2]",
+      "summary": "A cuboid has base 3x by x and height y, with x,y>0; length+width+height=12. [Cuboid diagram.] (a) Express y. [1] (b) Express volume V. [2] (c) Find dV/dx. [2] (d)(i) Find x maximiz",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a) y=12−4x. (b) V=3x²(12−4x)=36x²−12x³. (c) V′=72x−36x²=36x(2−x). (d) Interior stationary x=2; V′ changes + to − (or V″(2)=−72<0), so maximum. (e) V(2)=48 cm³. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q8"
+    },
+    {
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 17,
+      "accessible_text": "9. [Maximum mark: 17]\n\nA,B have position vectors (−2,4,−4),(6,8,0); C=(−1,k,0); O is origin. (a) Find in k (i) OA·OC; (ii) OB·OC. [3] (b) Given angle AOC=BOC, show k=7. [8] (c) Calculate area triangle AOC. [6]",
+      "summary": "A,B have position vectors (−2,4,−4),(6,8,0); C=(−1,k,0); O is origin. (a) Find in k (i) OA·OC; (ii) OB·OC. [3] (b) Given angle AOC=BOC, show k=7. [8] (c) Calculate area triangle AO",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Trigonometry"
+      ],
+      "solution": "(a) OA·OC=2+4k; OB·OC=−6+8k. (b) |OA|=6, |OB|=10 and common |OC| cancels: (2+4k)/6=(−6+8k)/10, giving k=7. (c) OA×OC=(28,4,−10), magnitude 30; area=15 square units. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q9"
+    },
+    {
+      "number": 10,
+      "pages": [
+        12
+      ],
+      "marks": 14,
+      "accessible_text": "10. [Maximum mark: 14]\n\nLet g(x)=p^x+q, p>1. A(0,a) lies on g. Let f=g⁻¹ and B be reflection of A in y=x. (a) Write B. [2] L₁ tangent to f at B. (b) Given f′(a)=1/lnp, find L₁ in x,p,q. [5] L₂ tangent to g at A: y=(lnp)x+q+1; it passes (−2,−2). Normal gradient at A is 1/ln(1/3). (c) Find L₁ in x. [7]",
+      "summary": "Let g(x)=p^x+q, p>1. A(0,a) lies on g. Let f=g⁻¹ and B be reflection of A in y=x. (a) Write B. [2] L₁ tangent to f at B. (b) Given f′(a)=1/lnp, find L₁ in x,p,q. [5] L₂ tangent to ",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Differentiation",
+        "Graphs"
+      ],
+      "solution": "Since a=g(0)=q+1. (a) B=(a,0)=(q+1,0). (b) L₁: y=(x−q−1)/lnp. (c) Normal slope −1/lnp=1/ln(1/3)=−1/ln3, so p=3. Using (−2,−2) on L₂ gives q=2ln3−3. Therefore L₁: y=[x−(2ln3−2)]/ln3=x/ln3−2+2/ln3. This agrees with the official markscheme.",
+      "id": "2019-november-p1-tzn-q10"
+    }
+  ]
+}

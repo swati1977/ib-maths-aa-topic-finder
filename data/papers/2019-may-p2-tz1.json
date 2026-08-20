@@ -1,0 +1,169 @@
+{
+  "paper": {
+    "id": "2019-may-p2-tz1",
+    "title": "May 2019 Mathematics SL Paper 2 TZ1",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "1",
+    "year": 2019,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-2debdceb2c0fd066",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL_markscheme.pdf",
+    "alternate_source_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nTen home-to-school distances (km) are 0.3,0.4,3,3,3.5,5,7,8,8,10. (a) Find the mean. [2] [Box plot: minimum 0.3, Q1=3, median p, Q3=8, maximum 10.] (b) Find p. [1] (c) Find IQR. [2]",
+      "summary": "Ten home-to-school distances (km) are 0.3,0.4,3,3,3.5,5,7,8,8,10. (a) Find the mean. [2] [Box plot: minimum 0.3, Q1=3, median p, Q3=8, maximum 10.] (b) Find p. [1] (c) Find IQR. [2",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Sum=48.2, mean=4.82 km. (b) p=(3.5+5)/2=4.25. (c) IQR=8−3=5. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q1"
+    },
+    {
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nf(x)=a(x+10)²+15. (a) Write its vertex. [2] (b) Its y-intercept is −20; find a. [2] (c) P(8,b) lies on it; find b. [2]",
+      "summary": "f(x)=a(x+10)²+15. (a) Write its vertex. [2] (b) Its y-intercept is −20; find a. [2] (c) P(8,b) lies on it; find b. [2]",
+      "labels": [
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a) (−10,15). (b) 100a+15=−20, so a=−0.35. (c) b=−0.35(18²)+15=−98.4. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q2"
+    },
+    {
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nf(x)=x²e^(3x). (a) Find f′(x). [4] (b) Horizontal tangents occur at x=0 and x=a; find a. [2]",
+      "summary": "f(x)=x²e^(3x). (a) Find f′(x). [4] (b) Horizontal tangents occur at x=0 and x=a; find a. [2]",
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) f′=e^(3x)(2x+3x²)=xe^(3x)(2+3x). (b) The other zero is a=−2/3. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q3"
+    },
+    {
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 8,
+      "accessible_text": "4. [Maximum mark: 8]\n\nLet f″(x)=(cos2x)(sin6x), 0≤x≤1. (a) Sketch f″. [Graph grid from x=0 to1.] [3] (b) Find x-coordinates of inflexion points of f. [3] (c) Hence find x where f is concave-down. [2]",
+      "summary": "Let f″(x)=(cos2x)(sin6x), 0≤x≤1. (a) Sketch f″. [Graph grid from x=0 to1.] [3] (b) Find x-coordinates of inflexion points of f. [3] (c) Hence find x where f is concave-down. [2]",
+      "labels": [
+        "Differentiation",
+        "Trigonometry"
+      ],
+      "solution": "(a) The curve starts at 0, is positive to π/6, negative to π/4, then positive to 1. (b) Sign-changing zeros are x=π/6 and π/4. (c) f″<0 for π/6<x<π/4. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q4"
+    },
+    {
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nJigsaw counts are edge x:16,31,39,55,84,115 and interior y:89,239,297,402,580,802. Model y=ax+b. (a) Write a,b. [3] (b) Predict edge pieces when total sorted is 750. [3]",
+      "summary": "Jigsaw counts are edge x:16,31,39,55,84,115 and interior y:89,239,297,402,580,802. Model y=ax+b. (a) Write a,b. [3] (b) Predict edge pieces when total sorted is 750. [3]",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Least-squares regression gives a=6.92986…, b=8.80769…, so a=6.93,b=8.81. (b) Total x+y=750 and y=ax+b: x=(750−b)/(1+a)=93.47…, hence about 93 edge pieces. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q5"
+    },
+    {
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nIn the expansion of (x²+1.2)^n, n∈ℤ, n≥3, the coefficient of x⁶ is greater than 200000. Find the smallest n.",
+      "summary": "In the expansion of (x²+1.2)^n, n∈ℤ, n≥3, the coefficient of x⁶ is greater than 200000. Find the smallest n.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The x⁶ term chooses (x²)³, coefficient C(n,3)(1.2)^(n−3). At n=26 it is below 200000; at n=27 it is 232528…, so n=27. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q6"
+    },
+    {
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nGeometric sequences begin u:2,6,18,54,… and v:2,−6,18,−54,…; wₙ=uₙ+vₙ. (a) Write first three non-zero w terms. [3] The series Σ(k=1 to225)wₖ equals Σ(k=0 to m)4r^k. (b) Find (i) r; (ii) m. [4]",
+      "summary": "Geometric sequences begin u:2,6,18,54,… and v:2,−6,18,−54,…; wₙ=uₙ+vₙ. (a) Write first three non-zero w terms. [3] The series Σ(k=1 to225)wₖ equals Σ(k=0 to m)4r^k. (b) Find (i) r;",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) Odd-index sums are 4,36,324. (b) They form ratio r=9. Among indices 1…225 there are 113 odd indices, indexed k=0…112, so m=112. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q7"
+    },
+    {
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 13,
+      "accessible_text": "8. [Maximum mark: 13]\n\nf(x)=2sin(3x)+4. (a) Find its range k≤f≤m. [3] Let g(x)=5f(2x). (b) Find range. [2] Write g=10sin(bx)+c. (c)(i) Find b,c; (ii) period. [5] (d) Solve g(x)=12 for π≤x≤4π/3. [3]",
+      "summary": "f(x)=2sin(3x)+4. (a) Find its range k≤f≤m. [3] Let g(x)=5f(2x). (b) Find range. [2] Write g=10sin(bx)+c. (c)(i) Find b,c; (ii) period. [5] (d) Solve g(x)=12 for π≤x≤4π/3. [3]",
+      "labels": [
+        "Trigonometry",
+        "Radian"
+      ],
+      "solution": "(a) 2≤f≤6. (b) 10≤g≤30. (c) g=10sin6x+20, so b=6,c=20 and period=π/3. (d) sin6x=−0.8. On π≤x≤4π/3 the two solutions are x=3.819740… and x=4.034241…, so x=3.82 or 4.03 radians. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q8"
+    },
+    {
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nf(x)=16/x. L is tangent at x=8. (a) Find its gradient. [2] L has vector form r=(8,2)+t(u,1). (b) Find u. [2] (c) Find acute angle between y=x and L. [5] (d)(i) Find (f∘f)(x); (ii) hence f⁻¹; (iii) find obtuse angle between tangents at x=8 and x=2. [7]",
+      "summary": "f(x)=16/x. L is tangent at x=8. (a) Find its gradient. [2] L has vector form r=(8,2)+t(u,1). (b) Find u. [2] (c) Find acute angle between y=x and L. [5] (d)(i) Find (f∘f)(x); (ii) ",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Differentiation",
+        "Functions - Roots"
+      ],
+      "solution": "(a) f′=−16/x², so slope=−1/4. (b) 1/u=−1/4, so u=−4. (c) Direction vectors (1,1), (−4,1) give cosθ=3/√34, hence θ=59.0°. (d) f(f(x))=x, so f⁻¹=f. Slopes are −1/4 and −4; tan acute angle=|m₂−m₁|/(1+m₁m₂)=15/8, acute=61.9°, so obtuse=118°. This agrees with the official markscheme.",
+      "id": "2019-may-p2-tz1-q9"
+    },
+    {
+      "number": 10,
+      "pages": [
+        12
+      ],
+      "marks": 16,
+      "accessible_text": "10. [Maximum mark: 16]\n\nThree fair dice each have two green, two yellow and two red faces. (a)(i) Find P(exactly one red); (ii) P(two or more red). [5] Ted wins $10 per green; two or more reds lose all winnings w. (b) Show P(add exactly $10)=1/3. [5] Distribution D: −w,0,10,20,30 with probabilities x,y,1/3,2/9,1/27. (c) Find x,y. [3] The value of w is a positive multiple of 10. (d) Find the least value of w for which Ted should stop playing. [3]",
+      "summary": "Use dice probabilities and an expected-value model to find the least permitted loss amount w for which Ted should stop playing.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "Each colour has probability 1/3. (a) P(R=1)=C(3,1)(1/3)(2/3)²=4/9; P(R≥2)=C(3,2)(1/3)²(2/3)+(1/3)³=7/27. (b) Exactly $10 is added when the dice show one green and either two yellows or one yellow and one red: 3(1/3)³+6(1/3)³=1/3. (c) x=7/27 and y=1−7/27−1/3−2/9−1/27=4/27. (d) E(D)=−7w/27+10/3+40/9+30/27=80/9−7w/27. Ted should stop when E(D)<0, so w>240/7≈34.3. Since w is a positive multiple of 10, the least possible value is $40.",
+      "id": "2019-may-p2-tz1-q10"
+    }
+  ]
+}

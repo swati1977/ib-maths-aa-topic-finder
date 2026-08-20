@@ -9,7 +9,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BANK = ROOT / "site" / "data" / "questions.json"
-MANIFEST = ROOT / "data" / "source-manifest-2022-2025.json"
+MANIFESTS = (
+    ROOT / "data" / "source-manifest-2017-2021.json",
+    ROOT / "data" / "source-manifest-2022-2025.json",
+    ROOT / "data" / "source-manifest-2026.json",
+)
 TOPICS = {
     "Functions - Roots", "Quadratics", "Exponentials - Logarithms", "Graphs",
     "Sequences - Series", "Complex Numbers", "Permutation - Combination",
@@ -57,7 +61,9 @@ def main() -> None:
             raise ValueError(f"{paper_id}: expected {expected_marks} marks, found {marks}")
 
     expected_manifest_ids = {
-        paper["id"] for paper in json.loads(MANIFEST.read_text(encoding="utf-8"))["papers"]
+        paper["id"]
+        for manifest in MANIFESTS
+        for paper in json.loads(manifest.read_text(encoding="utf-8"))["papers"]
     }
     missing = expected_manifest_ids - set(by_paper)
     if missing:

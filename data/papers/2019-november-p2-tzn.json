@@ -1,0 +1,170 @@
+{
+  "paper": {
+    "id": "2019-november-p2-tzn",
+    "title": "November 2019 Mathematics SL Paper 2 TZ0",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "N",
+    "year": 2019,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-1931d3d7df0d219f",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+    "alternate_source_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nFor six teenagers, talking time T (min):50,55,105,128,155,200 and messages M:358,340,740,731,800,992. Model M=aT+b. (a) Write a,b. [3] (b) Predict M at T=154. [3]",
+      "summary": "For six teenagers, talking time T (min):50,55,105,128,155,200 and messages M:358,340,740,731,800,992. Model M=aT+b. (a) Write a,b. [3] (b) Predict M at T=154. [3]",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "Regression gives a=4.3016108…, b=163.3306…, hence a=4.30,b=163. At T=154, M=825.779…, so predict 826 messages. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q1"
+    },
+    {
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nLines L₁:y=−(2/3)x+9 and L₂:y=(2/5)x−19/5. (a) Find intersection. [2] L₃ has gradient −3/4. (b) Give a direction vector. [1] (c) L₃ passes through the intersection; give vector equation. [2]",
+      "summary": "Lines L₁:y=−(2/3)x+9 and L₂:y=(2/5)x−19/5. (a) Find intersection. [2] L₃ has gradient −3/4. (b) Give a direction vector. [1] (c) L₃ passes through the intersection; give vector equ",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) Equating gives x=12,y=1. (b) A direction vector is (4,−3). (c) r=(12,1)+t(4,−3), t∈ℝ. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q2"
+    },
+    {
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nLet f(x)=x−8, g(x)=x⁴−3 and h(x)=f(g(x)). (a) Find h. [2] At C on h, its tangent is parallel to graph f. (b) Find x-coordinate of C. [5]",
+      "summary": "Let f(x)=x−8, g(x)=x⁴−3 and h(x)=f(g(x)). (a) Find h. [2] At C on h, its tangent is parallel to graph f. (b) Find x-coordinate of C. [5]",
+      "labels": [
+        "Differentiation",
+        "Functions - Roots"
+      ],
+      "solution": "(a) h(x)=x⁴−11. (b) Graph f has slope 1. Since h′=4x³, set 4x³=1, giving x=∛(1/4)=0.630. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q3"
+    },
+    {
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nRight triangle ABC has AC=10 cm, AB=6 cm, BC=8 cm. D,F lie on AC; BD⊥AC; arc BEF is centred at A. Region R is bounded by BD,DF and arc BEF. [Diagram not to scale.] (a) Find angle BAC. [2] (b) Find area R. [5]",
+      "summary": "Right triangle ABC has AC=10 cm, AB=6 cm, BC=8 cm. D,F lie on AC; BD⊥AC; arc BEF is centred at A. Region R is bounded by BD,DF and arc BEF. [Diagram not to scale.] (a) Find angle B",
+      "labels": [
+        "Trigonometry",
+        "Radian"
+      ],
+      "solution": "(a) cosA=AB/AC=0.6, so A=0.927295… rad=53.1°. (b) Radius AB=AF=6. Sector ABF area=(1/2)6²A=16.6913. Similar/right-triangle geometry gives AD=AB²/AC=3.6 and BD=4.8, so triangle ABD area=8.64. Thus R=16.6913−8.64=8.05 cm². This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q4"
+    },
+    {
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nGeometric sequence u₁=2.1,u₂=2.226. (a) Find r. [2] (b) Find u₁₀. [2] (c) Find least n with Sₙ>5543. [3]",
+      "summary": "Geometric sequence u₁=2.1,u₂=2.226. (a) Find r. [2] (b) Find u₁₀. [2] (c) Find least n with Sₙ>5543. [3]",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) r=2.226/2.1=1.06. (b) u₁₀=2.1(1.06)^9=3.55. (c) Solve 2.1(1.06^n−1)/0.06>5543; n=87 is insufficient and n=88 works, so n=88. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q5"
+    },
+    {
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nA triangular-based pyramid has base ADC; BD⊥AD and BD⊥CD. [Diagram: AC=28.4 cm, AB=x, BC=x+2, angle ABC=0.667 rad, angle BAD=0.611 rad.] Calculate AD.",
+      "summary": "A triangular-based pyramid has base ADC; BD⊥AD and BD⊥CD. [Diagram: AC=28.4 cm, AB=x, BC=x+2, angle ABC=0.667 rad, angle BAD=0.611 rad.] Calculate AD.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "Cosine rule in ABC: 28.4²=x²+(x+2)²−2x(x+2)cos0.667. The positive solution is x=42.2822…. In right triangle ABD, AD=ABcos0.611=42.2822cos0.611=34.6 cm. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q6"
+    },
+    {
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nDiscrete X has values 1,4,a,a+b−0.5 with probabilities 0.2,0.5,b,a, where a,b≥0. (a) Show b=0.3−a. [1] (b) Find difference between greatest and least possible E(X). [6]",
+      "summary": "Discrete X has values 1,4,a,a+b−0.5 with probabilities 0.2,0.5,b,a, where a,b≥0. (a) Show b=0.3−a. [1] (b) Find difference between greatest and least possible E(X). [6]",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "(a) Probabilities sum: .2+.5+a+b=1, so b=.3−a and 0≤a≤.3. (b) Substitution gives E=0.2+2+a(.3−a)+(−.2)a=2.2+0.1a−a². Maximum at a=.05 is 2.2025; minimum on [0,.3] is E(.3)=2.14. Difference=0.0625. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q7"
+    },
+    {
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nf(x)=x⁴−54x²+60x, −1≤x≤6. [Graph: intercepts 0,p; maximum A at x=a; inflexion B at x=b.] (a) Find p. [2] (b)(i) coordinates A; (ii) tangent at A. [4] (c)(i) coordinates B; (ii) rate of change at B. [7] (d) Region between graph,x-axis,x=p,x=b is rotated about x-axis; find volume. [3]",
+      "summary": "f(x)=x⁴−54x²+60x, −1≤x≤6. [Graph: intercepts 0,p; maximum A at x=a; inflexion B at x=b.] (a) Find p. [2] (b)(i) coordinates A; (ii) tangent at A. [4] (c)(i) coordinates B; (ii) rat",
+      "labels": [
+        "Differentiation",
+        "Integration",
+        "Graphs"
+      ],
+      "solution": "(a) On −1≤x≤6, the non-zero intercept is p=1.138434…≈1.14. (b) f′=4x³−108x+60; the local maximum is A=(0.562135…,16.7642…), and its tangent is y=16.7642…. (c) f″=12x²−108, so b=3 and B=(3,−225); f′(3)=−156. (d) V=π∫₁.138434^3[f(x)]²dx=80902.4…≈80900 cm³. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q8"
+    },
+    {
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nFlight time ~N(260,15²); late means >275. (a) P(not late). [2] On time means m to275 with probability .830. (b) Find m. [3] In 12 independent flights: (c)(i) P(at least7 on time); (ii) given at least7, P(exactly10). [7] For 20 improved flights P(at least19)=.788. (d) Find probability one flight is on time. [3]",
+      "summary": "Flight time ~N(260,15²); late means >275. (a) P(not late). [2] On time means m to275 with probability .830. (b) Find m. [3] In 12 independent flights: (c)(i) P(at least7 on time); ",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) Φ(1)=0.841. (b) Φ((m−260)/15)=Φ(1)−.830=.0113447, so m=225.821≈226 min. (c) With p=.830, binomial calculation gives P(X≥7)=0.991248≈0.991 and P(X=10|X≥7)=0.298566≈0.299. (d) Solve p²⁰+20p¹⁹(1−p)=.788, giving p=0.956962≈0.957. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q9"
+    },
+    {
+      "number": 10,
+      "pages": [
+        12
+      ],
+      "marks": 14,
+      "accessible_text": "10. [Maximum mark: 14]\n\nA rocket starts at 140 m/s and reaches 500 m/s in two stages. First-stage acceleration a(t)=240sin(2t), 0≤t≤k. (a) Find velocity. [4] Stage 1 ends at 375 m/s. (b) Find first-stage distance. [4] Stage 2 has constant acceleration and same distance as stage 1. (c) Find total time. [6]",
+      "summary": "A rocket starts at 140 m/s and reaches 500 m/s in two stages. First-stage acceleration a(t)=240sin(2t), 0≤t≤k. (a) Find velocity. [4] Stage 1 ends at 375 m/s. (b) Find first-stage ",
+      "labels": [
+        "Kinematics",
+        "Integration"
+      ],
+      "solution": "(a) v=∫240sin2t dt=−120cos2t+C; v(0)=140 gives v=260−120cos2t. (b) 375=260−120cos2k gives k=(1/2)arccos(−23/24)=1.42595 s. Distance D=∫₀^k vdt=260k−60sin2k=353.609 m. (c) Under constant acceleration from 375 to500, average velocity=437.5, so stage-2 time=D/437.5=0.808248 s. Total=2.23420≈2.23 s. This agrees with the official markscheme.",
+      "id": "2019-november-p2-tzn-q10"
+    }
+  ]
+}

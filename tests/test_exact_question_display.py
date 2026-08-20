@@ -12,12 +12,20 @@ DATA = json.loads((ROOT / "site/data/questions.json").read_text(encoding="utf-8"
 
 def test_question_card_uses_accessible_text_as_primary_content():
     assert 'class="question-text"' in INDEX
-    assert "question-link" in INDEX
-    assert 'card.querySelector(".question-text").textContent = q.accessibleText' in APP
+    assert "question-button" in INDEX
+    assert "renderAccessibleQuestion" in APP
+    assert 'className = "visual-description sr-only"' in APP
     assert 'question-summary' not in INDEX
     assert 'q.summary' not in APP.split("function renderQuestion(q)", 1)[1].split("return card", 1)[0]
     for q in DATA["questions"]:
         assert len(q["accessibleText"].strip()) >= 30, q["id"]
+
+
+def test_questions_with_visuals_render_actual_source_images():
+    assert 'class="question-visual-list"' in INDEX
+    assert "renderInlineVisuals" in APP
+    assert "hasOriginalVisual(q)" in APP
+    assert 'className = "question-visual-image"' in APP
 
 
 def test_long_math_text_cannot_expand_cards_beyond_the_viewport():
@@ -26,14 +34,24 @@ def test_long_math_text_cannot_expand_cards_beyond_the_viewport():
     assert ".solution-content" in STYLES and ".solution-part > p" in STYLES
 
 
-def test_exact_question_action_opens_source_pdf_or_source_record():
+def test_exact_question_action_uses_locked_question_images_not_pdf_iframes():
+    assert "question-button" in INDEX
+    assert 'class="source-viewer"' in INDEX
+    assert 'class="question-image-list"' in INDEX
+    assert "renderQuestionImages" in APP
+    assert 'document.createElement("img")' in APP
+    assert "iframe" not in INDEX.lower()
+    assert "View exact question" in INDEX
+
+
+def test_original_source_remains_a_separate_external_link():
     assert "buildPaperUrl" in APP
     assert "paperLink.href = buildPaperUrl(q)" in APP
-    assert "View exact question" in INDEX
     assert 'target="_blank"' in INDEX
-    assert 'paperLink.setAttribute("aria-label", `View source record for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`)' in APP
-    assert "otherwise opens its source record" in INDEX
-    assert "otherwise opens its source record" in README
+    assert "Open source paper" in INDEX
+    assert 'paperLink.setAttribute("aria-label", `Open source record for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`)' in APP
+    assert "original source remains available separately" in INDEX
+    assert "original source linked separately" in README
 
 
 def test_default_sort_label_describes_year_then_paper_order():
@@ -55,11 +73,44 @@ def test_year_session_and_zone_filters_are_data_driven():
     assert "matchesSession" in APP
 
 
-def test_filter_updates_announce_only_the_result_count():
+def test_course_labels_and_filters_distinguish_math_sl_from_aa_sl():
+    assert 'id="subject-filters"' in INDEX
+    assert "formatSubject" in APP
+    assert 'selectedValues("subject")' in APP
+    assert "matchesSubject" in APP
+    assert '"subject": subject' in (ROOT / "scripts/build_data.py").read_text(encoding="utf-8")
+
+
+def test_filter_updates_do_not_announce_entire_result_sets():
     assert 'id="visible-count" aria-live="polite"' in INDEX
-    assert INDEX.count('aria-live="polite"') == 1
+    assert 'id="pdf-export-status" class="export-status" aria-live="polite"' in INDEX
     assert 'id="questions" class="question-list" aria-live=' not in INDEX
     assert 'id="active-filters" class="active-filters" aria-live=' not in INDEX
+
+
+def test_desktop_filters_scroll_independently_and_mobile_returns_to_page_flow():
+    assert "max-height: calc(100vh - 40px)" in STYLES
+    assert "overflow-y: auto" in STYLES
+    mobile = STYLES.split("@media (max-width: 820px)", 1)[1]
+    assert "max-height: none" in mobile
+    assert "overflow: visible" in mobile
+
+
+def test_mobile_filters_are_collapsible():
+    assert 'id="toggle-filters"' in INDEX
+    assert 'id="filter-body"' in INDEX
+    assert "filters-open" in APP
+    mobile = STYLES.split("@media (max-width: 820px)", 1)[1]
+    assert ".filter-body { display: none; }" in mobile
+    assert ".filters-open .filter-body { display: block; }" in mobile
+
+
+def test_large_banks_render_in_batches_without_limiting_filter_or_export_results():
+    assert 'id="load-more"' in INDEX
+    assert "PAGE_SIZE" in APP
+    assert "items.slice(0, state.visibleLimit)" in APP
+    assert "state.visibleLimit += PAGE_SIZE" in APP
+    assert "const items = filteredQuestions();" in APP
 
 
 def test_hosted_question_images_match_display_pages_when_present():
@@ -86,7 +137,7 @@ def test_solution_renderer_preserves_labelled_subparts_without_splitting_functio
 def test_every_question_has_https_pdf_and_valid_pages():
     questions = DATA["questions"]
     assert len(questions) >= 35
-    assert {q["year"] for q in questions}.issubset({2022, 2023, 2024, 2025, 2026})
+    assert {q["year"] for q in questions}.issubset(set(range(2017, 2027)))
     for q in questions:
         assert q["pdfUrl"].startswith("https://")
         assert q["pages"] and all(isinstance(page, int) and page > 0 for page in q["pages"])
@@ -94,13 +145,27 @@ def test_every_question_has_https_pdf_and_valid_pages():
         assert re.search(rf"Maximum marks?:\s*{q['marks']}", q["accessibleText"]), q["id"]
 
 
-def test_complete_2022_to_2026_collection_is_present():
-    assert len(DATA["papers"]) == 36
-    assert len(DATA["questions"]) == 323
-    assert {q["year"] for q in DATA["questions"]} == {2022, 2023, 2024, 2025, 2026}
+def test_verified_2022_to_2026_baseline_remains_present_during_expansion():
+    assert len(DATA["papers"]) >= 36
+    assert len(DATA["questions"]) >= 323
+    assert {2022, 2023, 2024, 2025, 2026}.issubset({q["year"] for q in DATA["questions"]})
     paper_ids = {paper["id"] for paper in DATA["papers"]}
     manifest = json.loads((ROOT / "data/source-manifest-2022-2025.json").read_text(encoding="utf-8"))
     assert {paper["id"] for paper in manifest["papers"]}.issubset(paper_ids)
+
+
+def test_complete_2017_to_2026_collection_is_present():
+    assert len(DATA["papers"]) == 62
+    assert len(DATA["questions"]) == 578
+    assert {q["year"] for q in DATA["questions"]} == set(range(2017, 2027))
+    paper_ids = {paper["id"] for paper in DATA["papers"]}
+    old_manifest = json.loads((ROOT / "data/source-manifest-2017-2021.json").read_text(encoding="utf-8"))
+    current_manifest = json.loads((ROOT / "data/source-manifest-2026.json").read_text(encoding="utf-8"))
+    assert old_manifest["count"] == 26
+    assert {paper["id"] for paper in old_manifest["papers"]}.issubset(paper_ids)
+    assert current_manifest["count"] == 4
+    assert {paper["id"] for paper in current_manifest["papers"]}.issubset(paper_ids)
+    assert old_manifest["unavailable_sessions"][0]["year"] == 2020
 
 
 def test_malformed_paper_uses_source_record_fallback():
@@ -110,6 +175,17 @@ def test_malformed_paper_uses_source_record_fallback():
     assert all(q["viewerAvailable"] is True for q in others)
     assert "if (!q.viewerAvailable)" in APP
     assert "paperLink.href = q.sourceUrl" in APP
+
+
+def test_missing_2026_p2a_question_is_restored_as_a_labelled_reconstruction():
+    source = json.loads((ROOT / "data/p2-a.json").read_text(encoding="utf-8"))
+    assert len(source["questions"]) == 9
+    assert sum(q["marks"] for q in source["questions"]) == 80
+    q9 = next(q for q in source["questions"] if q["number"] == 9)
+    assert q9["pages"] == [12, 13]
+    assert q9["image_status"] == "verified reconstruction"
+    assert "Jacinta has a bag of counters" in q9["accessible_text"]
+    assert 'q.imageStatus === "verified reconstruction"' in APP
 
 
 def test_answer_only_continuation_pages_are_not_displayed():

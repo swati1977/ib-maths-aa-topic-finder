@@ -9,98 +9,145 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-sl-5a0487f9a428c295",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/November%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/November%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
     {
       "id": "2022-november-p2-tzn-q1",
       "number": 1,
-      "pages": [3],
+      "pages": [
+        3
+      ],
       "marks": 5,
       "accessible_text": "1. [Maximum mark: 5]\n\nThe following table shows the Mathematics test scores (x) and the Science test scores (y) for a group of eight students.\n\n[Table: Mathematics scores (x): 64, 68, 72, 75, 80, 82, 85, 86. Science scores (y): 67, 72, 77, 76, 84, 83, 89, 91.]\n\nThe regression line of y on x for this data can be written in the form y = ax + b.\n\n(a) Find the value of a and the value of b. [2]\n\n(b) Write down the value of the Pearson’s product-moment correlation coefficient, r. [1]\n\n(c) Use the equation of your regression line to predict the Science test score for a student who has a score of 78 on the Mathematics test. Express your answer to the nearest integer. [2]",
       "summary": "Calculate a linear regression and correlation coefficient, then use the model for prediction.",
-      "labels": ["Statistics"],
+      "labels": [
+        "Statistics"
+      ],
       "solution": "Entering the eight ordered pairs into a linear regression gives y = 1.01206…x + 2.45230…, so (a) a = 1.01 and b = 2.45 to three significant figures. (b) The Pearson correlation coefficient is r = 0.981464… = 0.981. (c) At x = 78, y = 1.01206…(78) + 2.45230… = 81.3930…, so the predicted Science score is 81 to the nearest integer."
     },
     {
       "id": "2022-november-p2-tzn-q2",
       "number": 2,
-      "pages": [4],
+      "pages": [
+        4
+      ],
       "marks": 6,
       "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows triangle ABC, with AC = 24, BC = 17, and ∠ABC = 113°.\n\n[Diagram not to scale: Triangle ABC has horizontal base AC of length 24, side BC of length 17, and obtuse angle ABC of 113° at the upper vertex B.]\n\n(a) Find ∠BAC. [3]\n\n(b) Find AB. [3]",
       "summary": "Use the sine and cosine rules to solve a non-right-angled triangle.",
-      "labels": ["Trigonometry"],
+      "labels": [
+        "Trigonometry"
+      ],
       "solution": "(a) By the sine rule, sin A/17 = sin113°/24, so A = sin⁻¹(17sin113°/24) = 40.6943…° = 40.7°. (b) Then C = 180° − 113° − 40.6943…° = 26.3056…°. By the sine rule, AB/sin C = 24/sin113°, giving AB = 24sin26.3056…°/sin113° = 11.5543… = 11.6."
     },
     {
       "id": "2022-november-p2-tzn-q3",
       "number": 3,
-      "pages": [5],
+      "pages": [
+        5
+      ],
       "marks": 6,
       "accessible_text": "3. [Maximum mark: 6]\n\nThe function f is defined as f(x) = ln(xeˣ + 1) − x⁴, for 0 ≤ x ≤ 2. The graph of f is shown in the following diagram.\n\n[Diagram: Coordinate axes with 0 ≤ x ≤ 2 and y from approximately −14 to 2. The curve y = f(x) starts at the origin, rises to a local maximum A above the x-axis before x = 1, crosses the x-axis again at B just after x = 1, and then falls steeply to a negative value near −14 as x approaches 2.]\n\nThe graph of f has a local maximum at point A. The graph intersects the x-axis at the origin and at point B.\n\n(a) Find the coordinates of A. [2]\n\n(b) Find the x-coordinate of B. [1]\n\n(c) Find the total area enclosed by the graph of f, the x-axis and the line x = 2. [3]",
       "summary": "Use numerical calculus to locate a maximum and root, then find total area across a sign change.",
-      "labels": ["Graphs", "Differentiation", "Integration", "Exponentials - Logarithms"],
+      "labels": [
+        "Graphs",
+        "Differentiation",
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
       "solution": "Using a GDC on f(x) = ln(xeˣ + 1) − x⁴: (a) the local maximum is A = (0.708519…, 0.639580…) = (0.709, 0.640). (b) The non-zero root is x = 1.09885… = 1.10. (c) Because f changes sign at this root, the total area is ∫₀^1.09885… f(x) dx − ∫₁.09885…² f(x) dx = 0.435901… + 4.17527… = 4.61117… = 4.61 square units."
     },
     {
       "id": "2022-november-p2-tzn-q4",
       "number": 4,
-      "pages": [6],
+      "pages": [
+        6
+      ],
       "marks": 5,
       "accessible_text": "4. [Maximum mark: 5]\n\nA geometric sequence has a first term of 50 and a fourth term of 86.4. The sum of the first n terms of the sequence is Sₙ.\n\nFind the smallest value of n such that Sₙ > 33 500.",
       "summary": "Determine a geometric sequence's ratio and solve an inequality for its partial sum.",
-      "labels": ["Sequences - Series", "Exponentials - Logarithms"],
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
       "solution": "If r is the common ratio, 50r³ = 86.4, so r³ = 1.728 and r = 1.2. Thus Sₙ = 50(1.2ⁿ − 1)/(1.2 − 1) = 250(1.2ⁿ − 1). Solving 250(1.2ⁿ − 1) > 33 500 gives n > 26.9045…. Therefore the smallest integer value is n = 27."
     },
     {
       "id": "2022-november-p2-tzn-q5",
       "number": 5,
-      "pages": [7],
+      "pages": [
+        7
+      ],
       "marks": 7,
       "accessible_text": "5. [Maximum mark: 7]\n\nThe population of a town t years after 1 January 2014 can be modelled by the function\n\nP(t) = 15 000e^(kt), where k < 0 and t ≥ 0.\n\nIt is known that between 1 January 2014 and 1 January 2022 the population decreased by 11%.\n\nUse this model to estimate the population of this town on 1 January 2041.",
       "summary": "Determine an exponential decay constant from a percentage decrease and extrapolate a population.",
-      "labels": ["Exponentials - Logarithms"],
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
       "solution": "On 1 January 2022, t = 8 and the population is 0.89(15 000) = 13 350. Hence 15 000e^(8k) = 13 350, so k = ln(0.89)/8 = −0.014566…. On 1 January 2041, t = 27, and P(27) = 15 000e^(27k) = 10 122.3…. Therefore the estimated population is 10 100 people to three significant figures."
     },
     {
       "id": "2022-november-p2-tzn-q6",
       "number": 6,
-      "pages": [8],
+      "pages": [
+        8
+      ],
       "marks": 6,
       "accessible_text": "6. [Maximum mark: 6]\n\nConsider the expansion of (ax + 1)⁹/(21x²), where a ≠ 0. The coefficient of the term in x⁴ is (8/7)a⁵.\n\nFind the value of a.",
       "summary": "Identify a specified term in a binomial expansion and solve for a parameter.",
-      "labels": ["Binomial Theorem"],
+      "labels": [
+        "Binomial Theorem"
+      ],
       "solution": "After division by 21x², an x⁴ term comes from the x⁶ term of (ax + 1)⁹. Its coefficient is C(9,6)a⁶/21 = 84a⁶/21 = 4a⁶. Therefore 4a⁶ = (8/7)a⁵. Since a ≠ 0, 4a = 8/7 and a = 2/7."
     },
     {
       "id": "2022-november-p2-tzn-q7",
       "number": 7,
-      "pages": [10],
+      "pages": [
+        10
+      ],
       "marks": 16,
       "accessible_text": "7. [Maximum mark: 16]\n\nA particle moves in a straight line. Its displacement, s metres, from a fixed point P at time t seconds is given by s(t) = 3(t + 2)^(cos t), for 0 ≤ t ≤ 6.8, as shown in the following graph.\n\n[Diagram: A graph of positive displacement s against time t from 0 to 6.8. The curve begins above the t-axis, rises to a small local maximum, falls to a shallow positive local minimum, then rises steeply to a much higher local maximum before falling by t = 6.8.]\n\n(a) Find the particle’s initial displacement from the point P. [2]\n\n(b) Find the particle’s velocity when t = 2. [2]\n\n(c) Determine the intervals of time when the particle is moving away from the point P. [5]\n\nThe acceleration of the particle is zero when t = b and t = c, where b < c.\n\n(d) Find the value of b and the value of c. [4]\n\n(e) Find the total distance travelled by the particle for b ≤ t ≤ c. [3]",
       "summary": "Analyse displacement, velocity, acceleration, direction of motion, and total distance for a particle model.",
-      "labels": ["Kinematics", "Differentiation", "Integration", "Exponentials - Logarithms", "Graphs"],
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration",
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
       "solution": "Write s(t) = 3e^[cos t·ln(t + 2)]. Then s′(t) = s(t)[−sin t·ln(t + 2) + cos t/(t + 2)]. (a) s(0) = 3(2) = 6 m. (b) s′(2) = −2.29920… = −2.30 m s⁻¹. (c) The graph stays above s = 0, so the particle moves away from P when s′(t) > 0. Solving s′(t) = 0 gives t = 0.433007…, 3.25575… and 6.33965…. Hence it moves away for 0 ≤ t < 0.433 and 3.26 < t < 6.34. (d) Solving s″(t) = 0 gives b = 1.23140… = 1.23 and c = 5.68959… = 5.69. (e) Between b and c the displacement reaches a minimum at t = 3.25575…. Thus the distance is [s(b) − s(3.25575…)] + [s(c) − s(3.25575…)] = (4.43306… − 0.577001…) + (16.2734… − 0.577001…) = 19.5525… = 19.6 m."
     },
     {
       "id": "2022-november-p2-tzn-q8",
       "number": 8,
-      "pages": [11, 12],
+      "pages": [
+        11,
+        12
+      ],
       "marks": 13,
       "accessible_text": "8. [Maximum mark: 13]\n\nThe following diagram shows a sector ABC of a circle with centre A. The angle ∠BAC = 2α, where 0 < α < π/2, and ∠OEA = π/2.\n\nA circle with centre O and radius r is inscribed in sector ABC.\n\nAB and AC are both tangent to the circle at points D and E respectively.\n\n[Diagram not to scale: Sector ABC has vertex and centre A, straight radii AB and AC, and angle 2α at A. A circle of centre O and radius r is inscribed in the sector, tangent to AB at D, to AC at E, and internally tangent to arc BC. Radius OE is perpendicular to AC.]\n\n(a) Show that the area of the quadrilateral ADOE is r²/tanα. [4]\n\nR represents the shaded region shown in the following diagram.\n\n[Diagram not to scale: The same sector and inscribed circle. Region R is the part of quadrilateral ADOE between A and the minor circular arc ED; it is bounded by tangent segments AE and AD and the circle's minor arc from E to D.]\n\n(b) (i) Find ∠DOE in terms of α.\n    (ii) Hence or otherwise, find an expression for the area of R. [5]\n\n(c) Find the value of α for which the area of R is equal to the area of the circle of centre O and radius r. [4]",
       "summary": "Use tangent geometry and sector areas to derive a shaded-area formula and solve an area equation.",
-      "labels": ["Radian", "Trigonometry"],
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
       "solution": "(a) In right triangle AOE, ∠EAO = α and OE = r, so AE = r/tanα. Quadrilateral ADOE consists of two congruent right triangles, hence its area is 2·(1/2)·r·(r/tanα) = r²/tanα. (b)(i) Since ∠AEO = ∠ADO = π/2 and ∠EAD = 2α, the angle sum in ADOE gives ∠DOE = π − 2α. (ii) Region R is the quadrilateral minus sector DOE, so area(R) = r²/tanα − (1/2)r²(π − 2α). (c) Set this equal to πr² and cancel r²: 1/tanα − (1/2)(π − 2α) = π. Solving for 0 < α < π/2 gives α = 0.218979… = 0.219 radians."
     },
     {
       "id": "2022-november-p2-tzn-q9",
       "number": 9,
-      "pages": [13],
+      "pages": [
+        13
+      ],
       "marks": 16,
       "accessible_text": "9. [Maximum mark: 16]\n\nThe time worked, T, in hours per week by employees of a large company is normally distributed with a mean of 42 and standard deviation 10.7.\n\n(a) Find the probability that an employee selected at random works more than 40 hours per week. [2]\n\n(b) A group of four employees is selected at random. Each employee is asked in turn whether they work more than 40 hours per week. Find the probability that the fourth employee is the only one in the group who works more than 40 hours per week. [3]\n\n(c) A large group of employees work more than 40 hours per week.\n    (i) An employee is selected at random from this large group. Find the probability that this employee works less than 55 hours per week.\n    (ii) Ten employees are selected at random from this large group. Find the probability that exactly five of them work less than 55 hours per week. [7]\n\nIt is known that P(a ≤ T ≤ b) = 0.904 and that P(T > b) = 2P(T < a), where a and b are numbers of hours worked per week. An employee who works fewer than a hours per week is considered to be a part-time employee.\n\n(d) Find the maximum time, in hours per week, that an employee can work and still be considered part-time. [4]",
       "summary": "Apply normal, conditional, and binomial probabilities, then recover a normal-distribution quantile.",
-      "labels": ["Statistics", "Probability"],
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
       "solution": "Let T ~ N(42, 10.7²). (a) P(T > 40) = 0.574136… = 0.574. (b) The first three must work at most 40 hours and the fourth more than 40, so the probability is (1 − 0.574136…)³(0.574136…) = 0.0443430… = 0.0443. (c)(i) P(T < 55 | T > 40) = P(40 < T < 55)/P(T > 40) = 0.804590… = 0.805. (ii) If X ~ B(10, 0.804590…), then P(X = 5) = C(10,5)(0.804590…)⁵(1 − 0.804590…)⁵ = 0.0242111… = 0.0242. (d) Let x = P(T < a). Since P(T > b) = 2x, x + 0.904 + 2x = 1, so x = 0.032. The normal quantile satisfying P(T < a) = 0.032 is a = 22.18167…, giving a maximum part-time threshold of 22.2 hours per week."
     }
   ]

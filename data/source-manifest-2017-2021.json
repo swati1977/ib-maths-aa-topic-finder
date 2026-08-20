@@ -1,0 +1,482 @@
+{
+  "scope": "English Mathematics SL 2017-2020 and Mathematics: analysis and approaches SL 2021, Papers 1 and 2, May and November sessions",
+  "count": 26,
+  "unavailable_sessions": [
+    {
+      "year": 2020,
+      "session": "May",
+      "reason": "IB examination session cancelled",
+      "source_url": "https://www.ibo.org/news/news-about-the-ib/may-2020-examinations-will-no-longer-be-held/"
+    }
+  ],
+  "papers": [
+    {
+      "id": "2017-may-p1-tz1",
+      "year": 2017,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-d2e8128c36f6cc0b",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-markscheme-1e912cbe612da16e",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2017-may-p1-tz2",
+      "year": 2017,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-19dd0a0924dfc4b0",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-markscheme-2e26de1c7176777b",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2017-may-p2-tz1",
+      "year": 2017,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-4effa0fd5c5d578a",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-markscheme-ab062fdcd871170d",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2017-may-p2-tz2",
+      "year": 2017,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-8a4e7b1181d58bc1",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-markscheme-17a9a209a83debd4",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2017-november-p1-tzn",
+      "year": 2017,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-0c4290fec76c411a",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-markscheme-58ee0d36d411c35d",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2017-november-p2-tzn",
+      "year": 2017,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-145c8da34510840b",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-markscheme-808a494ecdb8896e",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2018-may-p1-tz1",
+      "year": 2018,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-269d3ebb8262a151",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-markscheme-8e7d95dd9dd6bd24",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-1-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-1-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2018-may-p1-tz2",
+      "year": 2018,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-cce9ac3a3894041a",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-markscheme-70e02499ef0d245d",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-1-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-1-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2018-may-p2-tz1",
+      "year": 2018,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-6a69d7bdd9a3fb24",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-markscheme-a3f076838ff70d0f",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2018-may-p2-tz2",
+      "year": 2018,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-dc9f0e0ec971c70f",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-markscheme-d85028e5e963ece2",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2018-november-p1-tzn",
+      "year": 2018,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-d52fa8ac4c0aecce",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-markscheme-15e85371241600f1",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2018-november-p2-tzn",
+      "year": 2018,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-816896513997a4bf",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-markscheme-59f30e4473def5d2",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2019-may-p1-tz1",
+      "year": 2019,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-d09ed5bf565df837",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz1-sl-markscheme-38c1ffa6c89dd74a",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2019-may-p1-tz2",
+      "year": 2019,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-22754671f0e042ac",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-markscheme-624a8250439fc7b7",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-1-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2019-may-p2-tz1",
+      "year": 2019,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-2debdceb2c0fd066",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-markscheme-431c7b3d83eb6d29",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2019-may-p2-tz2",
+      "year": 2019,
+      "session": "May",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-f3433fb1ec915bbd",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-markscheme-9087949e351d0030",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/May%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019may/Mathematics-paper-2-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2019-november-p1-tzn",
+      "year": 2019,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-ab81930b929a512e",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-markscheme-dfce0554c3a5a311",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2019-november-p2-tzn",
+      "year": 2019,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-1931d3d7df0d219f",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-markscheme-ca275505ea732ef2",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2019%20Examination%20Session/November%202019%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2019nov/Mathematics-paper-2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2020-november-p1-tzn",
+      "year": 2020,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 1,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-ba9e57f2b06764be",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-markscheme-0eac919806678221",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2020-november-p2-tzn",
+      "year": 2020,
+      "session": "November",
+      "subject": "Mathematics SL",
+      "paper": 2,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-df1faf986fd075af",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-markscheme-3047a70f960ed4c2",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2021-may-p1-tz1",
+      "year": 2021,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 1,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-d410a0ed157864cb",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-markscheme-67cc64485cd9f02e",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2021-may-p1-tz2",
+      "year": 2021,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 1,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-1b06986a03631070",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-markscheme-bf1d916593ad723b",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-1-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2021-may-p2-tz1",
+      "year": 2021,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 2,
+      "timezone": "1",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-125535f8990ffa4a",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-markscheme-57511cb3e71f4acd",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2021-may-p2-tz2",
+      "year": 2021,
+      "session": "May",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 2,
+      "timezone": "2",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-fc883a8a0df44481",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-markscheme-eaf7f59da80c1094",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2021-november-p1-tzn",
+      "year": 2021,
+      "session": "November",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 1,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-sl-cd921c33d4036650",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-sl-markscheme-54f49e64524e2adb",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-1-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-1-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    },
+    {
+      "id": "2021-november-p2-tzn",
+      "year": 2021,
+      "session": "November",
+      "subject": "Mathematics: analysis and approaches SL",
+      "paper": 2,
+      "timezone": "N",
+      "question_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-sl-065e35ccdc23295d",
+      "question_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__SL.pdf",
+      "markscheme_document_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-sl-markscheme-6dede4a921370f10",
+      "markscheme_pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__SL_markscheme.pdf",
+      "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-2-SL.pdf",
+      "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-2-SL-markscheme.pdf",
+      "source_hosts": [
+        "ibdocs.re",
+        "ibpastpapers.publit.io"
+      ]
+    }
+  ]
+}

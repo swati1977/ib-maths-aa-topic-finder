@@ -1,0 +1,175 @@
+{
+  "paper": {
+    "id": "2020-november-p2-tzn",
+    "title": "November 2020 Mathematics SL Paper 2",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "N",
+    "year": 2020,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-df1faf986fd075af",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2020-november-p2-tzn-q1",
+      "number": 1,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nConsider the function f(x) = x² + x + 50/x, x ≠ 0.\n\n(a) Find f(1). [2]\n\n(b) Solve f(x) = 0. [2]\n\nThe graph of f has a local minimum at point A.\n\n(c) Find the coordinates of A. [2]",
+      "summary": "Evaluate a rational function and use numerical methods to find a root and local minimum.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Differentiation"
+      ],
+      "solution": "(a) f(1) = 1 + 1 + 50 = 52. (b) Solving x² + x + 50/x = 0 numerically (equivalently x³ + x² + 50 = 0) gives x = −4.04932…, hence x = −4.05. (c) Solving f′(x) = 2x + 1 − 50/x² = 0 for the positive stationary point gives x = 2.76649…. Substitution gives f(x) = 28.4934…, so A = (2.77, 28.5)."
+    },
+    {
+      "id": "2020-november-p2-tzn-q2",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nLucy sells hot chocolate drinks at her snack bar and has noticed that she sells more hot chocolates on cooler days. On six different days, she records the maximum daily temperature, T, measured in degrees centigrade, and the number of hot chocolates sold, H. The results are shown in the following table.\n\n[Table: Maximum temperature (T): 14, 8, 4, 18, 13, 11. Number of hot chocolates (H): 79, 143, 191, 58, 84, 105.]\n\nThe relationship between H and T can be modelled by the regression line with equation H = aT + b.\n\n(a) (i) Find the value of a and of b.\n    (ii) Write down the correlation coefficient. [4]\n\n(b) Using the regression equation, estimate the number of hot chocolates that Lucy will sell on a day when the maximum temperature is 12°C. [2]",
+      "summary": "Calculate a linear regression, correlation coefficient, and model estimate.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "Entering the six ordered pairs into a linear regression gives a = −9.84636… and b = 221.592…, so a = −9.85 and b = 222 to three significant figures. The correlation coefficient is r = −0.981244… = −0.981. At T = 12, the unrounded model gives H = −9.84636…(12) + 221.592… = 103.435…, so the estimate is 103 hot chocolates."
+    },
+    {
+      "id": "2020-november-p2-tzn-q3",
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nA discrete random variable X has the following probability distribution.\n\n[Table: x: 0, 1, 2, 3. P(X = x): q, 4p², p, 0.7 − 4p².]\n\n(a) Find an expression for q in terms of p. [2]\n\n(b) (i) Find the value of p which gives the largest value of E(X).\n    (ii) Hence, find the largest value of E(X). [4]",
+      "summary": "Complete a probability distribution and maximize its expected value.",
+      "labels": [
+        "Probability",
+        "Differentiation",
+        "Quadratics"
+      ],
+      "solution": "(a) The probabilities sum to 1: q + 4p² + p + 0.7 − 4p² = 1, so q = 0.3 − p. (b)(i) E(X) = 4p² + 2p + 3(0.7 − 4p²) = −8p² + 2p + 2.1. This downward-opening quadratic is maximized at p = −2/[2(−8)] = 1/8. (ii) E(X) = −8(1/8)² + 2(1/8) + 2.1 = 89/40 = 2.225, or 2.23 to three significant figures."
+    },
+    {
+      "id": "2020-november-p2-tzn-q4",
+      "number": 4,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nLet f(x) = 4 − x³ and g(x) = ln x, for x > 0.\n\n(a) Find (f ∘ g)(x). [2]\n\n(b) (i) Solve the equation (f ∘ g)(x) = x.\n    (ii) Hence or otherwise, given that g(2a) = f⁻¹(2a), find the value of a. [5]",
+      "summary": "Form a composite function, solve an equation numerically, and use an inverse-function relationship.",
+      "labels": [
+        "Functions - Roots",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) (f ∘ g)(x) = f(ln x) = 4 − (ln x)³. (b)(i) Solving 4 − (ln x)³ = x numerically gives x = 2.85056…, so x = 2.85. (ii) From g(2a) = f⁻¹(2a), applying f to both sides gives f(g(2a)) = 2a. Thus 2a is the solution from part (i), so a = 2.85056…/2 = 1.42528… = 1.43."
+    },
+    {
+      "id": "2020-november-p2-tzn-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nConsider the expansion of (3x² − k/x)⁹, where k > 0.\n\nThe coefficient of the term in x⁶ is 6048. Find the value of k.",
+      "summary": "Identify a specified term in a binomial expansion and solve for a parameter.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The general term choosing r factors of −k/x is C(9,r)(3x²)^(9−r)(−k/x)^r, whose power of x is 2(9 − r) − r = 18 − 3r. For x⁶, 18 − 3r = 6, so r = 4. Its coefficient is C(9,4)3⁵k⁴ = 126·243k⁴ = 30618k⁴. Hence 30618k⁴ = 6048, so k⁴ = 16/81. Since k > 0, k = 2/3."
+    },
+    {
+      "id": "2020-november-p2-tzn-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nAn infinite geometric series has first term u₁ = a and second term u₂ = (1/4)a² − 3a, where a > 0.\n\n(a) Find the common ratio in terms of a. [2]\n\n(b) Find the values of a for which the sum to infinity of the series exists. [3]\n\n(c) Find the value of a when S∞ = 76. [3]",
+      "summary": "Find a geometric ratio, convergence interval, and parameter from a sum to infinity.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) r = u₂/u₁ = [(1/4)a² − 3a]/a = a/4 − 3. (b) A sum to infinity exists when |r| < 1, so −1 < a/4 − 3 < 1. Hence 8 < a < 16. (c) S∞ = a/[1 − (a/4 − 3)] = a/(4 − a/4) = 4a/(16 − a). Setting this equal to 76 gives 4a = 1216 − 76a, so a = 76/5 = 15.2, which lies in the convergence interval."
+    },
+    {
+      "id": "2020-november-p2-tzn-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nThe following diagram shows a circle with centre O and radius 1 cm. Points A and B lie on the circumference of the circle and ∠AOB = 2θ, where 0 < θ < π/2.\n\nThe tangents to the circle at A and B intersect at point C.\n\n[Diagram not to scale: A and B are points on the upper-right and lower-right of a circle centred at O, with radii OA and OB of length 1 enclosing angle 2θ. Tangents at A and B meet at C to the right, and right-angle markers show OA perpendicular to AC and OB perpendicular to BC. D lies on the minor arc AB. The region bounded by tangent segments AC and BC and the minor arc ADB is shaded.]\n\n(a) Show that AC = tan θ. [1]\n\n(b) Find the value of θ when the area of the shaded region is equal to the area of sector OADB. [6]",
+      "summary": "Use tangent geometry and sector areas to solve a trigonometric area equation.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) OC bisects ∠AOB by symmetry, so ∠AOC = θ. In right triangle OAC, tan θ = AC/OA = AC because OA = 1; hence AC = tan θ. (b) The kite OACB has area 2·(1/2)(1)(tan θ) = tan θ. Sector OADB has angle 2θ and radius 1, so its area is θ. The shaded area is therefore tan θ − θ. Setting this equal to the sector area gives tan θ − θ = θ, or tan θ = 2θ. Solving for 0 < θ < π/2 gives θ = 1.16556… = 1.17 radians."
+    },
+    {
+      "id": "2020-november-p2-tzn-q8",
+      "number": 8,
+      "pages": [
+        11,
+        12
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nThe following diagram shows a water wheel with centre O and radius 10 metres. Water flows into buckets, turning the wheel clockwise at a constant speed.\n\nThe height, h metres, of the top of a bucket above the ground t seconds after it passes through point A is modelled by the function\n\nh(t) = 13 + 8cos((π/18)t) − 6sin((π/18)t), for t ≥ 0.\n\n[Diagram not to scale: A vertical water wheel of radius 10 m is shown above a horizontal ground line, rotating clockwise. O is its centre. Point A is on the upper-right rim where water enters and point B is on the lower-right rim where water leaves; radii OA and OB are drawn. Arrows indicate water flow and clockwise rotation.]\n\n(a) (i) Find the height of point A above the ground.\n    (ii) Calculate the number of seconds it takes for the water wheel to complete one rotation.\n    (iii) Hence find the number of rotations the water wheel makes in one hour. [6]\n\nA bucket moves around to point B which is at a height of 4.06 metres above the ground. It takes k seconds for the top of this bucket to go from point A to point B.\n\n(b) Find k. [3]\n\nThe chord [AB] is 17.0 metres, correct to three significant figures.\n\n(c) Find ∠AOB. [3]\n\n(d) Determine the rate of change of h when the top of the bucket is at B. [2]",
+      "summary": "Analyse a sinusoidal water-wheel model using period, equations, chord geometry, and differentiation.",
+      "labels": [
+        "Trigonometry",
+        "Radian",
+        "Differentiation"
+      ],
+      "solution": "(a)(i) h(0) = 13 + 8 = 21 m. (ii) The angular frequency is π/18, so the period is 2π/(π/18) = 36 seconds. (iii) In one hour the wheel makes 3600/36 = 100 rotations. (b) Solving 13 + 8cos(πk/18) − 6sin(πk/18) = 4.06 for the first time after A gives k = 11.6510… = 11.7 s. (c) For radius 10 and chord 17.0, ∠AOB = 2sin⁻¹(17/(2·10)) = 2.03197… = 2.03 radians. (d) h′(t) = −(4π/9)sin(πt/18) − (π/3)cos(πt/18). At t = 11.6510…, h′(t) = −0.782024…, so the rate of change is −0.782 m s⁻¹."
+    },
+    {
+      "id": "2020-november-p2-tzn-q9",
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "marks": 14,
+      "accessible_text": "9. [Maximum mark: 14]\n\nFiona walks from her house to a bus stop where she gets a bus to school. Her time, W minutes, to walk to the bus stop is normally distributed with W ~ N(12, 3²).\n\nFiona always leaves her house at 07:15. The first bus that she can get departs at 07:30.\n\n(a) Find the probability that it will take Fiona between 15 minutes and 30 minutes to walk to the bus stop. [2]\n\nThe length of time, B minutes, of the bus journey to Fiona’s school is normally distributed with B ~ N(50, σ²). The probability that the bus journey takes less than 60 minutes is 0.941.\n\n(b) Find σ. [3]\n\n(c) Find the probability that the bus journey takes less than 45 minutes. [2]\n\nIf Fiona misses the first bus, there is a second bus which departs at 07:45. She must arrive at school by 08:30 to be on time. Fiona will not arrive on time if she misses both buses. The variables W and B are independent.\n\n(d) Find the probability that Fiona will arrive on time. [5]\n\nThis year, Fiona will go to school on 183 days.\n\n(e) Calculate the number of days Fiona is expected to arrive on time. [2]",
+      "summary": "Use normal distributions, independence, a travel-time case split, and expectation.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) With W ~ N(12, 3²), P(15 < W < 30) = 0.158655… = 0.159. (b) Since P(B < 60) = 0.941, the corresponding standard-normal value is z = 1.56322…. Thus (60 − 50)/σ = 1.56322…, giving σ = 6.39703… = 6.40. (c) Using this σ, P(B < 45) = 0.217221… = 0.217. (d) Fiona is on time either if W ≤ 15 and B < 60, or if 15 < W ≤ 30 and B < 45. By independence, P(on time) = P(W ≤ 15)P(B < 60) + P(15 < W ≤ 30)P(B < 45) = 0.841345…(0.941) + 0.158655…(0.217221…) = 0.826168… = 0.826. (e) The expected number is 183(0.826168…) = 151.188…, hence 151 days."
+    },
+    {
+      "id": "2020-november-p2-tzn-q10",
+      "number": 10,
+      "pages": [
+        13
+      ],
+      "marks": 16,
+      "accessible_text": "10. [Maximum mark: 16]\n\nConsider a function f(x), for x ≥ 0. The derivative of f is given by f′(x) = 6x/(x² + 4).\n\n(a) Show that f″(x) = (24 − 6x²)/(x² + 4)². [4]\n\nThe graph of f is concave-down when x > n.\n\n(b) Find the least value of n. [2]\n\n(c) Find ∫ 6x/(x² + 4) dx. [3]\n\nLet R be the region enclosed by the graph of f, the x-axis and the lines x = 1 and x = 3. The area of R is 19.6, correct to three significant figures.\n\n(d) Find f(x). [7]",
+      "summary": "Differentiate a rational derivative, analyse concavity, integrate, and use an area condition.",
+      "labels": [
+        "Differentiation",
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) By the quotient rule, f″(x) = [6(x² + 4) − 6x(2x)]/(x² + 4)² = (24 − 6x²)/(x² + 4)². (b) The denominator is positive, so f″(x) < 0 when 24 − 6x² < 0. For x ≥ 0 this means x > 2, hence n = 2. (c) With u = x² + 4 and du = 2x dx, the integral is 3ln(x² + 4) + C. (d) Therefore f(x) = 3ln(x² + 4) + C. Since the stated region has positive area, ∫₁³f(x) dx = 19.6. Numerically, ∫₁³3ln(x² + 4) dx = 12.4859…, while ∫₁³C dx = 2C. Thus 12.4859… + 2C = 19.6, so C = 3.55700…. Hence f(x) = 3ln(x² + 4) + 3.56 to three significant figures."
+    }
+  ]
+}

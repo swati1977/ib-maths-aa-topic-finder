@@ -1,0 +1,173 @@
+{
+  "paper": {
+    "id": "2017-november-p2-tzn",
+    "title": "November 2017 Mathematics SL Paper 2",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "N",
+    "year": 2017,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-sl-145c8da34510840b",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2017-november-p2-tzn-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe diagram shows triangle ABC, not to scale. AB=5 cm, ∠CAB=50° and ∠ACB=112°.\n(a) Find BC. [3]\n(b) Find the area of triangle ABC. [3]",
+      "summary": "Use sine rule and triangle area.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "By sine rule BC/sin50°=5/sin112°, so BC=4.13 cm. The third angle is B=18°, and AC=5sin18°/sin112°=1.666 cm. Area=(1/2)(5)(1.666)sin50°=3.19 cm²."
+    },
+    {
+      "id": "2017-november-p2-tzn-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "2. [Maximum mark: 7]\n\nLet f(x)=(6x²−4)/eˣ, for 0≤x≤7.\n(a) Find the x-intercept of f. [2]\n(b) The graph has a maximum at A. Write down A. [2]\n(c) On the grid, sketch f. [3]",
+      "summary": "Find key features and sketch an exponential-rational function.",
+      "labels": [
+        "Graphs",
+        "Exponentials - Logarithms",
+        "Differentiation"
+      ],
+      "solution": "Since eˣ>0, 6x²−4=0 gives x=√(2/3)=0.816 on the domain. A calculator maximum gives A=(2.29099,2.78124)≈(2.29,2.78). The sketch starts at (0,−4), crosses at 0.816, reaches A, then decreases toward 0 while remaining positive through x=7."
+    },
+    {
+      "id": "2017-november-p2-tzn-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nLet vector AB=(4,1,2).\n(a) Find |vector AB|. [2]\n(b) Let vector AC=(3,0,0). Find ∠BAC. [4]",
+      "summary": "Find a vector magnitude and angle.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "|AB|=√(16+1+4)=√21. Also AB·AC=12 and |AC|=3, so cos∠BAC=12/(3√21)=4/√21. Thus ∠BAC=0.509739 radians=29.2°."
+    },
+    {
+      "id": "2017-november-p2-tzn-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 8,
+      "accessible_text": "4. [Maximum mark: 8]\n\nA discrete random variable X has distribution:\n[Table: X: 0,1,2,3; P(X=x): 0.475, 2k², k/10, 6k².]\n(a) Find k. [4]\n(b) Write down P(X=2). [1]\n(c) Find P(X=2 | X>0). [3]",
+      "summary": "Determine a probability parameter and conditional probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "Probabilities sum to 1: 0.475+8k²+k/10=1. The valid solution is k=0.25. Thus P(X=2)=k/10=0.025. Also P(X>0)=1−0.475=0.525, so P(X=2|X>0)=0.025/0.525=1/21≈0.0476."
+    },
+    {
+      "id": "2017-november-p2-tzn-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 5,
+      "accessible_text": "5. [Maximum mark: 5]\n\nLet f(x)=6−ln(x²+2), for x∈ℝ. The graph passes through (p,4), where p>0.\n(a) Find p. [2]\n(b) The region enclosed by f, the x-axis and x=−p, x=p is rotated 360° about the x-axis. Find the volume. [3]",
+      "summary": "Solve a logarithmic equation and calculate a volume numerically.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Integration"
+      ],
+      "solution": "4=6−ln(p²+2) gives ln(p²+2)=2, hence p=√(e²−2)=2.32143. The volume is V=π∫_{−p}^{p}[6−ln(x²+2)]²dx=331.989≈332."
+    },
+    {
+      "id": "2017-november-p2-tzn-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "6. [Maximum mark: 6]\n\nIn the expansion of ax³(2+ax)¹¹, the coefficient of the term in x⁵ is 11880. Find a.",
+      "summary": "Use a binomial coefficient to determine a parameter.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "To produce x⁵ after multiplying by ax³, use the x² term of (2+ax)¹¹: C(11,2)2⁹a²x²=28160a²x². Multiplication gives coefficient 28160a³. Thus 28160a³=11880, so a³=27/64 and a=3/4."
+    },
+    {
+      "id": "2017-november-p2-tzn-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nAdult male heights are normally distributed with mean 180 cm and standard deviation σ cm. 17% are shorter than 168 cm. 80% have heights between (192−h) cm and 192 cm. Find h.",
+      "summary": "Use normal quantiles to determine an interval endpoint.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "The 0.17 quantile is z=−0.95416, so (168−180)/σ=−0.95416 and σ=12.5765. By symmetry P(X>192)=0.17, so P(X<192−h)=1−0.80−0.17=0.03. Its z-value is −1.88079, hence (192−h−180)/12.5765=−1.88079. Therefore h=35.6536≈35.7 cm."
+    },
+    {
+      "id": "2017-november-p2-tzn-q8",
+      "number": 8,
+      "pages": [
+        10,
+        11
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nData for six hives:\n[Table: bees N: 190,220,250,285,305,320; honey P (g): 900,1100,1200,1500,1700,1800.]\nRegression model P=aN+b. (a) Find a,b. [3] (b) Estimate P for 270 bees. [2]\nA cumulative frequency graph shows monthly production for all 200 hives. [Increasing curve from 600 to 2000 g; it gives 40 hives at 1080 g and 168 hives at 1640 g.]\nTypes: low P≤1080; regular 1080<P≤k; high P>k.\n(c) Write down number low. [1]\n128 are regular. (d) Find (i) k; (ii) number high. [5]\n(e) Each low hive independently has probability 0.75 of becoming regular. Find P(exactly 30 low hives become regular). [3]",
+      "summary": "Use regression, cumulative frequency and a binomial model.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "Regression gives a=6.96103≈6.96 and b=−454.805≈−455. At N=270, P=1424.67≈1420 g. The graph gives 40 low hives. Regular plus low is 128+40=168; reading the graph gives k=1640 g, leaving 200−168=32 high hives. For X~B(40,0.75), P(X=30)=C(40,30)0.75³⁰0.25¹⁰=0.144."
+    },
+    {
+      "id": "2017-november-p2-tzn-q9",
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "marks": 14,
+      "accessible_text": "9. [Maximum mark: 14]\n\nNote: distance is in metres and time in seconds. A particle moves for five seconds with acceleration a=3t²−14t+8, for 0≤t≤5.\n(a) Write down t when a=0. [2]\n(b) Find all t for which velocity is decreasing. [2]\nAt t=0 velocity is 3 m s⁻¹. (c) Find velocity v(t). [6]\n(d) Find total distance travelled when velocity is increasing. [4]",
+      "summary": "Integrate acceleration and analyze velocity intervals.",
+      "labels": [
+        "Kinematics",
+        "Integration",
+        "Quadratics"
+      ],
+      "solution": "3t²−14t+8=(3t−2)(t−4), so a=0 at t=2/3 and 4. Velocity decreases where a<0, namely 2/3<t<4. Integrating, v=t³−7t²+8t+C; v(0)=3 gives v=t³−7t²+8t+3. Velocity increases on 0<t<2/3 and 4<t<5. Integrating |v| over these intervals (splitting where needed) gives total distance 14.2191≈14.2 m."
+    },
+    {
+      "id": "2017-november-p2-tzn-q10",
+      "number": 10,
+      "pages": [
+        14,
+        15
+      ],
+      "marks": 17,
+      "accessible_text": "10. [Maximum mark: 17]\n\nNote: In this question, distance is in millimetres.\n\nLet f(x)=x+a sin(x−π/2)+a, for x≥0.\n\n(a) Show that f(2π)=2π. [3]\n\nThe graph of f passes through the origin. Let P_k be any point on the graph of f with x-coordinate 2kπ, where k∈ℕ. A straight line L passes through all the points P_k.\n\n(b) (i) Find the coordinates of P₀ and of P₁.\n    (ii) Find the equation of L. [6]\n\n(c) Show that the distance between the x-coordinates of P_k and P_(k+1) is 2π. [2]\n\nDiagram 1 shows a saw. The length of the toothed edge is the distance AB. The toothed edge of the saw can be modelled using the graph of f and the line L, as represented in Diagram 2.\n\n[Diagram 1, not to scale: A saw whose straight toothed edge runs from A to B.]\n\n[Diagram 2, not to scale: Coordinate axes labelled distance (in mm). The line L rises from the origin and the periodic graph of f forms a sequence of arches above L, meeting L at consecutive points P_k and P_(k+1). The shaded region enclosed by f and L between P_k and P_(k+1) is labelled tooth.]\n\nThe shaded part on the graph is called a tooth. A tooth is represented by the region enclosed by the graph of f and the line L, between P_k and P_(k+1).\n\n(d) A saw has a toothed edge which is 300 mm long. Find the number of complete teeth on this saw. [6]",
+      "summary": "Analyze a periodic saw-tooth model and count complete teeth.",
+      "labels": [
+        "Trigonometry",
+        "Sequences - Series"
+      ],
+      "solution": "f(2π)=2π+a sin(3π/2)+a=2π. At multiples 2kπ, sin(2kπ−π/2)=−1, so P_k=(2kπ,2kπ). Thus P₀=(0,0), P₁=(2π,2π), and L is y=x. Consecutive x-coordinates differ 2(k+1)π−2kπ=2π. Since the 300 mm toothed edge is modelled in the direction of L, its horizontal projection is 300/√2 mm. Dividing this by the horizontal width 2π of one tooth gives 300/(2π√2)=33.7618, so the saw has 33 complete teeth."
+    }
+  ]
+}

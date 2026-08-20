@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-0d04bc3599227194",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -56,7 +56,10 @@
         "Radian",
         "Trigonometry"
       ],
-      "solution": "(a) Segment area=(1/2)(2²)θ−(1/2)(2²)sinθ=2θ−2sinθ. (b) 20−2(2θ−2sinθ)=13.4. Solving 2θ−2sinθ=3.3 gives θ=2.35672…=2.36 radians."
+      "solution": "(a) Segment area=(1/2)(2²)θ−(1/2)(2²)sinθ=2θ−2sinθ. (b) 20−2(2θ−2sinθ)=13.4. Solving 2θ−2sinθ=3.3 gives θ=2.35672…=2.36 radians.",
+      "display_pages": [
+        5
+      ]
     },
     {
       "id": "2022-may-p2-tz1-q4",

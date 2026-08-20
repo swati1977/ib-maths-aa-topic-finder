@@ -1,0 +1,157 @@
+{
+  "paper": {
+    "id": "2021-november-p2-tzn",
+    "title": "November 2021 Mathematics: analysis and approaches SL Paper 2 TZN",
+    "subject": "Mathematics: analysis and approaches SL",
+    "paper": 2,
+    "zone": "N",
+    "year": 2021,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-sl-065e35ccdc23295d",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-2-SL-markscheme.pdf",
+    "source_hosts": [
+      "ibdocs.re",
+      "ibpastpapers.publit.io"
+    ],
+    "host_question_images": true,
+    "expected_marks": 80,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2021-november-p2-tzn-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nA group of eight piano students were given one week to practise a piece for their diploma exam. The following table shows the number of hours, h, each student practised and the mark, D, awarded for their diploma exam.\n\n[Table: h=28, 13, 45, 33, 17, 29, 39, 36; D=115, 82, 120, 116, 79, 101, 110, 121.]\n\n(a) Find Pearson’s product-moment correlation coefficient, r. [2]\n\n(b) The regression line of D on h can be written in the form D=ah+b. Find the value of a and the value of b. [1]\n\n(c) Use the regression equation to predict how the diploma exam mark will change for every five extra hours of practice. [2]",
+      "summary": "Use correlation and regression.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) r=0.883529…≈0.884. (b) Regression D=1.36609…h+64.5171…, so a=1.37,b=64.5. (c) A 5-hour increase predicts 5a=6.83045…, about 7 marks higher."
+    },
+    {
+      "id": "2021-november-p2-tzn-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nLet f(x)=e^(−x²)−0.5 for −2≤x≤2.\n\n(a) Find the roots of f. [2]\n\n(b) Sketch the graph of f on the supplied grid. [3]",
+      "summary": "Find and sketch an even exponential function.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
+      "solution": "(a) e^(−x²)=1/2 gives x²=ln2, so x=±√ln2≈±0.833. (b) The graph is even, smooth and bell-shaped, with maximum f(0)=0.5, roots ±0.833, and endpoints f(±2)=e⁻⁴−0.5≈−0.482."
+    },
+    {
+      "id": "2021-november-p2-tzn-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe following diagram shows a triangle ABC where AC=12, CB=7 and BÂC=25°.\n\n[Diagram not to scale: triangle ABC with AC=12, CB=7 and angle BAC=25°.]\n\nFind the smallest possible perimeter of triangle ABC.",
+      "summary": "Resolve the ambiguous SSA case.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "By sine rule, sinB/12=sin25°/7, so sinB=12sin25°/7=0.724488. Thus B≈46.426° or 133.574°. Then C≈108.574° or 21.426°. The smaller AB occurs with C≈21.426°: AB=7sinC/sin25°=6.05068…. Minimum perimeter=12+7+6.05068=25.0507≈25.1."
+    },
+    {
+      "id": "2021-november-p2-tzn-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nA manufacturer produces lamps. The probability that a lamp is defective is 0.05. A random sample of 30 lamps is selected.\n\n(a) Find the probability that at least one lamp is defective. [3]\n\n(b) Given that at least one lamp is defective, find the probability that at most two lamps are defective. [4]",
+      "summary": "Use binomial conditional probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "Let X~Bin(30,0.05). (a) P(X≥1)=1−0.95³⁰=0.785361…≈0.785. (b) P(X≤2|X≥1)=[P(X≤2)−P(X=0)]/[1−P(X=0)]=(0.812178−0.214639)/0.785361=0.760847…≈0.761."
+    },
+    {
+      "id": "2021-november-p2-tzn-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nThe following diagram shows a semicircle with centre O and radius r. The points P and Q are the endpoints of a diameter, so PQ=2r. The point R lies on the semicircular arc and RÔQ=θ, where 0<θ<π.\n\n[Diagram: two shaded regions in the semicircle—a circular segment between chord RQ and arc RQ, and a triangular region on the other side of OR.]\n\n(a) Given that the areas of the two shaded regions are equal, show that θ=2sinθ. [5]\n\n(b) Hence, find the value of θ. [1]",
+      "summary": "Equate circular segment and triangle areas.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "(a) Segment RQ area is (1/2)r²(θ−sinθ). The other shaded triangle has area (1/2)r²sin(π−θ)=(1/2)r²sinθ. Equality gives θ−sinθ=sinθ, hence θ=2sinθ. (b) The nonzero solution on (0,π) is θ=1.89549…≈1.90 rad."
+    },
+    {
+      "id": "2021-november-p2-tzn-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 9,
+      "accessible_text": "6. [Maximum mark: 9]\n\nThe sum of the first n terms of a geometric sequence is given by Sₙ=Σ from r=1 to n of (2/3)(7/8)^r.\n\n(a) Find the value of the first term, u₁. [2]\n\n(b) Find S∞. [3]\n\n(c) Find the least value of n such that S∞−Sₙ<0.001. [4]",
+      "summary": "Sum a geometric series and bound its tail.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) u₁=(2/3)(7/8)=7/12. The ratio is 7/8. (b) S∞=(7/12)/(1−7/8)=14/3. (c) Tail=S∞(7/8)^n=(14/3)(7/8)^n<0.001. Logs give n>63.2675…, so least n=64."
+    },
+    {
+      "id": "2021-november-p2-tzn-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 14,
+      "accessible_text": "7. [Maximum mark: 14]\n\nPoints A and P are on opposite banks of a river. AP=65 km is perpendicular to PB=215 km. A boat travels at 42 km h⁻¹ and a bus travels along PB at 84 km h⁻¹.\n\n[Diagram not to scale: right triangle APB with AP=65 km perpendicular to PB=215 km; D lies on PB and BD=x.]\n\n(a) Find the total travel time if\n(i) the boat travels from A to P and the bus travels from P to B;\n(ii) the boat travels directly from A to B. [4]\n\nPoint D lies on PB, with BD=x km. The boat travels from A to D and the bus travels from D to B.\n\n(b) (i) Find an expression for the total travel time T(x).\n(ii) Find the value of x for which T is a minimum.\n(iii) Find the minimum value of T. [6]\n\nThe boat costs $200 per hour and the bus costs $150 per hour.\n\n(c) (i) Find the value of x for which the total cost is a minimum.\n(ii) Find the minimum total cost. [4]",
+      "summary": "Optimize travel time and cost.",
+      "labels": [
+        "Trigonometry",
+        "Differentiation"
+      ],
+      "solution": "(a)(i) 65/42+215/84=4.10714…≈4.11 h. (ii) AB=√(65²+215²)=224.610…, so time=224.610/42=5.34787…≈5.35 h. (b)(i) AD=√((215−x)²+65²), hence T=AD/42+x/84. (ii) Differentiating and solving T′=0 gives x=177.472…≈177 km. (iii) T=3.89980…≈3.90 h. (c) C=200AD/42+150x/84. Solving C′=0 gives x=188.706…≈189 km; substitution gives $670.864…≈$671."
+    },
+    {
+      "id": "2021-november-p2-tzn-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 13,
+      "accessible_text": "8. [Maximum mark: 13]\n\nThe height, H metres, of the water in a harbour t hours after midnight can be modelled by H(t)=a sin(b(t−c))+d. The first high tide is at 04:30 and the next high tide is 12 hours later. The height ranges from 2.2 m to 6.8 m.\n\n[Graph: sinusoidal harbour height during the first 13 hours after midnight, with a maximum of 6.8 m at t=4.5 and a minimum of 2.2 m.]\n\n(a) Show that b=π/6. [1]\n\n(b) Find the value of a. [2]\n\n(c) Find the value of d. [2]\n\n(d) Find the smallest possible value of c. [3]\n\n(e) Find the height of the water at 12:00. [2]\n\n(f) Find the number of hours in a 24-hour period for which the tide is above 5 m. [3]",
+      "summary": "Model tides with a sinusoid.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) Period 12 gives b=2π/12=π/6. (b) a=(6.8−2.2)/2=2.3. (c) d=(6.8+2.2)/2=4.5. (d) A maximum occurs when b(4.5−c)=π/2; with b=π/6, 4.5−c=3, so smallest c=1.5. (e) H(12)=2.3sin[(π/6)(10.5)]+4.5=2.87365…≈2.87 m. (f) Solve H=5 in each period: t≈1.9185 and 7.0815 around the first high tide, so duration above 5 per 12 h is 5.16295 h; over 24 h it is 10.3259≈10.3 h."
+    },
+    {
+      "id": "2021-november-p2-tzn-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nThe random variable X is normally distributed with mean μ and standard deviation σ.\n\n(a) Find P(μ−1.5σ<X<μ+1.5σ). [3]\n\nThe weights of avocados are normally distributed. The probabilities for the four categories are shown below.\n\n[Table: category probabilities—small: 0.04; medium: 0.576; large: 0.288; premium: 0.096. The maximum weight for a small avocado is 106.2 g and the minimum weight for a premium avocado is 182.6 g.]\n\n(b) Find μ and σ. [5]\n\nA supermarket buys only avocados with weights greater than 106.2 g.\n\n(c) Find the conditional probabilities that an avocado bought by the supermarket is medium, large and premium. [4]\n\nThe selling prices for medium, large and premium avocados are $1.10, $1.29 and $1.96 respectively. The supermarket pays $200 for a consignment.\n\n(d) Find the minimum number of avocados that must be sold for the expected net profit to be at least $438. [4]",
+      "summary": "Use normal quantiles and expected revenue.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) Standardizing gives P(−1.5<Z<1.5)=0.866386…≈0.866. (b) Φ⁻¹(0.04)=−1.75069 and Φ⁻¹(0.904)=1.30469. Thus (106.2−μ)/σ=−1.75069 and (182.6−μ)/σ=1.30469. Solving gives μ=149.976≈150 g, σ=25.005≈25.0 g. (c) Conditional on not small (probability .96): medium=.576/.96=.600; large=.288/.96=.300; premium=.096/.96=.100. (d) Expected revenue each is 1.10(.6)+1.29(.3)+1.96(.1)=1.243. Require 1.243n−200≥438, so n≥638/1.243=513.274…. Minimum n=514."
+    }
+  ]
+}

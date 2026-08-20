@@ -1,0 +1,182 @@
+{
+  "paper": {
+    "id": "2020-november-p1-tzn",
+    "title": "November 2020 Mathematics SL Paper 1",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "N",
+    "year": 2020,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-ba9e57f2b06764be",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2020%20Examination%20Session/November%202020%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2020nov/Mathematics-paper-1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2020-november-p1-tzn-q1",
+      "number": 1,
+      "pages": [
+        3,
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nIn a class of 30 students, 19 play tennis, 3 play both tennis and volleyball, and 6 do not play either sport.\n\nThe following Venn diagram shows the events ‘plays tennis’ and ‘plays volleyball’. The values t and v represent numbers of students.\n\n[Diagram: A rectangle representing the universal set U contains two overlapping circles. The left circle is labelled ‘plays tennis’ and contains t in its non-overlapping region. The right circle is labelled ‘plays volleyball’ and contains v in its non-overlapping region. The intersection contains 3, and the region outside both circles contains 6.]\n\n(a) (i) Find the value of t.\n    (ii) Find the value of v. [4]\n\n(b) Find the probability that a randomly selected student from the class plays tennis or volleyball, but not both. [2]",
+      "summary": "Complete a two-set Venn diagram and calculate an exclusive-or probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a)(i) The tennis circle contains 19 students, so t + 3 = 19 and t = 16. (ii) Counting the whole class gives 16 + 3 + v + 6 = 30, hence v = 5. (b) The students who play exactly one sport number 16 + 5 = 21, so the probability is 21/30 = 7/10.",
+      "display_pages": [
+        3
+      ]
+    },
+    {
+      "id": "2020-november-p1-tzn-q2",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows a triangle ABC.\n\n[Diagram not to scale: A scalene triangle has A at the lower left, B at the upper right and C at the lower right. AC = 15 cm, BC = 10 cm, and the angle ABC at B is θ.]\n\nAC = 15 cm, BC = 10 cm, and ∠ABC = θ.\n\nLet sin ∠CAB = √3/3.\n\n(a) Given that ∠ABC is acute, find sin θ. [3]\n\n(b) Find cos(2 × ∠CAB). [3]",
+      "summary": "Apply the sine rule and a double-angle identity in a non-right triangle.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) By the sine rule, sin θ/15 = sin(∠CAB)/10 = (√3/3)/10. Therefore sin θ = 15√3/30 = √3/2. (b) Using cos(2A) = 1 − 2sin²A with sin A = √3/3 gives cos(2A) = 1 − 2(1/3) = 1/3."
+    },
+    {
+      "id": "2020-november-p1-tzn-q3",
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "3. [Maximum mark: 7]\n\nLet f(x) = √(12 − 2x), x ≤ a. The following diagram shows part of the graph of f.\n\nThe shaded region is enclosed by the graph of f, the x-axis and the y-axis.\n\n[Diagram: In the first quadrant, the decreasing concave-down curve y = √(12 − 2x) runs from the positive y-axis to a marked x-intercept (a, 0). The region below the curve and above the x-axis between x = 0 and x = a is shaded.]\n\nThe graph of f intersects the x-axis at the point (a, 0).\n\n(a) Find the value of a. [2]\n\n(b) Find the volume of the solid formed when the shaded region is revolved 360° about the x-axis. [5]",
+      "summary": "Find a radical function's intercept and a volume of revolution.",
+      "labels": [
+        "Functions - Roots",
+        "Integration"
+      ],
+      "solution": "(a) At the x-intercept, √(12 − 2a) = 0, so 12 − 2a = 0 and a = 6. (b) By the disk method, V = π∫₀⁶[f(x)]² dx = π∫₀⁶(12 − 2x) dx = π[12x − x²]₀⁶ = 36π."
+    },
+    {
+      "id": "2020-november-p1-tzn-q4",
+      "number": 4,
+      "pages": [
+        7,
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nLet f(x) = a log₃(x − 4), for x > 4, where a > 0.\n\nPoint A(13, 7) lies on the graph of f.\n\n(a) Find the value of a. [3]\n\nThe x-intercept of the graph of f is (5, 0).\n\n(b) On the following grid, sketch the graph of f. [3]\n\n[Graphing grid: Coordinate axes are shown over approximately −5 ≤ x ≤ 15 and −9 ≤ y ≤ 9, with labelled ticks every 2 units. The supplied information identifies the x-intercept (5, 0) and point A(13, 7); the graph itself is to be drawn by the candidate.]",
+      "summary": "Determine a logarithmic scale factor and sketch the transformed logarithmic graph.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Graphs"
+      ],
+      "solution": "(a) Substituting A gives 7 = a log₃(13 − 4) = a log₃9 = 2a, so a = 7/2. (b) Draw an increasing, concave-down logarithmic curve for x > 4, with vertical asymptote x = 4, crossing the x-axis at (5, 0) and passing through (13, 7).",
+      "display_pages": [
+        7
+      ]
+    },
+    {
+      "id": "2020-november-p1-tzn-q5",
+      "number": 5,
+      "pages": [
+        10
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nLet f(x) = −x² + 4x + 5 and g(x) = −f(x) + k.\n\nFind the values of k so that g(x) = 0 has no real roots.",
+      "summary": "Use the discriminant or vertex form to determine when a quadratic has no real roots.",
+      "labels": [
+        "Quadratics",
+        "Functions - Roots"
+      ],
+      "solution": "Since g(x) = x² − 4x − 5 + k, the equation g(x) = 0 has discriminant Δ = (−4)² − 4(1)(k − 5) = 36 − 4k. There are no real roots when Δ < 0, so 36 − 4k < 0 and therefore k > 9."
+    },
+    {
+      "id": "2020-november-p1-tzn-q6",
+      "number": 6,
+      "pages": [
+        11
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nThe graph of a function f passes through the point (ln 4, 20).\n\nGiven that f′(x) = 6e^(2x), find f(x).",
+      "summary": "Integrate an exponential derivative and use a point to determine the constant.",
+      "labels": [
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "Integrating gives f(x) = 3e^(2x) + C. Since f(ln 4) = 20 and e^(2ln4) = e^(ln16) = 16, we have 20 = 3(16) + C, so C = −28. Hence f(x) = 3e^(2x) − 28."
+    },
+    {
+      "id": "2020-november-p1-tzn-q7",
+      "number": 7,
+      "pages": [
+        12
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nIn this question, all lengths are in metres and time is in seconds.\n\nConsider two particles, P₁ and P₂, which start to move at the same time.\n\nParticle P₁ moves in a straight line such that its displacement from a fixed-point is given by s(t) = 10 − (7/4)t², for t ≥ 0.\n\n(a) Find an expression for the velocity of P₁ at time t. [2]\n\nParticle P₂ also moves in a straight line. The position of P₂ is given by r = (−1, 6) + t(4, −3).\n\nThe speed of P₁ is greater than the speed of P₂ when t > q.\n\n(b) Find the value of q. [5]",
+      "summary": "Differentiate displacement and compare a particle's speed with the magnitude of a velocity vector.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) v₁(t) = s′(t) = −(7/2)t. (b) P₂ has constant velocity vector (4, −3), so its speed is √(4² + (−3)²) = 5. For t ≥ 0, P₁ has speed |−(7/2)t| = (7/2)t. Thus (7/2)t > 5 exactly when t > 10/7, so q = 10/7 seconds."
+    },
+    {
+      "id": "2020-november-p1-tzn-q8",
+      "number": 8,
+      "pages": [
+        13,
+        14
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nEach athlete on a running team recorded the distance (M miles) they ran in 30 minutes.\n\nThe median distance is 4 miles and the interquartile range is 1.1 miles.\n\nThis information is shown in the following box-and-whisker plot.\n\n[Box-and-whisker plot titled ‘Miles run in 30 minutes’: minimum 2, lower quartile a, median 4, upper quartile 4.5, and maximum 5.7.]\n\n(a) Find the value of a. [2]\n\nThe distance in miles, M, can be converted to the distance in kilometres, K, using the formula K = (8/5)M.\n\n(b) Write down the value of the median distance in kilometres (km). [1]\n\nThe variance of the distances run by the athletes is 16/9 km².\n\nThe standard deviation of the distances is b miles.\n\n(c) Find the value of b. [4]\n\nA total of 600 athletes from different teams compete in a 5 km race. The times the 600 athletes took to run the 5 km race are shown in the following cumulative frequency graph.\n\n[Cumulative frequency graph: time in minutes is on the horizontal axis from 0 to 50 and cumulative frequency is on the vertical axis from 0 to 600. A smooth increasing S-shaped curve is near zero until about 18 minutes, passes approximately through (22, 20), rises steeply through the middle twenties to about (30, 420), and then levels off at 600 near 48 minutes.]\n\nThere were 400 athletes who took between 22 and m minutes to complete the 5 km race.\n\n(d) Find m. [3]\n\nThe first 150 athletes that completed the race won a prize.\n\n(e) Given that an athlete took between 22 and m minutes to complete the 5 km race, calculate the probability that they won a prize. [5]",
+      "summary": "Interpret box plots and cumulative frequency, convert spread between units, and calculate a conditional probability.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) IQR = Q₃ − Q₁, so 1.1 = 4.5 − a and a = 3.4. (b) The median is (8/5)(4) = 6.4 km. (c) The standard deviation is √(16/9) = 4/3 km. Since 1 km corresponds to 5/8 mile, b = (4/3)(5/8) = 5/6 mile. (d) The graph gives cumulative frequency 20 at 22 minutes. Adding 400 gives 420, whose graph reading is m = 30 minutes. (e) The 150th athlete finished at about 27 minutes. Of the 400 athletes in the restricted group, 150 − 20 = 130 won a prize. The conditional probability is 130/400 = 13/40 = 0.325."
+    },
+    {
+      "id": "2020-november-p1-tzn-q9",
+      "number": 9,
+      "pages": [
+        15
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nPoints A and B have coordinates (1, 1, 2) and (9, m, −6) respectively.\n\n(a) Express vector AB in terms of m. [2]\n\nThe line L, which passes through B, has equation r = (−3, −19, 24) + s(2, 4, −5).\n\n(b) Find the value of m. [5]\n\nConsider a unit vector u, such that u = p i − (2/3)j + (1/3)k, where p > 0.\n\nPoint C is such that vector BC = 9u.\n\n(c) Find the coordinates of C. [8]",
+      "summary": "Use three-dimensional vectors, a parametric line, and a unit-vector condition.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) vector AB = B − A = (8, m − 1, −8). (b) Since B lies on L, −3 + 2s = 9 gives s = 6; the third coordinate also checks because 24 − 5(6) = −6. Thus m = −19 + 4(6) = 5. (c) Since u is a unit vector, p² + (−2/3)² + (1/3)² = 1, so p² = 4/9 and p = 2/3 because p > 0. Hence 9u = (6, −6, 3). With B = (9, 5, −6), C = B + 9u = (15, −1, −3)."
+    },
+    {
+      "id": "2020-november-p1-tzn-q10",
+      "number": 10,
+      "pages": [
+        15,
+        16
+      ],
+      "marks": 15,
+      "accessible_text": "10. [Maximum mark: 15]\n\nThe following diagram shows part of the graph of f(x) = k/x, for x > 0, k > 0.\n\nLet P(p, k/p) be any point on the graph of f. Line L₁ is the tangent to the graph of f at P.\n\n[Diagram: The first-quadrant decreasing reciprocal curve f has tangent L₁ at P. The tangent crosses the x-axis at A and the y-axis at B; O is the origin, and triangle AOB lies below the tangent.]\n\n(a) (i) Find f′(p) in terms of k and p.\n    (ii) Show that the equation of L₁ is kx + p²y − 2pk = 0. [4]\n\nLine L₁ intersects the x-axis at point A(2p, 0) and the y-axis at point B.\n\n(b) Find the area of triangle AOB in terms of k. [5]\n\nThe graph of f is translated by the vector (4, 3) to give the graph of g.\n\nIn the following diagram:\n• point Q lies on the graph of g\n• points C, D and E lie on the vertical asymptote of g\n• points D and F lie on the horizontal asymptote of g\n• point G lies on the x-axis such that FG is parallel to DC.\n\nLine L₂ is the tangent to the graph of g at Q, and passes through E and F.\n\n[Diagram: The translated reciprocal graph g has dashed asymptotes x = 4 and y = 3. C = (4, 0) and D = (4, 3); E is above D on x = 4. The downward-sloping tangent L₂ touches g at Q, crosses x = 4 at E and y = 3 at F, and continues below the x-axis. G lies directly below F on the x-axis. Triangle EDF and rectangle CDFG are shaded.]\n\n(c) Given that triangle EDF and rectangle CDFG have equal areas, find the gradient of L₂ in terms of p. [6]",
+      "summary": "Analyse tangents and areas for a reciprocal graph and its translation.",
+      "labels": [
+        "Differentiation",
+        "Graphs",
+        "Functions - Roots"
+      ],
+      "solution": "(a)(i) Since f(x) = kx⁻¹, f′(p) = −k/p². (ii) The tangent at P is y − k/p = −(k/p²)(x − p). Multiplying by p² and rearranging gives kx + p²y − 2pk = 0. (b) At x = 0 the tangent has y-intercept 2k/p. Therefore area(AOB) = (1/2)(2p)(2k/p) = 2k. (c) The translation gives g(x) = k/(x − 4) + 3. Write Q = (p + 4, k/p + 3), so the tangent gradient is −k/p². Its intersections with the asymptotes are E = (4, 2k/p + 3) and F = (2p + 4, 3). Thus triangle EDF has area (1/2)(2k/p)(2p) = 2k, while rectangle CDFG has area 3(2p) = 6p. Equality gives k = 3p, so the gradient of L₂ is −k/p² = −3/p."
+    }
+  ]
+}

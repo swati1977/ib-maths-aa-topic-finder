@@ -35,6 +35,7 @@ def main() -> None:
         if missing:
             raise ValueError(f"{path.name}: missing paper fields {sorted(missing)}")
         session = str(paper.get("session", "May"))
+        subject = str(paper.get("subject", "Mathematics: analysis and approaches SL"))
 
         count = 0
         for raw in payload["questions"]:
@@ -75,21 +76,23 @@ def main() -> None:
                 "zone": str(paper["zone"]),
                 "year": int(paper["year"]),
                 "session": session,
+                "subject": subject,
                 "pages": pages,
                 "displayPages": display_pages,
                 "questionImages": question_images,
+                "imageStatus": raw.get("image_status", "original"),
                 "marks": marks,
                 "summary": raw["summary"].strip(),
                 "accessibleText": accessible_text,
                 "labels": labels,
                 "solution": raw["solution"].strip(),
-                "sourceUrl": paper["source_url"],
-                "pdfUrl": paper["pdf_url"],
+                "sourceUrl": raw.get("source_url", paper["source_url"]),
+                "pdfUrl": raw.get("pdf_url", paper["pdf_url"]),
                 "viewerAvailable": bool(paper.get("viewer_available", True)),
                 "solutionStatus": paper["solution_status"],
             })
             count += 1
-        paper_summaries.append({**paper, "question_count": count})
+        paper_summaries.append({**paper, "subject": subject, "question_count": count})
 
     questions.sort(key=lambda q: (-q["year"], q["session"], q["paper"], q["zone"], q["number"]))
     output = {"version": 1, "papers": paper_summaries, "questions": questions}

@@ -1,0 +1,163 @@
+{
+  "paper": {
+    "id": "2021-november-p1-tzn",
+    "title": "November 2021 Mathematics: analysis and approaches SL Paper 1 TZN",
+    "subject": "Mathematics: analysis and approaches SL",
+    "paper": 1,
+    "zone": "N",
+    "year": 2021,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-sl-cd921c33d4036650",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/November%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-1-SL-markscheme.pdf",
+    "source_hosts": [
+      "ibdocs.re",
+      "ibpastpapers.publit.io"
+    ],
+    "host_question_images": true,
+    "expected_marks": 80,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021nov/Mathematics-analysis-and-approaches-paper-1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2021-november-p1-tzn-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nConsider the function f(x)=−2(x−1)(x+3), for x∈ℝ. The following diagram shows part of the graph of f.\n\n[Diagram: a downward-opening parabola.]\n\n(a) For the graph of f,\n(i) find the x-coordinates of the x-intercepts;\n(ii) find the coordinates of the vertex. [5]\n\nThe function f can be written in the form f(x)=−2(x−h)²+k.\n\n(b) Write down the value of h and the value of k. [2]",
+      "summary": "Use quadratic forms.",
+      "labels": [
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a)(i) The factors give roots x=1 and x=−3. (a)(ii) Their midpoint is x=−1 and f(−1)=8, so the vertex is (−1,8). (b) Thus f=−2(x+1)²+8, so h=−1 and k=8."
+    },
+    {
+      "id": "2021-november-p1-tzn-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 4,
+      "accessible_text": "2. [Maximum mark: 4]\n\nGiven that dy/dx=cos(x−π/4) and y=2 when x=3π/4, find y in terms of x.",
+      "summary": "Integrate with an initial condition.",
+      "labels": [
+        "Integration",
+        "Trigonometry"
+      ],
+      "solution": "y=sin(x−π/4)+C. At x=3π/4, 2=1+C, so y=sin(x−π/4)+1."
+    },
+    {
+      "id": "2021-november-p1-tzn-q3",
+      "number": 3,
+      "pages": [
+        5,
+        6
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nThe function f is defined by f(x)=(2x+4)/(3−x), where x∈ℝ, x≠3.\n\n(a) Write down the equation of\n(i) the vertical asymptote of the graph of f;\n(ii) the horizontal asymptote of the graph of f. [2]\n\n(b) Find the coordinates where the graph of f crosses\n(i) the x-axis;\n(ii) the y-axis. [2]\n\n(c) Sketch the graph of f on the supplied axes. [1]\n\n[Axes: x and y each run approximately from −15 to 15.]",
+      "summary": "Analyze a rational graph.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a)(i) The vertical asymptote is x=3. (a)(ii) The horizontal asymptote is y=−2. (b)(i) The x-intercept is (−2,0). (b)(ii) The y-intercept is (0,4/3). (c) Since f=−2−10/(x−3), the left branch is above y=−2 and tends to +∞ at 3⁻; the right branch is below y=−2 and tends to −∞ at 3⁺."
+    },
+    {
+      "id": "2021-november-p1-tzn-q4",
+      "number": 4,
+      "pages": [
+        7
+      ],
+      "marks": 5,
+      "accessible_text": "4. [Maximum mark: 5]\n\nBox 1 contains 5 red balls and 2 white balls. Box 2 contains 4 red balls and 3 white balls.\n\n(a) A box is chosen at random and a ball is drawn. Find the probability that the ball is red. [3]\n\nLet A be the event that “box 1 is chosen” and let R be the event that “a red ball is drawn”.\n\n(b) Determine whether events A and R are independent. [2]",
+      "summary": "Use total probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) P(R)=(1/2)(5/7)+(1/2)(4/7)=9/14. (b) P(A∩R)=5/14 while P(A)P(R)=9/28. These are unequal, so A and R are not independent."
+    },
+    {
+      "id": "2021-november-p1-tzn-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nThe function f is defined for all x∈ℝ. The line with equation y=6x−1 is the tangent to the graph of f at x=4.\n\n(a) Write down the value of f′(4). [1]\n\n(b) Find f(4). [1]\n\nThe function g is defined for all x∈ℝ, where g(x)=x²−3x and h(x)=f(g(x)).\n\n(c) Find h(4). [2]\n\n(d) Hence find the equation of the tangent to the graph of h at x=4. [3]",
+      "summary": "Apply chain rule to tangent data.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a) The tangent gradient gives f′(4)=6. (b) The tangent point gives f(4)=6(4)−1=23. (c) Since g(4)=4, h(4)=f(4)=23. (d) By the chain rule, h′(4)=f′(4)(2·4−3)=30. Thus y−23=30(x−4), or y=30x−97."
+    },
+    {
+      "id": "2021-november-p1-tzn-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\n(a) Show that (2x²−5x−3)/(x−1)=2x−3−6/(x−1), x∈ℝ, x≠1. [2]\n\n(b) Hence or otherwise, solve the equation (2sin²(2θ)−5sin(2θ)−3)/(sin(2θ)−1)=0 for 0≤θ≤π, θ≠π/4. [5]",
+      "summary": "Solve a rational trig equation.",
+      "labels": [
+        "Remainder & Factor Theorem",
+        "Trigonometry"
+      ],
+      "solution": "(a) Combining the RHS gives [(2x−3)(x−1)−6]/(x−1)=(2x²−5x−3)/(x−1). (b) Numerator zero: (2sin2θ+1)(sin2θ−3)=0, so sin2θ=−1/2. Hence 2θ=7π/6,11π/6 and θ=7π/12,11π/12."
+    },
+    {
+      "id": "2021-november-p1-tzn-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 16,
+      "accessible_text": "7. [Maximum mark: 16]\n\nA particle P moves along the x-axis. The velocity of P is v m s⁻¹ at time t seconds, where v(t)=4+4t−3t² for 0≤t≤3. When t=0, P is at the origin O.\n\n(a) (i) Find the value of t when P reaches its maximum velocity.\n(ii) Show that the distance of P from O at this time is 88/27 metres. [7]\n\n(b) Sketch a graph of v against t, clearly showing any points of intersection with the axes. [4]\n\n(c) Find the total distance travelled by P. [5]",
+      "summary": "Analyze polynomial velocity.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration"
+      ],
+      "solution": "(a)(i) v′=4−6t=0 gives t=2/3. (a)(ii) Displacement is [4t+2t²−t³]₀^(2/3)=88/27 m. (b) The graph is a concave-down parabola starting at (0,4), with vertex (2/3,16/3), crossing at (2,0), and ending at (3,−11). (c) The distances are ∫₀²v dt=8 and |∫₂³v dt|=5, for a total of 13 m."
+    },
+    {
+      "id": "2021-november-p1-tzn-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nConsider the function f(x)=aˣ, where x∈ℝ, a∈ℝ⁺ and a>1. The graph of f contains the point (2/3,4).\n\n(a) Show that a=8. [2]\n\n(b) Write down an expression for f⁻¹(x). [1]\n\n(c) Find the value of f⁻¹(32). [3]\n\n(d) Consider the arithmetic sequence log₈27, log₈p, log₈q, log₈125, where p>1 and q>1.\n(i) Show that 27, p, q and 125 are four consecutive terms in a geometric sequence.\n(ii) Find the value of p and the value of q. [9]",
+      "summary": "Connect logarithms and sequences.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Sequences - Series"
+      ],
+      "solution": "(a) a^(2/3)=4 gives a=8. (b) Thus f⁻¹(x)=log₈x. (c) f⁻¹(32)=log₈32=5/3. (d)(i) Equal logarithmic differences imply equal ratios, so 27,p,q,125 are consecutive terms of a geometric sequence. (d)(ii) Its ratio cubed is 125/27, hence the ratio is 5/3; therefore p=45 and q=75."
+    },
+    {
+      "id": "2021-november-p1-tzn-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 14,
+      "accessible_text": "9. [Maximum mark: 14]\n\nConsider a function f with domain a<x<b. The following diagram shows the graph of f′, the derivative of f.\n\n[Graph of f′: x-intercepts at p, 0 and t; local maxima at q and t; a local minimum at r; a<p<q<0<r<t<b. The graph is positive only for p<x<0 and touches, but does not cross, the x-axis at t.]\n\nThe graph of f′ has x-intercepts at x=p, x=0 and x=t. There are local maximum points at x=q and x=t and a local minimum point at x=r.\n\n(a) Find all the values of x where the graph of f is increasing. Justify your answer. [2]\n\n(b) Find the value of x where the graph of f has a local maximum. [1]\n\n(c) (i) Find the value of x where the graph of f has a local minimum. Justify your answer.\n(ii) Find the values of x where the graph of f has points of inflexion. Justify your answer. [5]\n\n(d) The total area of the region enclosed by the graph of f′ and the x-axis is 20. Given that f(p)+f(t)=4, find the value of f(0). [6]",
+      "summary": "Interpret a derivative graph.",
+      "labels": [
+        "Differentiation",
+        "Graphs",
+        "Integration"
+      ],
+      "solution": "(a) f increases for p<x<0 because f′>0 there. (b) It has a local maximum at x=0 because f′ changes from positive to negative. (c)(i) It has a local minimum at x=p because f′ changes from negative to positive. (c)(ii) Inflexions occur at the turning points of f′: x=q,r,t, where f″ changes sign. (d) Let A=f(0)−f(p) and B=f(0)−f(t). The total area gives A+B=20, so 2f(0)−[f(p)+f(t)]=20. Hence 2f(0)−4=20 and f(0)=12."
+    }
+  ]
+}

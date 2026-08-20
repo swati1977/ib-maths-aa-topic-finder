@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz2-sl-cb5cf16116801d4a",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ2_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -69,7 +69,10 @@
         "Functions - Roots",
         "Graphs"
       ],
-      "solution": "(a) (i) x=−1; (ii) y=2. (b) f=2−3/(x+1), with intercepts (1/2,0) and (0,−1), and branches approaching the stated asymptotes. (c) x>1/2."
+      "solution": "(a) (i) x=−1; (ii) y=2. (b) f=2−3/(x+1), with intercepts (1/2,0) and (0,−1), and branches approaching the stated asymptotes. (c) x>1/2.",
+      "display_pages": [
+        7
+      ]
     },
     {
       "id": "2022-may-p1-tz2-q5",

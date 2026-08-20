@@ -1,0 +1,158 @@
+{
+  "paper": {
+    "id": "2021-may-p2-tz2",
+    "title": "May 2021 Mathematics: analysis and approaches SL Paper 2 TZ2",
+    "subject": "Mathematics: analysis and approaches SL",
+    "paper": 2,
+    "zone": "2",
+    "year": 2021,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-fc883a8a0df44481",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2021%20Examination%20Session/May%202021%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ2-SL-markscheme.pdf",
+    "source_hosts": [
+      "ibdocs.re",
+      "ibpastpapers.publit.io"
+    ],
+    "host_question_images": true,
+    "expected_marks": 80,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/aa-sl/2021may/Mathematics-analysis-and-approaches-paper-2-TZ2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2021-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nAt a café, the waiting time between ordering and receiving a cup of coffee is dependent upon the number of customers who have already ordered their coffee and are waiting to receive it. Sarah, a regular customer, visited the café on five consecutive days.\n\n[Table: number of customers x: 3, 9, 11, 10, 5; Sarah’s waiting time y, in minutes: 6, 10, 12, 11, 6.]\n\nThe relationship between x and y can be modelled by the regression line of y on x with equation y=ax+b.\n\n(a) (i) Find the value of a and the value of b.\n(ii) Write down the value of Pearson’s product-moment correlation coefficient, r. [3]\n\n(b) Interpret, in context, the value of a found in part (a)(i). [1]\n\nOn another day, Sarah visits the café to order a coffee. Seven customers have already ordered their coffee and are waiting to receive it.\n\n(c) Use the result from part (a)(i) to estimate Sarah’s waiting time to receive her coffee. [2]",
+      "summary": "Use linear regression in context.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) Regression gives a=0.805084…, b=2.88135…, and r=0.97777…. Thus a=0.805,b=2.88,r=0.978. (b) Each additional waiting customer increases predicted waiting time by about 0.805 minutes. (c) y=0.805084(7)+2.88135=8.51693…≈8.52 min."
+    },
+    {
+      "id": "2021-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\nLet f(x)=3x−4^(0.15x²) for 0≤x≤3.\n\n(a) Sketch the graph of f on the grid below. [3]\n\n[Grid: x approximately −1 to 3.5 and y from −3 to 6.]\n\n(b) Find the value of x for which f′(x)=0. [2]",
+      "summary": "Sketch and optimize a nonlinear function.",
+      "labels": [
+        "Graphs",
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) Plot a smooth curve on 0≤x≤3, starting at (0,−1), crossing the x-axis at x≈0.372, rising to a local maximum near (2.33,3.90), and ending at (3,2.50). (b) f′(x)=3−0.3x(ln4)4^(0.15x²). Solving f′(x)=0 numerically gives x=2.33084…≈2.33."
+    },
+    {
+      "id": "2021-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nAn arithmetic sequence has first term 60 and common difference −2.5.\n\n(a) Given that the kth term of the sequence is zero, find the value of k. [2]\n\nLet Sₙ denote the sum of the first n terms of the sequence.\n\n(b) Find the maximum value of Sₙ. [3]",
+      "summary": "Optimize an arithmetic partial sum.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) u_k=60−2.5(k−1)=0, so k=25. (b) Terms 1–24 are positive and term 25 is zero, so the maximum is S₂₄=S₂₅=25/2(60+0)=750."
+    },
+    {
+      "id": "2021-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 8,
+      "accessible_text": "4. [Maximum mark: 8]\n\nAt a school, 70% of the students play a sport and 20% of the students are involved in theatre. 18% of the students do neither activity. A student is selected at random.\n\n(a) Find the probability that the student plays a sport and is involved in theatre. [2]\n\n(b) Find the probability that the student is involved in theatre, but does not play a sport. [2]\n\nAt the school 48% of the students are girls, and 25% of the girls are involved in theatre. A student is selected at random. Let G be the event “the student is a girl” and let T be the event “the student is involved in theatre”.\n\n(c) Find P(G∩T). [2]\n\n(d) Determine if the events G and T are independent. Justify your answer. [2]",
+      "summary": "Use set and conditional probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) P(S∪T)=0.82, so P(S∩T)=0.70+0.20−0.82=0.08. (b) 0.20−0.08=0.12. (c) P(G∩T)=P(G)P(T|G)=0.48·0.25=0.12. (d) P(G)P(T)=0.48·0.20=0.096≠0.12, so not independent."
+    },
+    {
+      "id": "2021-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nThe functions f and g are defined for x∈ℝ by f(x)=6x²−12x+1 and g(x)=−x+c, where c∈ℝ.\n\n(a) Find the range of f. [2]\n\n(b) Given that (g∘f)(x)≤0 for all x∈ℝ, determine the set of possible values for c. [4]",
+      "summary": "Use a quadratic range in composition.",
+      "labels": [
+        "Quadratics",
+        "Functions - Roots"
+      ],
+      "solution": "(a) f=6(x−1)²−5, so range is [−5,∞). (b) g(f(x))=−f(x)+c≤0 requires c≤f(x) for every x. The minimum f is −5, hence c≤−5."
+    },
+    {
+      "id": "2021-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nAll living plants contain an isotope of carbon called carbon-14. When a plant dies, the isotope decays so that the amount of carbon-14 present in the remains of the plant decreases. The time since the death of a plant can be determined by measuring the amount of carbon-14 still present in the remains.\n\nThe amount, A, of carbon-14 present in a plant t years after its death can be modelled by A=A₀e^(−kt), where t≥0 and A₀,k are positive constants. At the time of death, a plant is defined to have 100 units of carbon-14.\n\n(a) Show that A₀=100. [1]\n\nThe time taken for half the original amount of carbon-14 to decay is known to be 5730 years.\n\n(b) Show that k=ln2/5730. [3]\n\n(c) Find, correct to the nearest 10 years, the time taken after the plant’s death for 25% of the carbon-14 to decay. [3]",
+      "summary": "Use exponential decay and half-life.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) At t=0, A=A₀=100. (b) 50=100e^(−5730k), so e^(−5730k)=1/2; taking logs gives k=ln2/5730. (c) If 25% decays, 75 remains: 0.75=e^(−t ln2/5730). Thus t=−5730ln0.75/ln2=2378.16…, or 2380 years."
+    },
+    {
+      "id": "2021-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 13,
+      "accessible_text": "7. [Maximum mark: 13]\n\nThe six blades of a windmill rotate around a centre point C. Points A and B and the base of the windmill are on level ground.\n\n[Diagram not to scale: the windmill has centre C and blade tip D; A and B are on level ground with the base; A is 12 m from the base and the angle of elevation from A to C is 0.6 radians.]\n\nFrom point A the angle of elevation of point C is 0.6 radians.\n\n(a) Given that point A is 12 metres from the base of the windmill, find the height of point C above the ground. [2]\n\nAn observer walks 7 metres from point A to point B.\n\n(b) Find the angle of elevation of point C from point B. [2]\n\nThe observer keeps walking until he is standing directly under point C. The observer has a height of 1.8 metres, and as the blades rotate, the end of each blade passes 2.5 metres over his head.\n\n(c) Find the length of each blade of the windmill. [2]\n\nOne blade is painted a different colour and its end is labelled D. The height h, in metres, of D above the ground can be modelled by h(t)=p cos(3πt/10)+q, where t is in seconds and p,q∈ℝ. When t=0, D is at its maximum height.\n\n(d) Find the value of p and the value of q. [4]\n\nIf the observer stands directly under point C for one minute, point D will pass over his head n times.\n\n(e) Find the value of n. [3]",
+      "summary": "Model windmill geometry and periodic motion.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) height=12tan0.6=8.20964…≈8.21 m. (b) Horizontal distance from B is 5 m, so angle=arctan(8.20964/5)=1.02375…≈1.02 rad. (c) Lowest tip height=1.8+2.5=4.3 m, so blade length=8.20964−4.3=3.90964…≈3.91 m. (d) Amplitude p=3.91 and midline q=8.21. (e) Period=2π/(3π/10)=20/3 s, so 60/(20/3)=9 rotations; D passes overhead 9 times."
+    },
+    {
+      "id": "2021-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nThe flight times, T minutes, between two cities can be modelled by a normal distribution with a mean of 75 minutes and a standard deviation of σ minutes.\n\n(a) Given that 2% of the flight times are longer than 82 minutes, find the value of σ. [3]\n\n(b) Find the probability that a randomly selected flight will have a flight time of more than 80 minutes. [2]\n\n(c) Given that a flight between the two cities takes longer than 80 minutes, find the probability that it takes less than 82 minutes. [4]\n\nOn a particular day, there are 64 flights scheduled between these two cities.\n\n(d) Find the expected number of flights that will have a flight time of more than 80 minutes. [3]\n\n(e) Find the probability that more than 6 of the flights on this particular day will have a flight time of more than 80 minutes. [3]",
+      "summary": "Use normal, conditional and binomial models.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) z₀.₉₈=2.05375, so (82−75)/σ=2.05375 and σ=3.40840…≈3.41. (b) P(T>80)=0.071193…≈0.0712. (c) [P(T>80)−P(T≥82)]/P(T>80)=(0.071193−0.02)/0.071193=0.719. (d) 64·0.071193=4.55635…≈4.56. (e) For X~Bin(64,0.071193), P(X>6)=1−P(X≤6)=0.169."
+    },
+    {
+      "id": "2021-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nAll answers in this question should be given to four significant figures.\n\nIn a local weekly lottery, tickets cost $2 each. In the first week, a player will receive $D for each ticket, with the probability distribution shown below. For example, the probability of receiving $10 is 0.03. The grand prize in the first week is $1000.\n\n[Table: d=0, 2, 10, 50, Grand Prize; P(D=d)=0.85, c, 0.03, 0.002, 0.0001.]\n\n(a) Find the value of c. [2]\n\n(b) Determine whether this lottery is a fair game in the first week. Justify your answer. [4]\n\nIf nobody wins the grand prize in the first week, the probabilities remain the same, but the grand prize is $2000 in the second week and continues to double each week until it is won. All other prize amounts remain the same.\n\n(c) Given that the grand prize is not won and continues to double, write an expression in terms of n for the value of the grand prize in the nth week. [2]\n\nThe wth week is the first week in which the player is expected to make a profit. Ryan knows that if he buys a ticket in the wth week, his expected profit is $p.\n\n(d) Find the value of p. [7]",
+      "summary": "Analyze expected lottery winnings.",
+      "labels": [
+        "Probability",
+        "Sequences - Series"
+      ],
+      "solution": "(a) c=1−0.85−0.03−0.002−0.0001=0.1179. (b) E(D)=2(0.1179)+10(0.03)+50(0.002)+1000(0.0001)=0.7358, not the $2 ticket cost, so it is not fair. (c) Grand prize in week n is 1000·2^(n−1). (d) Fixed-prize expectation is 0.6358. Thus E_n=0.6358+0.0001(1000·2^(n−1))=0.6358+0.1·2^(n−1). E_n>2 first when 2^(n−1)>13.642, i.e. n=5. Then E_5=0.6358+1.6=2.2358, so expected profit p=2.2358−2=$0.2358."
+    }
+  ]
+}

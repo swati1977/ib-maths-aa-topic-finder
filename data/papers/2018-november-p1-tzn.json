@@ -1,0 +1,163 @@
+{
+  "paper": {
+    "id": "2018-november-p1-tzn",
+    "title": "November 2018 Mathematics SL Paper 1",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "N",
+    "year": 2018,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-d52fa8ac4c0aecce",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/November%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018nov/Mathematics-paper-1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2018-november-p1-tzn-q1",
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nA circle has centre A and radius 6 cm. [Diagram not to scale: B,C,D lie on circle; minor sector BAC is shaded and ∠BAC=2 radians.]\n(a) Find the area of the shaded sector. [2]\n(b) Find the perimeter of the non-shaded sector ABDC. [4]",
+      "summary": "Use sector area and perimeter.",
+      "labels": [
+        "Radian"
+      ],
+      "solution": "(a) (1/2)(6²)(2)=36 cm². (b) Major arc length=6(2π−2)=12π−12; add two radii to get 12π cm."
+    },
+    {
+      "id": "2018-november-p1-tzn-q2",
+      "number": 2,
+      "pages": [
+        3
+      ],
+      "marks": 5,
+      "accessible_text": "2. [Maximum mark: 5]\n\n[Table: x: −2,1,3,6; f(x): 6,3,1,−2; g(x): −7,−2,5,9.]\n(a) Write down f(1). [1]\n(b) Find (g∘f)(1). [2]\n(c) Find g⁻¹(−2). [2]",
+      "summary": "Read function tables.",
+      "labels": [
+        "Functions - Roots"
+      ],
+      "solution": "(a) 3. (b) g(f(1))=g(3)=5. (c) g(1)=−2, so g⁻¹(−2)=1."
+    },
+    {
+      "id": "2018-november-p1-tzn-q3",
+      "number": 3,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nIn an arithmetic sequence, u₁=−5 and d=3.\n(a) Find u₈. [2]\n(b) Find n for which uₙ=67. [4]",
+      "summary": "Use arithmetic sequence formulas.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) u₈=−5+7(3)=16. (b) −5+3(n−1)=67 gives n=25."
+    },
+    {
+      "id": "2018-november-p1-tzn-q4",
+      "number": 4,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nLet b=log₂a, where a>0. Write each expression in terms of b.\n(a) log₂(a³) [2]\n(b) log₂(8a) [2]\n(c) log₈a [2]",
+      "summary": "Apply logarithm laws.",
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) 3b. (b) 3+b. (c) log₂a/log₂8=b/3."
+    },
+    {
+      "id": "2018-november-p1-tzn-q5",
+      "number": 5,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nConsider vectors a=(3,2p) and b=(p+1,8). Find possible p for which a and b are parallel.",
+      "summary": "Find parallel vector parameters.",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Quadratics"
+      ],
+      "solution": "Parallel components satisfy 3/(p+1)=2p/8. Cross-multiplying gives 24=2p(p+1), so p²+p−12=0=(p+4)(p−3). Therefore p=−4 or p=3."
+    },
+    {
+      "id": "2018-november-p1-tzn-q6",
+      "number": 6,
+      "pages": [
+        7
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nLet f(x)=(6−2x)/√(16+6x−x²). [Diagram: the graph of f encloses region R with the x- and y-axes.] Find the area of R.",
+      "summary": "Integrate by substitution.",
+      "labels": [
+        "Integration"
+      ],
+      "solution": "The x-intercept is x=3. Since d(16+6x−x²)/dx=6−2x, ∫₀³f(x)dx=[2√(16+6x−x²)]₀³=2(5)−2(4)=2."
+    },
+    {
+      "id": "2018-november-p1-tzn-q7",
+      "number": 7,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "7. [Maximum mark: 6]\n\nGiven sin x=1/3, where 0<x<π/2, find cos4x.",
+      "summary": "Use double-angle identities.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "cos2x=1−2sin²x=1−2/9=7/9. Hence cos4x=2cos²2x−1=2(49/81)−1=17/81."
+    },
+    {
+      "id": "2018-november-p1-tzn-q8",
+      "number": 8,
+      "pages": [
+        9
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nLet f(x)=x²−4x−5. [Diagram: part of the upward-opening parabola.]\n(a) Find the x-intercepts. [5]\n(b) Find the axis of symmetry. [2]\n(c) f(x)=(x−h)²+k. (i) Write h. (ii) Find k. [4]\nThe graph of g is obtained by reflecting f in the y-axis, then translating by vector (−3,6).\n(d) Find the vertex of g. [5]",
+      "summary": "Analyze and transform a quadratic.",
+      "labels": [
+        "Quadratics",
+        "Graphs"
+      ],
+      "solution": "(a) (x−5)(x+1)=0, so x=−1,5. (b) x=2. (c) h=2,k=−9. (d) Vertex (2,−9) reflects to (−2,−9), then translates to (−5,−3)."
+    },
+    {
+      "id": "2018-november-p1-tzn-q9",
+      "number": 9,
+      "pages": [
+        10
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA bag contains n marbles, two blue. Hayley draws without replacement until drawing blue.\n(a) Find, in terms of n, probability game ends on (i) first draw; (ii) second draw. [4]\n(b) Let n=5. Find probability it ends on (i) third; (ii) fourth draw. [4]\nShe pays $20. [Table: draws 1,2,3,4; money back $M: 0,20,8k,12k.]\n(c) Find k for a fair game. [7]",
+      "summary": "Use dependent probabilities and expectation.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a)(i) 2/n. (ii) [(n−2)/n][2/(n−1)]=2(n−2)/[n(n−1)]. (b)(i) (3/5)(2/4)(2/3)=1/5. (ii) (3/5)(2/4)(1/3)(2/2)=1/10. (c) Draw-count probabilities are 2/5,3/10,1/5,1/10. Set E(M)=0(2/5)+20(3/10)+8k(1/5)+12k(1/10)=20, giving k=5."
+    },
+    {
+      "id": "2018-november-p1-tzn-q10",
+      "number": 10,
+      "pages": [
+        11
+      ],
+      "marks": 16,
+      "accessible_text": "10. [Maximum mark: 16]\n\nLet f(x)=x³−2x²+ax+6. [Diagram: graph crosses y-axis at P; line L tangent there; local minimum Q lies on L.]\n(a) Find P. [2]\n(b) (i) Find f′(x). (ii) Hence find L in terms of a. [6]\n(c) Find a. [8]",
+      "summary": "Use tangent and stationary point conditions.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a) P=(0,6). (b) f′=3x²−4x+a; at P slope a, so L:y=ax+6. (c) Intersections satisfy x³−2x²+ax+6=ax+6, so x²(x−2)=0 and Q has x=2. As Q is a minimum, f′(2)=12−8+a=0, hence a=−4."
+    }
+  ]
+}

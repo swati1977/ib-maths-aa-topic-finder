@@ -1,0 +1,169 @@
+{
+  "paper": {
+    "id": "2017-may-p1-tz2",
+    "title": "May 2017 Mathematics SL Paper 1 TZ2",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "2",
+    "year": 2017,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-19dd0a0924dfc4b0",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-1-TZ2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2017-may-p1-tz2-q1",
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nIn an arithmetic sequence, the first term is 3 and the second term is 7.\n\n(a) Find the common difference. [2]\n\n(b) Find the tenth term. [2]\n\n(c) Find the sum of the first ten terms of the sequence. [2]",
+      "summary": "Find a difference, term and partial sum of an arithmetic sequence.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "The common difference is d=7−3=4. The tenth term is u₁₀=3+9(4)=39. The sum is S₁₀=10/2(3+39)=210."
+    },
+    {
+      "id": "2017-may-p1-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "2. [Maximum mark: 7]\n\nThe vectors a = (4, 2) and b = (k + 3, k) are perpendicular to each other.\n\n(a) Find the value of k. [4]\n\n(b) Given that c = a + 2b, find c. [3]",
+      "summary": "Use a scalar product and combine two-dimensional vectors.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "Perpendicular vectors have zero dot product: 4(k+3)+2k=0, so 6k+12=0 and k=−2. Thus b=(1,−2), and c=(4,2)+2(1,−2)=(6,−2)."
+    },
+    {
+      "id": "2017-may-p1-tz2-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nThe random variable X is normally distributed with a mean of 100. The following diagram shows the normal curve for X.\n\n[Diagram: A symmetric normal curve centred at x = 100. The region R under the curve to the right of x = 107 is shaded.]\n\nLet R be the shaded region under the curve, to the right of 107. The area of R is 0.24.\n\n(a) Write down P(X > 107). [1]\n\n(b) Find P(100 < X < 107). [3]\n\n(c) Find P(93 < X < 107). [2]",
+      "summary": "Use symmetry and areas under a normal curve.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) P(X>107)=0.24. (b) The area to the right of the mean is 0.5, so P(100<X<107)=0.5−0.24=0.26. (c) Since 93 and 107 are equally distant from the mean, symmetry gives P(93<X<107)=2(0.26)=0.52."
+    },
+    {
+      "id": "2017-may-p1-tz2-q4",
+      "number": 4,
+      "pages": [
+        6,
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nThe following figures consist of rows and columns of squares. The figures form a continuing pattern. Figure 1 has two rows and one column. Figure 2 has three rows and two columns.\n\n[Diagram: Figure n is a rectangular array with n columns and n + 1 rows; Figures 1 to 4 are shown.]\n\nFigure 5 has p rows and q columns.\n\n(a) Write down the value of (i) p; (ii) q. [2]\n\nEach small square has an area of 1 cm². Let Aₙ be the total area of Figure n. The following table gives the first five values of Aₙ.\n\n[Table: n: 1, 2, 3, 4, 5; Aₙ (cm²): 2, 6, 12, 20, k.]\n\n(b) Find the value of k. [2]\n\n(c) Find an expression for Aₙ in terms of n. [2]",
+      "summary": "Generalize a growing rectangular pattern.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "Figure 5 has p=6 rows and q=5 columns. Hence k=6×5=30. In general there are n columns and n+1 rows, so Aₙ=n(n+1)=n²+n cm²."
+    },
+    {
+      "id": "2017-may-p1-tz2-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nLet f′(x) = 3x²/(x³ + 1)⁵. Given that f(0) = 1, find f(x).",
+      "summary": "Integrate by substitution and determine a constant.",
+      "labels": [
+        "Integration"
+      ],
+      "solution": "Let u=x³+1, du=3x²dx. Then f(x)=∫u⁻⁵du=−(1/4)u⁻⁴+C=−1/[4(x³+1)⁴]+C. Since f(0)=−1/4+C=1, C=5/4. Thus f(x)=5/4−1/[4(x³+1)⁴]."
+    },
+    {
+      "id": "2017-may-p1-tz2-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 5,
+      "accessible_text": "6. [Maximum mark: 5]\n\nThe values of the functions f and g and their derivatives for x = 1 and x = 8 are shown in the following table.\n\n[Table with columns x, f(x), f′(x), g(x), g′(x). Row x=1: 2, 4, 9, −3. Row x=8: 4, −3, 2, 5.]\n\nLet h(x) = f(x)g(x).\n\n(a) Find h(1). [2]\n\n(b) Find h′(8). [3]",
+      "summary": "Evaluate a product and its derivative from tabulated values.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "h(1)=f(1)g(1)=2·9=18. By the product rule h′=f′g+fg′, so h′(8)=(−3)(2)+4(5)=14."
+    },
+    {
+      "id": "2017-may-p1-tz2-q7",
+      "number": 7,
+      "pages": [
+        11
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nSolve log₂(2 sin x) + log₂(cos x) = −1, for 2π < x < 5π/2.",
+      "summary": "Combine logarithms and solve a trigonometric equation on an interval.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Trigonometry"
+      ],
+      "solution": "Combine logs: log₂(2sinx cosx)=−1, so 2sinx cosx=1/2. Hence sin2x=1/2. On 4π<2x<5π, the solutions are 2x=25π/6 and 29π/6. Therefore x=25π/12 or 29π/12."
+    },
+    {
+      "id": "2017-may-p1-tz2-q8",
+      "number": 8,
+      "pages": [
+        12,
+        13
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nA city hired 160 employees to work at a festival. The following cumulative frequency curve shows the number of hours employees worked during the festival.\n\n[Graph: Cumulative number of employees, from 0 to 160, plotted against number of hours worked, from 0 to 70. The increasing cumulative frequency curve gives approximately 18 employees at 25 hours, 80 at 40 hours, 130 at 50 hours and 150 at 60 hours.]\n\n(a) (i) Find the median number of hours worked by the employees.\n    (ii) Write down the number of employees who worked 50 hours or less. [3]\n\nThe city paid each of the employees £8 per hour for the first 40 hours worked, and £10 per hour for each hour they worked after the first 40 hours.\n\n(b) Find the amount of money an employee earned for working (i) 40 hours; (ii) 43 hours. [4]\n\n(c) Find the number of employees who earned £200 or less. [3]\n\n(d) Only 10 employees earned more than £k. Find the value of k. [4]",
+      "summary": "Read a cumulative frequency curve and apply piecewise pay rates.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) The median is the 80th value, giving 40 hours; the curve gives 130 employees at 50 hours. (b) At 40 hours, pay is 40·8=£320. At 43 hours it is 40·8+3·10=£350. (c) £200 corresponds to 200/8=25 hours, and the graph gives 18 employees. (d) If only 10 earned more, use the 150th employee: the graph gives 60 hours. Pay is 40·8+20·10=£520, so k=520."
+    },
+    {
+      "id": "2017-may-p1-tz2-q9",
+      "number": 9,
+      "pages": [
+        14
+      ],
+      "marks": 16,
+      "accessible_text": "9. [Maximum mark: 16]\n\nNote: In this question, distance is in metres and time is in seconds.\n\nTwo particles P₁ and P₂ start moving from a point A at the same time, along different straight lines.\n\nAfter t seconds, the position of P₁ is given by r = (4, −1, 3) + t(1, 2, −2).\n\n(a) Find the coordinates of A. [2]\n\nTwo seconds after leaving A, P₁ is at point B.\n\n(b) Find (i) vector AB; (ii) |vector AB|. [5]\n\nTwo seconds after leaving A, P₂ is at point C, where vector AC = (3, 0, 4).\n\n(c) Find cos ∠BAC. [5]\n\n(d) Hence or otherwise, find the distance between P₁ and P₂ two seconds after they leave A. [4]",
+      "summary": "Use three-dimensional vectors, scalar product and distance.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "At t=0, A=(4,−1,3). After two seconds, vector AB=2(1,2,−2)=(2,4,−4), with magnitude √(4+16+16)=6. Also |AC|=5 and AB·AC=2·3+4·0−4·4=−10, so cos∠BAC=−10/(6·5)=−1/3. By the cosine rule, BC²=6²+5²−2(6)(5)(−1/3)=81, hence BC=9 m."
+    },
+    {
+      "id": "2017-may-p1-tz2-q10",
+      "number": 10,
+      "pages": [
+        15
+      ],
+      "marks": 17,
+      "accessible_text": "10. [Maximum mark: 17]\n\nLet f(x) = x². The following diagram shows part of the graph of f.\n\n[Diagram not to scale: The parabola y=x² contains A(−k,k²). Its tangent L at A descends to the x-axis at B. C=(−k,0), vertically below A.]\n\nThe line L is the tangent to the graph of f at the point A(−k, k²), and intersects the x-axis at point B. The point C is (−k, 0).\n\n(a) (i) Write down f′(x).\n    (ii) Find the gradient of L. [3]\n\n(b) Show that the x-coordinate of B is −k/2. [5]\n\n(c) Find the area of triangle ABC, giving your answer in terms of k. [2]\n\nThe region R is enclosed by L, the graph of f, and the x-axis. [Diagram: R is the region bounded by the parabola from the origin to A, the tangent segment AB, and the x-axis from B to the origin.]\n\n(d) Given that the area of triangle ABC is p times the area of R, find the value of p. [7]",
+      "summary": "Analyze a tangent to a parabola and compare enclosed areas.",
+      "labels": [
+        "Differentiation",
+        "Integration",
+        "Graphs"
+      ],
+      "solution": "f′(x)=2x, so the gradient at x=−k is −2k. The tangent is y−k²=−2k(x+k), i.e. y=−2kx−k². Setting y=0 gives x_B=−k/2. Triangle ABC has base k/2 and height k², so its area is k³/4. The area under y=x² from −k to 0 is k³/3. The region R is this area minus triangle ABC, namely k³/3−k³/4=k³/12. Therefore k³/4=p(k³/12), giving p=3."
+    }
+  ]
+}

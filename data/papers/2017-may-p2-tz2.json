@@ -1,0 +1,174 @@
+{
+  "paper": {
+    "id": "2017-may-p2-tz2",
+    "title": "May 2017 Mathematics SL Paper 2 TZ2",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "2",
+    "year": 2017,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-8a4e7b1181d58bc1",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ2-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ2-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2017-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        2,
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nThe diagram shows a circle with centre O and radius 40 cm. Points A, B and C lie on the circumference and ∠AOC=1.9 radians; arc ABC is the corresponding arc. [Diagram not to scale.]\n(a) Find the length of arc ABC. [2]\n(b) Find the perimeter of sector OABC. [2]\n(c) Find the area of sector OABC. [2]",
+      "summary": "Calculate arc length, sector perimeter and sector area.",
+      "labels": [
+        "Radian"
+      ],
+      "solution": "Arc length rθ=40(1.9)=76 cm. Sector perimeter=76+2(40)=156 cm. Sector area=(1/2)r²θ=(1/2)(1600)(1.9)=1520 cm²."
+    },
+    {
+      "id": "2017-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "marks": 7,
+      "accessible_text": "2. [Maximum mark: 7]\n\nThe maximum temperature T, in degrees Celsius, in a park on six randomly selected days and the number of visitors N are shown.\n[Table: T: 4,5,17,31,29,11; N: 24,26,36,38,46,28.]\nThe relationship is modelled by N=aT+b.\n(a) (i) Find a and b. (ii) Write down r. [4]\n(b) Estimate N when T=15°C. [3]",
+      "summary": "Find and use a linear regression model.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "Calculator linear regression gives a=0.667315≈0.667, b=22.2117≈22.2 and r=0.922958≈0.923. At T=15, N=0.667315(15)+22.2117=32.2214, so estimate 32 visitors."
+    },
+    {
+      "id": "2017-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nThe diagram shows y=f(x), for −6≤x≤−2. The points (−6,6) and (−2,6) lie on f, with a minimum at (−4,0). [Smooth U-shaped graph.]\n(a) Write down the range of f. [2]\nLet g(x)=f(x−5). (b) On the grid, sketch g. [2]\n(c) Write down the domain of g. [2]",
+      "summary": "Determine range and translate a function graph.",
+      "labels": [
+        "Graphs",
+        "Functions - Roots"
+      ],
+      "solution": "The range is 0≤y≤6. Since g(x)=f(x−5), translate f five units right: endpoints become (−1,6),(3,6), and minimum (1,0). The domain is −1≤x≤3."
+    },
+    {
+      "id": "2017-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nThe depth of water is d(t)=p cos(qt)+7.5, for 0≤t≤12, where t is hours after high tide. At high tide depth is 9.7 m. At low tide, 7 hours later, depth is 5.3 m.\n(a) Find p. [2] (b) Find q. [2] (c) Find d(10). [2]",
+      "summary": "Determine and use a cosine tidal model.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "At t=0, p+7.5=9.7, so p=2.2. High-to-low is half a period, so period=14 and q=2π/14=π/7. Then d(10)=2.2cos(10π/7)+7.5=7.01 m."
+    },
+    {
+      "id": "2017-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nConsider a geometric sequence where the first term is 768 and the second term is 576. Find the least value of n such that the nth term is less than 7.",
+      "summary": "Solve an exponential inequality for a geometric term.",
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "r=576/768=0.75, so uₙ=768(0.75)^(n−1). Solving 768(0.75)^(n−1)<7 gives n>17.3301. Thus the least integer is n=18 (indeed u₁₇≈7.70 and u₁₈≈5.77)."
+    },
+    {
+      "id": "2017-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        8,
+        9
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nLet f(x)=x²−1 and g(x)=x²−2, for x∈ℝ.\n(a) Show that (f∘g)(x)=x⁴−4x²+3. [2]\n(b) On the grid, sketch (f∘g)(x), for 0≤x≤2.25. [3]\n(c) The equation (f∘g)(x)=k has exactly two solutions, for 0≤x≤2.25. Find the possible values of k. [3]",
+      "summary": "Compose quadratics and analyze a quartic graph.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs",
+        "Quadratics"
+      ],
+      "solution": "f(g(x))=(x²−2)²−1=x⁴−4x²+3. On the interval it starts at (0,3), decreases to minimum (√2,−1), then rises (crossing at x=1 and √3). A horizontal line has exactly two intersections when −1<k≤3; at k=3 one intersection is x=0 and another positive, while k=−1 is tangent and gives only one. Thus k∈(−1,3]."
+    },
+    {
+      "id": "2017-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        10,
+        11
+      ],
+      "marks": 6,
+      "accessible_text": "7. [Maximum mark: 6]\n\nNote: distance is in metres and time in seconds. A particle moves along a horizontal line starting at A. Its velocity is v(t)=(2t²−4t)/(t²−2t+2), for 0≤t≤5. The graph is shown, with t-intercepts (0,0) and (2,0). Find the maximum distance from A during 0≤t≤5 and justify.",
+      "summary": "Compare displacement extrema from a velocity graph.",
+      "labels": [
+        "Kinematics",
+        "Integration"
+      ],
+      "solution": "Distance from A is |s(t)| where s(t)=∫₀ᵗv(u)du. Candidates for maximum occur at t=2 and endpoint t=5. Numerical integration gives s(2)=−2.28318 and s(5)=1.55513. Hence |s(2)|>|s(5)|, so the maximum distance is 2.28 m, attained at t=2."
+    },
+    {
+      "id": "2017-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "8. [Maximum mark: 15]\n\nLet f(x)=−0.5x⁴+3x²+2x. The graph has x-intercepts 0 and p, a maximum A at x=a, and point of inflexion B at x=b.\n(a) Find p. [2]\n(b) (i) Write down A. (ii) Write down the rate of change at A. [3]\n(c) (i) Find B. (ii) Find the rate of change at B. [7]\n(d) Region R enclosed by f, the x-axis, x=b and x=a is rotated 360° about the x-axis. Find the volume. [3]",
+      "summary": "Analyze a quartic and compute a volume of revolution.",
+      "labels": [
+        "Differentiation",
+        "Graphs",
+        "Integration"
+      ],
+      "solution": "Numerically solving f(x)=0 gives the positive root p=2.73205≈2.73. Solving f′=0 gives a=1.87938 and f(a)=8.11721, so A≈(1.88,8.12), with rate 0. Since f″=−6x²+6, the positive inflexion has b=1 and B=(1,4.5); f′(1)=6. The volume is π∫₁^1.87938[f(x)]²dx=128.890≈129."
+    },
+    {
+      "id": "2017-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA ship sails north A→D. C is 175 km north of A and D is 60 km north of C. Island E has bearing 055° from A and 134° from C. [Diagram not to scale.]\n(a) Find bearing of A from E. [2] (b) Find CE. [5] (c) Find DE. [3]\n(d) At D the ship travels directly to E at 50 km/h. Simultaneously a boat starts from B on AC, where B is closest to E. They arrive together. Find boat speed. [5]",
+      "summary": "Use bearings, sine/cosine rules and equal travel times.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "The reverse bearing is 055°+180°=235°. Triangle ACE has angles A=55°, C=46° (since CA bearing 180° and CE 134°), E=79°. By sine rule CE/sin55°=175/sin79°, giving CE=146 km. In triangle CDE, included angle DCE=134°, so DE²=60²+CE²−2(60)(CE)cos134°, giving DE=193 km. Since BE⊥AC, BE=CE sin46°=105 km. Equal times give DE/50=BE/v, so v=50BE/DE=27.3 km/h."
+    },
+    {
+      "id": "2017-may-p2-tz2-q10",
+      "number": 10,
+      "pages": [
+        14
+      ],
+      "marks": 15,
+      "accessible_text": "10. [Maximum mark: 15]\n\nA probability distribution has x: 0,1,2,3 and P(X=x): p, 1/2, 3/10, q, where E(X)=1.2.\n(a) (i) Find q. (ii) Find p. [4]\nA bag has at least three white and three blue marbles. Three are drawn without replacement; X is the number of blue marbles.\n(b) (i) Write down P(three blue). (ii) Explain why P(three white)=1/6. (iii) The bag has ten marbles, w white. Find w. [5]\nA game wins if three white are drawn. (c) Jill plays nine times. Find P(exactly two prizes). [2]\n(d) Grant plays until two prizes. Find P(second prize on eighth attempt). [4]",
+      "summary": "Determine a distribution and apply binomial/negative-binomial probabilities.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "E(X)=1/2+2(3/10)+3q=1.2 gives q=1/30. Summing probabilities gives p=1−1/2−3/10−1/30=1/6. Thus P(three blue)=1/30 and P(three white)=P(X=0)=1/6. With ten marbles, C(w,3)/C(10,3)=1/6, so w=6. Jill: C(9,2)(1/6)²(5/6)⁷=0.279. Grant needs exactly one win in first seven and a win on attempt 8: C(7,1)(1/6)(5/6)⁶(1/6)=0.0651."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-dfbaf14fbbbe7f7f",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/May%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -86,7 +86,10 @@
       "labels": [
         "Statistics"
       ],
-      "solution": "(a) 0.28 s. (b) IQR=0.35−0.27=0.08; upper fence=0.35+1.5(0.08)=0.47, and 0.46<0.47. (c) The distribution is positively skewed: the upper spread is longer and the median is nearer Q1. (d) The not-slept-well distribution is centred higher (its median 0.35 equals the slept-well upper quartile), suggesting higher times, though the sample of nine is small."
+      "solution": "(a) 0.28 s. (b) IQR=0.35−0.27=0.08; upper fence=0.35+1.5(0.08)=0.47, and 0.46<0.47. (c) The distribution is positively skewed: the upper spread is longer and the median is nearer Q1. (d) The not-slept-well distribution is centred higher (its median 0.35 equals the slept-well upper quartile), suggesting higher times, though the sample of nine is small.",
+      "display_pages": [
+        7
+      ]
     },
     {
       "id": "2022-may-p2-tz2-q6",

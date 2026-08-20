@@ -18,10 +18,10 @@ RAW = ROOT / "data" / "raw" / "2022-2025"
 OUTPUT = ROOT / "data" / "extracted" / "2022-2025"
 
 
-def prepare(paper: dict) -> tuple[str, int]:
+def prepare(paper: dict, raw_dir: Path, output_dir: Path) -> tuple[str, int]:
     paper_id = validate_paper_id(paper["id"])
-    source = safe_output_path(RAW, paper_id, "-question.pdf")
-    target = safe_output_path(OUTPUT, paper_id)
+    source = safe_output_path(raw_dir, paper_id, "-question.pdf")
+    target = safe_output_path(output_dir, paper_id)
     target.mkdir(parents=True, exist_ok=True)
     page_records = []
     with pymupdf.open(source) as document:
@@ -41,15 +41,21 @@ def prepare(paper: dict) -> tuple[str, int]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--manifest", type=Path, default=MANIFEST)
+    parser.add_argument("--raw", type=Path, default=RAW)
+    parser.add_argument("--output", type=Path, default=OUTPUT)
     parser.add_argument("--workers", type=int, default=8)
     args = parser.parse_args()
-    papers = json.loads(MANIFEST.read_text(encoding="utf-8"))["papers"]
+    papers = json.loads(args.manifest.read_text(encoding="utf-8"))["papers"]
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {executor.submit(prepare, paper): paper["id"] for paper in papers}
+        futures = {
+            executor.submit(prepare, paper, args.raw, args.output): paper["id"]
+            for paper in papers
+        }
         for future in as_completed(futures):
             paper_id, pages = future.result()
             print(f"{paper_id}: {pages} pages")
-    print(f"Prepared {len(papers)} papers in {OUTPUT}")
+    print(f"Prepared {len(papers)} papers in {args.output}")
 
 
 if __name__ == "__main__":

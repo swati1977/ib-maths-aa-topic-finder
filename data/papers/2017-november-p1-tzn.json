@@ -1,0 +1,174 @@
+{
+  "paper": {
+    "id": "2017-november-p1-tzn",
+    "title": "November 2017 Mathematics SL Paper 1",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "N",
+    "year": 2017,
+    "session": "November",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-sl-0c4290fec76c411a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/November%202017%20Examination%20Session/Mathematics/Mathematics_paper_1__SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017nov/Mathematics-paper-1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2017-november-p1-tzn-q1",
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\nA bag contains 5 green balls and 3 white balls. Two balls are selected at random without replacement.\n\n(a) Complete the following tree diagram. [3]\n\n[Tree diagram: First draw branches are green with probability 5/8 and white with probability 3/8. From green, second-draw branches are green and white; from white, second-draw branches are green and white. The missing conditional probabilities are to be completed.]\n\n(b) Find the probability that exactly one of the selected balls is green. [3]",
+      "summary": "Complete a without-replacement tree and calculate a probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "After green, the remaining probabilities are 4/7 green and 3/7 white; after white, they are 5/7 green and 2/7 white. Exactly one green has probability (5/8)(3/7)+(3/8)(5/7)=30/56=15/28."
+    },
+    {
+      "id": "2017-november-p1-tzn-q2",
+      "number": 2,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nIn an arithmetic sequence, the first term is 8 and the second term is 5.\n\n(a) Find the common difference. [2]\n(b) Find the tenth term. [2]\n(c) Find the sum of the first ten terms. [2]",
+      "summary": "Find an arithmetic difference, term and sum.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "d=5−8=−3. Then u₁₀=8+9(−3)=−19 and S₁₀=10/2(8−19)=−55."
+    },
+    {
+      "id": "2017-november-p1-tzn-q3",
+      "number": 3,
+      "pages": [
+        4,
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nThe following diagram shows the graph of a function f, with domain −2 ≤ x ≤ 4.\n\n[Diagram: A smooth one-to-one increasing graph begins at (−2,0), passes through (0,2) and (2,3), and ends at (4,7). It is initially concave down and later concave up.]\n\nThe points (−2, 0) and (4, 7) lie on the graph of f.\n\n(a) Write down the range of f. [1]\n(b) Write down (i) f(2); (ii) f⁻¹(2). [2]\n(c) On the grid opposite, sketch the graph of f⁻¹. [3]",
+      "summary": "Read a function graph and sketch its inverse.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "The range is 0≤y≤7. From the graph f(2)=3 and f⁻¹(2)=0. The inverse is the reflection in y=x, with endpoints (0,−2) and (7,4), and it passes through (2,0) and (3,2)."
+    },
+    {
+      "id": "2017-november-p1-tzn-q4",
+      "number": 4,
+      "pages": [
+        6,
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nThe following diagram shows triangle ABC, with AB = 3 cm, BC = 8 cm, and ∠ABC = π/3. [Diagram not to scale.]\n\n(a) Show that AC = 7 cm. [4]\n\n(b) The shape in the following diagram is formed by adding a semicircle with diameter [AC] to the triangle. [Diagram not to scale.] Find the exact perimeter of this shape. [3]",
+      "summary": "Apply the cosine rule and add a semicircular arc.",
+      "labels": [
+        "Trigonometry",
+        "Radian"
+      ],
+      "solution": "By cosine rule, AC²=3²+8²−2(3)(8)cos(π/3)=9+64−24=49, hence AC=7. The external perimeter is AB+BC plus a semicircular arc of diameter 7: 3+8+7π/2=11+7π/2 cm."
+    },
+    {
+      "id": "2017-november-p1-tzn-q5",
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nLet f(x) = 1 + e^(−x) and g(x) = 2x + b, for x ∈ ℝ, where b is a constant.\n\n(a) Find (g ∘ f)(x). [2]\n\n(b) Given that lim_(x→+∞) (g ∘ f)(x) = −3, find the value of b. [4]",
+      "summary": "Compose functions and evaluate a limit at infinity.",
+      "labels": [
+        "Functions - Roots",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(g∘f)(x)=2(1+e^(−x))+b=2+2e^(−x)+b. As x→∞, e^(−x)→0, so the limit is 2+b. Thus 2+b=−3 and b=−5."
+    },
+    {
+      "id": "2017-november-p1-tzn-q6",
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nLet f(x) = 15 − x², for x ∈ ℝ. The following diagram shows part of the graph of f and the rectangle OABC, where A is on the negative x-axis, B is on the graph of f, and C is on the y-axis.\n\n[Diagram not to scale: O is the origin; A=(x,0) with x<0; B=(x,f(x)); C=(0,f(x)); OABC is a rectangle under the parabola.]\n\nFind the x-coordinate of A that gives the maximum area of OABC.",
+      "summary": "Maximize the area of a rectangle under a parabola.",
+      "labels": [
+        "Differentiation",
+        "Graphs"
+      ],
+      "solution": "For x<0, width OA=−x and height 15−x². Area A(x)=−x(15−x²)=x³−15x. Then A′=3x²−15. Setting A′=0 gives x²=5; because A is on the negative axis, x=−√5. This is the maximum (A′ changes from positive to negative there)."
+    },
+    {
+      "id": "2017-november-p1-tzn-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nConsider f(x) = log_k(6x − 3x²), for 0 < x < 2, where k > 0.\n\nThe equation f(x) = 2 has exactly one solution. Find the value of k.",
+      "summary": "Use tangency/discriminant for a logarithmic equation.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Quadratics"
+      ],
+      "solution": "f(x)=2 means 6x−3x²=k², or 3x²−6x+k²=0. Exactly one solution requires discriminant zero: (−6)²−4(3)k²=0, so k²=3. Since k>0, k=√3."
+    },
+    {
+      "id": "2017-november-p1-tzn-q8",
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 16,
+      "accessible_text": "8. [Maximum mark: 16]\n\nLet f(x) = x² − x, for x ∈ ℝ. The graph of f crosses the x-axis at the origin and at P(1,0).\n\n(a) Show that f′(1) = 1. [3]\n\nThe line L is the normal to the graph of f at P.\n\n(b) Find the equation of L in the form y = ax + b. [3]\n\nThe line L intersects the graph of f at another point Q. [Diagram not to scale.]\n\n(c) Find the x-coordinate of Q. [4]\n\n(d) Find the area of the region enclosed by the graph of f and the line L. [6]",
+      "summary": "Find a normal, a second intersection and an enclosed area.",
+      "labels": [
+        "Differentiation",
+        "Integration",
+        "Graphs",
+        "Quadratics"
+      ],
+      "solution": "f′(x)=2x−1, so f′(1)=1. The normal slope is −1, and through (1,0), L is y=−x+1. Intersections satisfy x²−x=−x+1, hence x²=1; besides x=1, Q has x=−1. The line is above the parabola on [−1,1], so area=∫_{−1}^{1}[(−x+1)−(x²−x)]dx=∫_{−1}^{1}(1−x²)dx=4/3."
+    },
+    {
+      "id": "2017-november-p1-tzn-q9",
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA line L passes through points A(−3,4,2) and B(−1,3,3).\n\n(a) (i) Show that vector AB = (2,−1,1).\n    (ii) Find a vector equation for L. [3]\n\nThe line L also passes through the point C(3,1,p).\n\n(b) Find the value of p. [5]\n\n(c) The point D has coordinates (q²,0,q). Given that vector DC is perpendicular to L, find the possible values of q. [7]",
+      "summary": "Work with a three-dimensional line and perpendicular vectors.",
+      "labels": [
+        "Vectors - Lines - Planes",
+        "Quadratics"
+      ],
+      "solution": "AB=B−A=(2,−1,1), so L: r=(−3,4,2)+t(2,−1,1). For C, −3+2t=3 gives t=3, hence p=2+3=5 (and y=1). Now DC=C−D=(3−q²,1,5−q). Perpendicularity gives (3−q²,1,5−q)·(2,−1,1)=0, so 6−2q²−1+5−q=0, or 2q²+q−10=0=(2q+5)(q−2). Thus q=2 or q=−5/2."
+    },
+    {
+      "id": "2017-november-p1-tzn-q10",
+      "number": 10,
+      "pages": [
+        13
+      ],
+      "marks": 14,
+      "accessible_text": "10. [Maximum mark: 14]\n\n(a) The following diagram shows [AB], with length 2 cm. The line is divided into an infinite number of line segments. The diagram shows the first three segments. [Diagram not to scale: consecutive segment lengths are p, p², p³, ….] The lengths are p cm, p² cm, p³ cm, …, where 0 < p < 1. Show that p = 2/3. [5]\n\n(b) The following diagram shows [CD], with length b cm, where b > 1. Squares with side lengths k cm, k² cm, k³ cm, …, where 0 < k < 1, are drawn along [CD]. This process is carried on indefinitely. [Diagram not to scale: the first three adjacent squares are shown.] The total sum of the areas of all the squares is 9/16. Find the value of b. [9]",
+      "summary": "Use infinite geometric sums for segments and square areas.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) The segment lengths form a GP with first term p and ratio p, so p/(1−p)=2. Thus p=2−2p and p=2/3. (b) The square areas are k²,k⁴,k⁶,…, so k²/(1−k²)=9/16. Hence 16k²=9−9k², giving 25k²=9 and k=3/5. The length CD is the sum k+k²+k³+…=k/(1−k)=(3/5)/(2/5)=3/2 cm."
+    }
+  ]
+}

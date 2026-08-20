@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz1-sl-626a0a50878de744",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2024%20Examination%20Session/May%202024%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ1_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -101,7 +101,10 @@
       "labels": [
         "Statistics"
       ],
-      "solution": "(a) Calculator regression gives r=0.901017…≈0.901. (b) x=10 is far outside the observed Test A range 52–100, so this is extrapolation. (c)(i) A y-on-x line must not be inverted to predict x from y. (ii) The x-on-y regression is x=0.987124y−3.21970; at y=90, x=85.6214…≈86."
+      "solution": "(a) Calculator regression gives r=0.901017…≈0.901. (b) x=10 is far outside the observed Test A range 52–100, so this is extrapolation. (c)(i) A y-on-x line must not be inverted to predict x from y. (ii) The x-on-y regression is x=0.987124y−3.21970; at y=90, x=85.6214…≈86.",
+      "display_pages": [
+        9
+      ]
     },
     {
       "id": "2024-may-p2-tz1-q7",

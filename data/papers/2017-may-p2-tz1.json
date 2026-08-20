@@ -1,0 +1,175 @@
+{
+  "paper": {
+    "id": "2017-may-p2-tz1",
+    "title": "May 2017 Mathematics SL Paper 2 TZ1",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "1",
+    "year": 2017,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-tz1-sl-4effa0fd5c5d578a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2017%20Examination%20Session/May%202017%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ1_SL_markscheme.pdf",
+    "alternate_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ1-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ1-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2017may/Mathematics-paper-2-TZ1-SL-markscheme.pdf"
+  },
+  "questions": [
+    {
+      "id": "2017-may-p2-tz1-q1",
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "marks": 7,
+      "accessible_text": "1. [Maximum mark: 7]\n\nConsider the following frequency table.\n\n[Table: x: 2, 4, 7, 10, 11; Frequency: 8, 15, 21, 28, 3.]\n\n(a) (i) Write down the mode. (ii) Find the value of the range. [3]\n\n(b) (i) Find the mean. (ii) Find the variance. [4]",
+      "summary": "Calculate descriptive statistics from a frequency table.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "The largest frequency is 28 at x=10, so the mode is 10. The range is 11−2=9. There are 75 values and Σfx=536, so the mean is 536/75=7.15 (3 sf). Using variance=Σfx²/75−mean² gives 8.45 (3 sf)."
+    },
+    {
+      "id": "2017-may-p2-tz1-q2",
+      "number": 2,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nLet v = (−10, 2, 1) and w = (3, −4, 0). Find the angle between v and w, giving your answer correct to one decimal place.",
+      "summary": "Find an angle between three-dimensional vectors.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "v·w=−30−8=−38, |v|=√105 and |w|=5. Thus cosθ=−38/(5√105), so θ=2.406 radians=137.875°, hence 137.9° to one decimal place."
+    },
+    {
+      "id": "2017-may-p2-tz1-q3",
+      "number": 3,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nConsider the graph of f(x) = eˣ/(5x − 10) + 3, for x ≠ 2.\n\n(a) Find the y-intercept. [2]\n(b) Find the equation of the vertical asymptote. [2]\n(c) Find the minimum value of f(x) for x > 2. [2]",
+      "summary": "Find an intercept, asymptote and numerical minimum.",
+      "labels": [
+        "Graphs",
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "f(0)=1/(−10)+3=2.9, so the y-intercept is (0,2.9). The denominator is zero at x=2, giving vertical asymptote x=2. For x>2, f′(x)=eˣ(x−3)/[5(x−2)²], so the minimum occurs at x=3 and equals e³/5+3=7.017…, hence 7.02."
+    },
+    {
+      "id": "2017-may-p2-tz1-q4",
+      "number": 4,
+      "pages": [
+        5
+      ],
+      "marks": 6,
+      "accessible_text": "4. [Maximum mark: 6]\n\nIn a large university the probability that a student is left handed is 0.08. A sample of 150 students is randomly selected from the university. Let k be the expected number of left-handed students in this sample.\n\n(a) Find k. [2]\n(b) Hence, find the probability that (i) exactly k students are left handed; (ii) fewer than k students are left handed. [4]",
+      "summary": "Use expectation and binomial probabilities.",
+      "labels": [
+        "Probability",
+        "Statistics"
+      ],
+      "solution": "For X~B(150,0.08), k=np=12. Then P(X=12)=C(150,12)(0.08)^12(0.92)^138=0.119. Also P(X<12)=P(X≤11)=0.457."
+    },
+    {
+      "id": "2017-may-p2-tz1-q5",
+      "number": 5,
+      "pages": [
+        6
+      ],
+      "marks": 7,
+      "accessible_text": "5. [Maximum mark: 7]\n\nThe following diagram shows the chord [AB] in a circle of radius 8 cm, where AB = 12 cm. [Diagram not to scale: the minor segment between chord AB and the minor arc AB is shaded.]\n\nFind the area of the shaded segment.",
+      "summary": "Find a circular segment area from a chord and radius.",
+      "labels": [
+        "Radian",
+        "Trigonometry"
+      ],
+      "solution": "Half the chord is 6, so half the central angle is arcsin(6/8); θ=2arcsin(3/4)=1.69612 radians. Sector area=(1/2)8²θ=54.2759. Triangle area=(1/2)8²sinθ=31.7490. Segment area=54.2759−31.7490=22.5 cm² (3 sf)."
+    },
+    {
+      "id": "2017-may-p2-tz1-q6",
+      "number": 6,
+      "pages": [
+        7
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nLet f(x) = (x² + 3)⁷. Find the term in x⁵ in the expansion of the derivative, f′(x).",
+      "summary": "Differentiate a binomial and identify a term.",
+      "labels": [
+        "Binomial Theorem",
+        "Differentiation"
+      ],
+      "solution": "f′(x)=14x(x²+3)⁶. To obtain x⁵, choose the x⁴ term from (x²+3)⁶: C(6,2)x⁴3⁴=15·81x⁴. Multiplying by 14x gives 17010x⁵."
+    },
+    {
+      "id": "2017-may-p2-tz1-q7",
+      "number": 7,
+      "pages": [
+        8,
+        9
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nA particle P moves along a straight line. Its velocity v_P m s⁻¹ after t seconds is given by v_P = √t sin(πt/2), for 0 ≤ t ≤ 8. The following diagram shows the graph of v_P. [Graph: velocity crosses the t-axis at t=0,2,4,6,8, alternating sign.]\n\n(a) (i) Write down the first value of t at which P changes direction. (ii) Find the total distance travelled by P, for 0 ≤ t ≤ 8. [3]\n\n(b) A second particle Q also moves along a straight line. Its velocity v_Q m s⁻¹ after t seconds is v_Q=√t for 0≤t≤8. After k seconds Q has travelled the same total distance as P. Find k. [4]",
+      "summary": "Integrate velocity magnitude and compare particle distances.",
+      "labels": [
+        "Kinematics",
+        "Integration"
+      ],
+      "solution": "P first changes direction when velocity changes sign at t=2. Numerical integration of |√t sin(πt/2)| from 0 to 8 gives 9.64782 m, hence 9.65 m. For Q, distance after k seconds is ∫₀ᵏ√t dt=(2/3)k^(3/2). Equating to 9.64782 gives k=[(3/2)(9.64782)]^(2/3)=5.94 s."
+    },
+    {
+      "id": "2017-may-p2-tz1-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nAt Grande Anse Beach the height of the water in metres is modelled by h(t)=p cos(qt)+r, where t is the number of hours after 21:00 hours on 10 December 2017. The graph is shown for 0≤t≤72. [Graph: periodic cosine curve with first low tide A(6.25,0.6) and next high tide B(12.5,1.5).]\n\n(a) (i) How much time is there between the first low tide and the next high tide? (ii) Find the difference in height between low tide and high tide. [4]\n(b) Find (i) p; (ii) q; (iii) r. [7]\n(c) There are two high tides on 12 December 2017. At what time does the second high tide occur? [3]",
+      "summary": "Determine a cosine tide model and use it for timing.",
+      "labels": [
+        "Trigonometry",
+        "Graphs"
+      ],
+      "solution": "(a) The time difference is 12.5−6.25=6.25 h and height difference 1.5−0.6=0.9 m. Amplitude p=0.9/2=0.45, midline r=(1.5+0.6)/2=1.05. A low-to-high interval is half a period, so period=12.5 h and q=2π/12.5=4π/25. High tides occur at t=12.5n; the second on 12 December is t=50, i.e. 50 h after 21:00 on 10 December, which is 23:00 on 12 December."
+    },
+    {
+      "id": "2017-may-p2-tz1-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA random variable X is normally distributed with mean μ. In the diagram, the shaded region between 9 and μ represents 30% of the distribution.\n(a) Find P(X<9). [2]\nThe standard deviation of X is 2.1. (b) Find μ. [3]\nThe random variable Y is normally distributed with mean λ and standard deviation 3.5. The events X>9 and Y>9 are independent, and P((X>9)∩(Y>9))=0.4. (c) Find λ. [5]\n(d) Given that Y>9, find P(Y<13). [5]",
+      "summary": "Use normal distributions, independence and conditional probability.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "The area left of μ is 0.5, so P(X<9)=0.5−0.3=0.2. The 0.2 standard-normal quantile is −0.841621, so (9−μ)/2.1=−0.841621 and μ=10.8. Also P(X>9)=0.8; independence gives 0.8P(Y>9)=0.4, so P(Y>9)=0.5 and λ=9. Finally P(9<Y<13)=Φ((13−9)/3.5)−0.5=0.373450; divide by P(Y>9)=0.5 to obtain 0.747."
+    },
+    {
+      "id": "2017-may-p2-tz1-q10",
+      "number": 10,
+      "pages": [
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "10. [Maximum mark: 15]\n\nLet f(x)=ln x and g(x)=3+ln(x/2), for x>0. The graph of g can be obtained from the graph of f by a horizontal stretch of scale factor q followed by a translation of (h,k).\n(a) Write down (i) q; (ii) h; (iii) k. [3]\nLet h(x)=g(x)cos(0.1x), for 0<x<4. The diagram shows h and y=x. The graph of h intersects h⁻¹ at two points with x-coordinates 0.111 and 3.31.\n(b) (i) Find ∫₀.₁₁₁³·³¹(h(x)−x)dx. (ii) Hence find the area enclosed by h and h⁻¹. [5]\n(c) Let d be the vertical distance from a point on h to y=x. There is a point P(a,b) on h where d is a maximum. Find P, where 0.111<a<3.31. [7]",
+      "summary": "Apply logarithmic transformations and numerical integration/optimization.",
+      "labels": [
+        "Exponentials - Logarithms",
+        "Graphs",
+        "Integration",
+        "Differentiation"
+      ],
+      "solution": "Since g(x)=f(x/2)+3, q=2, h=0, k=3. Numerical integration gives ∫(h−x)dx=2.72409≈2.72. A function and inverse reflect in y=x, so the enclosed area is twice this: 5.45. Maximize d(x)=h(x)−x on the interval; solving d′(x)=0 numerically gives a=0.973679, and b=h(a)=2.26938. Thus P≈(0.974,2.27)."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "paper": {
+    "id": "2018-may-p2-tz2",
+    "title": "May 2018 Mathematics SL Paper 2 TZ2",
+    "subject": "Mathematics SL",
+    "paper": 2,
+    "zone": "2",
+    "year": 2018,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-2-tz2-sl-dc9f0e0ec971c70f",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_2__TZ2_SL_markscheme.pdf",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-2-TZ2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2018-may-p2-tz2-q1",
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "marks": 6,
+      "accessible_text": "1. [Maximum mark: 6]\n\n[Table: Age x (years): 1.25,2.25,3.5,4.4,5.85; mean weight y (kg): 10,13,14,17,19.] The regression line is y=ax+b.\n(a) (i) Find a and b. (ii) Write down the correlation coefficient. [4]\n(b) Estimate the mean weight of a child aged 1.95 years. [2]",
+      "summary": "Use linear regression.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) a=1.92,b=7.98,r=0.985. (b) y=1.91966(1.95)+7.97717=11.7 kg."
+    },
+    {
+      "id": "2018-may-p2-tz2-q2",
+      "number": 2,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nThe following diagram shows quadrilateral ABCD.\n\n[Diagram not to scale: diagonal DB divides it into triangles ADB and DBC; AB=11 cm, BC=6 cm, ∠BAD=59°, ∠ADB=100°, ∠CBD=82°.]\n(a) Find DB. [3]\n(b) Find DC. [3]",
+      "summary": "Apply sine and cosine rules.",
+      "labels": [
+        "Trigonometry"
+      ],
+      "solution": "(a) DB/sin59°=11/sin100°, so DB=9.57 cm. (b) In DBC, cosine rule gives DC²=DB²+6²−2(DB)(6)cos82°, hence DC=10.6 cm."
+    },
+    {
+      "id": "2018-may-p2-tz2-q3",
+      "number": 3,
+      "pages": [
+        4
+      ],
+      "marks": 5,
+      "accessible_text": "3. [Maximum mark: 5]\n\nLet f(x)=sin(eˣ), 0≤x≤1.5. [Diagram: graph of f.]\n(a) Find the x-intercept. [2]\n(b) The region enclosed by f and the axes is rotated 360° about the x-axis. Find the volume. [3]",
+      "summary": "Find an intercept and volume numerically.",
+      "labels": [
+        "Functions - Roots",
+        "Integration"
+      ],
+      "solution": "(a) eˣ=π gives x=lnπ=1.14. (b) V=π∫₀^lnπ sin²(eˣ)dx=2.50."
+    },
+    {
+      "id": "2018-may-p2-tz2-q4",
+      "number": 4,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nThe first term of an infinite geometric sequence is 4. Its sum is 200.\n(a) Find the common ratio. [2]\n(b) Find the sum of the first 8 terms. [2]\n(c) Find the least n for which Sₙ>163. [3]",
+      "summary": "Analyze a geometric sequence.",
+      "labels": [
+        "Sequences - Series"
+      ],
+      "solution": "(a) 4/(1−r)=200 gives r=0.98. (b) S₈=4(1−0.98⁸)/0.02=29.8. (c) Solving 4(1−0.98ⁿ)/0.02>163 gives n>83.5234, so n=84."
+    },
+    {
+      "id": "2018-may-p2-tz2-q5",
+      "number": 5,
+      "pages": [
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nConsider the expansion of (2x + k/x)⁹, where k > 0. The coefficient of the term in x³ is equal to the coefficient of the term in x⁵. Find k.",
+      "summary": "Compare binomial coefficients.",
+      "labels": [
+        "Binomial Theorem"
+      ],
+      "solution": "The x³ term occurs for r=3 and has coefficient C(9,3)2⁶k³=5376k³. The x⁵ term occurs for r=2 and has coefficient C(9,2)2⁷k²=4608k². Equating and using k>0 gives k=6/7."
+    },
+    {
+      "id": "2018-may-p2-tz2-q6",
+      "number": 6,
+      "pages": [
+        8,
+        9
+      ],
+      "marks": 8,
+      "accessible_text": "6. [Maximum mark: 8]\n\nA Ferris wheel of diameter 111 m rotates at constant speed. Its bottom is k metres above ground. A seat starts at the bottom. [Diagram not to scale.] One revolution takes 16 minutes.\n(a) After 8 minutes the seat is 117 m high. Find k. [2]\nAfter t minutes, h(t)=61.5+a cos(πt/8), 0≤t≤32.\n(b) Find a. [3]\n(c) Find when the seat is 30 m high for the third time. [3]",
+      "summary": "Model a Ferris wheel.",
+      "labels": [
+        "Trigonometry",
+        "Graphs"
+      ],
+      "solution": "(a) At the top, k+111=117, so k=6. (b) h(0)=6 gives a=−55.5. (c) Solve 61.5−55.5cos(πt/8)=30; the third occurrence is t=18.5 min."
+    },
+    {
+      "id": "2018-may-p2-tz2-q7",
+      "number": 7,
+      "pages": [
+        10
+      ],
+      "marks": 7,
+      "accessible_text": "7. [Maximum mark: 7]\n\nLet f(x)=(8x−5)/(cx+6), for x≠−6/c, c≠0.\n(a) The line x=3 is a vertical asymptote. Find c. [2]\n(b) Write down the horizontal asymptote. [2]\n(c) The line y=k intersects the graph of |f(x)| at exactly one point. Find possible k. [3]",
+      "summary": "Analyze rational asymptotes and modulus.",
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
+      "solution": "(a) 3c+6=0, so c=−2. (b) The horizontal asymptote is the ratio of leading coefficients, y=8/c=−4. (c) The graph of |f| has horizontal asymptote y=4 and one x-intercept, so a horizontal line meets it exactly once for k=0 or k=4."
+    },
+    {
+      "id": "2018-may-p2-tz2-q8",
+      "number": 8,
+      "pages": [
+        11
+      ],
+      "marks": 13,
+      "accessible_text": "8. [Maximum mark: 13]\n\nP=(3,2,5), Q=(7,4,9), and PR⃗=6i−j+3k.\n(a) (i) Find PQ⃗. (ii) Find |PQ⃗|. [4]\n(b) Find the angle between PQ⃗ and PR⃗. [4]\n(c) Find the area of triangle PQR. [2]\n(d) Hence or otherwise find the shortest distance from R to the line through P and Q. [3]",
+      "summary": "Use 3D vectors.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) PQ=(4,2,4), |PQ|=6. (b) cosθ=34/(6√46), so θ=0.582 rad. (c) Area=(1/2)(6)(√46)sinθ=11.2. (d) Area=(1/2)(6)h, so h=3.73."
+    },
+    {
+      "id": "2018-may-p2-tz2-q9",
+      "number": 9,
+      "pages": [
+        12
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA particle has velocity v(t)=7cost−5t, 0≤t≤7. [Diagram: graph of v against t.]\n(a) Find initial velocity. [2]\n(b) Find maximum speed. [3]\n(c) Write down the number of times acceleration is 0. [3]\n(d) Find acceleration when P changes direction. [4]\n(e) Find total distance travelled. [3]",
+      "summary": "Analyze particle motion.",
+      "labels": [
+        "Kinematics",
+        "Differentiation",
+        "Integration",
+        "Trigonometry"
+      ],
+      "solution": "(a) 7 m s⁻¹. (b) Minimum v=−24.6571, so max speed=24.7. (c) a=v′=−7sint−5 has 3 zeros on [0,7]. (d) v=0 at t=0.863851; a=−9.25 m s⁻². (e) Integrate |v| over [0,7]: 63.9 m."
+    },
+    {
+      "id": "2018-may-p2-tz2-q10",
+      "number": 10,
+      "pages": [
+        13
+      ],
+      "marks": 17,
+      "accessible_text": "10. [Maximum mark: 17]\n\nApple mass M is normal with mean μ. [Table: M<93 has probability k; 93≤M≤119 has probability 0.98; M>119 has probability 0.01.]\n(a) (i) Find k. (ii) Show μ=106. [4]\nApples below 95 g are small.\n(b) Find P(M<95). [5]\nBags contain ten apples.\n(c) Find the probability a bag has at most one small apple. [3]\nA crate has 50 bags.\n(d) (i) Find expected bags with at most one small apple. (ii) Find probability at least 48 such bags. [5]",
+      "summary": "Apply normal and binomial distributions.",
+      "labels": [
+        "Statistics",
+        "Probability"
+      ],
+      "solution": "(a) k=0.01; symmetry gives μ=(93+119)/2=106. (b) z for 93 is −2.32635, so σ=13/2.32635=5.588; P(M<95)=0.0245. (c) For X~B(10,0.024508), P(X≤1)=0.976285. (d)(i) 50(0.976285)=48.8. (ii) For Y~B(50,0.976285), P(Y≥48)=0.885."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-2-tz2-sl-6321d308830863a0",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_2__TZ2_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -58,7 +58,10 @@
         "Exponentials - Logarithms",
         "Graphs"
       ],
-      "solution": "(a) The graph has roots approximately x = −1.24 and x = 2.42, y-intercept (0, −3), local minimum near (1.10, −4.30), and endpoints near (−4, 8.02) and (3, 7.09). Join these with a smooth convex curve. (b) For a horizontal stretch by factor 1/2, f(2x) = e²ˣ − 6x − 4; translating 3 units down gives g(x), so k = 1/2 and c = −3."
+      "solution": "(a) The graph has roots approximately x = −1.24 and x = 2.42, y-intercept (0, −3), local minimum near (1.10, −4.30), and endpoints near (−4, 8.02) and (3, 7.09). Join these with a smooth convex curve. (b) For a horizontal stretch by factor 1/2, f(2x) = e²ˣ − 6x − 4; translating 3 units down gives g(x), so k = 1/2 and c = −3.",
+      "display_pages": [
+        5
+      ]
     },
     {
       "id": "2023-november-p2-tz2-q4",

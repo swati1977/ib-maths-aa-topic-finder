@@ -9,98 +9,142 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-sl-ea43431e946bfb48",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/November%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2022%20Examination%20Session/November%202022%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
     {
       "id": "2022-november-p1-tzn-q1",
       "number": 1,
-      "pages": [3],
+      "pages": [
+        3
+      ],
       "marks": 7,
       "accessible_text": "1. [Maximum mark: 7]\n\nLet f(x) = −2x + 3, for x ∈ ℝ.\n\n(a) The graph of a linear function g is parallel to the graph of f and passes through the origin. Find an expression for g(x). [2]\n\n(b) The graph of a linear function h is perpendicular to the graph of f and passes through the point (−1, 2). Find an expression for h(x). [3]\n\n(c) Find (g ∘ h)(0). [2]",
       "summary": "Find equations of parallel and perpendicular lines, then evaluate a composite function.",
-      "labels": ["Functions - Roots", "Graphs"],
+      "labels": [
+        "Functions - Roots",
+        "Graphs"
+      ],
       "solution": "(a) A parallel line has gradient −2 and passes through the origin, so g(x) = −2x. (b) A line perpendicular to gradient −2 has gradient 1/2. Using (−1, 2), h(x) − 2 = (1/2)(x + 1), hence h(x) = x/2 + 5/2. (c) h(0) = 5/2, so (g ∘ h)(0) = g(5/2) = −5."
     },
     {
       "id": "2022-november-p1-tzn-q2",
       "number": 2,
-      "pages": [4],
+      "pages": [
+        4
+      ],
       "marks": 4,
       "accessible_text": "2. [Maximum mark: 4]\n\nThe function g is defined by g(x) = e^(x² + 1), where x ∈ ℝ.\n\nFind g′(−1).",
       "summary": "Differentiate an exponential composite function and evaluate its derivative.",
-      "labels": ["Differentiation", "Exponentials - Logarithms"],
+      "labels": [
+        "Differentiation",
+        "Exponentials - Logarithms"
+      ],
       "solution": "By the chain rule, g′(x) = 2x e^(x² + 1). Therefore g′(−1) = −2e²."
     },
     {
       "id": "2022-november-p1-tzn-q3",
       "number": 3,
-      "pages": [5],
+      "pages": [
+        5
+      ],
       "marks": 7,
       "accessible_text": "3. [Maximum mark: 7]\n\nConsider a circle with a diameter AB, where A has coordinates (1, 4, 0) and B has coordinates (−3, 2, −4).\n\n(a) Find\n    (i) the coordinates of the centre of the circle;\n    (ii) the radius of the circle. [4]\n\nThe circle forms the base of a right cone whose vertex V has coordinates (−1, −1, 0).\n\n[Diagram not to scale: A right cone has vertex V above a circular base. Solid sloping sides join V to A and B at the left and right ends of a base diameter. The front semicircle of the base is solid and the rear semicircle is dashed. The diameter AB is dashed. A dashed perpendicular height descends from V to the midpoint of AB, with a right-angle marker at the base.]\n\n(b) Find the exact volume of the cone. [3]",
       "summary": "Use three-dimensional coordinates to find a circle's centre and radius, then calculate the volume of a right cone.",
-      "labels": ["Vectors - Lines - Planes"],
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
       "solution": "(a)(i) The centre is the midpoint of A and B: C = ((1 − 3)/2, (4 + 2)/2, (0 − 4)/2) = (−1, 3, −2). (ii) AB = √[(-4)² + (−2)² + (−4)²] = 6, so the radius is 3. (b) The perpendicular height is CV = √[0² + (−4)² + 2²] = 2√5. Thus V = (1/3)πr²h = (1/3)π(3²)(2√5) = 6π√5."
     },
     {
       "id": "2022-november-p1-tzn-q4",
       "number": 4,
-      "pages": [6],
+      "pages": [
+        6
+      ],
       "marks": 5,
       "accessible_text": "4. [Maximum mark: 5]\n\nLet a be a constant, where a > 1.\n\n(a) Show that a² + ((a² − 1)/2)² = ((a² + 1)/2)². [3]\n\nConsider a right-angled triangle with sides of length a, (a² − 1)/2 and (a² + 1)/2.\n\n(b) Find an expression for the area of the triangle in terms of a. [2]",
       "summary": "Verify a Pythagorean identity and use the resulting legs to find a right triangle's area.",
-      "labels": ["Functions - Roots"],
+      "labels": [
+        "Functions - Roots"
+      ],
       "solution": "(a) Expanding the left side gives a² + (a⁴ − 2a² + 1)/4 = (a⁴ + 2a² + 1)/4 = ((a² + 1)/2)², as required. Since a > 1, the hypotenuse is (a² + 1)/2 and the perpendicular sides are a and (a² − 1)/2. (b) Area = (1/2)a((a² − 1)/2) = a(a² − 1)/4."
     },
     {
       "id": "2022-november-p1-tzn-q5",
       "number": 5,
-      "pages": [7],
+      "pages": [
+        7
+      ],
       "marks": 5,
       "accessible_text": "5. [Maximum mark: 5]\n\nThe derivative of the function f is given by f′(x) = 6x/(x² + 1).\n\nThe graph of y = f(x) passes through the point (1, 5). Find an expression for f(x).",
       "summary": "Integrate a rational derivative and use a point on the curve to determine the constant.",
-      "labels": ["Integration", "Exponentials - Logarithms"],
+      "labels": [
+        "Integration",
+        "Exponentials - Logarithms"
+      ],
       "solution": "Since the derivative of x² + 1 is 2x, f(x) = 3ln(x² + 1) + C. Using f(1) = 5 gives 5 = 3ln2 + C, so C = 5 − 3ln2. Hence f(x) = 3ln(x² + 1) + 5 − 3ln2."
     },
     {
       "id": "2022-november-p1-tzn-q6",
       "number": 6,
-      "pages": [8],
+      "pages": [
+        8
+      ],
       "marks": 6,
       "accessible_text": "6. [Maximum mark: 6]\n\nEvents A and B are such that P(A) = 0.3 and P(B) = 0.8.\n\n(a) Determine the value of P(A ∩ B) in the case where the events A and B are independent. [1]\n\n(b) Determine the minimum possible value of P(A ∩ B). [3]\n\n(c) Determine the maximum possible value of P(A ∩ B), justifying your answer. [2]",
       "summary": "Determine independent, minimum, and maximum possible intersection probabilities.",
-      "labels": ["Probability"],
+      "labels": [
+        "Probability"
+      ],
       "solution": "(a) For independent events, P(A ∩ B) = P(A)P(B) = 0.3(0.8) = 0.24. (b) Since P(A ∪ B) = 1.1 − P(A ∩ B) ≤ 1, P(A ∩ B) ≥ 0.1; this minimum occurs when A ∪ B is the whole sample space. (c) An intersection cannot exceed the probability of the smaller event, so P(A ∩ B) ≤ 0.3. This maximum is attained when A ⊆ B."
     },
     {
       "id": "2022-november-p1-tzn-q7",
       "number": 7,
-      "pages": [9],
+      "pages": [
+        9
+      ],
       "marks": 16,
       "accessible_text": "7. [Maximum mark: 16]\n\n(a) The graph of a quadratic function f has its vertex at the point (3, 2) and it intersects the x-axis at x = 5. Find f in the form f(x) = a(x − h)² + k. [3]\n\nThe quadratic function g is defined by g(x) = px² + (t − 1)x − p where x ∈ ℝ and p, t ∈ ℝ, p ≠ 0.\n\n(b) In the case where g(−3) = g(1) = 4,\n    (i) find the value of p and the value of t;\n    (ii) find the range of g. [7]\n\n(c) The linear function j is defined by j(x) = −x + 3p where x ∈ ℝ and p ∈ ℝ, p ≠ 0.\n\nShow that the graphs of j(x) = −x + 3p and g(x) = px² + (t − 1)x − p have two distinct points of intersection for every possible value of p and t. [6]",
       "summary": "Determine quadratic equations and ranges, then prove a quadratic and line always intersect twice using a discriminant.",
-      "labels": ["Quadratics", "Graphs", "Functions - Roots"],
+      "labels": [
+        "Quadratics",
+        "Graphs",
+        "Functions - Roots"
+      ],
       "solution": "(a) The vertex form is f(x) = a(x − 3)² + 2. Since f(5) = 0, 4a + 2 = 0, so f(x) = −(1/2)(x − 3)² + 2. (b)(i) From g(1) = 4, t − 1 = 4, so t = 5. Then g(−3) = 9p − 12 − p = 4, giving p = 2. Thus g(x) = 2x² + 4x − 2 = 2(x + 1)² − 4. (ii) Its range is [−4, ∞). (c) Equating g and j gives px² + tx − 4p = 0. Its discriminant is Δ = t² + 16p², which is strictly positive because p ≠ 0. Therefore the equation has two distinct real roots, so the graphs have two distinct intersection points for every allowed p and t."
     },
     {
       "id": "2022-november-p1-tzn-q8",
       "number": 8,
-      "pages": [9],
+      "pages": [
+        9
+      ],
       "marks": 15,
       "accessible_text": "8. [Maximum mark: 15]\n\n(a) Calculate the value of each of the following logarithms:\n    (i) log₂(1/16);\n    (ii) log₉3;\n    (iii) log_(√3)81. [7]\n\n(b) It is given that log_(ab)a = 3, where a, b ∈ ℝ⁺, ab ≠ 1.\n    (i) Show that log_(ab)b = −2.\n    (ii) Hence find the value of log_(ab)(∛a/√b). [8]",
       "summary": "Evaluate logarithms with varied bases and apply logarithm laws to related unknown bases.",
-      "labels": ["Exponentials - Logarithms"],
+      "labels": [
+        "Exponentials - Logarithms"
+      ],
       "solution": "(a)(i) Since 1/16 = 2⁻⁴, log₂(1/16) = −4. (ii) Since 3 = 9^(1/2), log₉3 = 1/2. (iii) Writing √3 = 3^(1/2) and 81 = 3⁴ gives (3^(1/2))^x = 3⁴, hence x = 8. (b)(i) Because log_(ab)(ab) = 1, log_(ab)a + log_(ab)b = 1. Therefore 3 + log_(ab)b = 1, so log_(ab)b = −2. (ii) log_(ab)(∛a/√b) = (1/3)log_(ab)a − (1/2)log_(ab)b = (1/3)(3) − (1/2)(−2) = 2."
     },
     {
       "id": "2022-november-p1-tzn-q9",
       "number": 9,
-      "pages": [10],
+      "pages": [
+        10
+      ],
       "marks": 15,
       "accessible_text": "9. [Maximum mark: 15]\n\nThe function f is defined by f(x) = cos²x − 3sin²x, 0 ≤ x ≤ π.\n\n(a) Find the roots of the equation f(x) = 0. [5]\n\n(b) (i) Find f′(x).\n    (ii) Hence find the coordinates of the points on the graph of y = f(x) where f′(x) = 0. [7]\n\n(c) Sketch the graph of y = f(x), clearly showing the coordinates of any points where f′(x) = 0 and any points where the graph meets the coordinate axes. [3]",
       "summary": "Solve a trigonometric equation, find stationary points, and sketch the resulting trigonometric graph.",
-      "labels": ["Trigonometry", "Radian", "Differentiation", "Graphs"],
+      "labels": [
+        "Trigonometry",
+        "Radian",
+        "Differentiation",
+        "Graphs"
+      ],
       "solution": "(a) f(x) = 0 gives cos²x = 3sin²x, so tan²x = 1/3. On 0 ≤ x ≤ π, x = π/6 or 5π/6. (b)(i) f′(x) = −2sin x cos x − 6sin x cos x = −8sin x cos x = −4sin2x. (ii) Thus f′(x) = 0 at x = 0, π/2 and π. The corresponding points are (0, 1), (π/2, −3) and (π, 1). (c) The graph starts at (0, 1), decreases smoothly through (π/6, 0) to its minimum (π/2, −3), then rises symmetrically through (5π/6, 0) to (π, 1), with horizontal tangents at x = 0, π/2 and π."
     }
   ]

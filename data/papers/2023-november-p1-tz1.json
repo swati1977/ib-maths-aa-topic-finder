@@ -9,7 +9,7 @@
     "source_url": "https://ibdocs.re/documents/mathematics-analysis-and-approaches-paper-1-tz1-sl-bee8c5c8e574bcfa",
     "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL.pdf",
     "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2023%20Examination%20Session/November%202023%20Examination%20Session/Mathematics/Mathematics_analysis_and_approaches_paper_1__TZ1_SL_markscheme.pdf",
-    "host_question_images": false,
+    "host_question_images": true,
     "solution_status": "Independent worked solutions — checked against the official IB markscheme"
   },
   "questions": [
@@ -28,7 +28,10 @@
         "Graphs",
         "Radian"
       ],
-      "solution": "(a) The amplitude is 7, so a = 7. (b)(i) The period is π. (ii) Since the period of sin(bx) is 2π/b, 2π/b = π, hence b = 2. (c) f(π/12) = 7sin(2π/12) = 7sin(π/6) = 7/2."
+      "solution": "(a) The amplitude is 7, so a = 7. (b)(i) The period is π. (ii) Since the period of sin(bx) is 2π/b, 2π/b = π, hence b = 2. (c) f(π/12) = 7sin(2π/12) = 7sin(π/6) = 7/2.",
+      "display_pages": [
+        3
+      ]
     },
     {
       "id": "2023-november-p1-tz1-q2",

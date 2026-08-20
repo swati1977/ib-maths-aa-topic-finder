@@ -1,0 +1,166 @@
+{
+  "paper": {
+    "id": "2018-may-p1-tz2",
+    "title": "May 2018 Mathematics SL Paper 1 TZ2",
+    "subject": "Mathematics SL",
+    "paper": 1,
+    "zone": "2",
+    "year": 2018,
+    "session": "May",
+    "source_url": "https://ibdocs.re/documents/mathematics-paper-1-tz2-sl-cce9ac3a3894041a",
+    "pdf_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL.pdf",
+    "markscheme_url": "https://ibdocs.re/p/IB%20PAST%20PAPERS%20-%20YEAR/2018%20Examination%20Session/May%202018%20Examination%20Session/Mathematics/Mathematics_paper_1__TZ2_SL_markscheme.pdf",
+    "alternate_question_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-1-TZ2-SL.pdf",
+    "alternate_markscheme_pdf_url": "https://ibpastpapers.publit.io/file/IBmaths/sl/2018may/Mathematics-paper-1-TZ2-SL-markscheme.pdf",
+    "host_question_images": true,
+    "expected_marks": 90,
+    "solution_status": "Independent worked solutions — checked against the official IB markscheme"
+  },
+  "questions": [
+    {
+      "id": "2018-may-p1-tz2-q1",
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "marks": 5,
+      "accessible_text": "1. [Maximum mark: 5]\n\nLet OA⃗ = (2, 1, 3) and AB⃗ = (1, 3, 1), where O is the origin. L₁ is the line that passes through A and B.\n\n(a) Find a vector equation for L₁. [2]\n\n(b) The vector (2, p, 0) is perpendicular to AB⃗. Find the value of p. [3]",
+      "summary": "Use vector equations and perpendicularity.",
+      "labels": [
+        "Vectors - Lines - Planes"
+      ],
+      "solution": "(a) r=(2,1,3)+t(1,3,1). (b) (2,p,0)·(1,3,1)=2+3p=0, so p=−2/3."
+    },
+    {
+      "id": "2018-may-p1-tz2-q2",
+      "number": 2,
+      "pages": [
+        3
+      ],
+      "marks": 6,
+      "accessible_text": "2. [Maximum mark: 6]\n\nLet f(x) = 6x² − 3x. The graph of f is shown in the following diagram.\n\n[Diagram: The upward-opening parabola y=6x²−3x, with vertical boundary lines at x=1 and x=2.]\n\n(a) Find ∫(6x² − 3x) dx. [2]\n\n(b) Find the area of the region enclosed by the graph of f, the x-axis and the lines x = 1 and x = 2. [4]",
+      "summary": "Integrate and find area.",
+      "labels": [
+        "Integration",
+        "Quadratics"
+      ],
+      "solution": "(a) ∫(6x²−3x)dx=2x³−(3/2)x²+C. (b) Since f(x)>0 on [1,2], the area is ∫₁²(6x²−3x)dx=[2x³−(3/2)x²]₁²=(16−6)−(2−3/2)=19/2."
+    },
+    {
+      "id": "2018-may-p1-tz2-q3",
+      "number": 3,
+      "pages": [
+        4
+      ],
+      "marks": 6,
+      "accessible_text": "3. [Maximum mark: 6]\n\nA data set has n items. The sum of the items is 800 and the mean is 20.\n\n(a) Find n. [2]\n\nThe standard deviation of this data set is 3. Each value in the set is multiplied by 10.\n\n(b) (i) Write down the value of the new mean.\n(ii) Find the value of the new variance. [4]",
+      "summary": "Transform statistical measures.",
+      "labels": [
+        "Statistics"
+      ],
+      "solution": "(a) n=800/20=40. (b)(i) 200. (ii) The new standard deviation is 30, so variance=900."
+    },
+    {
+      "id": "2018-may-p1-tz2-q4",
+      "number": 4,
+      "pages": [
+        5
+      ],
+      "marks": 7,
+      "accessible_text": "4. [Maximum mark: 7]\n\nThe following diagram shows a circle with centre O and radius r cm.\n\n[Diagram not to scale: A shaded minor sector AOB has central angle θ; OA and OB are radii r.]\n\nThe points A and B lie on the circumference of the circle, and AÔB = θ. The area of the shaded sector AOB is 12 cm² and the length of arc AB is 6 cm.\n\nFind the value of r.",
+      "summary": "Use sector area and arc length.",
+      "labels": [
+        "Radian"
+      ],
+      "solution": "rθ=6 and (1/2)r²θ=12. Dividing gives r/2=2, hence r=4 cm."
+    },
+    {
+      "id": "2018-may-p1-tz2-q5",
+      "number": 5,
+      "pages": [
+        6,
+        7
+      ],
+      "marks": 6,
+      "accessible_text": "5. [Maximum mark: 6]\n\nThe following diagram shows the graph of a function f, for −4 ≤ x ≤ 2.\n\n[First graph: Straight line segments join (−4,1) to (0,0) to (2,2).]\n\n(a) On the same axes, sketch the graph of f(−x). [2]\n\n(b) Another function, g, can be written in the form g(x) = a × f(x + b). The following diagram shows the graph of g.\n\n[Second graph: Straight line segments join (−3,−2) to (1,0) to (3,−4).]\n\nWrite down the value of a and of b. [4]",
+      "summary": "Transform a piecewise graph.",
+      "labels": [
+        "Graphs",
+        "Functions - Roots"
+      ],
+      "solution": "(a) Reflect in the y-axis, joining (−2,2) to (0,0) to (4,1). (b) The vertex shifts right 1 and values scale by −2, so a=−2 and b=−1."
+    },
+    {
+      "id": "2018-may-p1-tz2-q6",
+      "number": 6,
+      "pages": [
+        8
+      ],
+      "marks": 7,
+      "accessible_text": "6. [Maximum mark: 7]\n\nLet f(x) = px² + qx − 4p, where p ≠ 0. Find the number of roots for the equation f(x) = 0. Justify your answer.",
+      "summary": "Count quadratic roots.",
+      "labels": [
+        "Quadratics",
+        "Functions - Roots"
+      ],
+      "solution": "Δ=q²−4p(−4p)=q²+16p²>0 because p≠0. Therefore there are exactly two distinct real roots."
+    },
+    {
+      "id": "2018-may-p1-tz2-q7",
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "marks": 8,
+      "accessible_text": "7. [Maximum mark: 8]\n\nAn arithmetic sequence has u₁ = log_c(p) and u₂ = log_c(pq), where c > 1 and p, q > 0.\n\n(a) Show that d = log_c(q). [2]\n\n(b) Let p = c² and q = c³. Find the value of ∑(from n=1 to 20) uₙ. [6]",
+      "summary": "Use logarithms in an arithmetic sequence.",
+      "labels": [
+        "Sequences - Series",
+        "Exponentials - Logarithms"
+      ],
+      "solution": "(a) d=log_c(pq)−log_c(p)=log_cq. (b) u₁=2,d=3, so S₂₀=10[4+57]=610."
+    },
+    {
+      "id": "2018-may-p1-tz2-q8",
+      "number": 8,
+      "pages": [
+        10
+      ],
+      "marks": 14,
+      "accessible_text": "8. [Maximum mark: 14]\n\nPablo drives to work. The probability that he leaves home before 07:00 is 3/4. If he leaves home before 07:00 the probability he will be late for work is 1/8. If he leaves home at 07:00 or later the probability he will be late for work is 5/8.\n\n(a) Copy and complete the following tree diagram. [3]\n\n[Tree: first branches “before 07:00” and “07:00 or later”; each then branches to “late” and “not late”, with the stated probabilities.]\n\n(b) Find the probability that Pablo leaves home before 07:00 and is late for work. [2]\n(c) Find the probability that Pablo is late for work. [3]\n(d) Given that Pablo is late for work, find the probability that he left home before 07:00. [3]\n(e) Two days next week Pablo will drive to work. Find the probability that he will be late at least once. [3]",
+      "summary": "Use a tree and conditional probability.",
+      "labels": [
+        "Probability"
+      ],
+      "solution": "(a) Missing values are 1/4, 1/8, 7/8. (b) 3/32. (c) 3/32+5/32=1/4. (d) (3/32)/(1/4)=3/8. (e) 1−(3/4)²=7/16."
+    },
+    {
+      "id": "2018-may-p1-tz2-q9",
+      "number": 9,
+      "pages": [
+        11
+      ],
+      "marks": 15,
+      "accessible_text": "9. [Maximum mark: 15]\n\nA closed cylindrical can with radius r centimetres and height h centimetres has a volume of 20π cm³.\n\n[Diagram not to scale: A closed cylinder labelled radius r and height h.]\n\n(a) Express h in terms of r. [2]\n\nThe material for the base and top costs 10 cents per cm² and the material for the curved side costs 8 cents per cm². The total cost, in cents, is C.\n\n(b) Show that C = 20πr² + 320π/r. [4]\n\n(c) Given that there is a minimum value for C, find this minimum value in terms of π. [9]",
+      "summary": "Optimize a cylinder cost.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a) h=20/r². (b) C=10(2πr²)+8(2πrh)=20πr²+320π/r. (c) C′=40πr−320π/r²=0 gives r=2, hence minimum C=240π cents."
+    },
+    {
+      "id": "2018-may-p1-tz2-q10",
+      "number": 10,
+      "pages": [
+        12
+      ],
+      "marks": 16,
+      "accessible_text": "10. [Maximum mark: 16]\n\nConsider a function f. The line L₁ with equation y = 3x + 1 is a tangent to the graph of f when x = 2.\n\n(a) (i) Write down f′(2).\n(ii) Find f(2). [4]\n\nLet g(x) = f(x² + 1) and P be the point on the graph of g where x = 1.\n\n(b) Show that the graph of g has a gradient of 6 at P. [5]\n\n(c) Let L₂ be the tangent to the graph of g at P. L₁ intersects L₂ at Q. Find the y-coordinate of Q. [7]",
+      "summary": "Use tangent data and chain rule.",
+      "labels": [
+        "Differentiation"
+      ],
+      "solution": "(a)(i) 3. (ii) 7. (b) g′(x)=2xf′(x²+1), so g′(1)=2f′(2)=6. (c) P=(1,7); L₂ is y=6x+1. Intersecting y=3x+1 gives y=1."
+    }
+  ]
+}
