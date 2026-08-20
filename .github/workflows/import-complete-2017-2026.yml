@@ -25,19 +25,16 @@ jobs:
             'https://litter.catbox.moe/blgbxq.gz'
           echo '6b8f903a2fc2352e6e164ea09445888003f0866485bbc3d22c44b248b40ebcf9  /tmp/site-only.tar.gz' | sha256sum --check --strict
 
-      - name: Extract complete source and site tree
+      - name: Extract and validate complete release
         run: |
           tar -xzf /tmp/site-only.tar.gz -C .
           rm -f .github/workflows/deploy-expansion.yml
-
-      - name: Validate imported release
-        run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
           data = json.loads(Path('site/data/questions.json').read_text())
-          assert len(data['papers']) == 62, len(data['papers'])
-          assert len(data['questions']) == 578, len(data['questions'])
+          assert len(data['papers']) == 62
+          assert len(data['questions']) == 578
           assert len(list(Path('site/questions').glob('*.webp'))) == 639
           print('validated 62 papers, 578 questions, 639 images')
           PY
@@ -47,8 +44,19 @@ jobs:
           git config user.name 'MyInsightAcademy'
           git config user.email 'swati1977@users.noreply.github.com'
           git add -A
-          git status --short | wc -l
           git commit -m '[verified] deploy complete IB Maths 2017-2026 question bank'
 
-      - name: Push imported release
-        run: git push origin main
+      - name: Push imported release with diagnostic
+        shell: bash
+        run: |
+          set +e
+          output=$(git push origin main 2>&1)
+          status=$?
+          echo "$output"
+          if [ $status -ne 0 ]; then
+            encoded=${output//'%'/'%25'}
+            encoded=${encoded//$'\n'/'%0A'}
+            encoded=${encoded//$'\r'/'%0D'}
+            echo "::error title=Git push failed::$encoded"
+            exit $status
+          fi
