@@ -138,6 +138,10 @@ select:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible
 .markscheme-image-page { margin: 0; }
 .markscheme-image-page figcaption { margin-bottom: 7px; color: var(--muted); font-size: 11px; font-weight: 700; }
 .markscheme-image { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 8px; background: white; }
+.official-accessible-answer { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+.official-accessible-answer summary { cursor: pointer; color: var(--blue); font-size: 13px; font-weight: 700; }
+.accessible-answer-note { margin: 8px 0 10px; color: var(--muted); font-size: 11px; }
+.official-accessible-content { display: grid; gap: 10px; color: #3b3937; font-size: 14px; line-height: 1.65; }
 .markscheme-link { display: inline-block; margin-top: 16px; color: var(--blue); font-size: 12px; font-weight: 700; text-underline-offset: 3px; }
 .solution-part { min-width: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 9px; margin: 0; }
 .solution-part > p, p.solution-part { min-width: 0; margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }

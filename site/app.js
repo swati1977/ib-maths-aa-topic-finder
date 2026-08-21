@@ -433,6 +433,7 @@ function renderQuestion(q) {
   solutionButton.setAttribute("aria-controls", solutionId);
   if (q.officialMarkscheme) {
     renderMarkschemeImages(card.querySelector(".markscheme-images"), q);
+    renderSolutionParts(card.querySelector(".official-accessible-content"), answerText(q));
     card.querySelector(".solution-content").remove();
     solutionButton.textContent = "View official markscheme";
     answerTitle.textContent = "Official IB markscheme";
@@ -444,6 +445,7 @@ function renderQuestion(q) {
     }
   } else {
     card.querySelector(".markscheme-images").remove();
+    card.querySelector(".official-accessible-answer").remove();
     renderSolutionParts(card.querySelector(".solution-content"), answerText(q));
     solutionButton.textContent = "View independent solution";
     answerTitle.textContent = "Independent worked solution — official markscheme unavailable";

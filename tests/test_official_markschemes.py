@@ -55,6 +55,14 @@ def test_official_markscheme_images_are_primary_answer_with_page_link():
     assert "Independent worked solution — official markscheme unavailable" in APP
 
 
+def test_official_image_answers_have_a_labelled_accessible_text_alternative():
+    assert 'class="official-accessible-answer"' in INDEX
+    assert "Accessible worked explanation" in INDEX
+    assert "Independently prepared for accessibility; not official IB markscheme wording." in INDEX
+    assert 'renderSolutionParts(card.querySelector(".official-accessible-content"), answerText(q))' in APP
+    assert 'card.querySelector(".official-accessible-answer").remove()' in APP
+
+
 def test_pdf_export_uses_official_images_before_independent_fallback():
     export_body = APP.split("async function exportMatchingQuestions", 1)[1].split("function renderQuestion", 1)[0]
     assert "q.officialMarkscheme?.images?.length" in export_body

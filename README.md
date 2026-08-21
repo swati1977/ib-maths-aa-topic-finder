@@ -11,6 +11,7 @@ A static question bank for browsing Mathematics SL (2017–2020) and Mathematics
 - filters by year, session, paper, timezone/zone, topic and full-question text search
 - displays the official question page image as the primary content, preserving the paper's exact mathematical layout
 - shows question-specific official IB markscheme crops as the default answer, with a direct link to the exact full-document page
+- provides a separately labelled independent worked explanation as an accessible text alternative to each official markscheme crop
 - falls back to an independent worked solution only when no official markscheme is available (currently 2026 papers)
 - provides an accessible text transcript behind a collapsible toggle for searchability
 - exports current filtered matches to PDF as questions, solutions, or both, using clean text or original question images
