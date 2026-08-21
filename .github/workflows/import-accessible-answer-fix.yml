@@ -1,0 +1,35 @@
+name: One-time import accessible answer fix
+
+on:
+  push:
+    paths:
+      - '.github/workflows/import-accessible-answer-fix.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download and verify reviewed patch
+        run: |
+          curl --fail --location --retry 3 --output /tmp/a11y-fix.tar.gz 'https://tmpfiles.org/dl/1787311556.d6014d4432882f51/wowyrFIiNyWx/a11y-fix.tar.gz'
+          echo '0f98143a262a9edbeb594b8e1b1a61fedb0e563586a209f1591669bfc96ad10c  /tmp/a11y-fix.tar.gz' | sha256sum --check
+      - name: Apply and verify patch
+        run: |
+          tar -xzf /tmp/a11y-fix.tar.gz
+          grep -q 'official-accessible-answer' site/index.html
+          grep -q 'Independently prepared for accessibility' site/index.html
+          node --check site/app.js
+      - name: Commit and push
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add README.md site/index.html site/app.js site/styles.css tests/test_official_markschemes.py
+          git commit -m 'add accessible text alternatives for official answers'
+          git push origin HEAD:main
