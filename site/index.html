@@ -25,6 +25,7 @@
       <div class="eyebrow">IB Mathematics SL · Analysis &amp; Approaches SL</div>
       <h1 id="page-title">Past-paper practice,<br><span>sorted by topic.</span></h1>
       <p>Choose a course, year, session, paper, zone, or topic, then work through matching Mathematics SL and AA SL past-paper questions from 2017–2026.</p>
+      <a class="button hero-start" href="#question-bank">Start practising</a>
       <div class="stats" aria-label="Collection statistics">
         <div><strong id="question-count">—</strong><span>questions</span></div>
         <div><strong id="paper-count">—</strong><span>papers</span></div>
@@ -34,10 +35,10 @@
 
     <section class="notice" aria-label="Solution notice">
       <span class="notice-icon" aria-hidden="true">i</span>
-      <p><strong>Full question text.</strong> Each card contains the complete accessible question wording, subparts, marks, and actual diagram images where present. “View exact question” opens a locked question-only image panel; the original source remains available separately. Solutions are independently prepared study guidance, not official IB markschemes. May 2026 Paper 2 Zone A Question 9 is explicitly labelled as a verified reconstruction because the complete alternate source blocks original page-image retrieval.</p>
+      <p><strong>Source-faithful practice.</strong> Original question images preserve the paper’s exact mathematical layout; accessible transcripts remain searchable. Answers use the official IB markscheme wherever available, with independent worked solutions clearly labelled only when an official markscheme is unavailable.</p>
     </section>
 
-    <section class="workspace">
+    <section id="question-bank" class="workspace">
       <aside class="filters" aria-labelledby="filters-heading">
         <div class="filter-title-row">
           <h2 id="filters-heading">Filters</h2>
@@ -128,8 +129,8 @@
       <label for="pdf-content">Include</label>
       <select id="pdf-content">
         <option value="questions">Questions only</option>
-        <option value="solutions">Solutions only</option>
-        <option value="both">Questions and solutions</option>
+        <option value="solutions">Answers only</option>
+        <option value="both">Questions and answers</option>
       </select>
       <label for="pdf-format">Question layout</label>
       <select id="pdf-format">
@@ -156,25 +157,21 @@
         <span class="marks"></span>
       </div>
       <h3></h3>
-      <div class="question-text"></div>
-      <div class="question-visual-list"></div>
+      <div class="question-primary-images"></div>
+      <details class="accessible-transcript">
+        <summary>Accessible text transcript</summary>
+        <div class="question-text"></div>
+      </details>
       <div class="labels"></div>
       <div class="card-actions">
-        <button class="button question-button" type="button" aria-expanded="false">View exact question</button>
-        <button class="button secondary solution-button" type="button" aria-expanded="false">Show solution</button>
+        <button class="button solution-button" type="button" aria-expanded="false">View answer</button>
         <a class="button secondary paper-link" target="_blank" rel="noreferrer">Open source paper ↗</a>
       </div>
-      <div class="source-viewer" hidden>
-        <div class="source-viewer-heading">
-          <span>Original question</span>
-          <small class="source-pages"></small>
-        </div>
-        <div class="question-image-list"></div>
-        <p class="source-viewer-note">Only the page or pages containing this question are shown.</p>
-      </div>
       <div class="solution" hidden>
-        <div class="solution-heading"><span>Independent worked solution</span><small>Not an official IB markscheme</small></div>
+        <div class="solution-heading"><span class="answer-title">Official IB markscheme</span><small class="answer-note"></small></div>
+        <div class="markscheme-images"></div>
         <div class="solution-content"></div>
+        <a class="markscheme-link" target="_blank" rel="noreferrer" hidden>Open full official markscheme ↗</a>
       </div>
     </article>
   </template>

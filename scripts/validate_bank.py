@@ -46,6 +46,16 @@ def main() -> None:
             raise ValueError(f"{question['id']}: maximum-mark heading does not match metadata")
         if not question["solution"].strip():
             raise ValueError(f"{question['id']}: empty solution")
+        if int(question["year"]) <= 2025:
+            markscheme = question.get("officialMarkscheme")
+            if not markscheme or not markscheme.get("pages") or not markscheme.get("images"):
+                raise ValueError(f"{question['id']}: official markscheme images are required for 2017–2025")
+            if len(markscheme["pages"]) != len(markscheme["images"]):
+                raise ValueError(f"{question['id']}: official markscheme page/image count mismatch")
+            if not str(question.get("markschemeUrl", "")).startswith("https://"):
+                raise ValueError(f"{question['id']}: official markscheme URL is missing")
+        elif not question.get("independentSolution", "").strip():
+            raise ValueError(f"{question['id']}: independent fallback solution is missing")
         if not question["labels"] or set(question["labels"]) - TOPICS:
             raise ValueError(f"{question['id']}: invalid labels")
         if not question["pages"] or any(int(page) < 1 for page in question["pages"]):

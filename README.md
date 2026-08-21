@@ -9,18 +9,18 @@ A static question bank for browsing Mathematics SL (2017–2020) and Mathematics
 - indexes reviewed English Mathematics SL and AA SL Paper 1/2 questions from 2017–2026
 - supports multiple topic labels per question
 - filters by year, session, paper, timezone/zone, topic and full-question text search
-- displays the complete accessible question transcription with actual source diagrams/tables
-- opens a locked question-only image panel from “View exact question”, with the original source linked separately
+- displays the official question page image as the primary content, preserving the paper's exact mathematical layout
+- shows question-specific official IB markscheme crops as the default answer, with a direct link to the exact full-document page
+- falls back to an independent worked solution only when no official markscheme is available (currently 2026 papers)
+- provides an accessible text transcript behind a collapsible toggle for searchability
 - exports current filtered matches to PDF as questions, solutions, or both, using clean text or original question images
 - uses verified IB Docs sources with Publit mirrors as acquisition fallbacks
-- reveals concise independent worked solutions, formatted by question part
-- checks 2017–2025 solutions against the matching official markscheme while keeping the wording independent
 
 ## Important content note
 
-The user confirmed permission to reproduce the question content used by this project. The repository excludes full source PDFs, markscheme PDFs and extraction/OCR dumps. It contains reviewed accessible transcriptions, classifications, source references and independently prepared solutions. It is not affiliated with or endorsed by the International Baccalaureate Organization, and the solutions are not official IB markschemes.
+The user confirmed permission to reproduce both question and markscheme content used by this project. The repository excludes full source PDFs, markscheme PDFs and extraction/OCR dumps. It contains original question-page crops, reviewed accessible transcripts, classifications, source references, and question-specific official IB markscheme crops for 2017–2025. The 2026 papers use independently prepared worked solutions because no official 2026 markschemes were available. The project is not affiliated with or endorsed by the International Baccalaureate Organization; only content explicitly labelled “Official IB markscheme” comes from an official markscheme.
 
-The primary May 2026 Paper 2 Zone A scan ends at page 11. Question 9 is restored from the complete verified alternate source text and is explicitly labelled as a reconstruction because the alternate host did not permit original page-image retrieval.
+The primary May 2026 Paper 2 Zone A scan ends at page 11. Question 9 is restored from the complete verified alternate source text and is explicitly labelled as a reconstruction because the alternate host did not permit original page-image retrieval. No official 2026 markschemes were available; the 2026 answers use independent worked solutions clearly labelled as such.
 
 ## Build the data
 
@@ -44,6 +44,8 @@ Then open http://localhost:8000.
 - `site/` — static website
 - `data/*.json` and `data/papers/*.json` — reviewed per-paper metadata, accessible text and solutions
 - `scripts/build_data.py` — validates and merges paper data
+- `scripts/build_markscheme_crops.py` — builds and audits question-specific official markscheme crops
+- `data/official-markscheme-images.json` — verified question-to-markscheme page/image mapping
 - `data/source-manifest-2017-2021.json`, `data/source-manifest-2022-2025.json`, and `data/source-manifest-2026.json` — verified multi-source manifests
 - `site/vendor/` — vendored jsPDF and DejaVu Sans with license files for browser-side PDF generation
 - `data/raw/` and `data/extracted/` — local ingestion artifacts, ignored by Git

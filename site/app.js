@@ -135,6 +135,15 @@ function buildPaperUrl(q) {
   return `${q.pdfUrl}#page=${q.pages[0]}&view=FitH&toolbar=1&navpanes=0`;
 }
 
+function answerText(q) {
+  return q.independentSolution || q.solution;
+}
+
+function buildMarkschemeUrl(q) {
+  const page = q.officialMarkscheme?.pages?.[0];
+  return `${q.markschemeUrl}#page=${page}&view=FitH&toolbar=1&navpanes=0`;
+}
+
 function renderQuestionImages(host, q) {
   host.replaceChildren();
   q.questionImages.forEach((src, index) => {
@@ -151,6 +160,24 @@ function renderQuestionImages(host, q) {
     image.alt = reconstructed
       ? `Verified reconstruction of Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}, page ${q.displayPages[index]}`
       : `Original Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}, source page ${q.displayPages[index]}`;
+    image.loading = "lazy";
+    image.decoding = "async";
+    figure.append(caption, image);
+    host.append(figure);
+  });
+}
+
+function renderMarkschemeImages(host, q) {
+  host.replaceChildren();
+  q.officialMarkscheme.images.forEach((src, index) => {
+    const figure = document.createElement("figure");
+    const caption = document.createElement("figcaption");
+    const image = document.createElement("img");
+    figure.className = "markscheme-image-page";
+    caption.textContent = `Official IB markscheme · Question ${q.number} · page ${q.officialMarkscheme.pages[index]}`;
+    image.className = "markscheme-image";
+    image.src = src;
+    image.alt = `Official IB markscheme for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}, page ${q.officialMarkscheme.pages[index]}`;
     image.loading = "lazy";
     image.decoding = "async";
     figure.append(caption, image);
@@ -358,7 +385,13 @@ async function exportMatchingQuestions(contentMode, formatMode) {
       }
     }
     if (includeSolutions) {
-      addPdfTextSection(doc, pageState, questionHeading(q, " · solution"), q.solution);
+      if (q.officialMarkscheme?.images?.length) {
+        for (const image of q.officialMarkscheme.images) {
+          await addPdfImagePage(doc, pageState, questionHeading(q, " · official markscheme"), image);
+        }
+      } else {
+        addPdfTextSection(doc, pageState, questionHeading(q, " · independent solution"), answerText(q));
+      }
     }
   }
 
@@ -372,8 +405,8 @@ function renderQuestion(q) {
   card.querySelector(".question-meta").textContent = `Question ${q.number} · ${q.session} ${q.year} · page${q.pages.length > 1 ? "s" : ""} ${q.pages.join("–")}`;
   card.querySelector(".marks").textContent = `${q.marks} mark${q.marks === 1 ? "" : "s"}`;
   card.querySelector("h3").textContent = `Question ${q.number}`;
+  renderQuestionImages(card.querySelector(".question-primary-images"), q);
   renderAccessibleQuestion(card.querySelector(".question-text"), q);
-  renderInlineVisuals(card.querySelector(".question-visual-list"), q);
   const labels = card.querySelector(".labels");
   q.labels.forEach(text => {
     const span = document.createElement("span");
@@ -390,41 +423,36 @@ function renderQuestion(q) {
     paperLink.setAttribute("aria-label", `Open source record for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`);
   }
 
-  const sourceViewer = card.querySelector(".source-viewer");
-  const questionButton = card.querySelector(".question-button");
-  const imageList = card.querySelector(".question-image-list");
-  const viewerId = `question-view-${q.id}`;
-  sourceViewer.id = viewerId;
-  sourceViewer.setAttribute("role", "region");
-  const reconstructed = q.imageStatus === "verified reconstruction";
-  sourceViewer.setAttribute("aria-label", `${reconstructed ? "Verified reconstruction of" : "Original"} Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`);
-  card.querySelector(".source-viewer-heading span").textContent = reconstructed ? "Verified question reconstruction" : "Original question";
-  questionButton.setAttribute("aria-controls", viewerId);
-  card.querySelector(".source-pages").textContent = `Source page${q.displayPages.length > 1 ? "s" : ""} ${q.displayPages.join("–")}`;
-  if (!q.questionImages?.length) {
-    questionButton.textContent = "Exact question image pending";
-    questionButton.disabled = true;
-    sourceViewer.remove();
-  } else {
-    questionButton.addEventListener("click", () => {
-      const opening = sourceViewer.hidden;
-      if (opening && !imageList.childElementCount) renderQuestionImages(imageList, q);
-      sourceViewer.hidden = !opening;
-      questionButton.textContent = opening ? "Hide exact question" : "View exact question";
-      questionButton.setAttribute("aria-expanded", String(opening));
-    });
-  }
-
   const solution = card.querySelector(".solution");
   const solutionButton = card.querySelector(".solution-button");
+  const answerTitle = card.querySelector(".answer-title");
+  const answerNote = card.querySelector(".answer-note");
+  const markschemeLink = card.querySelector(".markscheme-link");
   const solutionId = `solution-${q.id}`;
   solution.id = solutionId;
   solutionButton.setAttribute("aria-controls", solutionId);
-  renderSolutionParts(card.querySelector(".solution-content"), q.solution);
+  if (q.officialMarkscheme) {
+    renderMarkschemeImages(card.querySelector(".markscheme-images"), q);
+    card.querySelector(".solution-content").remove();
+    solutionButton.textContent = "View official markscheme";
+    answerTitle.textContent = "Official IB markscheme";
+    answerNote.textContent = `Question ${q.number} · markscheme page${q.officialMarkscheme.pages.length > 1 ? "s" : ""} ${q.officialMarkscheme.pages.join("–")}`;
+    if (q.markschemeUrl) {
+      markschemeLink.hidden = false;
+      markschemeLink.href = buildMarkschemeUrl(q);
+      markschemeLink.textContent = `Open full official markscheme at page ${q.officialMarkscheme.pages[0]} ↗`;
+    }
+  } else {
+    card.querySelector(".markscheme-images").remove();
+    renderSolutionParts(card.querySelector(".solution-content"), answerText(q));
+    solutionButton.textContent = "View independent solution";
+    answerTitle.textContent = "Independent worked solution — official markscheme unavailable";
+    answerNote.textContent = "Not an official IB markscheme";
+  }
   solutionButton.addEventListener("click", () => {
     const opening = solution.hidden;
     solution.hidden = !opening;
-    solutionButton.textContent = opening ? "Hide solution" : "Show solution";
+    solutionButton.textContent = opening ? "Hide answer" : (q.officialMarkscheme ? "View official markscheme" : "View independent solution");
     solutionButton.setAttribute("aria-expanded", String(opening));
   });
   return card;

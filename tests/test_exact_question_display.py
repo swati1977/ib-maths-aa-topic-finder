@@ -10,9 +10,10 @@ README = (ROOT / "README.md").read_text(encoding="utf-8")
 DATA = json.loads((ROOT / "site/data/questions.json").read_text(encoding="utf-8"))
 
 
-def test_question_card_uses_accessible_text_as_primary_content():
+def test_question_card_uses_source_image_as_primary_and_accessible_text_as_secondary():
     assert 'class="question-text"' in INDEX
-    assert "question-button" in INDEX
+    assert 'class="question-primary-images"' in INDEX
+    assert 'class="accessible-transcript"' in INDEX
     assert "renderAccessibleQuestion" in APP
     assert 'className = "visual-description sr-only"' in APP
     assert 'question-summary' not in INDEX
@@ -22,10 +23,8 @@ def test_question_card_uses_accessible_text_as_primary_content():
 
 
 def test_questions_with_visuals_render_actual_source_images():
-    assert 'class="question-visual-list"' in INDEX
-    assert "renderInlineVisuals" in APP
-    assert "hasOriginalVisual(q)" in APP
-    assert 'className = "question-visual-image"' in APP
+    assert 'class="question-primary-images"' in INDEX
+    assert 'renderQuestionImages(card.querySelector(".question-primary-images"), q)' in APP
 
 
 def test_long_math_text_cannot_expand_cards_beyond_the_viewport():
@@ -34,14 +33,11 @@ def test_long_math_text_cannot_expand_cards_beyond_the_viewport():
     assert ".solution-content" in STYLES and ".solution-part > p" in STYLES
 
 
-def test_exact_question_action_uses_locked_question_images_not_pdf_iframes():
-    assert "question-button" in INDEX
-    assert 'class="source-viewer"' in INDEX
-    assert 'class="question-image-list"' in INDEX
+def test_exact_question_images_are_embedded_directly_without_pdf_iframes():
+    assert 'class="question-primary-images"' in INDEX
     assert "renderQuestionImages" in APP
     assert 'document.createElement("img")' in APP
     assert "iframe" not in INDEX.lower()
-    assert "View exact question" in INDEX
 
 
 def test_original_source_remains_a_separate_external_link():
@@ -50,8 +46,7 @@ def test_original_source_remains_a_separate_external_link():
     assert 'target="_blank"' in INDEX
     assert "Open source paper" in INDEX
     assert 'paperLink.setAttribute("aria-label", `Open source record for Paper ${q.paper} ${formatZone(q.zone)}, question ${q.number}`)' in APP
-    assert "original source remains available separately" in INDEX
-    assert "original source linked separately" in README
+    assert "Source-faithful practice" in INDEX
 
 
 def test_default_sort_label_describes_year_then_paper_order():

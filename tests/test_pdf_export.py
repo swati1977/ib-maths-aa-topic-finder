@@ -10,8 +10,8 @@ def test_export_dialog_offers_required_content_and_visual_modes():
     assert 'id="download-pdf"' in INDEX
     assert 'id="pdf-export-dialog"' in INDEX
     assert '<option value="questions">Questions only</option>' in INDEX
-    assert '<option value="solutions">Solutions only</option>' in INDEX
-    assert '<option value="both">Questions and solutions</option>' in INDEX
+    assert '<option value="solutions">Answers only</option>' in INDEX
+    assert '<option value="both">Questions and answers</option>' in INDEX
     assert '<option value="clean">Clean text with original visuals</option>' in INDEX
     assert '<option value="original">Original question images</option>' in INDEX
 
